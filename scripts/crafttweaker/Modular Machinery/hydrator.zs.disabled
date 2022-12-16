@@ -1,0 +1,21 @@
+import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.RecipePrimer;
+import crafttweaker.item.IItemStack;
+
+var sulfuricacidliquid = RecipeBuilder.newBuilder("sulfuricacidliquid", "hydrator", 10);
+
+sulfuricacidliquid.addEnergyPerTickInput(2048);
+sulfuricacidliquid.addFluidInput(<liquid:steam> * 1);
+sulfuricacidliquid.addFluidInput(<liquid:sulfur_trioxide> * 1);
+
+sulfuricacidliquid.addFluidOutput(<liquid:sulfuric_acid> * 1);
+sulfuricacidliquid.build();
+
+var sulfuricacidwater = RecipeBuilder.newBuilder("sulfuricacidwater", "hydrator", 10);
+
+sulfuricacidwater.addEnergyPerTickInput(2048);
+sulfuricacidwater.addFluidInput(<liquid:water> * 1);
+sulfuricacidwater.addFluidInput(<liquid:sulfur_trioxide> * 1);
+
+sulfuricacidwater.addFluidOutput(<liquid:sulfuric_acid> * 1);
+sulfuricacidwater.build();
