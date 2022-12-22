@@ -1,0 +1,109 @@
+type = menu
+
+customization-meta {
+  identifier = Photos
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = mooseco_panorama_projecttowny
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/menuV3/blackoverlay.png
+  orientation = top-left
+  x = 0
+  width = %guiwidth%
+  actionid = 757180b1-1a5a-45c6-a693-38a0d6ad95051663618671534
+  action = addtexture
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  orientation = mid-centered
+  shape = rectangle
+  color = #ffffff
+  x = -149
+  width = 299
+  actionid = 069a4a6d-3695-4684-be87-7efc8326a7201663443957457
+  action = addshape
+  y = -85
+  height = 171
+}
+
+customization {
+  orientation = mid-centered
+  name = screenshot_showcase
+  x = -147
+  width = 295
+  actionid = 67083c7d-7e1b-4b77-b65a-5655f5faecd41663443916610
+  action = addslideshow
+  y = -83
+  height = 167
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = closegui
+  backgroundhovered = resources\menuV3\blank.png
+  label = X
+  loopbackgroundanimations = true
+  x = 458
+  width = 24
+  actionid = 848c88fb-fa32-43cd-bc3f-ae8b647633471663618226430
+  action = addbutton
+  y = -1
+  backgroundnormal = resources\menuV3\blank.png
+  value = null
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 0.5
+  source = Want to get your screenshot up here? Post it in #screenshots in our Discord. Every release, 5 to 8 screenshots
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -149
+  width = 299
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 261773fe-a2a3-41ec-aeb7-0e4b5975621d1663618813993
+  y = 88
+  alignment = centered
+  height = 9
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 0.5
+  source = will be chosen to be shown off here. Make sure to have fun and good luck!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -149
+  width = 299
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 08a18dd8-c8e6-4034-b48e-784a772e34021663618918652
+  y = 94
+  alignment = centered
+  height = 9
+}
+

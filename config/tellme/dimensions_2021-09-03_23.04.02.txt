@@ -1,0 +1,35 @@
++------+------------------+--------------+-----------------+------------------+----------------------------------------------------------------+
+|   ID | DimensionType ID | Name         | shouldLoadSpawn | Currently loaded | WorldProvider class                                            |
++------+------------------+--------------+-----------------+------------------+----------------------------------------------------------------+
+|    0 |                0 | overworld    |            true |             true | net.minecraft.world.WorldProviderSurface                       |
+|    1 |                1 | the_end      |           false |            false | net.minecraft.world.WorldProviderEnd                           |
+|   -1 |               -1 | Nether       |           false |            false | biomesoplenty.common.world.WorldProviderBOPHell                |
+| 4598 |             4598 | nc_wasteland |           false |            false | nc.worldgen.dimension.WorldProviderWasteland                   |
+|   -2 |                3 | space        |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderSpace  |
+|    2 |              -11 | Storage Cell |            true |             true | appeng.spatial.StorageWorldProvider                            |
+|   16 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   17 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   18 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   19 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   20 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|    6 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|    7 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|    8 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|    9 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   10 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   21 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   22 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   23 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   24 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   25 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   26 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   27 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   11 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   28 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   12 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   13 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   14 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
+|   15 |                2 | planet       |           false |            false | zmaster587.advancedRocketry.world.provider.WorldProviderPlanet |
++------+------------------+--------------+-----------------+------------------+----------------------------------------------------------------+
+|   ID | DimensionType ID | Name         | shouldLoadSpawn | Currently loaded | WorldProvider class                                            |
++------+------------------+--------------+-----------------+------------------+----------------------------------------------------------------+

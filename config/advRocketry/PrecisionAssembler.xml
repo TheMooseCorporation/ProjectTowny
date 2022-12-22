@@ -1,0 +1,572 @@
+<!-->
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	XML recipes are being DEPRECATED soon.
+	This means that recipes registered via the XML for MACHINES will no longer work
+	To avoid issues that may arise from this, please either distribute a RESOURCE PACK
+	with relevant JSON recipes OR user Craft tweaker + Advanced rocketry tweaker (3rd party)
+	https://minecraft.curseforge.com/projects/advancerd-rocketry-tweaker
+	
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+	<!-- CPU 1 -->
+	<Recipe timeRequired="2400" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;11</itemStack>
+			<itemStack>opencomputers:material;1;10</itemStack>
+			<itemStack>opencomputers:material;32;7</itemStack>
+			<oreDict>nuggetGold;16</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:component</itemStack>
+		</output>
+	</Recipe>
+	<!-- CPU 2 -->
+	<Recipe timeRequired="4800" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;11</itemStack>
+			<itemStack>opencomputers:material;1;10</itemStack>
+			<itemStack>opencomputers:material;32;8</itemStack>
+			<oreDict>nuggetGold;16</oreDict>
+			<oreDict>dustRedstone;16</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:component;1;1</itemStack>
+		</output>
+	</Recipe>
+	<!-- CPU 3 -->
+	<Recipe timeRequired="6000" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;11</itemStack>
+			<itemStack>opencomputers:material;1;10</itemStack>
+			<itemStack>opencomputers:material;16;9</itemStack>
+			<oreDict>nuggetGold;16</oreDict>
+			<oreDict>dustRedstone;16</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:component;1;2</itemStack>
+		</output>
+	</Recipe>	
+	<!-- Graphics Card 1 -->
+	<Recipe timeRequired="1200" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;5</itemStack>
+			<itemStack>opencomputers:material;2;10</itemStack>
+			<itemStack>contenttweaker:dram;8</itemStack>
+			<itemStack>opencomputers:material;16;7</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:card;1;1</itemStack>
+		</output>
+	</Recipe>
+	<!-- Graphics Card 2 -->
+	<Recipe timeRequired="2400" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;5</itemStack>
+			<itemStack>opencomputers:material;4;10</itemStack>
+			<itemStack>contenttweaker:dram;12</itemStack>
+			<itemStack>opencomputers:material;16;8</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:card;1;2</itemStack>
+		</output>
+	</Recipe>
+	<!-- Graphics Card 3 -->
+	<Recipe timeRequired="4800" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;5</itemStack>
+			<itemStack>opencomputers:material;8;10</itemStack>
+			<itemStack>contenttweaker:dram;16</itemStack>
+			<itemStack>opencomputers:material;8;9</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:card;1;3</itemStack>
+		</output>
+	</Recipe>
+	<!-- RAM 1 -->
+	<Recipe timeRequired="1200" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>contenttweaker:dram;2</itemStack>
+			<itemStack>opencomputers:material;8;7</itemStack>
+			<oreDict>nuggetIron;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:component;1;6</itemStack>
+		</output>
+	</Recipe>
+	<!-- RAM 1.5 -->
+	<Recipe timeRequired="1200" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>contenttweaker:dram;4</itemStack>
+			<itemStack>opencomputers:material;16;7</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:component;1;7</itemStack>
+		</output>
+	</Recipe>
+	<!-- RAM 2 -->
+	<Recipe timeRequired="2400" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>contenttweaker:dram;8</itemStack>
+			<itemStack>opencomputers:material;8;8</itemStack>
+			<oreDict>nuggetIron;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:component;1;8</itemStack>
+		</output>
+	</Recipe>
+	<!-- RAM 2.5 -->
+	<Recipe timeRequired="2400" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>contenttweaker:dram;8</itemStack>
+			<itemStack>opencomputers:material;16;7</itemStack>
+			<itemStack>opencomputers:material;16;8</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:component;1;9</itemStack>
+		</output>
+	</Recipe>
+	<!-- RAM 3 -->
+	<Recipe timeRequired="4800" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>contenttweaker:dram;8</itemStack>
+			<itemStack>opencomputers:material;4;9</itemStack>
+			<oreDict>nuggetIron;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:component;1;10</itemStack>
+		</output>
+	</Recipe>
+	<!-- RAM 3.5 -->
+	<Recipe timeRequired="4800" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>contenttweaker:dram;8</itemStack>
+			<itemStack>opencomputers:material;16;8</itemStack>
+			<itemStack>opencomputers:material;8;9</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:component;1;11</itemStack>
+		</output>
+	</Recipe>
+	<!-- Hard Drive 1 -->
+	<Recipe timeRequired="1200" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>contenttweaker:dram;1</itemStack>
+			<itemStack>opencomputers:material;4;7</itemStack>
+			<itemStack>opencomputers:material;3;12</itemStack>
+			<oreDict>craftingPiston;1</oreDict>
+			<oreDict>ingotIron;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:storage;1;2</itemStack>
+		</output>
+	</Recipe>
+	<!-- Hard Drive 2 -->
+	<Recipe timeRequired="2400" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>contenttweaker:dram;2</itemStack>
+			<itemStack>opencomputers:material;4;8</itemStack>
+			<itemStack>opencomputers:material;3;12</itemStack>
+			<oreDict>craftingPiston;1</oreDict>
+			<oreDict>ingotGold;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:storage;1;3</itemStack>
+		</output>
+	</Recipe>
+	<!-- Hard Drive 3 -->
+	<Recipe timeRequired="4800" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>contenttweaker:dram;4</itemStack>
+			<itemStack>opencomputers:material;4;9</itemStack>
+			<itemStack>opencomputers:material;3;12</itemStack>
+			<oreDict>craftingPiston;1</oreDict>
+			<itemStack>minecraft:diamond;2</itemStack>
+		</input>
+		<output>
+			<itemStack>opencomputers:storage;1;4</itemStack>
+		</output>
+	</Recipe>
+	<!-- Data Card 1 -->
+	<Recipe timeRequired="1200" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;5</itemStack>
+			<itemStack>opencomputers:material;2;10</itemStack>
+			<itemStack>opencomputers:material;4;8</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:card;1;10</itemStack>
+		</output>
+	</Recipe>
+	<!-- Data Card 2 -->
+	<Recipe timeRequired="2400" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;5</itemStack>
+			<itemStack>opencomputers:component;1</itemStack>
+			<itemStack>opencomputers:material;16;8</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:card;1;11</itemStack>
+		</output>
+	</Recipe>
+	<!-- Data Card 3 -->
+	<Recipe timeRequired="4800" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;5</itemStack>
+			<itemStack>opencomputers:component;1;1</itemStack>
+			<itemStack>contenttweaker:dram;8</itemStack>
+			<itemStack>opencomputers:material;8;9</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:card;1;12</itemStack>
+		</output>
+	</Recipe>
+	<!-- Network Card -->
+	<Recipe timeRequired="1200" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;5</itemStack>
+			<itemStack>opencomputers:cable;4</itemStack>
+			<itemStack>opencomputers:material;8;7</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:card;1;6</itemStack>
+		</output>
+	</Recipe>
+	<!-- Internet Card -->
+	<Recipe timeRequired="2400" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;5</itemStack>
+			<itemStack>opencomputers:material;1;13</itemStack>
+			<itemStack>minecraft:redstone_torch;2</itemStack>
+			<itemStack>opencomputers:material;8;8</itemStack>
+			<oreDict>obsidian;1</oreDict>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:card;1;8</itemStack>
+		</output>
+	</Recipe>
+	<!-- Redstone Card 1 -->
+	<Recipe timeRequired="1200" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;5</itemStack>
+			<itemStack>minecraft:redstone_torch</itemStack>
+			<itemStack>opencomputers:material;4;7</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:card;1;4</itemStack>
+		</output>
+	</Recipe>
+	<!-- Redstone Card 2 -->
+	<Recipe timeRequired="2400" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;5</itemStack>
+			<oreDict>blockRedstone;1</oreDict>
+			<itemStack>minecraft:ender_pearl</itemStack>
+			<itemStack>opencomputers:material;8;8</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:card;1;5</itemStack>
+		</output>
+	</Recipe>
+	<!-- Wireless Card 1 -->
+	<Recipe timeRequired="1200" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;5</itemStack>
+			<itemStack>minecraft:repeater</itemStack>
+			<itemStack>opencomputers:material;8;7</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:upgrade;1;31</itemStack>
+		</output>
+	</Recipe>
+	<!-- Wireless Card 2 -->
+	<Recipe timeRequired="2400" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;5</itemStack>
+			<itemStack>minecraft:ender_eye</itemStack>
+			<itemStack>opencomputers:material;8;7</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:card;1;7</itemStack>
+		</output>
+	</Recipe>
+	<!-- Component Bus 1 -->
+	<Recipe timeRequired="1200" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>opencomputers:material;8;7</itemStack>
+			<itemStack>opencomputers:material;1;11</itemStack>
+			<oreDict>nuggetIron;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:component;1;3</itemStack>
+		</output>
+	</Recipe>
+	<!-- Component Bus 2 -->
+	<Recipe timeRequired="2400" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>opencomputers:material;8;8</itemStack>
+			<itemStack>opencomputers:material;1;11</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:component;1;4</itemStack>
+		</output>
+	</Recipe>
+	<!-- Component Bus 3 -->
+	<Recipe timeRequired="4800" power ="1024">
+		<input>
+			<itemStack>opencomputers:material;1;4</itemStack>
+			<itemStack>opencomputers:material;4;9</itemStack>
+			<itemStack>opencomputers:material;1;11</itemStack>
+			<itemStack>opencomputers:material;4;29</itemStack>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:component;1;5</itemStack>
+		</output>
+	</Recipe>
+	<!-- APU 2 -->
+	<Recipe timeRequired="4800" power ="1024">
+		<input>
+			<itemStack>opencomputers:component;1;3</itemStack>
+			<itemStack>opencomputers:component;1;1</itemStack>
+			<itemStack>opencomputers:card;1;1</itemStack>
+			<itemStack>opencomputers:material;16;7</itemStack>
+			<oreDict>nuggetGold;4</oreDict>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:component;1;16</itemStack>
+		</output>	
+	</Recipe>
+	<!-- APU 3 -->
+	<Recipe timeRequired="6000" power ="1024">
+		<input>
+			<itemStack>opencomputers:component;1;3</itemStack>
+			<itemStack>opencomputers:component;1;2</itemStack>
+			<itemStack>opencomputers:card;1;2</itemStack>
+			<itemStack>opencomputers:material;16;8</itemStack>
+			<itemStack>opencomputers:material;4;29</itemStack>
+			<oreDict>dustRedstone;4</oreDict>
+		</input>
+		<output>
+			<itemStack>opencomputers:component;1;17</itemStack>
+		</output>
+	</Recipe>
+	<!-- Defaults -->
+	<Recipe timeRequired="1000" power ="1">
+		<input>
+			<itemStack>libvulpes:battery</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:misc</itemStack>
+			<itemStack>advancedrocketry:lens</itemStack>
+			<itemStack>libvulpes:productplate;1;5</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:atmanalyser</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="1">
+		<input>
+			<itemStack>libvulpes:battery</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+			<itemStack>advancedrocketry:lens</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade;1;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="500" power ="60">
+		<input>
+			<itemStack>minecraft:redstone</itemStack>
+			<itemStack>minecraft:emerald</itemStack>
+			<itemStack>advancedrocketry:ic</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:dataunit</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="100">
+		<input>
+			<itemStack>minecraft:gold_ingot</itemStack>
+			<itemStack>minecraft:redstone_block</itemStack>
+			<itemStack>advancedrocketry:wafer</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemcircuitplate;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="100">
+		<input>
+			<itemStack>minecraft:gold_ingot</itemStack>
+			<itemStack>minecraft:redstone</itemStack>
+			<itemStack>advancedrocketry:wafer</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="1">
+		<input>
+			<itemStack>minecraft:feather</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+			<itemStack>minecraft:leather_boots</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade;1;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power ="1">
+		<input>
+			<itemStack>minecraft:redstone</itemStack>
+			<itemStack>advancedrocketry:ic</itemStack>
+			<itemStack>advancedrocketry:ic;1;3</itemStack>
+			<itemStack>minecraft:redstone_torch</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:itemupgrade</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="1">
+		<input>
+			<itemStack>libvulpes:battery</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:misc</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>libvulpes:productplate;1;5</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:biomechanger</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+			<itemStack>advancedrocketry:itemupgrade;1;4</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:beaconfinder</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>advancedrocketry:spacestationchip</itemStack>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:elevatorchip</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="900" power ="50">
+		<input>
+			<itemStack>minecraft:redstone</itemStack>
+			<itemStack>minecraft:ender_eye</itemStack>
+			<itemStack>advancedrocketry:itemcircuitplate</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="1">
+		<input>
+			<itemStack>libvulpes:productrod;2;4</itemStack>
+			<itemStack>libvulpes:productrod;1;7</itemStack>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:wafer;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1000" power ="1">
+		<input>
+			<itemStack>advancedrocketry:ic;1;2</itemStack>
+			<itemStack>advancedrocketry:wafer;2</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:satelliteprimaryfunction;1;5</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="100" power ="1">
+		<input>
+			<itemStack>libvulpes:productrod;1;1</itemStack>
+			<itemStack>advancedrocketry:lens;3</itemStack>
+			<itemStack>minecraft:glass;3</itemStack>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:blocklens</itemStack>
+		</output>
+	</Recipe>
+</Recipes>

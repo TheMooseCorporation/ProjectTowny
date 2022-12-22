@@ -1,0 +1,89 @@
+{
+  "Items": [
+    
+  ],
+  "Banks": [
+    {
+      "uuid": "00000000",
+      "name": "Default Server Bank",
+      "data": {}
+    }
+  ],
+  "ExternalItems": [
+    {
+      "id": "modcurrency:coin",
+      "worth": 10,
+      "register": true
+    },
+    {
+      "id": "modcurrency:coin",
+      "meta": 1,
+      "worth": 50,
+      "register": true
+    },
+    {
+      "id": "modcurrency:coin",
+      "meta": 2,
+      "worth": 100,
+      "register": true
+    },
+    {
+      "id": "modcurrency:coin",
+      "meta": 3,
+      "worth": 250,
+      "register": true
+    },
+    {
+      "id": "modcurrency:coin",
+      "meta": 4,
+      "worth": 1000,
+      "register": true
+    },
+    {
+      "id": "modcurrency:coin",
+      "meta": 5,
+      "worth": 2000,
+      "register": true
+    },
+    {
+      "id": "modcurrency:banknote",
+      "meta": 1,
+      "worth": 5000,
+      "register": true
+    },
+    {
+      "id": "modcurrency:banknote",
+      "meta": 2,
+      "worth": 10000,
+      "register": true
+    },
+    {
+      "id": "modcurrency:banknote",
+      "meta": 3,
+      "worth": 20000,
+      "register": true
+    },
+    {
+      "id": "modcurrency:banknote",
+      "meta": 4,
+      "worth": 50000,
+      "register": true
+    },
+    {
+      "id": "modcurrency:banknote",
+      "meta": 5,
+      "worth": 100000,
+      "register": true
+    },
+    {
+      "id": "contenttweaker:fivehundred_bill",
+      "worth": 500000,
+      "register": true
+    },
+    {
+      "id": "contenttweaker:thousand_bill",
+      "worth": 1000000,
+      "register": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "geolosys:block/sample",
+    "textures": {
+        "ore": "minecraft:blocks/clay"
+    }
+}

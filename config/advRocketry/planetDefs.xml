@@ -1,0 +1,274 @@
+<!--Created By Moose Co - 2021-->
+<!--Written By Moose1002-->
+<!--You know, in case any bother to check or anything. If you do, good on you, send me a message on discord, Moose1002#2584, if you have any questions or just want to chat.-->
+<galaxy>
+    <!--Solar System-->
+    <!--This is the base solar system, for the most part based as closely to our real world Solar System as I could. Some liberties had to be taken to make the planet actually playable/cool to visit.-->
+    <star name="Sol" temp="100" x="0" y="0">
+        <planet name="Mercury" DIMID="3">
+            <orbitalDistance>30</orbitalDistance>
+            <orbitalTheta>160</orbitalTheta>
+            <rotationalPeriod>1408000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+            <gravitationalMultiplier>37</gravitationalMultiplier>
+        </planet>
+        <planet name="Venus" customIcon="venusian" DIMID="4">
+            <orbitalDistance>70</orbitalDistance>
+            <orbitalTheta>270</orbitalTheta>
+            <rotationalPeriod>5832000</rotationalPeriod>
+            <atmosphereDensity>400</atmosphereDensity>	
+            <gravitationalMultiplier>90</gravitationalMultiplier>
+            <fogColor>0xffa92b</fogColor>
+            <skyColor>0xffb74d</skyColor>
+            <biomeIds>126,128</biomeIds>
+            <oceanBlock>minecraft:lava</oceanBlock>
+        </planet>
+        <planet name="Earth" DIMID="0" dimMapping="" customIcon="earthlike">
+            <isKnown>true</isKnown>
+            <orbitalDistance>100</orbitalDistance>
+            <rotationalPeriod>24000</rotationalPeriod>
+            <planet name="Luna" DIMID="35">
+                <isKnown>true</isKnown>
+                <orbitalDistance>200</orbitalDistance>
+                <orbitalTheta>340</orbitalTheta>
+                <rotationalPeriod>700800</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>20</gravitationalMultiplier>
+            </planet>
+        </planet>
+        <planet name="Mars" customIcon="marslike" DIMID="5">
+            <isKnown>true</isKnown>
+            <orbitalDistance>150</orbitalDistance>
+            <orbitalTheta>200</orbitalTheta>
+            <rotationalPeriod>25000</rotationalPeriod>
+            <atmosphereDensity>1</atmosphereDensity>
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <biomeIds>118</biomeIds>
+            <planet name="Phobos" DIMID="6">
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>290</orbitalTheta>
+                <rotationalPeriod>7660</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>20</gravitationalMultiplier>
+            </planet>
+            <planet name="Deimos" DIMID="7">
+                <orbitalDistance>400</orbitalDistance>
+                <orbitalTheta>70</orbitalTheta>
+                <rotationalPeriod>30500</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>10</gravitationalMultiplier>
+            </planet>
+        </planet>
+        <planet name="Jupiter" customIcon="gasgiantbrown" DIMID="8">
+            <orbitalDistance>300</orbitalDistance>
+            <orbitalTheta>20</orbitalTheta>
+            <rotationalPeriod>12000</rotationalPeriod>
+            <atmosphereDensity>1600</atmosphereDensity>
+            <gravitationalMultiplier>265</gravitationalMultiplier>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <planet name="Io" DIMID="9">
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>140</orbitalTheta>
+                <rotationalPeriod>42000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>18</gravitationalMultiplier>
+                <biomeIds>126,128</biomeIds>
+                <oceanBlock>minecraft:lava</oceanBlock>
+            </planet>
+            <planet name="Europa" DIMID="10" dimMapping="">
+                <orbitalDistance>300</orbitalDistance>
+                <orbitalTheta>70</orbitalTheta>
+                <rotationalPeriod>85000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>13</gravitationalMultiplier>
+            </planet>
+            <planet name="Ganymede" DIMID="11" dimMapping="">
+                <orbitalDistance>500</orbitalDistance>
+                <orbitalTheta>340</orbitalTheta>
+                <rotationalPeriod>171600</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>15</gravitationalMultiplier>
+            </planet>
+            <planet name="Callisto" DIMID="12" dimMapping="">
+                <orbitalDistance>700</orbitalDistance>
+                <orbitalTheta>170</orbitalTheta>
+                <rotationalPeriod>400800</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>13</gravitationalMultiplier>
+            </planet>
+        </planet>
+        <planet name="Saturn" customIcon="gasgiantbrown" DIMID="13">
+            <orbitalDistance>400</orbitalDistance>
+            <orbitalTheta>120</orbitalTheta>
+            <rotationalPeriod>11000</rotationalPeriod>
+            <atmosphereDensity>1600</atmosphereDensity>
+            <gravitationalMultiplier>113</gravitationalMultiplier>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <hasRings>true</hasRings>
+            <planet name="Mimas" DIMID="14">
+                <orbitalDistance>70</orbitalDistance>
+                <orbitalTheta>140</orbitalTheta>
+                <rotationalPeriod>23000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>1</gravitationalMultiplier>
+            </planet>
+            <planet name="Enceladus" DIMID="15" dimMapping="">
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>70</orbitalTheta>
+                <rotationalPeriod>32880</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>1</gravitationalMultiplier>
+            </planet>
+            <planet name="Tethys" DIMID="16" dimMapping="">
+                <orbitalDistance>500</orbitalDistance>
+                <orbitalTheta>340</orbitalTheta>
+                <rotationalPeriod>45360</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>1</gravitationalMultiplier>
+            </planet>
+            <planet name="Dione" DIMID="17" dimMapping="">
+                <orbitalDistance>500</orbitalDistance>
+                <orbitalTheta>340</orbitalTheta>
+                <rotationalPeriod>65760</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>2</gravitationalMultiplier>
+            </planet>
+            <planet name="Rhea" DIMID="18" dimMapping="">
+                <orbitalDistance>700</orbitalDistance>
+                <orbitalTheta>290</orbitalTheta>
+                <rotationalPeriod>108000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>3</gravitationalMultiplier>
+            </planet>
+            <planet name="Titan" DIMID="19">
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>140</orbitalTheta>
+                <rotationalPeriod>382560</rotationalPeriod>
+                <atmosphereDensity>150</atmosphereDensity>
+                <hasOxygen>false</hasOxygen>
+                <gravitationalMultiplier>14</gravitationalMultiplier>
+                <fogColor>0xe6b919</fogColor>
+                <skyColor>0xe6b919</skyColor>
+                <biomeIds>0,141</biomeIds>
+                <oceanBlock>immersivepetroleum:fluid_diesel</oceanBlock>
+            </planet>
+            <planet name="Hyperion" DIMID="20">
+                <orbitalDistance>300</orbitalDistance>
+                <orbitalTheta>70</orbitalTheta>
+                <rotationalPeriod>5000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>1</gravitationalMultiplier>
+            </planet>
+            <planet name="Iapetus" DIMID="21">
+                <orbitalDistance>500</orbitalDistance>
+                <orbitalTheta>340</orbitalTheta>
+                <rotationalPeriod>1903680</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>2</gravitationalMultiplier>
+            </planet>
+            <planet name="Phoebe" DIMID="22">
+                <orbitalDistance>500</orbitalDistance>
+                <orbitalTheta>340</orbitalTheta>
+                <rotationalPeriod>9330</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>1</gravitationalMultiplier>
+            </planet>
+        </planet>
+        <planet name="Uranus" customIcon="gasgiantblue" DIMID="23">
+            <orbitalDistance>450</orbitalDistance>
+            <orbitalTheta>60</orbitalTheta>
+            <rotationalPeriod>17000</rotationalPeriod>
+            <atmosphereDensity>1600</atmosphereDensity>
+            <gravitationalMultiplier>109</gravitationalMultiplier>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <planet name="Miranda" DIMID="24" dimMapping="">
+                <orbitalDistance>80</orbitalDistance>
+                <orbitalTheta>210</orbitalTheta>
+                <rotationalPeriod>33840</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>1</gravitationalMultiplier>
+            </planet>
+            <planet name="Ariel" DIMID="25">
+                <orbitalDistance>120</orbitalDistance>
+                <orbitalTheta>70</orbitalTheta>
+                <rotationalPeriod>60480</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>2</gravitationalMultiplier>
+            </planet>
+            <!--The one planet hardcore darkness effects. May be dark!-->
+            <planet name="Umbriel" DIMID="26">
+                <orbitalDistance>200</orbitalDistance>
+                <orbitalTheta>320</orbitalTheta>
+                <rotationalPeriod>96000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>3</gravitationalMultiplier>
+            </planet>
+            <planet name="Titania" DIMID="27" dimMapping="">
+                <orbitalDistance>300</orbitalDistance>
+                <orbitalTheta>170</orbitalTheta>
+                <rotationalPeriod>209040</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>4</gravitationalMultiplier>
+            </planet>
+            <planet name="Oberon" DIMID="28">
+                <orbitalDistance>120</orbitalDistance>
+                <orbitalTheta>340</orbitalTheta>
+                <rotationalPeriod>324000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>3</gravitationalMultiplier>
+            </planet>
+        </planet>
+        <planet name="Neptune" customIcon="gasgiantblue" DIMID="29">
+            <orbitalDistance>600</orbitalDistance>
+            <orbitalTheta>240</orbitalTheta>
+            <rotationalPeriod>16000</rotationalPeriod>
+            <atmosphereDensity>1600</atmosphereDensity>
+            <gravitationalMultiplier>144</gravitationalMultiplier>
+            <GasGiant>true</GasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <planet name="Proteus" DIMID="30">
+                <orbitalDistance>80</orbitalDistance>
+                <orbitalTheta>340</orbitalTheta>
+                <rotationalPeriod>26400</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>1</gravitationalMultiplier>
+            </planet>
+            <planet name="Triton" DIMID="31">
+                <orbitalDistance>140</orbitalDistance>
+                <orbitalTheta>320</orbitalTheta>
+                <rotationalPeriod>141048</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>8</gravitationalMultiplier>
+                <retrograde>true</retrograde>
+            </planet>
+            <planet name="Nereid" DIMID="32">
+                <orbitalDistance>400</orbitalDistance>
+                <orbitalTheta>280</orbitalTheta>
+                <rotationalPeriod>12000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>3</gravitationalMultiplier>
+            </planet>
+        </planet>
+        <planet name="Pluto" customIcon="iceworld" DIMID="33">
+            <orbitalDistance>900</orbitalDistance>
+            <orbitalTheta>320</orbitalTheta>
+            <rotationalPeriod>154000</rotationalPeriod>
+            <gravitationalMultiplier>4</gravitationalMultiplier>
+            <atmosphereDensity>0</atmosphereDensity>
+            <planet name="Charon" DIMID="34">
+                <orbitalDistance>100</orbitalDistance>
+                <orbitalTheta>240</orbitalTheta>
+                <rotationalPeriod>154000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <gravitationalMultiplier>3</gravitationalMultiplier>
+            </planet>
+        </planet>
+    </star>
+</galaxy>

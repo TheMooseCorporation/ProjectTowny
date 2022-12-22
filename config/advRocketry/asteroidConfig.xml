@@ -1,0 +1,59 @@
+<Asteroids>
+	<asteroid name="Small Asteroid" distance="10" mass="100" massVariability="0.5" minLevel="0" probability="10" richness="0.7" richnessVariability="0.5">
+		<ore itemStack="geolosys:ore 0" chance="15" />
+		<ore itemStack="geolosys:ore_vanilla 2" chance="10" />
+	</asteroid>
+	<asteroid name="Metallic Asteroid" distance="50" mass="150" massVariability="0.5" minLevel="0" probability="8" richness="0.8" richnessVariability="0.5">
+		<ore itemStack="geolosys:ore 0" chance="15" />
+		<ore itemStack="geolosys:ore 1" chance="10" />
+	</asteroid>
+	<asteroid name="Silver Enriched Asteroid" distance="80" mass="50" massVariability="0.5" minLevel="0" probability="6" richness="0.4" richnessVariability="0.5">
+		<ore itemStack="geolosys:ore 6" chance="10" />
+	</asteroid>
+	<asteroid name="Lunar Asteroid" distance="50" mass="100" massVariability="0.5" minLevel="0" probability="4" richness="0.8" richnessVariability="0.5">
+		<ore itemStack="advancedrocketry:moonturf" chance="10" />
+		<ore itemStack="advancedrocketry:moonturf_dark" chance="10" />
+		<ore itemStack="geolosys:ore 8" chance="5" />
+	</asteroid>
+	<asteroid name="Radioactive Asteroid" distance="100" mass="50" massVariability="0.5" minLevel="0" probability="1" richness="0.6" richnessVariability="0.5">
+		<ore itemStack="geolosys:ore 9" chance="5" />
+		<ore itemStack="nuclearcraft:ore 3" chance="10" />
+	</asteroid>
+	<asteroid name="Cobalt Asteroid" distance="100" mass="20" massVariability="0.5" minLevel="0" probability="1" richness="1" richnessVariability="0">
+		<ore itemStack="minecraft:netherrack" chance="10" />
+		<ore itemStack="tconstruct:ore" chance="1" />
+	</asteroid>
+	<asteroid name="Ender Asteroid" distance="150" mass="30" massVariability="0.5" minLevel="0" probability="0.5" richness="1" richnessVariability="0">
+		<ore itemStack="minecraft:end_stone" chance="20" />
+		<ore itemStack="minecraft:shulker_shell" chance="1" />
+		<ore itemStack="minecraft:ender_pearl" chance="10" />
+		<ore itemStack="draconicevolution:draconium_ore:2" chance="1" />
+	</asteroid>
+	<asteroid name="Large Asteroid" distance="150" mass="400" massVariability="0.5" minLevel="0" probability="1" richness="0.7" richnessVariability="0.5">
+		<ore itemStack="geolosys:ore 0" chance="15" />
+		<ore itemStack="geolosys:ore 1" chance="8" />
+		<ore itemStack="geolosys:ore 6" chance="10" />
+		<ore itemStack="geolosys:ore_vanilla 2" chance="8" />
+	</asteroid>
+	<asteroid name="Iridium Enriched asteroid" distance="100" mass="25" massVariability="0.5" minLevel="0" probability="0.75" richness="0.2" richnessVariability="0.3">
+		<ore itemStack="geolosys:ore 0" chance="25" />
+		<ore itemStack="libvulpes:ore0 10" chance="5" />
+	</asteroid>
+	<asteroid name="Jettisoned Rocket Stage" distance="80" mass="30" massVariability="0.5" minLevel="0" probability="0.1" richness="1.0" richnessVariability="0.0">
+		<ore itemStack="immersiveengineering:metal 8" chance="10" />
+	</asteroid>
+	<asteroid name="Satellite Wreckage" distance="100" mass="30" massVariability="0.5" minLevel="0" probability="0.05" richness="1.0" richnessVariability="0.0">
+		<ore itemStack="immersiveengineering:metal 8" chance="10" />
+		<ore itemStack="solarflux:solar_panel_3" chance="0.5" />
+	</asteroid>
+	<asteroid name="Space Station Wreckage" distance="200" mass="50" massVariability="0.5" minLevel="0" probability="0.02" richness="1.0" richnessVariability="0.0">
+		<ore itemStack="immersiveengineering:metal 8" chance="10" />
+		<ore itemStack="solarflux:solar_panel_5" chance="0.1" />
+		<ore itemStack="minecraft:dragon_breath" chance="0.1" />
+		<ore itemStack="minecraft:dragon_egg" chance="0.01" />
+		<ore itemStack="minecraft:nether_star" chance="0.01" />
+	</asteroid>
+	<asteroid name="Spent Fuel Tank" distance="50" mass="20" massVariability="0.5" minLevel="0" probability="0.2" richness="1.0" richnessVariability="0.0">
+		<ore itemStack="immersiveengineering:metal 8" chance="10" />
+	</asteroid>
+</Asteroids>

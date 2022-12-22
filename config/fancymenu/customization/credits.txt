@@ -1,0 +1,428 @@
+type = menu
+
+customization-meta {
+  identifier = Credits
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/menuV3/2020-11-21_23.jpg
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = resources/menuV3/blackoverlay.png
+  orientation = top-left
+  x = 6
+  width = 140
+  actionid = 38793425-c170-4af9-b69e-914177892fb81645793576255
+  action = addtexture
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = closegui
+  backgroundhovered = resources\menuV3\blank.png
+  label = X
+  loopbackgroundanimations = true
+  x = 457
+  width = 24
+  actionid = 04119bfa-0634-46e1-86d7-d8f4a64248111663435249860
+  action = addbutton
+  y = -1
+  backgroundnormal = resources\menuV3\blank.png
+  value = null
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = &nProject Towny Development Team
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 6
+  width = 140
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 19cd910a-8a71-47b4-ab75-a694b75b04191663435342070
+  y = 6
+  alignment = centered
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = &4&nDevelopers:
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 1a98a367-6954-43cc-9027-6282561ad7b51663438105663
+  y = 18
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = Moose1002 - Lead Developer
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 366f5f62-b46e-4274-857e-c7ceb523938e1663438207752
+  y = 30
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = zxn - Graphic Designer
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 16b1d186-44f6-44a5-8402-81c466ab7ae91663438326517
+  y = 52
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = Sona - Lead Tester
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 9fecd9ad-9a62-4f9f-a034-c93966329c1a1663438442730
+  y = 74
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = Programmer
+  text_border = 1
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 62
+  width = 84
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = be51c3f6-19c0-4be6-9142-faf3312d9ea71663438682575
+  y = 40
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = Menu Designer
+  text_border = 1
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 33
+  width = 84
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = dee3a8a0-6c41-47c5-8ede-f10e321c30691663438880731
+  y = 62
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = oreh.chu - Art Director
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = d4bb0865-5dfe-4dad-9eb5-7bcafa6e63b21663438949130
+  y = 86
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = hulkboy05 - Community Manager
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a90f01fa-177e-4f93-846e-0e8fec6404cd1663439114964
+  y = 98
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = &d&nAlpha Testers:
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 1a03fe7f-1b83-4427-9d35-9f19aaa608621663439283930
+  y = 122
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = Berd
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 036c23e9-2a6f-4a4f-afee-9bdde0559dff1663439283930
+  y = 134
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = Sodastream739
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = b4e82a7b-f0c2-4cb9-809c-6f3c9f44b0ea1663439283930
+  y = 146
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = TheOptomisticDog
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = c6d17f0f-c5a6-45a3-95fc-a776fa72d5f21663439283930
+  y = 158
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = &5&nMajor Bug Finders:
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 6966469e-eac8-48a0-96cc-37011dbc35da1663439468030
+  y = 182
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = Caelanova
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8b47bd0a-f202-4212-a3eb-939096b3bd901663439554160
+  y = 194
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = RayzardEZ
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 360639aa-2029-4d22-afd8-d49d09d4c9be1663439565921
+  y = 206
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = animandan
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a2363f54-3fe0-4ebc-8c32-79932ab964391663439588722
+  y = 218
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.5
+  source = Menu textures from OpenComputers under MIT license
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 262800a3-2e0b-4708-a425-cd8804010f4a1663442696254
+  y = 248
+  alignment = left
+  height = 6
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = PabloGates - States Mod Manager
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = b60bb486-888b-45fb-a41a-609f71e7c4ad1668042083658
+  y = 110
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = SPThree
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 84b81797-51fc-4a60-994b-a59d4a171e821668215234712
+  y = 170
+  alignment = left
+  height = 10
+}
+

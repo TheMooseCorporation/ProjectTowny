@@ -1,0 +1,74 @@
+[
+  {
+    "content": "minecraft:iron_ingot",
+    "amount": {
+      "min": 16,
+      "max": 64
+    },
+    "unitWorth": 1,
+    "weight": 50
+  },
+  {
+    "content": "thermalfoundation:material:128",
+    "amount": {
+      "min": 16,
+      "max": 64
+    },
+    "unitWorth": 1,
+    "weight": 40
+  },
+  {
+    "content": "thermalfoundation:material:129",
+    "amount": {
+      "min": 16,
+      "max": 40
+    },
+    "unitWorth": 1,
+    "weight": 40
+  },
+  {
+    "content": "thermalfoundation:material:130",
+    "amount": {
+      "min": 16,
+      "max": 64
+    },
+    "unitWorth": 1,
+    "weight": 30
+  },
+  {
+    "content": "thermalfoundation:material:131",
+    "amount": {
+      "min": 16,
+      "max": 64
+    },
+    "unitWorth": 1,
+    "weight": 30
+  },
+  {
+    "content": "thermalfoundation:material:132",
+    "amount": {
+      "min": 16,
+      "max": 64
+    },
+    "unitWorth": 2,
+    "weight": 20
+  },
+  {
+    "content": "thermalfoundation:material:133",
+    "amount": {
+      "min": 16,
+      "max": 64
+    },
+    "unitWorth": 2,
+    "weight": 20
+  },
+  {
+    "content": "minecraft:redstone_block",
+    "amount": {
+      "min": 4,
+      "max": 16
+    },
+    "unitWorth": 3,
+    "weight": 30
+  }
+]

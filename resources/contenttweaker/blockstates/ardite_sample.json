@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "geolosys:sample",
+    "transform": "forge:default-block",
+    "textures": {
+      "all": "tconstruct:blocks/ore_ardite",
+      "particle": "minecraft:blocks/netherrack"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

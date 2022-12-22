@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "geolosys:sample",
+    "transform": "forge:default-block",
+    "textures": {
+      "all": "minecraft:blocks/clay",
+      "particle": "minecraft:blocks/stone"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

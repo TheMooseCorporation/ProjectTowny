@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "geolosys:sample",
+    "transform": "forge:default-block",
+    "textures": {
+      "all": "libvulpes:blocks/oreRutile",
+      "particle": "minecraft:blocks/stone"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

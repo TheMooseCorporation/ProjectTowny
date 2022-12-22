@@ -1,0 +1,53 @@
+[
+  {
+    "content": "modcurrency:coin:4",
+    "unitWorth": 1,
+    "weight": 100
+  },
+  {
+    "content": "modcurrency:coin:5",
+    "unitWorth": 2,
+    "weight": 100
+  },
+  {
+    "content": "modcurrency:banknote:1",
+    "unitWorth": 5,
+    "weight": 100
+  },
+  {
+    "content": "modcurrency:banknote:2",
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "modcurrency:banknote:2",
+    "unitWorth": 10,
+    "weight": 100
+  },
+  {
+    "content": "modcurrency:banknote:3",
+    "unitWorth": 20,
+    "weight": 100
+  },
+  {
+    "content": "modcurrency:banknote:4",
+    "unitWorth": 50,
+    "weight": 100
+  },
+  {
+    "content": "modcurrency:banknote:5",
+    "unitWorth": 100,
+    "weight": 100
+  },
+  {
+    "content": "contenttweaker:fivehundred_bill",
+    "unitWorth": 500,
+    "weight": 100
+  },
+  {
+    "content": "contenttweaker:thousand_bill",
+    "unitWorth": 1000,
+    "weight": 100
+  }
+]
+

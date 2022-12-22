@@ -1,0 +1,171 @@
+type = menu
+
+customization-meta {
+  identifier = Browser
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  shape = rectangle
+  color = 22272e
+  x = 0
+  width = %guiwidth%
+  actionid = 1d4a2e6f-342f-493b-bc38-e0652ae3356a1630104976793
+  action = addshape
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  orientation = top-left
+  shape = rectangle
+  color = 2d333b
+  x = 0
+  width = %guiwidth%
+  actionid = f1d2032f-4844-436d-b3e1-c6b4517e88531630104402248
+  action = addshape
+  y = 0
+  height = 17
+}
+
+customization {
+  orientation = top-left
+  shadow = true
+  x = 33
+  actionid = 8e7b64c9-ef4f-44cb-aff0-51fac632a3771630104639750
+  action = addtext
+  y = 2
+  scale = 1.0
+  alignment = centered
+  value = MooserPedia
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 30
+  actionid = f13ce702-e98f-442e-aa04-c011c75c17541630104794592
+  action = addtext
+  y = 12
+  scale = 0.5
+  alignment = centered
+  value = The Free Encyclopedia
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 3
+  actionid = 0ea893ae-21be-462f-9aa0-27e640f57ca01630105094736
+  action = addtext
+  y = 20
+  scale = 1.0
+  alignment = left
+  value = Nation
+}
+
+customization {
+  orientation = top-left
+  shape = rectangle
+  color = 2d333b
+  x = 0
+  width = %guiwidth%
+  actionid = f8556bd6-1668-4d0c-9800-6e0a4b1ff37a1630105146303
+  action = addshape
+  y = 30
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 35
+  actionid = e701c8d6-4075-4961-ad40-b09df7c8d4311630105483042
+  action = addtext
+  y = 24
+  scale = 0.5
+  alignment = left
+  value = From Moosepedia, the free encyclopedia
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 15
+  actionid = 46d87dab-ddf0-4916-a429-7978269448cd1630105627395
+  action = addtext
+  y = 46
+  scale = 0.5
+  alignment = left
+  value = See also: State (polity), Nation state, and Country
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 15
+  actionid = a139a582-7775-4061-ab31-e26412dc7d051630105676895
+  action = addtext
+  y = 40
+  scale = 0.5
+  alignment = left
+  value = For other uses, see Nation (disambiguation).
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.5
+  source = resources/menuV3/wiki.txt
+  text_border = 0
+  case_mode = normal
+  source_mode = local
+  line_spacing = 2
+  x = 3
+  width = 470
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0423c291-6c6d-498f-93e0-413163b783031663441238675
+  y = 55
+  alignment = left
+  height = 119
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = closegui
+  backgroundhovered = resources\menuV3\blank.png
+  label = X
+  loopbackgroundanimations = true
+  x = 458
+  width = 24
+  actionid = b2b2f798-8e7f-468d-82fd-016ade70b7f31663442150029
+  action = addbutton
+  y = -1
+  backgroundnormal = resources\menuV3\blank.png
+  value = null
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  shape = rectangle
+  color = 2d333b
+  x = 0
+  width = %guiwidth%
+  actionid = 7d3d2c38-7924-457f-bd4e-26c40ea1b70f1663442190709
+  action = addshape
+  y = -90
+  height = 90
+}
+

@@ -1,0 +1,724 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/menuV3/2020-11-21_23.jpg
+  action = texturizebackground
+}
+
+customization {
+  action = setscale
+  scale = 2
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 9
+  action = movebutton
+  y = 66
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 55
+  action = resizebutton
+  height = 55
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\menuV3\ptmultiplayer2.png
+  backgroundnormal = resources\menuV3\ptmultiplayer.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  seconds = 4.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 64
+  action = movebutton
+  y = 11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 55
+  action = resizebutton
+  height = 55
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\menuV3\ptsettings2.png
+  backgroundnormal = resources\menuV3\ptsettings.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  seconds = 4.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = bottom-left
+  x = 8
+  action = movebutton
+  y = -82
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 55
+  action = resizebutton
+  height = 55
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\menuV3\ptquit2.png
+  backgroundnormal = resources\menuV3\ptquit.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 4.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-right
+  x = -65
+  action = movebutton
+  y = 176
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 55
+  action = resizebutton
+  height = 56
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\menuV3\ptdlanguage2.png
+  backgroundnormal = resources\menuV3\ptdlanguage.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  seconds = 4.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 9
+  action = movebutton
+  y = 11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 55
+  action = resizebutton
+  height = 55
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\menuV3\ptsingleplayer2.png
+  backgroundnormal = resources\menuV3\ptsingleplayer.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  seconds = 4.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = top-left
+  x = 9
+  action = movebutton
+  y = 176
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  width = 55
+  action = resizebutton
+  height = 55
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\menuV3\ptmods2.png
+  backgroundnormal = resources\menuV3\ptmods.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  seconds = 4.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 1.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 346
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 5ad4d0bf-2f31-43a5-8883-3324a2fa2cff1663434804261
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 169
+  action = deep_customization_element:title_screen_branding
+  actionid = 5041d76d-bbff-427c-ab3c-e049fae510f71663434804266
+  y = 467
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 731
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 3741b756-4235-48ff-aad8-9156a53391121663434804266
+  y = 489
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = e51db9d4-fcf4-42e4-830c-1eb5f97d7c6c1663434804267
+  y = 227
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = e27a62db-e58a-4138-be8e-bd86c2da48921663434804267
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 6a531c58-72d5-4ede-ab10-f119020777e01663434804267
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.0
+  buttonaction = joinserver
+  backgroundhovered = resources\menuV3\ptserver2.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 
+  fadein = true
+  fadeinspeed = 1.5
+  x = 9
+  width = 55
+  actionid = 0dcabe58-ac62-458a-b603-b39f9543b3e91645720699390
+  action = addbutton
+  y = 121
+  delayappearance = true
+  backgroundnormal = resources\menuV3\ptserver.png
+  value = towny.themoosecorporation.com
+  delayappearanceeverytime = false
+  height = 55
+}
+
+customization {
+  path = resources/menuV3/sidebar.jpg
+  orientation = top-left
+  x = 0
+  width = 9
+  actionid = 6f273b5a-2fbc-401d-8d76-08d4da4dfb3b1645714586692
+  action = addtexture
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  orientation = mid-centered
+  delayappearanceseconds = 1.5
+  path = resources/menuV3/ptlogo.png
+  fadein = true
+  fadeinspeed = 1.5
+  x = -217
+  width = 398
+  actionid = 1cab475d-5029-4407-a988-fe5f743545011645713763674
+  action = addtexture
+  y = -221
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 398
+}
+
+customization {
+  path = resources/menuV3/sidebar.jpg
+  orientation = bottom-left
+  x = 0
+  width = %guiwidth%
+  actionid = 6f273b5a-2fbc-401d-8d76-08d4da4dfb3b1645714586692
+  action = addtexture
+  y = -28
+  height = 61
+}
+
+customization {
+  path = resources/menuV3/sidebar.jpg
+  orientation = top-left
+  x = 0
+  width = %guiwidth%
+  actionid = 6f273b5a-2fbc-401d-8d76-08d4da4dfb3b1645714586692
+  action = addtexture
+  y = 0
+  height = 9
+}
+
+customization {
+  path = resources/menuV3/sidebar.jpg
+  orientation = top-right
+  x = -9
+  width = 9
+  actionid = 6f273b5a-2fbc-401d-8d76-08d4da4dfb3b1645714586692
+  action = addtexture
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  orientation = top-right
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.0
+  buttonaction = opencustomgui
+  backgroundhovered = resources\menuV3\ptcredits2.png
+  label = 
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.5
+  x = -65
+  width = 55
+  actionid = b7b2bcf1-bcdc-4ed6-936c-0a56605d98271645720699391
+  action = addbutton
+  y = 121
+  delayappearance = true
+  backgroundnormal = resources\menuV3\ptcredits.png
+  value = Credits
+  delayappearanceeverytime = false
+  height = 55
+}
+
+customization {
+  orientation = top-right
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.0
+  buttonaction = openlink
+  backgroundhovered = resources\menuV3\ptdiscord2.png
+  label = 
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.5
+  x = -65
+  width = 55
+  actionid = 066b2a25-4736-430f-8544-2d65ded4fd581645720699391
+  action = addbutton
+  y = 11
+  delayappearance = true
+  backgroundnormal = resources\menuV3\ptdiscord.png
+  value = https://discord.gg/n8JWmkd
+  delayappearanceeverytime = false
+  height = 55
+}
+
+customization {
+  orientation = mid-centered
+  basecolor = #ffffff
+  shadow = true
+  delayappearanceseconds = 4.0
+  splashfilepath = resources\menuV3\splashmenu.txt
+  rotation = -1.0
+  scale = 1.1
+  refresh = true
+  bouncing = true
+  fadein = true
+  vanilla-like = false
+  fadeinspeed = 1.5
+  x = -38
+  actionid = d4ae5066-32ad-4719-83b6-ff1917eb0e7f1645718917125
+  action = addsplash
+  y = 87
+  delayappearance = true
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = bottom-left
+  shadow = false
+  x = 37
+  actionid = 31ee80b4-831f-41e8-bd7e-dc5381f6effb1645719463483
+  action = addtext
+  y = -19
+  scale = 1.0
+  alignment = left
+  value = %playername% 
+}
+
+customization {
+  orientation = bottom-left
+  x = 9
+  width = 24
+  actionid = 47ff5b67-3694-4205-a948-5baaa47deb921645719876449
+  action = addwebtexture
+  y = -26
+  url = https://minotar.net/helm/%playername%/100.png
+  height = 24
+}
+
+customization {
+  orientation = bottom-right
+  shadow = false
+  x = -9
+  actionid = a991c23a-d823-4b59-ad54-5dc9102e993c1645720002586
+  action = addtext
+  y = -13
+  scale = 1.0
+  alignment = right
+  value = Minecraft: %mcversion%   Forge: %version:forge%   Mods: %loadedmods%/%loadedmods%
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.0
+  buttonaction = mimicbutton
+  backgroundhovered = resources\menuV3\ptdquit2.png
+  label = 
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.5
+  x = 79
+  width = 35
+  actionid = fa7cfba1-f9d5-4983-934f-7bdbed691dd01645740456014
+  action = addbutton
+  y = -31
+  delayappearance = true
+  backgroundnormal = resources\menuV3\ptdquit.png
+  value = net.minecraft.client.gui.GuiMainMenu:502382
+  delayappearanceeverytime = false
+  height = 35
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.0
+  buttonaction = mimicbutton
+  backgroundhovered = resources\menuV3\ptdmods2.png
+  label = 
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.5
+  x = 34
+  width = 35
+  actionid = 5a4cdbf7-43c1-4919-a7c4-d95b8bb6c9951645740506121
+  action = addbutton
+  y = -32
+  delayappearance = true
+  backgroundnormal = resources\menuV3\ptdmods.png
+  value = net.minecraft.client.gui.GuiMainMenu:400346
+  delayappearanceeverytime = false
+  height = 35
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.0
+  buttonaction = mimicbutton
+  backgroundhovered = resources\menuV3\ptdsettings2.png
+  label = 
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.5
+  x = -11
+  width = 35
+  actionid = 1d4e8438-16c1-45f7-ac6e-b614b2b1cdcd1645740550872
+  action = addbutton
+  y = -32
+  delayappearance = true
+  backgroundnormal = resources\menuV3\ptdsettings.png
+  value = net.minecraft.client.gui.GuiMainMenu:400382
+  delayappearanceeverytime = false
+  height = 35
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.0
+  buttonaction = joinserver
+  backgroundhovered = resources\menuV3\ptdserver2.png
+  label = 
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.5
+  x = -56
+  width = 35
+  actionid = fc5d6064-8534-45c7-9387-87fd72472c261645740550872
+  action = addbutton
+  y = -32
+  delayappearance = true
+  backgroundnormal = resources\menuV3\ptdserver.png
+  value = towny.themoosecorporation.com:25511
+  delayappearanceeverytime = false
+  height = 35
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.0
+  buttonaction = mimicbutton
+  backgroundhovered = resources\menuV3\ptdmultiplayer2.png
+  label = 
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.5
+  x = -101
+  width = 35
+  actionid = 07a185e0-631e-4fb3-9156-ed0c69fe44fe1645740550872
+  action = addbutton
+  y = -32
+  delayappearance = true
+  backgroundnormal = resources\menuV3\ptdmutliplayer.png
+  value = net.minecraft.client.gui.GuiMainMenu:400322
+  delayappearanceeverytime = false
+  height = 35
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.0
+  buttonaction = mimicbutton
+  backgroundhovered = resources\menuV3\ptdsingleplayer2.png
+  label = 
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.5
+  x = -147
+  width = 35
+  actionid = 32b6bb04-db5c-4e49-8fd0-987994ad8d581645740550872
+  action = addbutton
+  y = -32
+  delayappearance = true
+  backgroundnormal = resources\menuV3\ptdsingleplayer.png
+  value = net.minecraft.client.gui.GuiMainMenu:400298
+  delayappearanceeverytime = false
+  height = 35
+}
+
+customization {
+  orientation = bottom-right
+  shadow = false
+  x = -9
+  actionid = be01012d-aad3-4aa0-a167-14eaf2fe4e411645759640038
+  action = addtext
+  y = -24
+  scale = 1.0
+  alignment = right
+  value = %realtimemonth%/%realtimeday%/%realtimeyear%   %realtimehour%:%realtimeminute%:%realtimesecond%
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.0
+  buttonaction = opencustomgui
+  backgroundhovered = resources\menuV3\ptweb2.png
+  label = 
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.5
+  x = 64
+  width = 55
+  actionid = b06edd1e-3173-4a2f-a409-33cd317695011663634968683
+  action = addbutton
+  y = 66
+  delayappearance = true
+  backgroundnormal = resources\menuV3\ptweb.png
+  value = Browser
+  delayappearanceeverytime = false
+  height = 55
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.0
+  buttonaction = opencustomgui
+  backgroundhovered = resources\menuV3\ptphotos2.png
+  label = 
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.5
+  x = 64
+  width = 55
+  actionid = 643fc412-b414-4ae4-952e-b127cea8fb9e1663635050749
+  action = addbutton
+  y = 121
+  delayappearance = true
+  backgroundnormal = resources\menuV3\ptphotos.png
+  value = Photos
+  delayappearanceeverytime = false
+  height = 55
+}
+
+customization {
+  orientation = top-right
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.0
+  buttonaction = opencustomgui
+  backgroundhovered = resources\menuV3\ptcharacter2.png
+  label = 
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 1.5
+  x = -65
+  width = 55
+  actionid = b834a2d6-4e57-4c81-ae1a-dcda52487eeb1663723029502
+  action = addbutton
+  y = 66
+  delayappearance = true
+  backgroundnormal = resources\menuV3\ptcharacter.png
+  value = UserMenu
+  delayappearanceeverytime = false
+  height = 55
+}
+

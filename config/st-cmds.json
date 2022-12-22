@@ -1,0 +1,25 @@
+{
+  "__comment": "In this file you can define custom aliases for States Mod\u0027s Commands.",
+  "aliases": {
+    "st-admin": [],
+    "st-debug": [],
+    "st-rule": [],
+    "st-vote": [],
+    "st-nick": [],
+    "st-gui": [
+      "/states",
+      "stgui",
+      "stui"
+    ],
+    "mail": [],
+    "ck": [],
+    "dis": [],
+    "mun": [],
+    "st": []
+  },
+  "___comment": "Bellow you can even override the default command prefix (with example included).",
+  "override": {
+    "some-cmd-prefix": "new-cmd-prefix",
+    "st-example": "st-override"
+  }
+}

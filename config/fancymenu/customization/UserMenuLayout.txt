@@ -1,0 +1,132 @@
+type = menu
+
+customization-meta {
+  identifier = UserMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  shape = rectangle
+  color = 22272e
+  x = 0
+  width = %guiwidth%
+  actionid = 9e2b2e46-35bd-4139-93c0-eb7bfb7df09c1630107978390
+  action = addshape
+  y = 0
+  height = %guiheight%
+}
+
+customization {
+  showname = false
+  orientation = mid-centered
+  crouching = false
+  x = 0
+  slim = false
+  actionid = 5ff38ebb-d930-45c2-8973-c493739686d81630107746173
+  action = addentity
+  y = 45
+  scale = 50
+  playername = %playername%
+  parrot = false
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 5
+  actionid = c5559480-5ed8-450e-aadf-5041ab8d9ff41630107881028
+  action = addtext
+  y = 5
+  scale = 1.0
+  alignment = left
+  value = Logged in User: %playername%
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 5
+  actionid = f6d4b0e3-2575-4df9-a027-7b51f715e60b1630108165845
+  action = addtext
+  y = 15
+  scale = 1.0
+  alignment = left
+  value = Version: %mcversion%
+}
+
+customization {
+  orientation = mid-centered
+  shape = rectangle
+  color = 2d333b
+  x = -50
+  width = 100
+  actionid = 2cad8fdf-0040-4d58-9b69-a223a79c0bc91630108200491
+  action = addshape
+  y = -60
+  height = 115
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = false
+  shadow = true
+  scale = 0.5
+  source = GUI Subject to Change
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -60
+  width = 58
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 95a043ae-2957-4615-a3c7-12193b0806951663440705584
+  y = -7
+  alignment = right
+  height = 6
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = closegui
+  backgroundhovered = resources\menuV3\blank.png
+  label = X
+  loopbackgroundanimations = true
+  x = 458
+  width = 24
+  actionid = eee4199a-3de2-4c16-9dee-343ad86eb4931663440835476
+  action = addbutton
+  y = -1
+  backgroundnormal = resources\menuV3\blank.png
+  value = null
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = false
+  shadow = true
+  scale = 1.5
+  source = %playername%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -100
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0b89efb7-f1c0-41fd-9b19-36e789cd2c431663440611920
+  y = 60
+  alignment = centered
+  height = 21
+}
+
