@@ -1,6 +1,6 @@
-*
-!*/
+/*
+!/.gitignore
 
-!config/**
-!resources/**
-!scripts/**
+!/config/
+!/resources/
+!/scripts/
