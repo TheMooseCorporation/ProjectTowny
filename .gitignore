@@ -12,3 +12,5 @@ config/splash.properties
 config/states.cfg
 config/tlf/HideNames.cfg
 config/worldedit/worldedit.properties
+config/AppliedEnergistics2/items.csv
+config/AppliedEnergistics2/CustomRecipes.cfg
