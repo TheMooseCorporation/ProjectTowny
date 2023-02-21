@@ -42,3 +42,15 @@ ores.addOre(
     0.5 as float, 
     onlyEarth
 );
+
+// Redstone Deposit
+ores.addOre(
+    <blockstate:geolosys:ore_vanilla:1>, 
+    <blockstate:geolosys:ore_sample_vanilla:1>, 
+    25, 
+    32, 
+    5, 
+    50, 
+    0.5 as float, 
+    onlyEarth
+);
