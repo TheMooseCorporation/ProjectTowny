@@ -24,10 +24,10 @@
   "Dictionary Types": [
     "DENSE",
     "WET",
-    "FOREST",
     "RARE",
-    "MAGICAL",
-    "LUSH"
+    "LUSH",
+    "FOREST",
+    "MAGICAL"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

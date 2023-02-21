@@ -24,9 +24,9 @@
   "Dictionary Types": [
     "DENSE",
     "WET",
-    "JUNGLE",
     "HILLS",
-    "HOT"
+    "HOT",
+    "JUNGLE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
