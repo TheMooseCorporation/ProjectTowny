@@ -54,3 +54,15 @@ ores.addOre(
     0.5 as float, 
     onlyEarth
 );
+
+// Gold Deposit
+ores.addOre(
+    <blockstate:geolosys:ore_vanilla:2>, 
+    <blockstate:geolosys:ore_sample_vanilla:2>, 
+    15, 
+    40, 
+    6, 
+    70, 
+    0.5 as float, 
+    onlyEarth
+);
