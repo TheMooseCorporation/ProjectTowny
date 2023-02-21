@@ -4,3 +4,10 @@
 !/config/
 !/resources/
 !/scripts/
+
+/config/BiomeTweaker/
+/config/worldedit/
+/config/tlf/
+/config/states.cfg
+/config/splash.properties
+/config/InvTweaks.cfg
