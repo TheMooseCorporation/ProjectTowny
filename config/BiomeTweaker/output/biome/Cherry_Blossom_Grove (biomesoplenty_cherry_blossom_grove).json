@@ -24,9 +24,9 @@
   "Dictionary Types": [
     "MAGICAL",
     "WET",
-    "FOREST",
     "LUSH",
-    "DENSE"
+    "DENSE",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
