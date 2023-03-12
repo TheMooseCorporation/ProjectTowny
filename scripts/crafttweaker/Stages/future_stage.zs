@@ -3,13 +3,7 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 Recipes.setRecipeStageByMod("future_stage", "environmentaltech");
-Recipes.setRecipeStageByMod("future_stage", "draconicevolution");
-
 ItemStages.stageModItems("future_stage", "environmentaltech");
-ItemStages.stageModItems("future_stage", "draconicevolution");
-
-Recipes.addShaped("future_stage", <draconicevolution:fusion_crafting_core>, [[<nuclearcraft:rtg_californium>, <nuclearcraft:rtg_californium>, <nuclearcraft:rtg_californium>],[<nuclearcraft:rtg_californium>, <draconicevolution:draconic_core>, <nuclearcraft:rtg_californium>], [<nuclearcraft:rtg_californium>, <nuclearcraft:rtg_californium>, <nuclearcraft:rtg_californium>]]);
-Recipes.addShaped("future_stage", <draconicevolution:draconic_core>, [[<minecraft:diamond_block>, <tconstruct:ingots:2>, <minecraft:diamond_block>],[<tconstruct:ingots:2>, <draconicevolution:draconium_block>, <tconstruct:ingots:2>], [<minecraft:diamond_block>, <tconstruct:ingots:2>, <minecraft:diamond_block>]]);
 
 val techGuns as IItemStack[] = [
     <techguns:rocketlauncher>,

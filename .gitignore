@@ -14,3 +14,5 @@ config/tlf/HideNames.cfg
 config/worldedit/worldedit.properties
 config/AppliedEnergistics2/items.csv
 config/AppliedEnergistics2/CustomRecipes.cfg
+config/AppliedEnergistics2/VersionChecker.cfg
+config/jei/worldSettings.cfg

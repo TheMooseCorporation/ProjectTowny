@@ -40,8 +40,6 @@ val atomicStageItems as IItemStack[] = [
     <techguns:t2_riot_chestplate>,
     <techguns:t2_riot_leggings>,
     <techguns:t2_riot_boots>,
-    <industrialrenewal:battery_lithium>,
-    <industrialrenewal:prospecting_pan>,
     <icbmclassic:glasspressureplate>,
     <icbmclassic:glassbutton>,
     <icbmclassic:grenade:5>,

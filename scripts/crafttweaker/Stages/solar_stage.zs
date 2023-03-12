@@ -19,18 +19,6 @@ val solarItems as IItemStack[] = [
     <mekanismgenerators:generator:1>,
     <mekanism:machineblock3:1>,
     <mekanismgenerators:generator:5>,
-    <industrialrenewal:dam_outflow>,
-    <industrialrenewal:dam_intake>,
-    <industrialrenewal:high_pressure_pipe>,
-    <industrialrenewal:dam_turbine>,
-    <industrialrenewal:dam_generator>,
-    <industrialrenewal:dam_axis>,
-    <industrialrenewal:firebox_solid>,
-    <industrialrenewal:firebox_fluid>,
-    <industrialrenewal:steam_boiler>,
-    <industrialrenewal:steam_turbine>,
-    <industrialrenewal:solar_panel_frame>,
-    <industrialrenewal:solar_panel>,
     <immersiveengineering:metal_device1:13>
 ];
 
