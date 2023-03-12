@@ -33,8 +33,8 @@ ores.addOre(
 
 // Coal Deposit
 ores.addOre(
-    <blockstate:geolosys:ore_vanilla:0>, 
-    <blockstate:ore_sample_vanilla:0>, 
+    <blockstate:geolosys:ore_vanilla:variant=coal>, 
+    <blockstate:geolosys:ore_sample_vanilla:variant=coal>, 
     20, 
     60, 
     128, 
@@ -45,8 +45,8 @@ ores.addOre(
 
 // Redstone Deposit
 ores.addOre(
-    <blockstate:geolosys:ore_vanilla:1>, 
-    <blockstate:geolosys:ore_sample_vanilla:1>, 
+    <blockstate:geolosys:ore_vanilla:variant=cinnabar>, 
+    <blockstate:geolosys:ore_sample_vanilla:variant=cinnabar>,  
     25, 
     32, 
     5, 
@@ -57,8 +57,8 @@ ores.addOre(
 
 // Gold Deposit
 ores.addOre(
-    <blockstate:geolosys:ore_vanilla:2>, 
-    <blockstate:geolosys:ore_sample_vanilla:2>, 
+    <blockstate:geolosys:ore_vanilla:variant=gold>, 
+    <blockstate:geolosys:ore_sample_vanilla:variant=gold>, 
     15, 
     40, 
     6, 
