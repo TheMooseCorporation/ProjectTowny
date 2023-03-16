@@ -202,3 +202,41 @@ ores.addOre(
     0.5 as float, 
     onlyEarth
 );
+
+// Platinum (Osmium) Deposit 
+ores.addOre(
+    <blockstate:minecraft:stone:variant=platinum>, 
+    <blockstate:geolosys:ore_sample:variant=platinum>, 
+    23, 
+    45, 
+    4, 
+    175, 
+    0.5 as float, 
+    onlyEarth
+);
+
+// Uranium (Autunite) Deposit 
+ores.addOre( 
+   //The json file has multiple ores, but I dont know whats what so im putting it in as
+    //a single ore deposit
+    <blockstate:minecraft:stone:variant=autunite>, 
+    <blockstate:geolosys:ore_sample:variant=autunite>, 
+    14, 
+    33, 
+    3, 
+    60, 
+    0.5 as float, 
+    onlyEarth
+);
+
+// Zinc (Sphalerite) Deposit 
+ores.addOre( 
+    <blockstate:minecraft:stone:variant=sphalerite>, 
+    <blockstate:geolosys:ore_sample:variant=sphalerite>, 
+    37, 
+    46, 
+    5, 
+    65, 
+    0.5 as float, 
+    onlyEarth
+);
