@@ -66,3 +66,139 @@ ores.addOre(
     0.5 as float, 
     onlyEarth
 );
+
+// Lapis Lazuli Deposit 
+ores.addOre(
+    <blockstate:geolosys:ore_vanilla:variant=lapis>, 
+    <blockstate:geolosys:ore_sample_vanilla:variant=lapis>, 
+    25, 
+    44, 
+    5, 
+    32, 
+    0.5 as float, 
+    onlyEarth
+);
+
+// Quartz Deposit
+ores.addOre(
+    <blockstate:geolosys:ore_vanilla:variant=quartz>, 
+    <blockstate:geolosys:ore_sample_vanilla:variant=quartz>, 
+    26, 
+    49, 
+    4, 
+    70, 
+    0.5 as float, 
+    onlyEarth
+);
+
+// Diamond Deposit 
+ores.addOre(
+    <blockstate:geolosys:ore_vanilla:variant=kimberlite>, 
+    <blockstate:geolosys:ore_sample_vanilla:variant=kimberlite>, 
+    8, 
+    16, 
+    4, 
+    30, 
+    0.5 as float, 
+    onlyEarth
+);
+
+// Emerald Deposit 
+ores.addOre(
+    <blockstate:geolosys:ore_vanilla:variant=beryl>, 
+    <blockstate:geolosys:ore_sample_vanilla:variant=beryl>, 
+    4, 
+    32, 
+    3, 
+    16, 
+    0.5 as float, 
+    onlyEarth
+);
+
+// Iron (Hematite) Deposit 
+ores.addOre(
+    <blockstate:minecraft:stone:variant=hematite>, 
+    <blockstate:geolosys:ore_sample:variant=hematite>, 
+    32, 
+    60, 
+    6, 
+    170, 
+    0.5 as float, 
+    onlyEarth
+);
+
+// Iron (Limonite) Deposit 
+ores.addOre(
+    <blockstate:minecraft:stone:variant=limonite>, 
+    <blockstate:geolosys:ore_sample:variant=limonite>, 
+    22, 
+    42, 
+    4, 
+    80, 
+    0.5 as float, 
+    onlyEarth
+);
+
+// Copper Deposit 
+ores.addOre(
+    [<blockstate:minecraft:stone:variant=malachite>,<blockstate:minecraft:stone:variant=azurite>],
+    [50,50],
+    [<blockstate:geolosys:ore_sample:variant=malachite>,<blockstate:geolosys:ore_sample:variant=azurite>],
+    [50,50],
+    22, 
+    44, 
+    6, 
+    120, 
+    0.5 as float, 
+    onlyEarth
+);
+
+// Tin (Cassiterite) Deposit 
+ores.addOre(
+    <blockstate:minecraft:stone:variant=cassiterite>, 
+    <blockstate:geolosys:ore_sample:variant=cassiterite>, 
+    44, 
+    68, 
+    6, 
+    60, 
+    0.5 as float, 
+    onlyEarth
+);
+
+// Tin (Teallite) Deposit 
+ores.addOre(
+    [<blockstate:minecraft:stone:variant=teallite>,<blockstate:minecraft:stone:variant=galena>],
+    [90,10],
+    [<blockstate:geolosys:ore_sample:variant=teallite>,<blockstate:geolosys:ore_sample:variant=galena>],
+    [100,0],
+    22, 
+    43, 
+    2, 
+    80, 
+    0.5 as float, 
+    onlyEarth
+);
+
+// Lead (Galena) Deposit 
+ores.addOre(
+    <blockstate:minecraft:stone:variant=galena>, 
+    <blockstate:geolosys:ore_sample:variant=galena>, 
+    26, 
+    50, 
+    2, 
+    52, 
+    0.5 as float, 
+    onlyEarth
+);
+
+// Aluminum (Bauxite) Deposit 
+ores.addOre(
+    <blockstate:minecraft:stone:variant=bauxite>, 
+    <blockstate:geolosys:ore_sample:variant=bauxite>, 
+    45, 
+    70, 
+    4, 
+    90, 
+    0.5 as float, 
+    onlyEarth
+);
