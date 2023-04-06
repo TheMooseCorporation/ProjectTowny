@@ -1,0 +1,34 @@
+tile.projecttowny.chemical_oxidizer.name=Chemical Oxidizer
+projecttowny.chemical_oxidizer.description=Chemical Oxidizer
+multiblocked.recipe_map.chemical-oxidizer=Chemical Oxidation
+chemical_oxidizer.name=Chemical Oxidizer
+
+tile.projecttowny.bounty_board.name=Bounty Board
+projecttowny.bounty_board.description=Bounty Board
+multiblocked.recipe_map.bounty-board=Bounty Board
+bounty_board.name=Bounty Board
+
+tile.projecttowny.chemical_reactor.name=Chemical Reactor
+projecttowny.chemical_reactor.description=Chemical Reactor
+multiblocked.recipe_map.chemical-reactor=Chemical Synthesis
+chemical_reactor.name=Chemical Reactor
+
+tile.projecttowny.crystallizer.name=Crystallizer
+projecttowny.crystallizer.description=Crystallizer
+multiblocked.recipe_map.crystallizer=Crystallization
+crystallizer.name=Crystallizer
+
+tile.projecttowny.dilithium_chamber.name=Dilithium Chamber
+projecttowny.dilithium_chamber.description=Dilithium Chamber
+multiblocked.recipe_map.dilithium-chamber=Dilithium Formation
+dilithium_chamber.name=Dilithium Chamber
+
+tile.projecttowny.isomerization_unit.name=Isomerization Unit
+projecttowny.isomerization_unit.description=Isomerization Unit
+multiblocked.recipe_map.isomerization-unit=Isomerization
+isomerization_unit.name=Isomerization Unit
+
+tile.projecttowny.microchip_inscriber.name=Microchip Inscriber
+projecttowny.microchip_inscriber.description=Microchip Inscriber
+multiblocked.recipe_map.microchip-inscriber=Microchip Inscribing
+microchip_inscriber.name=Microchip Inscriber

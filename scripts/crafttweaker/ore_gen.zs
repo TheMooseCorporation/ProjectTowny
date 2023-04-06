@@ -30,3 +30,27 @@ ores.addOre(
     1.0 as float, 
     onlyEarth
 );
+
+// Coal Deposit
+ores.addOre(
+    <blockstate:geolosys:ore_vanilla:0>, 
+    <blockstate:ore_sample_vanilla:0>, 
+    20, 
+    60, 
+    128, 
+    7, 
+    0.5 as float, 
+    onlyEarth
+);
+
+// Redstone Deposit
+ores.addOre(
+    <blockstate:geolosys:ore_vanilla:1>, 
+    <blockstate:geolosys:ore_sample_vanilla:1>, 
+    25, 
+    32, 
+    5, 
+    50, 
+    0.5 as float, 
+    onlyEarth
+);

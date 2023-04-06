@@ -1,0 +1,376 @@
+{
+  "version": 2,
+  "location": "projecttowny:chemical_reactor",
+  "traits": {},
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 1,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "baseTexture": "multiblocked:blocks/gregtech_base",
+        "frontTexture": "multiblocked:blocks/gregtech_front",
+        "type": "gregtech"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "chemical-reactor",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        " ABCBA ",
+        " A D A ",
+        " A D A ",
+        " A D A ",
+        "EFEDEFE",
+        "   D   ",
+        "       "
+      ],
+      [
+        "AGGGGGA",
+        "AHHHHHA",
+        "AHIIIHA",
+        "AHHHHHA",
+        "FHHHHHF",
+        " J D J ",
+        "       "
+      ],
+      [
+        " GKKKL ",
+        " H   H ",
+        " I   I ",
+        " H   H ",
+        "EHMMMHE",
+        " NNDNN ",
+        "  NNN  "
+      ],
+      [
+        "OGKPKG ",
+        "@H D H ",
+        " I D I ",
+        " H D H ",
+        "EHMCMHE",
+        " Q D R ",
+        "  EEE  "
+      ],
+      [
+        " GKKKL ",
+        " H   H ",
+        " I   I ",
+        " H   H ",
+        "EHMMMHE",
+        " NNDNN ",
+        "  NNN  "
+      ],
+      [
+        "AGGGGGA",
+        "AHHHHHA",
+        "AHIIIHA",
+        "AHHHHHA",
+        "FHHHHHF",
+        " J D J ",
+        "       "
+      ],
+      [
+        " ABCBA ",
+        " A D A ",
+        " A D A ",
+        " A D A ",
+        "EFEDEFE",
+        "   D   ",
+        "       "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "projecttowny:chemical_reactor",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "immersiveengineering:wooden_device0",
+            "meta": 7
+          }
+        ],
+        "type": "states",
+        "io": "null"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_device1",
+            "meta": 6
+          }
+        ],
+        "type": "states",
+        "io": "null"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1_slab",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "immersiveengineering:storage",
+            "meta": 8
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "chisel:technicalnew",
+            "meta": 5
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "engineersdecor:panzerglass_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "chisel:factory",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_output",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "OUT"
+      },
+      "any": {
+        "type": "any"
+      },
+      "M": {
+        "states": [
+          {
+            "id": "chisel:technicalnew",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "N": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "O": {
+        "states": [
+          {
+            "id": "multiblocked:energy_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
+      },
+      "P": {
+        "states": [
+          {
+            "id": "immersiveengineering:metal_device0",
+            "meta": 6
+          }
+        ],
+        "type": "states",
+        "io": "null"
+      },
+      "Q": {
+        "states": [
+          {
+            "id": "immersiveengineering:steel_scaffolding_stairs1",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "R": {
+        "states": [
+          {
+            "id": "immersiveengineering:steel_scaffolding_stairs1",
+            "meta": 3
+          }
+        ],
+        "type": "states"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ],
+      "N": [
+        "N"
+      ],
+      "O": [
+        "O"
+      ],
+      "P": [
+        "P"
+      ],
+      "Q": [
+        "Q"
+      ],
+      "R": [
+        "R"
+      ]
+    }
+  }
+}

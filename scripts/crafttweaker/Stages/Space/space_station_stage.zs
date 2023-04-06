@@ -9,15 +9,11 @@ recipes.remove(<advancedrocketry:stationbuilder>);
 recipes.remove(<advancedrocketry:oxygenscrubber>);
 
 Recipes.setRecipeStageByMod("space_station_stage", "mekanism");
-Recipes.setRecipeStageByMod("space_station_stage", "thermaldynamics");
-Recipes.setRecipeStageByMod("space_station_stage", "thermalexpansion");
 
 ItemStages.stageModItems("space_station_stage", "mekanism");
-ItemStages.stageModItems("space_station_stage", "thermaldynamics");
-ItemStages.stageModItems("space_station_stage", "thermalexpansion");
 
-Recipes.addShaped("space_station_stage", <thermalfoundation:material:513>, [[null, null, <minecraft:redstone>],[null, <ore:ingotCobalt>, null], [<minecraft:redstone>, null, null]]);
-Recipes.addShaped("space_station_stage", <thermalfoundation:material:514>, [[null, null, <minecraft:redstone>],[null, <ore:ingotOsmium>, null], [<minecraft:redstone>, null, null]]);
+//Recipes.addShaped("space_station_stage", <thermalfoundation:material:513>, [[null, null, <minecraft:redstone>],[null, <ore:ingotCobalt>, null], [<minecraft:redstone>, null, null]]);
+//Recipes.addShaped("space_station_stage", <thermalfoundation:material:514>, [[null, null, <minecraft:redstone>],[null, <ore:ingotOsmium>, null], [<minecraft:redstone>, null, null]]);
 
 Recipes.addShaped("space_station_stage", <advancedrocketry:stationbuilder>, [[<advancedrocketry:misc>, <ore:dustLithium>, <libvulpes:productgear:7>],[<ore:dustLithium>, <advancedrocketry:rocketbuilder>, <ore:dustLithium>], [<advancedrocketry:ic:2>, <ore:dustLithium>, <advancedrocketry:ic:2>]]);
 Recipes.addShaped("space_station_stage", <advancedrocketry:oxygenscrubber>, [[<minecraft:iron_bars>, <libvulpes:productfan:6>, <minecraft:iron_bars>],[<minecraft:iron_bars>, <ore:blockMotor>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <immersiveengineering:material:19>, <minecraft:iron_bars>]]);

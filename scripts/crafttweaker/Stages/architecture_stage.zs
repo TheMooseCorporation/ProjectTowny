@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 
 Recipes.setRecipeStageByMod("architecture_stage", "chisel");
 Recipes.setRecipeStageByMod("architecture_stage", "chiselsandbits");
-Recipes.setRecipeStageByMod("architecture_stage", "architecturecraft");
+Recipes.setRecipeStageByMod("architecture_stage", "blockcraftery");
 Recipes.setRecipeStageByMod("architecture_stage", "cfm");
 Recipes.setRecipeStageByMod("architecture_stage", "bibliocraft");
 Recipes.setRecipeStageByMod("architecture_stage", "fairylights");
@@ -12,7 +12,7 @@ Recipes.setRecipeStageByMod("architecture_stage", "littletiles");
 
 ItemStages.stageModItems("architecture_stage", "chisel");
 ItemStages.stageModItems("architecture_stage", "chiselsandbits");
-ItemStages.stageModItems("architecture_stage", "architecturecraft");
+ItemStages.stageModItems("architecture_stage", "blockcraftery");
 ItemStages.stageModItems("architecture_stage", "cfm");
 ItemStages.stageModItems("architecture_stage", "bibliocraft");
 ItemStages.stageModItems("architecture_stage", "fairylights");
