@@ -31,7 +31,7 @@
       "parent": "working"
     }
   },
-  "recipeMap": "chemical_reactor",
+  "recipeMap": "chemical-reactor",
   "basePattern": {
     "structureDir": [
       "BACK",
