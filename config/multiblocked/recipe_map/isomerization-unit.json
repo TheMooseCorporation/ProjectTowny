@@ -1,0 +1,39 @@
+{
+  "name": "isomerization-unit",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "isobutylene",
+      "duration": 200,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"butane\",Amount:100}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"isobutane\",Amount:85}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"hydrogen\",Amount:15}"
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1024
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "chemical_reactor",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "butylated-hydroxytoluene",
+      "duration": 200,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"creosote\",Amount:50}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"isobutylene\",Amount:100}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"sulfuric_acid\",Amount:8}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"butylated_hydroxytoluene\",Amount:150}"
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1024
+          }
+        ]
+      }
+    }
+  ]
+}

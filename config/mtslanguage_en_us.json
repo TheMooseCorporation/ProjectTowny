@@ -260,7 +260,8 @@
     "sytstem.debug": "%s",
     "death.propeller.null": "%s was shredded by a propeller",
     "death.propeller.player": "%s was shredded by %s's propeller",
-    "iteminfo.bullet.pellets": "Pellets: "
+    "iteminfo.bullet.pellets": "Pellets: ",
+    "interact.jerrycan.wrongengines": "The contents in this jerrycan is not a valid fuel for the engines in the vehicle.  Check the manual for details."
   },
   "packs": {
     "ivairlinerpack": {
@@ -1335,6 +1336,18 @@
       "mtsofficialpack.instrument_car_tachometer_det": {
         "name": "Detroit Diesel Tachometer",
         "description": "Indicates engine speeds."
+      },
+      "mtsofficialpack.bell47g_olive": {
+        "name": "Olive Bell 47G",
+        "description": "The Bell 47G is a simple, yet versatile helicopter.  While it only seats two, it can carry cargo or extra fuel in optional external containers, making it ideal for either short cargo flights or medium trips to remote bases.  Small guns may also be mounted to the fuselage, though these can only fire the direction the helicopter is facing.  As such, they are not recommended against 'hot' ground targets."
+      },
+      "mtsofficialpack.itemloader": {
+        "name": "Item Loader",
+        "description": "Adds items to crates on vehicles."
+      },
+      "mtsofficialpack.itemunloader": {
+        "name": "Item Unloader",
+        "description": "Removes items from crates on vehicles."
       }
     },
     "unumilitary": {
