@@ -1,6 +1,8 @@
 #loader gamestagebooks
 import mods.gamestagebooks.Book;
 
+// Remove ASAP for 0.7, this book system sucks balls
+
 // In order by tech in the book
 // Or at least it was at one point
 
