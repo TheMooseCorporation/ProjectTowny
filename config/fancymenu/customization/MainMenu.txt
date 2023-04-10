@@ -333,7 +333,7 @@ customization {
   orientation = top-left
   restartbackgroundanimations = true
   delayappearanceseconds = 4.0
-  buttonaction = joinserver
+  buttonaction = joinserver;towny.themoosecorporation.com%btnaction_splitter_fm%
   backgroundhovered = resources\menuV3\ptserver2.png
   label = 
   loopbackgroundanimations = true
@@ -342,12 +342,11 @@ customization {
   fadeinspeed = 1.5
   x = 9
   width = 55
-  actionid = 0dcabe58-ac62-458a-b603-b39f9543b3e91645720699390
   action = addbutton
+  actionid = 0dcabe58-ac62-458a-b603-b39f9543b3e91645720699390
   y = 121
   delayappearance = true
   backgroundnormal = resources\menuV3\ptserver.png
-  value = towny.themoosecorporation.com
   delayappearanceeverytime = false
   height = 55
 }
@@ -416,7 +415,7 @@ customization {
   orientation = top-right
   restartbackgroundanimations = true
   delayappearanceseconds = 4.0
-  buttonaction = opencustomgui
+  buttonaction = opencustomgui;Credits%btnaction_splitter_fm%
   backgroundhovered = resources\menuV3\ptcredits2.png
   label = 
   loopbackgroundanimations = true
@@ -424,12 +423,11 @@ customization {
   fadeinspeed = 1.5
   x = -65
   width = 55
-  actionid = b7b2bcf1-bcdc-4ed6-936c-0a56605d98271645720699391
   action = addbutton
+  actionid = b7b2bcf1-bcdc-4ed6-936c-0a56605d98271645720699391
   y = 121
   delayappearance = true
   backgroundnormal = resources\menuV3\ptcredits.png
-  value = Credits
   delayappearanceeverytime = false
   height = 55
 }
@@ -438,7 +436,7 @@ customization {
   orientation = top-right
   restartbackgroundanimations = true
   delayappearanceseconds = 4.0
-  buttonaction = openlink
+  buttonaction = openlink;https://discord.gg/n8JWmkd%btnaction_splitter_fm%
   backgroundhovered = resources\menuV3\ptdiscord2.png
   label = 
   loopbackgroundanimations = true
@@ -446,12 +444,11 @@ customization {
   fadeinspeed = 1.5
   x = -65
   width = 55
-  actionid = 066b2a25-4736-430f-8544-2d65ded4fd581645720699391
   action = addbutton
+  actionid = 066b2a25-4736-430f-8544-2d65ded4fd581645720699391
   y = 11
   delayappearance = true
   backgroundnormal = resources\menuV3\ptdiscord.png
-  value = https://discord.gg/n8JWmkd
   delayappearanceeverytime = false
   height = 55
 }
@@ -461,7 +458,7 @@ customization {
   basecolor = #ffffff
   shadow = true
   delayappearanceseconds = 4.0
-  splashfilepath = resources\menuV3\splashmenu.txt
+  splashfilepath = resources/menuV3/splashmenu.txt
   rotation = -1.0
   scale = 1.1
   refresh = true
@@ -516,7 +513,7 @@ customization {
   orientation = bottom-centered
   restartbackgroundanimations = true
   delayappearanceseconds = 4.0
-  buttonaction = mimicbutton
+  buttonaction = mimicbutton;net.minecraft.client.gui.GuiMainMenu:502382%btnaction_splitter_fm%
   backgroundhovered = resources\menuV3\ptdquit2.png
   label = 
   loopbackgroundanimations = true
@@ -524,12 +521,11 @@ customization {
   fadeinspeed = 1.5
   x = 79
   width = 35
-  actionid = fa7cfba1-f9d5-4983-934f-7bdbed691dd01645740456014
   action = addbutton
+  actionid = fa7cfba1-f9d5-4983-934f-7bdbed691dd01645740456014
   y = -31
   delayappearance = true
   backgroundnormal = resources\menuV3\ptdquit.png
-  value = net.minecraft.client.gui.GuiMainMenu:502382
   delayappearanceeverytime = false
   height = 35
 }
@@ -538,7 +534,7 @@ customization {
   orientation = bottom-centered
   restartbackgroundanimations = true
   delayappearanceseconds = 4.0
-  buttonaction = mimicbutton
+  buttonaction = mimicbutton;net.minecraft.client.gui.GuiMainMenu:400346%btnaction_splitter_fm%
   backgroundhovered = resources\menuV3\ptdmods2.png
   label = 
   loopbackgroundanimations = true
@@ -546,12 +542,11 @@ customization {
   fadeinspeed = 1.5
   x = 34
   width = 35
-  actionid = 5a4cdbf7-43c1-4919-a7c4-d95b8bb6c9951645740506121
   action = addbutton
+  actionid = 5a4cdbf7-43c1-4919-a7c4-d95b8bb6c9951645740506121
   y = -32
   delayappearance = true
   backgroundnormal = resources\menuV3\ptdmods.png
-  value = net.minecraft.client.gui.GuiMainMenu:400346
   delayappearanceeverytime = false
   height = 35
 }
@@ -560,7 +555,7 @@ customization {
   orientation = bottom-centered
   restartbackgroundanimations = true
   delayappearanceseconds = 4.0
-  buttonaction = mimicbutton
+  buttonaction = mimicbutton;net.minecraft.client.gui.GuiMainMenu:400382%btnaction_splitter_fm%
   backgroundhovered = resources\menuV3\ptdsettings2.png
   label = 
   loopbackgroundanimations = true
@@ -568,12 +563,11 @@ customization {
   fadeinspeed = 1.5
   x = -11
   width = 35
-  actionid = 1d4e8438-16c1-45f7-ac6e-b614b2b1cdcd1645740550872
   action = addbutton
+  actionid = 1d4e8438-16c1-45f7-ac6e-b614b2b1cdcd1645740550872
   y = -32
   delayappearance = true
   backgroundnormal = resources\menuV3\ptdsettings.png
-  value = net.minecraft.client.gui.GuiMainMenu:400382
   delayappearanceeverytime = false
   height = 35
 }
@@ -582,7 +576,7 @@ customization {
   orientation = bottom-centered
   restartbackgroundanimations = true
   delayappearanceseconds = 4.0
-  buttonaction = joinserver
+  buttonaction = joinserver;towny.themoosecorporation.com:25511%btnaction_splitter_fm%
   backgroundhovered = resources\menuV3\ptdserver2.png
   label = 
   loopbackgroundanimations = true
@@ -590,12 +584,11 @@ customization {
   fadeinspeed = 1.5
   x = -56
   width = 35
-  actionid = fc5d6064-8534-45c7-9387-87fd72472c261645740550872
   action = addbutton
+  actionid = fc5d6064-8534-45c7-9387-87fd72472c261645740550872
   y = -32
   delayappearance = true
   backgroundnormal = resources\menuV3\ptdserver.png
-  value = towny.themoosecorporation.com:25511
   delayappearanceeverytime = false
   height = 35
 }
@@ -604,7 +597,7 @@ customization {
   orientation = bottom-centered
   restartbackgroundanimations = true
   delayappearanceseconds = 4.0
-  buttonaction = mimicbutton
+  buttonaction = mimicbutton;net.minecraft.client.gui.GuiMainMenu:400322%btnaction_splitter_fm%
   backgroundhovered = resources\menuV3\ptdmultiplayer2.png
   label = 
   loopbackgroundanimations = true
@@ -612,12 +605,11 @@ customization {
   fadeinspeed = 1.5
   x = -101
   width = 35
-  actionid = 07a185e0-631e-4fb3-9156-ed0c69fe44fe1645740550872
   action = addbutton
+  actionid = 07a185e0-631e-4fb3-9156-ed0c69fe44fe1645740550872
   y = -32
   delayappearance = true
   backgroundnormal = resources\menuV3\ptdmutliplayer.png
-  value = net.minecraft.client.gui.GuiMainMenu:400322
   delayappearanceeverytime = false
   height = 35
 }
@@ -626,7 +618,7 @@ customization {
   orientation = bottom-centered
   restartbackgroundanimations = true
   delayappearanceseconds = 4.0
-  buttonaction = mimicbutton
+  buttonaction = mimicbutton;net.minecraft.client.gui.GuiMainMenu:400298%btnaction_splitter_fm%
   backgroundhovered = resources\menuV3\ptdsingleplayer2.png
   label = 
   loopbackgroundanimations = true
@@ -634,12 +626,11 @@ customization {
   fadeinspeed = 1.5
   x = -147
   width = 35
-  actionid = 32b6bb04-db5c-4e49-8fd0-987994ad8d581645740550872
   action = addbutton
+  actionid = 32b6bb04-db5c-4e49-8fd0-987994ad8d581645740550872
   y = -32
   delayappearance = true
   backgroundnormal = resources\menuV3\ptdsingleplayer.png
-  value = net.minecraft.client.gui.GuiMainMenu:400298
   delayappearanceeverytime = false
   height = 35
 }
@@ -660,7 +651,7 @@ customization {
   orientation = top-left
   restartbackgroundanimations = true
   delayappearanceseconds = 4.0
-  buttonaction = opencustomgui
+  buttonaction = opencustomgui;Browser%btnaction_splitter_fm%
   backgroundhovered = resources\menuV3\ptweb2.png
   label = 
   loopbackgroundanimations = true
@@ -668,12 +659,11 @@ customization {
   fadeinspeed = 1.5
   x = 64
   width = 55
-  actionid = b06edd1e-3173-4a2f-a409-33cd317695011663634968683
   action = addbutton
+  actionid = b06edd1e-3173-4a2f-a409-33cd317695011663634968683
   y = 66
   delayappearance = true
   backgroundnormal = resources\menuV3\ptweb.png
-  value = Browser
   delayappearanceeverytime = false
   height = 55
 }
@@ -682,7 +672,7 @@ customization {
   orientation = top-left
   restartbackgroundanimations = true
   delayappearanceseconds = 4.0
-  buttonaction = opencustomgui
+  buttonaction = opencustomgui;Photos%btnaction_splitter_fm%
   backgroundhovered = resources\menuV3\ptphotos2.png
   label = 
   loopbackgroundanimations = true
@@ -690,12 +680,11 @@ customization {
   fadeinspeed = 1.5
   x = 64
   width = 55
-  actionid = 643fc412-b414-4ae4-952e-b127cea8fb9e1663635050749
   action = addbutton
+  actionid = 643fc412-b414-4ae4-952e-b127cea8fb9e1663635050749
   y = 121
   delayappearance = true
   backgroundnormal = resources\menuV3\ptphotos.png
-  value = Photos
   delayappearanceeverytime = false
   height = 55
 }
@@ -704,7 +693,7 @@ customization {
   orientation = top-right
   restartbackgroundanimations = true
   delayappearanceseconds = 4.0
-  buttonaction = opencustomgui
+  buttonaction = opencustomgui;UserMenu%btnaction_splitter_fm%
   backgroundhovered = resources\menuV3\ptcharacter2.png
   label = 
   loopbackgroundanimations = true
@@ -712,12 +701,11 @@ customization {
   fadeinspeed = 1.5
   x = -65
   width = 55
-  actionid = b834a2d6-4e57-4c81-ae1a-dcda52487eeb1663723029502
   action = addbutton
+  actionid = b834a2d6-4e57-4c81-ae1a-dcda52487eeb1663723029502
   y = 66
   delayappearance = true
   backgroundnormal = resources\menuV3\ptcharacter.png
-  value = UserMenu
   delayappearanceeverytime = false
   height = 55
 }
