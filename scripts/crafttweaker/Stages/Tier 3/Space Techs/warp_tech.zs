@@ -3,7 +3,9 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 /**
+    Warp Technology:
     The final tier part of Advanced Rocketry as well as some other teleporty type things 
+    Unlocks the ability to visit other planets besides the moon
 */
 
 // Stage Name
