@@ -75,7 +75,8 @@ val stageItems as IItemStack[] = [
     <techguns:t3_combat_helmet>,
     <techguns:t3_combat_chestplate>,
     <techguns:t3_combat_leggings>,
-    <techguns:t3_combat_boots>
+    <techguns:t3_combat_boots>,
+    <immersivetech:wooden_crate>,
 ];
 
 for item in stageItems {
