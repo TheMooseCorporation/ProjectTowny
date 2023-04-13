@@ -9,7 +9,7 @@ import crafttweaker.item.IItemStack;
 // Stage Name
 val stage = "advanced_tools_tech";
 
-val stageMods as String[] = [
+val stageMods as string[] = [
 
 ];
 

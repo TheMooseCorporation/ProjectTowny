@@ -9,8 +9,8 @@ import crafttweaker.item.IItemStack;
 // Stage Name
 val stage = "cooking_tech";
 
-val stageMods as String[] = [
-    "cookingforblockheads",
+val stageMods as string[] = [
+
 ];
 
 val stageItems as IItemStack[] = [
@@ -21,7 +21,19 @@ val stageItems as IItemStack[] = [
     <harvestcraft:waterfilter>,
     <harvestcraft:grinder>,
     <harvestcraft:apiary>,
-    <harvestcraft:presser>
+    <harvestcraft:presser>,
+    <harvestcraft:fruitbaititem>,
+    <harvestcraft:grainbaititem>,
+    <harvestcraft:veggiebaititem>,
+    <harvestcraft:fishtrapbaititem>,
+    <harvestcraft:juiceritem>,
+    <harvestcraft:mixingbowlitem>,
+    <harvestcraft:mortarandpestleitem>,
+    <harvestcraft:bakewareitem>,
+    <harvestcraft:saucepanitem>,
+    <harvestcraft:skilletitem>,
+    <harvestcraft:potitem>,
+    <harvestcraft:cuttingboarditem>
 ];
 
 for mod in stageMods {
