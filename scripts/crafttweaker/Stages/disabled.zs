@@ -12,6 +12,8 @@ import crafttweaker.item.IItemStack;
 val stage = "disabled";
 
 val stageItems as IItemStack[] = [
+    // Immersive Tech
+    <immersivetech:wooden_crate>,
     // Mekanism Cables
     <mekanism:transmitter>.withTag({tier: 0}),
     <mekanism:transmitter>.withTag({tier: 1}),

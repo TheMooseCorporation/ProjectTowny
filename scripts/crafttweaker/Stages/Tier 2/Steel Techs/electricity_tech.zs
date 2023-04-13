@@ -3,14 +3,15 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 /**
-    Wiring and bits
+    Allows players to begin making machines from Immersive engineering.  Unlocks basic power options and very basic machines
 */
 
 // Stage Name
 val stage = "electricity_tech";
 
 val stageMods as string[] = [
-    "fairylights"
+    "immersiveposts",
+    "industrialwires"
 ];
 
 val stageItems as IItemStack[] = [
@@ -50,7 +51,6 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:connector:13>,
     <immersiveengineering:wooden_device0:3>,
     <immersiveengineering:wooden_device0:6>,
-    <immersiveengineering:wooden_device0:7>,
     <immersiveengineering:wooden_device1>,
     <immersiveengineering:wooden_device1:1>,
     <immersiveengineering:wooden_device1:3>,
@@ -132,6 +132,11 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:metal_device1:9>,
     <immersiveengineering:conveyor>,
     <immersiveengineering:stone_decoration:8>,
+    <immersiveengineering:stone_decoration:8>,
+    <immersivetech:connectors>,
+    <immersivetech:metal_trash:2>,
+    <immersivetech:valve:1>,
+    <immersivetech:valve:2>,
     <techguns:itemshared:63>,
     <techguns:itemshared:70>,
     <techguns:basicmachine>,
