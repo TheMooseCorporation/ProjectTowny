@@ -10,7 +10,7 @@ import crafttweaker.item.IItemStack;
 val stage = "electricity_tech";
 
 val stageMods as string[] = [
-
+    "fairylights"
 ];
 
 val stageItems as IItemStack[] = [

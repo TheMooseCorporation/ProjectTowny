@@ -14,7 +14,6 @@ val stageMods as string[] = [
     "bibliocraft",
     "chisel",
     "chiselsandbits",
-    "fairylights",
     "littletiles",
     "cfm",
 ];
