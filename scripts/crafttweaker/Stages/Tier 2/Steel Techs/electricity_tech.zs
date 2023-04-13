@@ -131,7 +131,12 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:metal_device1:8>,
     <immersiveengineering:metal_device1:9>,
     <immersiveengineering:conveyor>,
-    <immersiveengineering:stone_decoration:8>
+    <immersiveengineering:stone_decoration:8>,
+    <techguns:itemshared:63>,
+    <techguns:itemshared:70>,
+    <techguns:basicmachine>,
+    <techguns:itemshared:10>,
+    <techguns:itemshared:65>
 ];
 
 for mod in stageMods {

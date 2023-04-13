@@ -7,7 +7,7 @@ import crafttweaker.item.IItemStack;
 */
 
 // Stage Name
-val stage = "trains_tech";
+val stage = "railroading_tech";
 
 val stageMods as string[] = [
     "immersiverailroading"

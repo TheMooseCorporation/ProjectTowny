@@ -43,9 +43,23 @@ val stageItems as IItemStack[] = [
 ];
 
 
-//disabledAlloys will disable certain alloys until a later gamestage is reached, where it will be re-enabled inside that file
+// All of the alloys that we don't want to be formable in the
 val disabledAlloys as ILiquidStack[] = [
     <liquid:steel>,
+    <liquid:constantan>,
+    <liquid:enderium>,
+    <liquid:invar>,
+    <liquid:signalum>,
+    <liquid:lumium>,
+    <liquid:pigiron>,
+    <liquid:knightslime>,
+    <liquid:bronze>,
+    <liquid:electrum>,
+    <liquid:energetic_alloy>,
+    <liquid:vibrant_alloy>,
+    <liquid:conductive_iron>,
+    <liquid:pulsating_iron>,
+    <liquid:dark_steel>
 ];
 
 for mod in stageMods {
@@ -62,22 +76,22 @@ for alloy in disabledAlloys {
     mods.tconstruct.Alloy.removeRecipe(alloy);
 }
 
-
 //These were all in the legacy file and looked too important to not have merged over
 TinkerStages.addGeneralCraftingStage(stage);
-TinkerStages.addGeneralPartReplacingStage(stage);
 TinkerStages.addGeneralPartBuildingStage(stage);
-TinkerStages.addGeneralModifierStage(stage);
 
 TinkerStages.addToolTypeStage("disabled", "tconstruct:hammer");
-TinkerStages.addToolTypeStage("oil_stage", "tconstruct:lumberaxe");
 TinkerStages.addToolTypeStage("disabled", "tconstruct:shuriken");
+TinkerStages.addModifierStage("disabled", "luck");
+TinkerStages.addModifierStage("disabled", "sharp");
 
+// Move to proper tech files
 recipes.remove(<tconstruct:materials:13>);
 recipes.remove(<tconstruct:materials:12>);
 recipes.addShaped(<tconstruct:materials:13>, [[null, <minecraft:piston>, null],[<minecraft:dye:4>, <tconstruct:ingots:2>, <minecraft:dye:4>], [null, <minecraft:piston>, null]]);
 recipes.addShaped(<tconstruct:materials:12>, [[null, <minecraft:dye:4>, null],[<minecraft:piston>, <tconstruct:ingots:2>, <minecraft:piston>], [null, <minecraft:dye:4>, null]]);
 
-
-
-
+TinkerStages.addMaterialStage("chemical_engineering_spec", "pigiron");
+TinkerStages.addMaterialStage("asteroid_mining_tech", "cobalt");
+TinkerStages.addMaterialStage("warp_tech", "ardite");
+TinkerStages.addMaterialStage("warp_tech", "ardite");

@@ -3,6 +3,7 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 /**
+    Basic Military Tech:
     Unlocks the beginning of techguns and the immersive engineering revolver with its related ammunition
 */
 
@@ -10,10 +11,11 @@ import crafttweaker.item.IItemStack;
 val stage = "basic_military_tech";
 
 val stageMods as string[] = [
-    "immersiverailroading"
+    
 ];
 
 val stageItems as IItemStack[] = [
+    // Immersive Engineering Revolver and related items
     <immersiveengineering:metal_decoration2:5>,
     <immersiveengineering:shader>,
     <immersiveengineering:shader_bag>,
@@ -28,7 +30,20 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:material:14>,
     <immersiveengineering:material:15>,
     <immersiveengineering:material:16>,
-    <immersiveengineering:wooden_device0:4>
+    <immersiveengineering:wooden_device0:4>,
+    // Techguns related items
+    <techguns:itemshared:1>,
+    <techguns:itemshared:2>,
+    <techguns:itemshared:3>,
+    <techguns:itemshared:9>,
+    <techguns:itemshared:33>,
+    <techguns:itemshared:38>,
+    <techguns:t1_combat_helmet>,
+    <techguns:t1_combat_chestplate>,
+    <techguns:t1_combat_leggings>,
+    <techguns:t1_combat_boots>,
+    <techguns:itemshared:57>,
+    <techguns:stielgranate>
 ];
 
 val techGuns as IItemStack[] = [
@@ -47,12 +62,12 @@ val techGunRecipes as string[] = [
 ];
 
 for item in techGuns{
-    Recipes.setRecipeStage("steel_stage", item);
-    ItemStages.addItemStage("steel_stage", item);
+    Recipes.setRecipeStage(stage, item);
+    ItemStages.addItemStage(stage, item);
 }
 
 for recipe in techGunRecipes{
-    Recipes.setRecipeStage("steel_stage", recipe);
+    Recipes.setRecipeStage(stage, recipe);
 }
 
 
