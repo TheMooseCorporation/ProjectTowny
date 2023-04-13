@@ -3,15 +3,30 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 /**
-    Stage Comments should go here
+    This stage should contain all non-consequential building items
 */
 
 // Stage Name
 val stage = "architecture_tech";
 
+val stageMods as String[] = [
+    "architecturecraft",
+    "bibliocraft",
+    "chisel",
+    "chiselsandbits",
+    "fairylights",
+    "littletiles",
+    "cfm",
+];
+
 val stageItems as IItemStack[] = [
     
 ];
+
+for mod in stageMods {
+    Recipes.setRecipeStageByMod(stage, mod);
+    ItemStages.stageModItems(stage, mod);
+}
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
