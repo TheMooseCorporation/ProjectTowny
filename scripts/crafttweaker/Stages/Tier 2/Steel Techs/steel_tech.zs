@@ -182,7 +182,11 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:hoe_steel>,
     <immersiveengineering:sword_steel>,
     <immersiveengineering:toolbox>,
-    <immersiveengineering:blueprint>
+    <immersiveengineering:blueprint>,
+    <mekanism:basicblock:5>,
+    <mekanism:ingot:4>,
+    <mekanism:nugget:4>,
+    <mekanism:otherdust:1>
 ];  
 
 for mod in stageMods {

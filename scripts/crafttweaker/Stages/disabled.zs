@@ -47,7 +47,8 @@ val stageItems as IItemStack[] = [
     <mekanismgenerators:generator:12>,
     <mekanismgenerators:generator:13>,
     <mekanismgenerators:reactorglass:1>,
-    <mekanism:energycube>.withTag({tier: 4})
+    <mekanism:energycube>.withTag({tier: 4}),
+    <mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}})
 ];
 
 for item in stageItems {
