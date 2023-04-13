@@ -1,6 +1,8 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
+import mods.TinkerStages;
 
 /**
     This gamestage should add tinkers' construct tools pre-smeltery, notably unlocks the part builder, stencil table, and tool station
@@ -9,7 +11,7 @@ import crafttweaker.item.IItemStack;
 // Stage Name
 val stage = "basic_tools_tech";
 
-val stageMods as String[] = [
+val stageMods as string[] = [
     "tconstruct",
     "toolbelt",
 ];
@@ -42,7 +44,7 @@ val stageItems as IItemStack[] = [
 
 
 //disabledAlloys will disable certain alloys until a later gamestage is reached, where it will be re-enabled inside that file
-val disabledAlloys as IItemStack[] = [
+val disabledAlloys as ILiquidStack[] = [
     <liquid:steel>,
 ];
 

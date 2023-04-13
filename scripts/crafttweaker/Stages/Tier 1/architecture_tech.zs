@@ -9,7 +9,7 @@ import crafttweaker.item.IItemStack;
 // Stage Name
 val stage = "architecture_tech";
 
-val stageMods as String[] = [
+val stageMods as string[] = [
     "architecturecraft",
     "bibliocraft",
     "chisel",

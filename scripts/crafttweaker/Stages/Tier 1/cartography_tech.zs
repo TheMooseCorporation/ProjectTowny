@@ -9,13 +9,14 @@ import crafttweaker.item.IItemStack;
 // Stage Name
 val stage = "cartography_tech";
 
-val stageMods as String[] = [
+val stageMods as string[] = [
 
 ];
 
 val stageItems as IItemStack[] = [
     <antiqueatlas:empty_antique_atlas>,
     <antiqueatlas:antique_atlas>,
+    <naturescompass:naturescompass>
 ];
 
 for mod in stageMods {
