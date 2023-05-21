@@ -49,7 +49,15 @@ val stageItems as IItemStack[] = [
     <icbmclassic:spikes:1>,
     <icbmclassic:spikes:2>,
     <icbmclassic:glasspressureplate>,
-    <icbmclassic:glassbutton>
+    <icbmclassic:glassbutton>,
+    <immersiveengineering:bullet:2>.withTag({bullet: "armor_piercing"}),
+    <immersiveengineering:bullet:2>.withTag({bullet: "buckshot"}),
+    <immersiveengineering:bullet:2>.withTag({bullet: "he"}),
+    <immersiveengineering:bullet:2>.withTag({bullet: "silver"}),
+    <immersiveengineering:bullet:2>.withTag({bullet: "dragonsbreath"}),
+    <immersiveengineering:bullet:2>.withTag({bullet: "potion"}),
+    <immersiveengineering:bullet:2>.withTag({bullet: "flare"})
+
 ];
 
 val techGuns as IItemStack[] = [

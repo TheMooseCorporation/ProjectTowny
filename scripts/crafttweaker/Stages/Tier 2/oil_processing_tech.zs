@@ -1,20 +1,22 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
-
+import mods.multiblockstages.IEMultiBlockStages;
 /**
-    Fluid based machines
+    Oil
 */
 
 // Stage Name
 val stage = "oil_processing_tech";
 
 val stageMods as string[] = [
-
+    "immersivepetroleum",
+    "immersivetech"
 ];
 
 val stageItems as IItemStack[] = [
-
+    <immersiveengineering:metal_device1:7>,
+    <immersiveengineering:coresample>
 ];
 
 for mod in stageMods {
@@ -26,3 +28,6 @@ for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
 }
+
+IEMultiBlockStages.addStage(stage, "IP:DistillationTower", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IP:Pumpjack", "Requires " + stage);

@@ -1,6 +1,7 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
+import mods.multiblockstages.IEMultiBlockStages;
 
 /**
     Allows players to begin making machines from Immersive engineering.  Unlocks basic power options and very basic machines
@@ -168,3 +169,5 @@ for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
 }
+
+IEMultiBlockStages.addStage(stage, "IE:Assembler", "Requires " + stage);
