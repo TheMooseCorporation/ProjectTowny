@@ -43,7 +43,13 @@ val stageItems as IItemStack[] = [
     <techguns:t1_combat_leggings>,
     <techguns:t1_combat_boots>,
     <techguns:itemshared:57>,
-    <techguns:stielgranate>
+    <techguns:stielgranate>,
+    // Basic ICBM weapons
+    <icbmclassic:spikes>,
+    <icbmclassic:spikes:1>,
+    <icbmclassic:spikes:2>,
+    <icbmclassic:glasspressureplate>,
+    <icbmclassic:glassbutton>
 ];
 
 val techGuns as IItemStack[] = [

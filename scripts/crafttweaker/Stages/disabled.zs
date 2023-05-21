@@ -147,6 +147,14 @@ val stageItems as IItemStack[] = [
     <techguns:itemshared:67>,
     <techguns:itemshared:69>,
     <techguns:itemshared:78>,
+    // ICBM items that we don't use
+    <icbmclassic:antidote>,
+    <icbmclassic:wire>,
+    <icbmclassic:wire:1>,
+    <icbmclassic:ingot>,
+    <icbmclassic:ingot:1>,
+    <icbmclassic:clump>,
+    <icbmclassic:signaldisrupter>,
     //Everything below are items temporarily disabled since they bypass explosion restrictions, until I figure out a solution
     <icbmclassic:grenade:2>,
     <icbmclassic:explosives:2>,

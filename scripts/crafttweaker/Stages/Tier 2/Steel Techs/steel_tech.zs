@@ -189,6 +189,7 @@ val stageItems as IItemStack[] = [
     <mekanism:otherdust:1>,
     <techguns:itemshared:84>,
     <techguns:itemshared:85>,
+<<<<<<< HEAD
     <immersiveengineering:sheetmetal:5>,
     <immersiveengineering:sheetmetal:6>,
     <immersiveengineering:sheetmetal_slab:5>,
@@ -337,6 +338,11 @@ val stageItems as IItemStack[] = [
     <rsgauges:indicator1>,
     <rsgauges:indicator1blink1>,
     <rsgauges:indicator2>,
+=======
+    <icbmclassic:concrete>,
+    <icbmclassic:concrete:1>,
+    <icbmclassic:concrete:2>
+>>>>>>> 7cf71cc04489e0c1b81a434a12758815ed344e47
 ];  
 
 for mod in stageMods {

@@ -38,6 +38,8 @@ val stageItems as IItemStack[] = [
     <icbmclassic:launcherscreen:1>,
     <icbmclassic:launcherbase:1>,
     <icbmclassic:radarstation>,
+    <icbmclassic:remotedetonator>,
+    <icbmclassic:laserdetonator>
 ];
 
 for mod in stageMods {
