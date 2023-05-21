@@ -10,7 +10,6 @@ import crafttweaker.item.IItemStack;
 val stage = "architecture_tech";
 
 val stageMods as string[] = [
-    "architecturecraft",
     "bibliocraft",
     "chisel",
     "chiselsandbits",
@@ -21,7 +20,7 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-    <architecturecraft:shape>
+    
 ];
 
 for mod in stageMods {

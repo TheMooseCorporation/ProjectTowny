@@ -151,7 +151,6 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:droppercovered"}),
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"}),
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extractcovered"}),
-    <industrialrenewal:conveyor_bulk>,
     <engineersdecor:small_tree_cutter>,
     <engineersdecor:small_block_breaker>,
     <engineersdecor:factory_dropper>,
