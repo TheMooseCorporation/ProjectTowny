@@ -7,10 +7,10 @@ import crafttweaker.item.IItemStack;
 */
 
 // Stage Name
-val stage = "kitchen_tech";
+val stage = "blacksmithing_tech";
 
 val stageMods as string[] = [
-    "cookingforblockheads"
+
 ];
 
 val stageItems as IItemStack[] = [
