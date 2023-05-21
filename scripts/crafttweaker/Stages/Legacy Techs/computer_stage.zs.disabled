@@ -1,0 +1,21 @@
+import mods.ItemStages;
+import mods.recipestages.Recipes;
+import crafttweaker.item.IItemStack;
+
+
+val stageItems as IItemStack[] = [
+
+    
+];
+
+
+
+for multiblockMachine in multiblockMachines {
+	var item as IItemStack = <modularmachinery:itemblueprint:0>.withTag({dynamicmachine: multiblockMachine});
+	ItemStages.addItemStage("computer_stage", item);
+}
+
+for item in stageItems{
+    Recipes.setRecipeStage("computer_stage", item);
+    ItemStages.addItemStage("computer_stage", item);
+}

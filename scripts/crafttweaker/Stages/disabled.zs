@@ -12,6 +12,19 @@ import crafttweaker.item.IItemStack;
 val stage = "disabled";
 
 val stageItems as IItemStack[] = [
+    // Opencomputers
+    <opencomputers:material>, // Cutting wire
+    <opencomputers:upgrade:4>, // Chunkload upgrade
+    // Opencomputers creative items
+    <opencomputers:casecreative>,
+    <opencomputers:material:25>,
+    <opencomputers:material:22>,
+    <opencomputers:material:19>,
+    <opencomputers:tool:1>,
+    <opencomputers:component:18>,
+    <opencomputers:component:12>,
+    <opencomputers:card>,
+    <opencomputers:upgrade:32>,
     // Immersive Tech
     <immersivetech:wooden_crate>,
     // Mekanism Cables
