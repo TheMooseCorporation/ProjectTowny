@@ -3,7 +3,9 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 /**
+    Steel:
     Unlocks the beginning of Immersive engineering... whatever that means
+    Also contains all of our custom recipes using Immersive Engineering multiblocks
 */
 
 // Stage Name
@@ -351,3 +353,28 @@ for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
 }
+
+// Custom recipes for Immersive Engineering Multiblocks. This doesn't mean these recipes or multiblocks are unlocked in this stage, this is just where we're putting them.
+// Also keep this alphabetized or I will be sad - Moose
+
+// Arc Furnace
+ArcFurnace.addRecipe(<libvulpes:productingot:3>, <minecraft:sand>, <immersiveengineering:material:7>, 200, 512);
+// Blast Furnace
+BlastFurnace.addRecipe(<techguns:itemshared:84>, <minecraft:obsidian>, 2000, <immersiveengineering:material:7>);
+// Blueprints
+Blueprint.addRecipe("molds", <contenttweaker:mechanical_parts_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
+// Crusher
+Crusher.addRecipe(<minecraft:clay_ball> * 4, <ore:hardened_clay>, 128);
+Crusher.addRecipe(<thermalfoundation:material:769>, <minecraft:coal:1>, 128);
+// Melting Crucible [Energy is calculated as (RF/t) * (time)]
+MeltingCrucible.addRecipe(<liquid:molten_silicon> * 20, <minecraft:sand>, 61440, 120); // Molten Silicon
+// Metal Press
+MetalPress.addRecipe(<libvulpes:productplate:7>, <ore:ingotTitanium>, <immersiveengineering:mold>, 2400); // Titanium Plate
+MetalPress.addRecipe(<techguns:itemshared:53>, <techguns:itemshared:64>, <immersiveengineering:mold>, 2400); // Carbon Plate
+MetalPress.addRecipe(<techguns:itemshared:45>, <ore:plateSteel>, <thermalfoundation:material:355>, 2400); // Steam Plate
+
+MetalPress.addRecipe(<techguns:itemshared:57>, <ore:plateIron>, <contenttweaker:mechanical_parts_mold>, 2400); // Mechanical Parts
+MetalPress.addRecipe(<techguns:itemshared:58>, <ore:plateObsidianSteel>, <contenttweaker:mechanical_parts_mold>, 2400); // Mechanical Parts
+MetalPress.addRecipe(<techguns:itemshared:59>, <ore:plateCarbon>, <contenttweaker:mechanical_parts_mold>, 2400); // Mechanical Parts
+// Refinery
+Refinery.addRecipe(<liquid:rocketfuel> * 100, <liquid:refined_kerosene> * 50, <liquid:butylated_hydroxytoluene> * 50, 1024); // Rocket Fuel

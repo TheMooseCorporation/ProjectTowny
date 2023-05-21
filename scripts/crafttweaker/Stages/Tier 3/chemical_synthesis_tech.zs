@@ -4,7 +4,8 @@ import crafttweaker.item.IItemStack;
 
 /**
     Chemical Synthesis:
-    AE2 eletric boogaloo
+    Unlocks the machines required for chemical manufacturing
+    All chemical related items should go here
 */
 
 // Stage Name
@@ -15,7 +16,9 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-
+    <projecttowny:chemical_oxidizer>,
+    <projecttowny:chemical_reactor>,
+    <projecttowny:isomerization_unit>
 ];
 
 for mod in stageMods {
