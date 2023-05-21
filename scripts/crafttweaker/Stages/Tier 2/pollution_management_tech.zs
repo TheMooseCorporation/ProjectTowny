@@ -3,6 +3,7 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 /**
+    Pollution Management:
     More advanced ways to deal with pollution
 */
 
@@ -22,7 +23,8 @@ val stageItems as IItemStack[] = [
     <adpother:gold_respirator>,
     <adpother:diamond_vacuum_bag>,
     <adpother:diamond_vacuum_tube>,
-    <adpother:diamond_respirator>
+    <adpother:diamond_respirator>,
+    <infilter:infilter_block_infilter>
 ];
 
 for mod in stageMods {

@@ -3,6 +3,7 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 /**
+    Architecture:
     This stage should contain all non-consequential building items
 */
 
@@ -16,7 +17,8 @@ val stageMods as string[] = [
     "littletiles",
     "cfm",
     "fairylights",
-    "microblockcbe"
+    "microblockcbe",
+    "blockcraftery"
 ];
 
 val stageItems as IItemStack[] = [

@@ -30,6 +30,8 @@ val stageItems as IItemStack[] = [
     <buildinggadgets:constructionpastecontainercreative>,
     // Immersive Tech
     <immersivetech:wooden_crate>,
+    // B.A.S.E Wrench - I don't think this has a need to be here, but content tweaker depends on B.A.S.E so this will do
+    <base:wrench>,
     // Mekanism Cables
     <mekanism:transmitter>.withTag({tier: 0}),
     <mekanism:transmitter>.withTag({tier: 1}),
@@ -53,6 +55,15 @@ val stageItems as IItemStack[] = [
     <mekanism:transmitter:6>.withTag({tier: 1}),
     <mekanism:transmitter:6>.withTag({tier: 2}),
     <mekanism:transmitter:6>.withTag({tier: 3}),
+    // Mekanism Generators
+    <mekanismgenerators:reactor>,
+    <mekanismgenerators:reactor:1>,
+    <mekanismgenerators:reactor:2>,
+    <mekanismgenerators:reactor:3>,
+    <mekanismgenerators:reactorglass>,
+    <mekanismgenerators:solarpanel>,
+    <mekanismgenerators:generator:1>,
+    <mekanismgenerators:generator:5>,
     // Misc Mekanism Items
     <mekanism:basicblock:6>.withTag({tier: 4}),
     <mekanism:machineblock2:11>.withTag({tier: 4}),
