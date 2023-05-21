@@ -25,6 +25,9 @@ val stageItems as IItemStack[] = [
     <opencomputers:component:12>,
     <opencomputers:card>,
     <opencomputers:upgrade:32>,
+    // Building Gadgets
+    <buildinggadgets:destructiontool>,
+    <buildinggadgets:constructionpastecontainercreative>,
     // Immersive Tech
     <immersivetech:wooden_crate>,
     // Mekanism Cables

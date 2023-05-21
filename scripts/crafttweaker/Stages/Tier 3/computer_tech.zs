@@ -21,15 +21,10 @@ val stageItems as IItemStack[] = [
     // Advanced Rocketry's Precision Assembler, we use this to actually create the computer components (not the base microchips that they require)
     <advancedrocketry:precisionassemblingmachine>,
     // Building Gadget items (They seem like they have computers inside them)
-    <buildinggadgets:constructionpastecontainer>,
-    <buildinggadgets:constructionpastecontainert2>,
-    <buildinggadgets:constructionpastecontainert3>,
-    <buildinggadgets:constructionpaste>,
-    <buildinggadgets:constructionblock_dense>,
-    <buildinggadgets:constructionblock>,
-    <buildinggadgets:constructionblockpowder>,
-    <buildinggadgets:construction_chunk_dense>,
-    <buildinggadgets:templatemanager>,
+    <buildinggadgets:buildingtool>,
+    <buildinggadgets:exchangertool>,
+    <buildinggadgets:copypastetool>,
+    <buildinggadgets:template>,
     // Opencomputer components and blocks
     <opencomputers:material:15>,
     <opencomputers:material:14>,
