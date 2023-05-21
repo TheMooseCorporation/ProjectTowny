@@ -188,7 +188,10 @@ val stageItems as IItemStack[] = [
     <mekanism:nugget:4>,
     <mekanism:otherdust:1>,
     <techguns:itemshared:84>,
-    <techguns:itemshared:85>
+    <techguns:itemshared:85>,
+    <icbmclassic:concrete>,
+    <icbmclassic:concrete:1>,
+    <icbmclassic:concrete:2>
 ];  
 
 for mod in stageMods {
