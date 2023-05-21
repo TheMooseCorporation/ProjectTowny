@@ -3,7 +3,8 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 /**
-    All basic mapping tools should be locked behind this stage
+    Space Stations:
+    Space stations are unlocked, requiring the town to build a space station to create the Dilithium Chamber to create dilithium
 */
 
 // Stage Name
