@@ -3,14 +3,14 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 /**
-    Unlocks the Solar Tower, Steam Turbine, and Alternator.
+    Unlocks ProjectRed Core
 */
 
 // Stage Name
-val stage = "steam_energy_tech";
-//TODO MULTIBLOCKS SOLAR TOWER,
-val stageMods as string[] = [
+val stage = "advanced_redstone_tech";
 
+val stageMods as string[] = [
+    "projectred-core"
 ];
 
 val stageItems as IItemStack[] = [

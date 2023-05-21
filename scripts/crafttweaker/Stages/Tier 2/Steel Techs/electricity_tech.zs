@@ -130,7 +130,6 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:metal_device1:5>,
     <immersiveengineering:metal_device1:8>,
     <immersiveengineering:metal_device1:9>,
-    <immersiveengineering:conveyor>,
     <immersiveengineering:stone_decoration:8>,
     <immersiveengineering:stone_decoration:8>,
     <immersivetech:connectors>,
@@ -141,7 +140,24 @@ val stageItems as IItemStack[] = [
     <techguns:itemshared:70>,
     <techguns:basicmachine>,
     <techguns:itemshared:10>,
-    <techguns:itemshared:65>
+    <techguns:itemshared:65>,
+    <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}),
+    <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}),
+    <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}),
+    <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:vertical"}),
+    <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}),
+    <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extract"}),
+    <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:covered"}),
+    <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:droppercovered"}),
+    <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"}),
+    <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extractcovered"}),
+    <industrialrenewal:conveyor_bulk>,
+    <engineersdecor:small_tree_cutter>,
+    <engineersdecor:small_block_breaker>,
+    <engineersdecor:factory_dropper>,
+    <engineersdecor:factory_placer>,
+    <engineersdecor:factory_hopper>,
+    <engineersdecor:small_milking_machine>
 ];
 
 for mod in stageMods {

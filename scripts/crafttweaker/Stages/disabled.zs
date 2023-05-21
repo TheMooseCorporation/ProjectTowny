@@ -198,7 +198,10 @@ val stageItems as IItemStack[] = [
     <icbmclassic:bombcart:15>,
     <icbmclassic:bombcart:19>,
     <icbmclassic:bombcart:21>,
-    <icbmclassic:bombcart:2>
+    <icbmclassic:bombcart:2>,
+    <adchimneys:bedrock>,
+    <adchimneys:bedrock:1>,
+    <adchimneys:bedrock:2>,
     // End
 ];
 

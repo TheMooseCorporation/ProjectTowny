@@ -16,10 +16,12 @@ val stageMods as string[] = [
     "chiselsandbits",
     "littletiles",
     "cfm",
+    "fairylights",
+    "microblockcbe"
 ];
 
 val stageItems as IItemStack[] = [
-    
+    <architecturecraft:shape>
 ];
 
 for mod in stageMods {

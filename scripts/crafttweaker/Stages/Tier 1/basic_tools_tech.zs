@@ -14,6 +14,7 @@ val stage = "basic_tools_tech";
 val stageMods as string[] = [
     "tconstruct",
     "toolbelt",
+    "ironchest"
 ];
 
 val stageItems as IItemStack[] = [
@@ -43,7 +44,7 @@ val stageItems as IItemStack[] = [
 ];
 
 
-// All of the alloys that we don't want to be formable in the
+// All of the alloys that we don't want to be formable in the smeltry
 val disabledAlloys as ILiquidStack[] = [
     <liquid:steel>,
     <liquid:constantan>,
@@ -85,7 +86,7 @@ TinkerStages.addToolTypeStage("disabled", "tconstruct:shuriken");
 TinkerStages.addModifierStage("disabled", "luck");
 TinkerStages.addModifierStage("disabled", "sharp");
 
-// Move to proper tech files
+// TODO Move to proper tech files
 recipes.remove(<tconstruct:materials:13>);
 recipes.remove(<tconstruct:materials:12>);
 recipes.addShaped(<tconstruct:materials:13>, [[null, <minecraft:piston>, null],[<minecraft:dye:4>, <tconstruct:ingots:2>, <minecraft:dye:4>], [null, <minecraft:piston>, null]]);
