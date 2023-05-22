@@ -40,7 +40,11 @@ val stageItems as IItemStack[] = [
     <tconstruct:tooltables:3>,
     <tconstruct:tooltables:4>,
     <tconstruct:tooltables:5>,
-
+    <locks:spring>,
+    <locks:wood_lock_mechanism>,
+    <locks:iron_lock_mechanism>,
+    <locks:wood_lock>,
+    <locks:iron_lock>
 ];
 
 

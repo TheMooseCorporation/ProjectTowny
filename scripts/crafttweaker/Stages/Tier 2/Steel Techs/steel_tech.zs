@@ -348,7 +348,15 @@ val stageItems as IItemStack[] = [
     <rsgauges:indicator2>,
     <icbmclassic:concrete>,
     <icbmclassic:concrete:1>,
-    <icbmclassic:concrete:2>
+    <icbmclassic:concrete:2>,
+    // Locks
+    <locks:steel_lock_mechanism>,
+    <locks:steel_lock>,
+    <locks:gold_lock>,
+    <locks:diamond_lock>, // Move to later stage
+    <locks:steel_lock_pick>,
+    <locks:gold_lock_pick>,
+    <locks:diamond_lock_pick> // Move to later stage
 ];  
 
 for mod in stageMods {
@@ -385,3 +393,9 @@ MetalPress.addRecipe(<techguns:itemshared:58>, <ore:plateObsidianSteel>, <conten
 MetalPress.addRecipe(<techguns:itemshared:59>, <ore:plateCarbon>, <contenttweaker:mechanical_parts_mold>, 2400); // Mechanical Parts
 // Refinery
 Refinery.addRecipe(<liquid:rocketfuel> * 100, <liquid:refined_kerosene> * 50, <liquid:butylated_hydroxytoluene> * 50, 1024); // Rocket Fuel
+
+// End of custom Immersive Engineering Multiblock recipes, normal recipes begin:
+
+// Locks
+recipes.remove(<locks:iron_lock_pick>);
+recipes.addShaped(<locks:steel_lock_pick>, [[null, <ore:ingotSteel>, <ore:ingotSteel>],[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, null, null]]);

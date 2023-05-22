@@ -156,8 +156,7 @@ val stageItems as IItemStack[] = [
     <engineersdecor:small_block_breaker>,
     <engineersdecor:factory_dropper>,
     <engineersdecor:factory_placer>,
-    <engineersdecor:factory_hopper>,
-    <engineersdecor:small_milking_machine>
+    <engineersdecor:factory_hopper>
 ];
 
 for mod in stageMods {

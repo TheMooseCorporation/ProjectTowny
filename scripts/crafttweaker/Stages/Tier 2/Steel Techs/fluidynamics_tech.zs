@@ -35,7 +35,8 @@ val stageItems as IItemStack[] = [
     <engineersdecor:straight_pipe_valve_redstone>,
     <engineersdecor:straight_pipe_valve_redstone_analog>,
     <engineersdecor:small_fluid_funnel>,
-    <engineersdecor:passive_fluid_accumulator>
+    <engineersdecor:passive_fluid_accumulator>,
+    <engineersdecor:small_milking_machine>
 ];
 
 for mod in stageMods {
