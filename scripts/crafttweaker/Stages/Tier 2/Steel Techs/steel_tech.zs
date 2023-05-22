@@ -1,6 +1,13 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
+import mods.immersiveengineering.ArcFurnace;
+import mods.immersiveengineering.BlastFurnace;
+import mods.immersiveengineering.Crusher;
+import mods.immersiveengineering.MetalPress;
+import mods.immersiveengineering.Blueprint;
+import mods.immersivetechnology.MeltingCrucible;
+import mods.immersiveengineering.Refinery;
 
 /**
     Steel:
