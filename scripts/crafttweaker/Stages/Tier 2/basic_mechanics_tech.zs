@@ -9,6 +9,8 @@ import crafttweaker.item.IItemStack;
     Probably not...
     Will look more into this later - Moose 5/21/23
 
+    Welp I got talked into it, I guess it was within scope... - Moose 5/22/23
+
     Doesn't do anything as of now
 */
 
