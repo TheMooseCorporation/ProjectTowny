@@ -3,22 +3,19 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 /**
-    All technologies that somehow involve heating
+    Primitive Engineering:
+    Not a visible tech on the tech tree, acts as a hidden tech that the foresty and agriculture stages use so they can use their machines without unlocking basic engineering
 */
 
 // Stage Name
-val stage = "thermodynamics_tech";
+val stage = "primitive_engineering_tech";
 
 val stageMods as string[] = [
 
 ];
 
 val stageItems as IItemStack[] = [
-    <immersiveengineering:metal_device1:1>,
-    <engineersdecor:small_electrical_furnace>,
-    <engineersdecor:small_lab_furnace>,
-    <engineersdecor:small_waste_incinerator>,
-    <engineersdecor:small_mineral_smelter>
+
 ];
 
 for mod in stageMods {

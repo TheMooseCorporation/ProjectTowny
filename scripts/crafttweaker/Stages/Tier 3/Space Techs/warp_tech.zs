@@ -69,3 +69,35 @@ for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
 }
+
+val nonStagedItems as IItemStack[] = [
+    // All EnderIO conduits/things to make them (we want to spread these out for more efficient logistics earlier then warp tech)
+    <enderio:item_me_conduit:1>,
+    <enderio:item_opencomputers_conduit>,
+    <enderio:item_item_conduit>,
+    <enderio:item_liquid_conduit>,
+    <enderio:item_liquid_conduit:1>,
+    <enderio:item_liquid_conduit:2>,
+    <enderio:item_power_conduit>,
+    <enderio:item_power_conduit:1>,
+    <enderio:item_power_conduit:2>,
+    <enderio:item_redstone_conduit>,
+    <enderio:item_me_conduit>,
+    <enderio:item_material:22>,
+    <enderio:item_material:4>
+];
+
+var found = false;
+for item in loadedMods["enderio"].items {
+    for nonStagedItem in nonStagedItems {
+        if (item.matches(nonStagedItem)) {
+            found = true;
+            break;
+        }
+    }
+    if (!found) {
+        Recipes.setRecipeStage(stage, item);
+        ItemStages.addItemStage(stage, item);
+    }
+    found = false;
+}
