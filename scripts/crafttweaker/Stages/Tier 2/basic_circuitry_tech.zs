@@ -35,7 +35,8 @@ val stageItems as IItemStack[] = [
     <opencomputers:material:6>,
     // Multiblocked multiblocks for creating microchips, not computer components, those are in the precision assembler from computer_tech
     <projecttowny:crystallizer>,
-    <projecttowny:microchip_inscriber>
+    <projecttowny:microchip_inscriber>,
+    <contenttweaker:dram>
 ];
 
 for mod in stageMods {

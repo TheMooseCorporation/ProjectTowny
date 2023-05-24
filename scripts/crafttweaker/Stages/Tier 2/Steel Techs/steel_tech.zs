@@ -23,6 +23,7 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
+    <contenttweaker:mechanical_parts_mold>,
     <immersiveengineering:treated_wood>,
     <immersiveengineering:treated_wood:1>,
     <immersiveengineering:treated_wood:2>,
