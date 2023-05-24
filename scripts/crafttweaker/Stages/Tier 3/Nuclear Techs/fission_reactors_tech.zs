@@ -23,6 +23,8 @@ val stageItems as IItemStack[] = [
     <nuclearcraft:fission_block>,
     <nuclearcraft:reactor_door_item>,
     <nuclearcraft:fission_block:1>,
+    <nuclearcraft:buffer>,
+    <nuclearcraft:active_cooler>,
     <nuclearcraft:cooler>,
     <nuclearcraft:cooler:1>,
     <nuclearcraft:cooler:2>,

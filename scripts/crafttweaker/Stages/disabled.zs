@@ -14,6 +14,11 @@ val stage = "disabled";
 val stageItems as IItemStack[] = [
     // Locks
     <locks:wood_lock_pick>,
+    // Nuclearcraft
+    <nuclearcraft:solar_panel_basic>,
+    <nuclearcraft:solar_panel_advanced>,
+    <nuclearcraft:solar_panel_du>,
+    <nuclearcraft:solar_panel_elite>,
     // Opencomputers
     <opencomputers:material>, // Cutting wire
     <opencomputers:upgrade:4>, // Chunkload upgrade

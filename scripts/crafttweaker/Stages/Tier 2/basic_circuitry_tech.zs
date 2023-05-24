@@ -23,6 +23,11 @@ val stageItems as IItemStack[] = [
     <advancedrocketry:misc>,
     <advancedrocketry:sawblade>,
     <advancedrocketry:sawbladeiron>,
+    // EnderIO Conduit Materials
+    <enderio:item_material:22>,
+    <enderio:item_material:4>,
+    <enderio:item_power_conduit>,
+    <enderio:item_alloy_ingot:4>,
     // Opencomputers components that we use for making microchips
     <opencomputers:material:10>,
     <opencomputers:material:11>,
