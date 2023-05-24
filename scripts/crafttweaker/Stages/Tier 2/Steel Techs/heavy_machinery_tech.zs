@@ -12,7 +12,7 @@ import mods.multiblockstages.IEMultiBlockStages;
 val stage = "heavy_machinery_tech";
 
 val stageMods as string[] = [
-
+    "multiblocked"
 ];
 
 val stageItems as IItemStack[] = [

@@ -15,6 +15,11 @@ val stageMods as string[] = [
 
 val stageItems as IItemStack[] = [
     <harvestcraft:market>,
+    <sereneseasons:greenhouse_glass>,
+    <sereneseasons:season_sensor_spring>,
+    <sereneseasons:season_sensor_summer>,
+    <sereneseasons:season_sensor_autumn>,
+    <sereneseasons:season_sensor_winter>
 ];
 
 for mod in stageMods {

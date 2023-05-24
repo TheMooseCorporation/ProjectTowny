@@ -1,6 +1,7 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
 
 /**
     Disabled:
@@ -397,7 +398,30 @@ val stageItems as IItemStack[] = [
     // End
 ];
 
+// All of the alloys that we don't want to be formable in the smeltry
+val disabledAlloys as ILiquidStack[] = [
+    <liquid:steel>,
+    <liquid:constantan>,
+    <liquid:enderium>,
+    <liquid:invar>,
+    <liquid:signalum>,
+    <liquid:lumium>,
+    <liquid:pigiron>,
+    <liquid:knightslime>,
+    <liquid:bronze>,
+    <liquid:electrum>,
+    <liquid:energetic_alloy>,
+    <liquid:vibrant_alloy>,
+    <liquid:conductive_iron>,
+    <liquid:pulsating_iron>,
+    <liquid:dark_steel>
+];
+
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+}
+
+for alloy in disabledAlloys {
+    mods.tconstruct.Alloy.removeRecipe(alloy);
 }

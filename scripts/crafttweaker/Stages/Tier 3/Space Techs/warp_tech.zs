@@ -1,6 +1,7 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
 
 /**
     Warp Technology:
@@ -59,6 +60,14 @@ val stageItems as IItemStack[] = [
     <advancedrocketry:hovercraft>,
     <advancedrocketry:itemupgrade:5>
 ];
+
+val stageAlloys as ILiquidStack[] = [
+    <liquid:manyullyn>
+];
+
+for alloy in stageAlloys {
+    mods.tconstruct.Alloy.removeRecipe(alloy);
+}
 
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
