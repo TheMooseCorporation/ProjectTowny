@@ -61,3 +61,12 @@ recipes.remove(<opencomputers:material:10>);
 
 // Raw circuit new recipe
 recipes.addShapeless(<opencomputers:material:2>, [<ore:plateCopper>,<immersiveengineering:stone_decoration:8>]);
+
+
+//Recipes for Multiblocked Inputs/Outputs
+recipes.addShaped(<multiblocked:energy_output>, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <immersiveengineering:metal_device0:1>, <ore:ingotSteel>], [<ore:chest>, <minecraft:hopper>, <ore:chest>]]);
+recipes.addShaped(<multiblocked:energy_input>, [[null, <minecraft:hopper>, null],[<ore:ingotSteel>, <immersiveengineering:metal_device0:1>, <ore:ingotSteel>], [<ore:chest>, <ore:ingotSteel>, <ore:chest>]]);
+recipes.addShaped(<multiblocked:fluid_output>, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <immersiveengineering:metal_device0:4>, <ore:ingotSteel>], [<ore:chest>, <minecraft:hopper>, <ore:chest>]]);
+recipes.addShaped(<multiblocked:fluid_input>, [[null, <minecraft:hopper>, null],[<ore:ingotSteel>, <immersiveengineering:metal_device0:4>, <ore:ingotSteel>], [<ore:chest>, <ore:ingotSteel>, <ore:chest>]]);
+recipes.addShaped(<multiblocked:item_output>, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <immersiveengineering:conveyor>, <ore:ingotSteel>], [<ore:chest>, <minecraft:hopper>, <ore:chest>]]);
+recipes.addShaped(<multiblocked:item_input>, [[null, <minecraft:hopper>, null],[<ore:ingotSteel>, <immersiveengineering:conveyor>, <ore:ingotSteel>], [<ore:chest>, <ore:ingotSteel>, <ore:chest>]]);
