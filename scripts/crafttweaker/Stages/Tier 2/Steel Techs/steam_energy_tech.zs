@@ -10,7 +10,7 @@ import crafttweaker.item.IItemStack;
 val stage = "steam_energy_tech";
 //TODO MULTIBLOCKS SOLAR TOWER,
 val stageMods as string[] = [
-
+    "betterboilers"
 ];
 
 val stageItems as IItemStack[] = [
