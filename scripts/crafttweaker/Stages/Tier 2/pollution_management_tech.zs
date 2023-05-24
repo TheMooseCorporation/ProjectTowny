@@ -24,7 +24,9 @@ val stageItems as IItemStack[] = [
     <adpother:diamond_vacuum_bag>,
     <adpother:diamond_vacuum_tube>,
     <adpother:diamond_respirator>,
-    <infilter:infilter_block_infilter>
+    <infilter:infilter_block_infilter>,
+    <adpother:diamond_filter>,
+    <adpother:aerometer>,
 ];
 
 for mod in stageMods {
