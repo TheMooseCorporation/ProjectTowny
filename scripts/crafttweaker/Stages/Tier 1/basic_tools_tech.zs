@@ -1,7 +1,6 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
-import crafttweaker.liquid.ILiquidStack;
 import mods.TinkerStages;
 
 /**
@@ -12,7 +11,6 @@ import mods.TinkerStages;
 val stage = "basic_tools_tech";
 
 val stageMods as string[] = [
-    "tconstruct",
     "toolbelt",
     "ironchest"
 ];
@@ -47,25 +45,91 @@ val stageItems as IItemStack[] = [
     <locks:iron_lock>
 ];
 
-
-// All of the alloys that we don't want to be formable in the smeltry
-val disabledAlloys as ILiquidStack[] = [
-    <liquid:steel>,
-    <liquid:constantan>,
-    <liquid:enderium>,
-    <liquid:invar>,
-    <liquid:signalum>,
-    <liquid:lumium>,
-    <liquid:pigiron>,
-    <liquid:knightslime>,
-    <liquid:bronze>,
-    <liquid:electrum>,
-    <liquid:energetic_alloy>,
-    <liquid:vibrant_alloy>,
-    <liquid:conductive_iron>,
-    <liquid:pulsating_iron>,
-    <liquid:dark_steel>
+val nonStagedItems as IItemStack[] = [
+    <tconstruct:seared_tank>,
+    <tconstruct:seared_tank:1>,
+    <tconstruct:seared_tank:2>,
+    <tconstruct:faucet>,
+    <tconstruct:smeltery_io>,
+    <tconstruct:seared_glass>,
+    <tconstruct:seared_furnace_controller>,
+    <tconstruct:seared_slab>,
+    <tconstruct:seared_slab:1>,
+    <tconstruct:soil>,
+    <tconstruct:materials>,
+    <adchimneys:seared_brick>,
+    <adchimneys:seared_brick:1>,
+    <adchimneys:seared_brick:2>,
+    <adchimneys:seared_brick_fancy>,
+    <adchimneys:seared_brick_fancy:1>,
+    <adchimneys:seared_brick_fancy:2>,
+    <adchimneys:seared_brick_small>,
+    <adchimneys:seared_brick_small:1>,
+    <adchimneys:seared_brick_small:2>,
+    <adchimneys:seared_brick_triangle>,
+    <adchimneys:seared_brick_triangle:1>,
+    <adchimneys:seared_brick_triangle:2>,
+    <tconstruct:materials>,
+    <tconstruct:seared>,
+    <tconstruct:seared:1>,
+    <tconstruct:seared:2>,
+    <tconstruct:seared:3>,
+    <tconstruct:seared:4>,
+    <tconstruct:seared:5>,
+    <tconstruct:seared:6>,
+    <tconstruct:seared:7>,
+    <tconstruct:seared:8>,
+    <tconstruct:seared:9>,
+    <tconstruct:seared:10>,
+    <tconstruct:seared:11>,
+    <tconstruct:seared_slab:2>,
+    <tconstruct:seared_slab:3>,
+    <tconstruct:seared_slab:4>,
+    <tconstruct:seared_slab:5>,
+    <tconstruct:seared_slab:5>,
+    <tconstruct:seared_slab:6>,
+    <tconstruct:seared_slab:7>,
+    <tconstruct:seared_slab2>,
+    <tconstruct:seared_slab2:1>,
+    <tconstruct:seared_slab2:2>,
+    <tconstruct:seared_slab2:3>,
+    <tconstruct:seared_stairs_stone>,
+    <tconstruct:seared_stairs_cobble>,
+    <tconstruct:seared_stairs_paver>,
+    <tconstruct:seared_stairs_brick>,
+    <tconstruct:seared_stairs_brick_cracked>,
+    <tconstruct:seared_stairs_brick_fancy>,
+    <tconstruct:seared_stairs_brick_square>,
+    <tconstruct:seared_stairs_brick_triangle>,
+    <tconstruct:seared_stairs_brick_small>,
+    <tconstruct:seared_stairs_road>,
+    <tconstruct:seared_stairs_tile>,
+    <tconstruct:seared_stairs_creeper>,
+    <tconstruct:seared_slab:2>,
+    <tconstruct:seared_slab:3>,
+    <tconstruct:seared_slab:4>,
+    <tconstruct:seared_slab:5>,
+    <tconstruct:seared_slab:5>,
+    <tconstruct:seared_slab:6>,
+    <tconstruct:seared_slab:7>,
+    <tconstruct:seared_slab2>,
+    <tconstruct:seared_slab2:1>,
+    <tconstruct:seared_slab2:2>,
+    <tconstruct:seared_slab2:3>,
+    <tconstruct:seared_stairs_stone>,
+    <tconstruct:seared_stairs_cobble>,
+    <tconstruct:seared_stairs_paver>,
+    <tconstruct:seared_stairs_brick>,
+    <tconstruct:seared_stairs_brick_cracked>,
+    <tconstruct:seared_stairs_brick_fancy>,
+    <tconstruct:seared_stairs_brick_square>,
+    <tconstruct:seared_stairs_brick_triangle>,
+    <tconstruct:seared_stairs_brick_small>,
+    <tconstruct:seared_stairs_road>,
+    <tconstruct:seared_stairs_tile>,
+    <tconstruct:toolforge>
 ];
+
 
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
@@ -75,10 +139,6 @@ for mod in stageMods {
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
-}
-
-for alloy in disabledAlloys {
-    mods.tconstruct.Alloy.removeRecipe(alloy);
 }
 
 //These were all in the legacy file and looked too important to not have merged over
@@ -100,3 +160,18 @@ TinkerStages.addMaterialStage("chemical_engineering_spec", "pigiron");
 TinkerStages.addMaterialStage("asteroid_mining_tech", "cobalt");
 TinkerStages.addMaterialStage("warp_tech", "ardite");
 TinkerStages.addMaterialStage("warp_tech", "ardite");
+
+var found = false;
+for item in loadedMods["tconstruct"].items {
+    for nonStagedItem in nonStagedItems {
+        if (item.matches(nonStagedItem)) {
+            found = true;
+            break;
+        }
+    }
+    if (!found) {
+        Recipes.setRecipeStage(stage, item);
+        ItemStages.addItemStage(stage, item);
+    }
+    found = false;
+}
