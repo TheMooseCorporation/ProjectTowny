@@ -66,7 +66,20 @@ val stageItems as IItemStack[] = [
     <nuclearcraft:fusion_core>,
     <nuclearcraft:fusion_connector>,
     <nuclearcraft:fusion_electromagnet_idle>,
-    <nuclearcraft:fusion_electromagnet_transparent_idle>
+    <nuclearcraft:fusion_electromagnet_transparent_idle>,
+    // Other Nuclearcraft Lategame items
+    <nuclearcraft:helium_collector>,
+    <nuclearcraft:helium_collector_compact>,
+    <nuclearcraft:helium_collector_dense>,
+    <nuclearcraft:nitrogen_collector>,
+    <nuclearcraft:nitrogen_collector_compact>,
+    <nuclearcraft:nitrogen_collector_dense>,
+    <nuclearcraft:tritium_lamp>,
+    <nuclearcraft:supercooler_idle>,
+    <nuclearcraft:electrolyser_idle>,
+    <nuclearcraft:irradiator_idle>,
+    <nuclearcraft:chemical_reactor_idle>,
+    <nuclearcraft:dissolver_idle>
 ];
 
 for mod in stageMods {

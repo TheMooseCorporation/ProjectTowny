@@ -41,6 +41,9 @@ val stageItems as IItemStack[] = [
     // Multiblocked multiblocks for creating microchips, not computer components, those are in the precision assembler from computer_tech
     <projecttowny:crystallizer>,
     <projecttowny:microchip_inscriber>,
+    // Nuclearcraft parts for making basic plating
+    <nuclearcraft:part>,
+    <nuclearcraft:dust:8>,
     <contenttweaker:dram>
 ];
 

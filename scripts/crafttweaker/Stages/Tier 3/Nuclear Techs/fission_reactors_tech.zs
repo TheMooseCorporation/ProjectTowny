@@ -17,6 +17,17 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
+    <nuclearcraft:fuel_reprocessor_idle>,
+    <nuclearcraft:isotope_separator_idle>,
+    <nuclearcraft:decay_hastener_idle>,
+    <nuclearcraft:infuser_idle>,
+    <nuclearcraft:melter_idle>,
+    <nuclearcraft:ingot_former_idle>,
+    <nuclearcraft:salt_mixer_idle>,
+    <nuclearcraft:crystallizer_idle>,
+    <nuclearcraft:extractor_idle>,
+    <nuclearcraft:centrifuge_idle>,
+    <nuclearcraft:rock_crusher_idle>,
     <nuclearcraft:reactor_casing_transparent>,
     <nuclearcraft:cell_block>,
     <nuclearcraft:reactor_trapdoor>,
@@ -244,7 +255,33 @@ val stageItems as IItemStack[] = [
     <nuclearcraft:depleted_fuel_californium:1>,
     <nuclearcraft:depleted_fuel_californium:2>,
     <nuclearcraft:depleted_fuel_californium:3>,
-    <nuclearcraft:depleted_fuel_californium:4>
+    <nuclearcraft:depleted_fuel_californium:4>,
+    <nuclearcraft:fuel_californium:2>,
+    <nuclearcraft:fuel_californium:3>,
+    <nuclearcraft:boron>,
+    <nuclearcraft:boron:1>,
+    <nuclearcraft:boron:2>,
+    <nuclearcraft:boron:3>,
+    <nuclearcraft:lithium>,
+    <nuclearcraft:lithium:1>,
+    <nuclearcraft:lithium:2>,
+    <nuclearcraft:lithium:3>,
+    <nuclearcraft:ingot_block:8>,
+    <nuclearcraft:block_depleted_neptunium>,
+    <nuclearcraft:block_depleted_uranium>,
+    <nuclearcraft:block_depleted_thorium>,
+    <nuclearcraft:ingot_block:9>,
+    <nuclearcraft:block_depleted_plutonium>,
+    <nuclearcraft:block_depleted_americium>,
+    <nuclearcraft:block_depleted_curium>,
+    <nuclearcraft:block_depleted_berkelium>,
+    <nuclearcraft:block_depleted_californium>,
+    <nuclearcraft:part:1>,
+    <nuclearcraft:part:2>,
+    <nuclearcraft:part:3>,
+    <nuclearcraft:part:5>,
+    <nuclearcraft:tiny_dust_lead>,
+    <nuclearcraft:block_ice>
 ];
 
 for mod in stageMods {
@@ -261,8 +298,10 @@ for item in stageItems {
 // Keep this alphabetized. You can check out steel tech for my reaction if you don't
 
 // Chemical Reactor
-chemical_reactor.removeRecipeWithInput(<liquid:sulfur_trioxide> * 250, <liquid:water> * 250);
+chemical_reactor.removeRecipeWithInput(<liquid:sulfur_trioxide> * 1000, <liquid:water> * 1000);
 
 // Electrolyzer
 electrolyser.removeRecipeWithInput(<liquid:water> * 500);
+electrolyser.removeRecipeWithInput(<liquid:water> * 1000);
 electrolyser.removeRecipeWithInput(<liquid:heavy_water> * 500);
+
