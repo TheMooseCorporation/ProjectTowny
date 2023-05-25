@@ -375,6 +375,9 @@ for item in stageItems {
 
 // Arc Furnace
 ArcFurnace.addRecipe(<libvulpes:productingot:3>, <minecraft:sand>, <immersiveengineering:material:7>, 200, 512);
+ArcFurnace.addRecipe(<nuclearcraft:alloy:6> * 2, <ore:ingotSteel>, <immersiveengineering:material:7>, 200, 512, [<ore:ingotBoron>], "Alloying"); // Ferroboron Alloy
+ArcFurnace.addRecipe(<nuclearcraft:alloy:2> * 2, <ore:ingotGraphite> * 2, <immersiveengineering:material:7>, 200, 512, [<ore:dustDiamond>], "Alloying"); // Hardcarbon Alloy
+ArcFurnace.addRecipe(<nuclearcraft:alloy:1> * 2, <ore:ingotFerroboron>, <immersiveengineering:material:7>, 200, 512, [<ore:ingotLithium>], "Alloying"); // Tough Alloy
 // Blast Furnace
 BlastFurnace.addRecipe(<techguns:itemshared:84>, <minecraft:obsidian>, 2000, <immersiveengineering:material:7>);
 // Blueprints

@@ -1,6 +1,8 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
+import mods.nuclearcraft.chemical_reactor;
+import mods.nuclearcraft.electrolyser;
 
 /**
     Fission Reactors:
@@ -254,3 +256,13 @@ for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
 }
+
+// Recipe changes for Nuclearcraft Machines
+// Keep this alphabetized. You can check out steel tech for my reaction if you don't
+
+// Chemical Reactor
+chemical_reactor.removeRecipeWithInput(<liquid:sulfur_trioxide> * 250, <liquid:water> * 250);
+
+// Electrolyzer
+electrolyser.removeRecipeWithInput(<liquid:water> * 500);
+electrolyser.removeRecipeWithInput(<liquid:heavy_water> * 500);

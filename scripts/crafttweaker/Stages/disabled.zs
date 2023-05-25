@@ -20,6 +20,11 @@ val stageItems as IItemStack[] = [
     <nuclearcraft:solar_panel_advanced>,
     <nuclearcraft:solar_panel_du>,
     <nuclearcraft:solar_panel_elite>,
+    <nuclearcraft:manufactory_idle>,
+    <nuclearcraft:pressurizer_idle>,
+    <nuclearcraft:water_source>,
+    <nuclearcraft:water_source_compact>,
+    <nuclearcraft:water_source_dense>,
     // Opencomputers
     <opencomputers:material>, // Cutting wire
     <opencomputers:upgrade:4>, // Chunkload upgrade
