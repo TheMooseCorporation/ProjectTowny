@@ -44,7 +44,8 @@ val stageItems as IItemStack[] = [
     // Nuclearcraft parts for making basic plating
     <nuclearcraft:part>,
     <nuclearcraft:dust:8>,
-    <contenttweaker:dram>
+    <contenttweaker:dram>,
+    <nuclearcraft:ingot:8>
 ];
 
 for mod in stageMods {

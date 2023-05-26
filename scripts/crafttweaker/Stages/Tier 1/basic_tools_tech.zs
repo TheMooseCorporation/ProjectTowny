@@ -42,7 +42,11 @@ val stageItems as IItemStack[] = [
     <locks:wood_lock_mechanism>,
     <locks:iron_lock_mechanism>,
     <locks:wood_lock>,
-    <locks:iron_lock>
+    <locks:iron_lock>,
+    <betterwithmods:hand_crank>,
+    <betterwithmods:material>,
+    <betterwithmods:shaft>,
+    <betterwithmods:material:22>
 ];
 
 val nonStagedItems as IItemStack[] = [

@@ -57,7 +57,6 @@ recipes.remove(<photoptics:handheldtelescope_diamondgreen>);
 recipes.remove(<photoptics:handheldtelescope_diamondblue>);
 recipes.remove(<photoptics:handheldtelescope_diamondred>);
 recipes.remove(<photoptics:handheldtelescope_ultimate>);
-
 recipes.remove(<advancedrocketry:electrolyser>);
 // These should be delt with better later
 recipes.remove(<appliedenergistics2:tiny_tnt>);

@@ -110,3 +110,8 @@ for item in loadedMods["enderio"].items {
     }
     found = false;
 }
+
+// EnderIO recipe tweaks (Mainly conduits)
+// Redstone Conduit
+recipes.remove(<enderio:item_redstone_conduit>);
+recipes.addShaped(<enderio:item_redstone_conduit> * 8, [[<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>],[<projectred-core:resource_item:103>, <projectred-core:resource_item:103>, <projectred-core:resource_item:103>], [<enderio:item_material:4>, <enderio:item_material:4>, <enderio:item_material:4>]]);

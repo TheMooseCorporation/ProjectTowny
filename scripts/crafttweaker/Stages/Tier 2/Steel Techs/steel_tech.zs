@@ -399,9 +399,10 @@ Crusher.addRecipe(<thermalfoundation:material:769>, <minecraft:coal:1>, 128);
 // Melting Crucible [Energy is calculated as (RF/t) * (time)]
 MeltingCrucible.addRecipe(<liquid:molten_silicon> * 20, <minecraft:sand>, 61440, 120); // Molten Silicon
 // Metal Press
-MetalPress.addRecipe(<libvulpes:productplate:7>, <ore:ingotTitanium>, <immersiveengineering:mold>, 2400); // Titanium Plate
+MetalPress.addRecipe(<nuclearcraft:part:6>, <minecraft:reeds>, <immersiveengineering:mold>, 2400, 2); // Bioplastic
 MetalPress.addRecipe(<techguns:itemshared:53>, <techguns:itemshared:64>, <immersiveengineering:mold>, 2400); // Carbon Plate
 MetalPress.addRecipe(<techguns:itemshared:45>, <ore:plateSteel>, <thermalfoundation:material:355>, 2400); // Steam Plate
+MetalPress.addRecipe(<libvulpes:productplate:7>, <ore:ingotTitanium>, <immersiveengineering:mold>, 2400); // Titanium Plate
 
 MetalPress.addRecipe(<techguns:itemshared:57>, <ore:plateIron>, <contenttweaker:mechanical_parts_mold>, 2400); // Mechanical Parts
 MetalPress.addRecipe(<techguns:itemshared:58>, <ore:plateObsidianSteel>, <contenttweaker:mechanical_parts_mold>, 2400); // Mechanical Parts
