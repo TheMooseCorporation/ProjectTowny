@@ -58,7 +58,8 @@ val stageItems as IItemStack[] = [
     <advancedrocketry:electricmushroom>,
     <advancedrocketry:biomechanger>,
     <advancedrocketry:hovercraft>,
-    <advancedrocketry:itemupgrade:5>
+    <advancedrocketry:itemupgrade:5>,
+    <mekanism:teleportationcore>
 ];
 
 val stageAlloys as ILiquidStack[] = [

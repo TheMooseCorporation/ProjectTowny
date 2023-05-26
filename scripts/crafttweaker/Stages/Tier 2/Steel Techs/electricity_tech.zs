@@ -11,8 +11,7 @@ import mods.multiblockstages.IEMultiBlockStages;
 val stage = "electricity_tech";
 
 val stageMods as string[] = [
-    "immersiveposts",
-    "industrialwires"
+    "immersiveposts"
 ];
 
 val stageItems as IItemStack[] = [
@@ -156,7 +155,29 @@ val stageItems as IItemStack[] = [
     <engineersdecor:small_block_breaker>,
     <engineersdecor:factory_dropper>,
     <engineersdecor:factory_placer>,
-    <engineersdecor:factory_hopper>
+    <engineersdecor:factory_hopper>,
+    // Industrial Wires (We can't do the IC2 wires because they cause issues, but we don't need them anyway)
+    <industrialwires:jacobs_ladder>,
+    <industrialwires:jacobs_ladder:1>,
+    <industrialwires:jacobs_ladder:2>,
+    <industrialwires:control_panel>,
+    <industrialwires:control_panel:1>,
+    <industrialwires:control_panel:2>,
+    <industrialwires:control_panel:3>,
+    <industrialwires:control_panel:4>,
+    <industrialwires:control_panel:6>,
+    <industrialwires:panel_component>,
+    <industrialwires:panel_component:1>,
+    <industrialwires:panel_component:2>,
+    <industrialwires:panel_component:3>,
+    <industrialwires:panel_component:4>,
+    <industrialwires:panel_component:5>,
+    <industrialwires:panel_component:6>,
+    <industrialwires:panel_component:7>,
+    <industrialwires:panel_component:8>,
+    <industrialwires:panel_component:9>,
+    <industrialwires:key>,
+    <industrialwires:key:2>
 ];
 
 for mod in stageMods {

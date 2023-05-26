@@ -56,8 +56,8 @@ for item in stageItems {
     ItemStages.addItemStage(stage, item);
 }
 
-// Davincis Vessels Harder Balloon Recipe
-Recipes.addShaped(stage, <davincisvessels:balloon>, [[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>],[<minecraft:wool>, <forge:bucketfilled>.withTag({FluidName: "helium_3", Amount: 1000}), <minecraft:wool>], [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
+// Davincis Vessels Harder Balloon Recipe, this isn't that great of a recipe we should change this based on player feedback
+Recipes.addShaped(stage, <davincisvessels:balloon>, [[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>],[<minecraft:wool>, <forge:bucketfilled>.withTag({FluidName: "helium3", Amount: 1000}), <minecraft:wool>], [<minecraft:string>, <minecraft:string>, <minecraft:string>]]);
 Recipes.addShapeless(stage, <davincisvessels:balloon:1>, [<ore:dyeOrange>, <davincisvessels:balloon>]);
 Recipes.addShapeless(stage, <davincisvessels:balloon:2>, [<ore:dyeMagenta>, <davincisvessels:balloon>]);
 Recipes.addShapeless(stage, <davincisvessels:balloon:3>, [<ore:dyeLightBlue>, <davincisvessels:balloon>]);

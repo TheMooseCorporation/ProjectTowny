@@ -11,7 +11,6 @@ import crafttweaker.item.IItemStack;
 val stage = "server_storage_tech";
 
 val stageMods as string[] = [
-    "appliedenergistics2",
     "extracells"
 ];
 
@@ -29,4 +28,25 @@ for mod in stageMods {
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+}
+
+val nonStagedItems as IItemStack[] = [
+    // AE2 items that bypass claim protections - Needs testing with states absolute protection level
+    <appliedenergistics2:network_tool>,
+    <appliedenergistics2:material:6>
+];
+
+var found = false;
+for item in loadedMods["appliedenergistics2"].items {
+    for nonStagedItem in nonStagedItems {
+        if (item.matches(nonStagedItem)) {
+            found = true;
+            break;
+        }
+    }
+    if (!found) {
+        Recipes.setRecipeStage(stage, item);
+        ItemStages.addItemStage(stage, item);
+    }
+    found = false;
 }

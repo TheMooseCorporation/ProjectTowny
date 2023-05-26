@@ -25,6 +25,8 @@ val stageMods as string[] = [
 
 val stageItems as IItemStack[] = [
     <contenttweaker:mechanical_parts_mold>,
+    // Davincis Vessels, this may be an odd place to put the steam engine, this may be subject to moving
+    <davincisvessels:engine>,
     <immersiveengineering:treated_wood>,
     <immersiveengineering:treated_wood:1>,
     <immersiveengineering:treated_wood:2>,
@@ -357,7 +359,13 @@ val stageItems as IItemStack[] = [
     <locks:diamond_lock>, // Move to later stage
     <locks:steel_lock_pick>,
     <locks:gold_lock_pick>,
-    <locks:diamond_lock_pick> // Move to later stage
+    <locks:diamond_lock_pick>, // Move to later stage
+    // Early game techguns
+    <techguns:handcannon>,
+    <techguns:itemshared>,
+    <techguns:itemshared:37>,
+    <techguns:itemshared:42>,
+    <patchouli:guide_book>.withTag({"patchouli:book": "techguns:techguns_manual"})
 ];  
 
 for mod in stageMods {
@@ -416,6 +424,8 @@ Refinery.addRecipe(<liquid:rocketfuel> * 100, <liquid:refined_kerosene> * 50, <l
 recipes.remove(<locks:iron_lock_pick>);
 recipes.addShaped(<locks:steel_lock_pick>, [[null, <ore:ingotSteel>, <ore:ingotSteel>],[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, null, null]]);
 
+// Copper nugget recipe doesn't work for some reason? This still doesn't make sense an update later??
+//recipes.addShapeless(<immersiveengineering:metal:20> * 9, [<ore:ingotCopper>]);
 
 //Locks the Coke Oven multiblock
 IEMultiBlockStages.addStage(stage, "IE:CokeOven", "Requires " + stage);
@@ -423,3 +433,6 @@ IEMultiBlockStages.addStage(stage, "IE:BlastFurnace", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IE:BlastFurnaceAdvanced", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IE:MetalPress", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IE:Silo", "Requires " + stage);
+
+// Gun Staging - Just the one gun we'll give them thats not in a military tech
+Recipes.setRecipeStage(stage, "techguns:handcannon");

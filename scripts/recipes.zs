@@ -47,16 +47,7 @@ recipes.remove(<immersiveengineering:metal_device1:13>);
 recipes.remove(<tconstruct:throwball:1>);
 recipes.remove(<icbmclassic:missile:24>);
 recipes.remove(<icbmclassic:circuit:2>);
-recipes.remove(<ore:nuggetCopper>);
-recipes.remove(<photoptics:binoculars_gold>);
-recipes.remove(<photoptics:binoculars_diamondgreen>);
-recipes.remove(<photoptics:binoculars_diamondblue>);
-recipes.remove(<photoptics:binoculars_diamondred>);
-recipes.remove(<photoptics:binoculars_ultimate>);
-recipes.remove(<photoptics:handheldtelescope_diamondgreen>);
-recipes.remove(<photoptics:handheldtelescope_diamondblue>);
-recipes.remove(<photoptics:handheldtelescope_diamondred>);
-recipes.remove(<photoptics:handheldtelescope_ultimate>);
+
 recipes.remove(<advancedrocketry:electrolyser>);
 // These should be delt with better later
 recipes.remove(<appliedenergistics2:tiny_tnt>);

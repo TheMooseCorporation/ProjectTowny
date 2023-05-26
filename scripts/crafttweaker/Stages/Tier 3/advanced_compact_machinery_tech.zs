@@ -18,7 +18,6 @@ val stageItems as IItemStack[] = [
     <mekanism:compresseddiamond>,
     <mekanism:compressedobsidian>,
     <mekanism:portableteleporter>,
-    <mekanism:teleportationcore>,
     <mekanism:armoredjetpack>,
     <mekanism:flamethrower>,
     <mekanism:tierinstaller:1>,

@@ -96,7 +96,13 @@ val stageItems as IItemStack[] = [
     <betterwithmods:rope>,
     <betterwithmods:aesthetic:4>,
     <betterwithmods:wicker>,
-    <betterwithmods:aesthetic:12>
+    <betterwithmods:aesthetic:12>,
+    <betterwithmods:grate>,
+    <betterwithmods:grate:1>,
+    <betterwithmods:grate:2>,
+    <betterwithmods:grate:3>,
+    <betterwithmods:grate:4>,
+    <betterwithmods:grate:5>
 ];
 
 for mod in stageMods {

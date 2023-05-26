@@ -3,6 +3,7 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 /**
+    Iron Tech:
     Anything that we want to lock behind founding a town should go here
     Nothing is currently gated behind this gamestage, it acts as more of tutorial to showcase how the system works.
 */

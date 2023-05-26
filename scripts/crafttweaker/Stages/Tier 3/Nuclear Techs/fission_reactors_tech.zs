@@ -17,6 +17,23 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
+    // Davincis Vessels Balloons because you technically can't get them until here
+    <davincisvessels:balloon:15>,
+    <davincisvessels:balloon:6>,
+    <davincisvessels:balloon:7>,
+    <davincisvessels:balloon:8>,
+    <davincisvessels:balloon:9>,
+    <davincisvessels:balloon:10>,
+    <davincisvessels:balloon:11>,
+    <davincisvessels:balloon:12>,
+    <davincisvessels:balloon:13>,
+    <davincisvessels:balloon:14>,
+    <davincisvessels:balloon>,
+    <davincisvessels:balloon:1>,
+    <davincisvessels:balloon:2>,
+    <davincisvessels:balloon:3>,
+    <davincisvessels:balloon:4>,
+    <davincisvessels:balloon:5>,
     <nuclearcraft:fuel_reprocessor_idle>,
     <nuclearcraft:isotope_separator_idle>,
     <nuclearcraft:decay_hastener_idle>,

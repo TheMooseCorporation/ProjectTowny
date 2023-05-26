@@ -2,6 +2,7 @@ import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.item.IItemCondition;
 
 /**
     Disabled:
@@ -13,6 +14,9 @@ import crafttweaker.liquid.ILiquidStack;
 val stage = "disabled";
 
 val stageItems as IItemStack[] = [
+    // AE2
+    <appliedenergistics2:network_tool>,
+    <appliedenergistics2:material:6>,
     // Locks
     <locks:wood_lock_pick>,
     // Nuclearcraft
@@ -194,12 +198,6 @@ val stageItems as IItemStack[] = [
     <betterwithmods:metal_chime:3>,
     <betterwithmods:metal_chime:4>,
     <betterwithmods:metal_chime:5>,
-    <betterwithmods:grate>,
-    <betterwithmods:grate:1>,
-    <betterwithmods:grate:2>,
-    <betterwithmods:grate:3>,
-    <betterwithmods:grate:4>,
-    <betterwithmods:grate:5>,
     <betterwithmods:slats>,
     <betterwithmods:slats:1>,
     <betterwithmods:slats:2>,
@@ -267,6 +265,25 @@ val stageItems as IItemStack[] = [
     <betterwithmods:apple_pie>,
     // Immersive Tech
     <immersivetech:wooden_crate>,
+    // Industiral Wires
+    <industrialwires:ic2_connector>,
+    <industrialwires:ic2_connector:1>,
+    <industrialwires:ic2_connector:2>,
+    <industrialwires:ic2_connector:3>,
+    <industrialwires:ic2_connector:4>,
+    <industrialwires:ic2_connector:5>,
+    <industrialwires:ic2_connector:6>,
+    <industrialwires:ic2_connector:7>,
+    <industrialwires:ic2_wire_coil>,
+    <industrialwires:ic2_wire_coil:1>,
+    <industrialwires:ic2_wire_coil:2>,
+    <industrialwires:ic2_wire_coil:3>,
+    <industrialwires:ic2_wire_coil:4>,
+    <industrialwires:ic2_wire_coil:5>,
+    <industrialwires:ic2_wire_coil:6>,
+    <industrialwires:ic2_wire_coil:7>,
+    <industrialwires:ic2_connector:8>,
+    <industrialwires:ic2_connector:9>,
     // B.A.S.E Wrench - I don't think this has a need to be here, but content tweaker depends on B.A.S.E so this will do
     <base:wrench>,
     // Advanced Rocketry
@@ -319,7 +336,9 @@ val stageItems as IItemStack[] = [
     <mekanismgenerators:solarpanel>,
     <mekanismgenerators:generator:1>,
     <mekanismgenerators:generator:5>,
+    <mekanism:machineblock3:1>,
     // Misc Mekanism Items
+    <mekanism:obsidiantnt>,
     <mekanism:basicblock:6>.withTag({tier: 4}),
     <mekanism:machineblock2:11>.withTag({tier: 4}),
     <mekanism:gastank>.withTag({tier: 4}),
@@ -361,6 +380,7 @@ val stageItems as IItemStack[] = [
     <techguns:t3_combat_leggings>,
     <techguns:t3_combat_boots>,
     // Misc Techguns items and machines that we don't use
+    <techguns:basicmachine:3>,
     <techguns:basicore>,
     <techguns:basicore:1>,
     <techguns:basicore:2>,
@@ -429,6 +449,40 @@ val stageItems as IItemStack[] = [
     <techguns:itemshared:67>,
     <techguns:itemshared:69>,
     <techguns:itemshared:78>,
+    // RSgauges that we don't use
+    <rsgauges:sensitiveglass_black>,
+    <rsgauges:sensitiveglass_inverted>,
+    <rsgauges:sensitiveglass_magenta>,
+    <rsgauges:sensitiveglass_lightblue>,
+    <rsgauges:sensitiveglass_lime>,
+    <rsgauges:sensitiveglass_pink>,
+    <rsgauges:sensitiveglass_gray>,
+    <rsgauges:sensitiveglass_lightgray>,
+    <rsgauges:sensitiveglass_cyan>,
+    <rsgauges:sensitiveglass_purple>,
+    <rsgauges:sensitiveglass_brown>,
+    <rsgauges:detectorswitch_glass1>,
+    <rsgauges:detectorswitch_glass2>,
+    <rsgauges:sensitiveglass>,
+    <rsgauges:sensitiveglass_white>,
+    <rsgauges:sensitiveglass_red>,
+    <rsgauges:sensitiveglass_green>,
+    <rsgauges:sensitiveglass_blue>,
+    <rsgauges:sensitiveglass_yellow>,
+    <rsgauges:sensitiveglass_orange>,
+    <rsgauges:bistableswitch_glass1>,
+    <rsgauges:bistableswitch_glass2>,
+    <rsgauges:pulseswitch_glass1>,
+    <rsgauges:pulseswitch_glass2>,
+    <rsgauges:pulseswitch_glass3>,
+    <rsgauges:contactmat_glass1>,
+    <rsgauges:contactmat_glass2>,
+    <rsgauges:daytimeswitch_glass1>,
+    <rsgauges:timerswitch_glass1>,
+    <rsgauges:powerplant_red>,
+    <rsgauges:powerplant_yellow>,
+    // Storage Drawers
+    <storagedrawers:tape>, // Lets players carry mass items in drawers
     // ICBM items that we don't use
     <icbmclassic:antidote>,
     <icbmclassic:wire>,
@@ -522,3 +576,14 @@ for item in stageItems {
 for alloy in disabledAlloys {
     mods.tconstruct.Alloy.removeRecipe(alloy);
 }
+
+// Immersive Railroading, ugly trains, we hate ugly trains
+    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rClass B-B-70/70-4HM829 Boxcab Frame"}}));
+    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rGE B40-8w Frame"}}));
+    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rSkookum 2-4-4-2 Front Frame"}}));
+    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rSkookum 2-4-4-2 Frame"}}));
+    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rSkookum Tender Frame"}}));
+    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rE6 Atlantic Frame"}}));
+    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rE6 Atlantic Tender Frame"}}));
+    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rDSP&P Mogul Frame"}}));
+    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rD&RGW K36 Frame"}}));

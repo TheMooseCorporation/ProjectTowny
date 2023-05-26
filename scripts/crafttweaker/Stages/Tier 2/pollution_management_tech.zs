@@ -40,5 +40,8 @@ for item in stageItems {
 }
 
 // Alternate pollutant pump recipes
-Recipes.addShaped(stage, <pollutantpump:pipe> * 8, [[<ore:ingotSteel>, null, <ore:ingotSteel>],[<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
-Recipes.addShaped(stage, <pollutantpump:pump>, [[<ore:ingotSteel>, <minecraft:diamond>, <ore:ingotSteel>],[<minecraft:stone>, <minecraft:redstone_block>, <minecraft:stone>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+recipes.remove(<pollutantpump:pipe>);
+recipes.remove(<pollutantpump:pump>);
+
+recipes.addShaped(<pollutantpump:pipe> * 8, [[<ore:ingotSteel>, null, <ore:ingotSteel>],[<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
+recipes.addShaped(<pollutantpump:pump>, [[<ore:ingotSteel>, <minecraft:diamond>, <ore:ingotSteel>],[<minecraft:stone>, <minecraft:redstone_block>, <minecraft:stone>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);

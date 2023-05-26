@@ -22,7 +22,11 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-    
+    <rsgauges:bistableswitch_oldfancy1>,
+    <rsgauges:bistableswitch_oldfancy2>,
+    <rsgauges:pulseswitch_oldfancy1>,
+    <rsgauges:pulseswitch_oldfancy2>,
+    <rsgauges:pulseswitch_oldfancy4>
 ];
 
 for mod in stageMods {
