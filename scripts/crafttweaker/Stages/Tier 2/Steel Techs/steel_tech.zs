@@ -406,6 +406,7 @@ ArcFurnace.addRecipe(<nuclearcraft:alloy:12> * 8, <ore:ingotZirconium> * 7, <imm
 BlastFurnace.addRecipe(<techguns:itemshared:84>, <minecraft:obsidian>, 2000, <immersiveengineering:material:7>);
 // Blueprints
 Blueprint.addRecipe("molds", <contenttweaker:mechanical_parts_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
+Blueprint.addRecipe("molds", <contenttweaker:inscriber_press_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
 // Crusher
 Crusher.addRecipe(<minecraft:clay_ball> * 4, <ore:hardened_clay>, 128);
 Crusher.addRecipe(<thermalfoundation:material:769>, <minecraft:coal:1>, 128);
@@ -420,6 +421,13 @@ MetalPress.addRecipe(<libvulpes:productplate:7>, <ore:ingotTitanium>, <immersive
 MetalPress.addRecipe(<techguns:itemshared:57>, <ore:plateIron>, <contenttweaker:mechanical_parts_mold>, 2400); // Mechanical Parts
 MetalPress.addRecipe(<techguns:itemshared:58>, <ore:plateObsidianSteel>, <contenttweaker:mechanical_parts_mold>, 2400); // Mechanical Parts
 MetalPress.addRecipe(<techguns:itemshared:59>, <ore:plateCarbon>, <contenttweaker:mechanical_parts_mold>, 2400); // Mechanical Parts
+
+// AE2 Inscriber Recipes
+MetalPress.addRecipe(<appliedenergistics2:material:13>, <appliedenergistics2:material:10>, <contenttweaker:inscriber_press_mold>, 2400); // Inscriber Calculation
+MetalPress.addRecipe(<appliedenergistics2:material:14>, <minecraft:diamond>, <contenttweaker:inscriber_press_mold>, 2400); // Insriber Engineering
+MetalPress.addRecipe(<appliedenergistics2:material:15>, <ore:ingotGold>, <contenttweaker:inscriber_press_mold>, 2400); // Inscriber Logic
+MetalPress.addRecipe(<appliedenergistics2:material:19>, <ore:itemSilicon>, <contenttweaker:inscriber_press_mold>, 2400); // Inscriber Silicon
+
 // Refinery
 Refinery.addRecipe(<liquid:rocketfuel> * 100, <liquid:refined_kerosene> * 50, <liquid:butylated_hydroxytoluene> * 50, 1024); // Rocket Fuel
 
