@@ -375,6 +375,20 @@ for item in stageItems {
 
 // Arc Furnace
 ArcFurnace.addRecipe(<libvulpes:productingot:3>, <minecraft:sand>, <immersiveengineering:material:7>, 200, 512);
+// Nuclear Craft Alloys (Since we removed the nuclear craft alloy smelter as it is a 1x1 machine)
+ArcFurnace.addRecipe(<nuclearcraft:alloy:6> * 2, <ore:ingotSteel>, <immersiveengineering:material:7>, 200, 512, [<ore:dustBoron>], "Alloying"); // Ferroboron Alloy
+ArcFurnace.addRecipe(<nuclearcraft:alloy:10>, <ore:ingotTough>, <immersiveengineering:material:7>, 200, 512, [<ore:ingotHardCarbon>], "Alloying"); // Extreme Alloy
+ArcFurnace.addRecipe(<nuclearcraft:alloy:2> * 2, <ore:ingotGraphite> * 2, <immersiveengineering:material:7>, 200, 512, [<ore:dustDiamond>], "Alloying"); // Hardcarbon Alloy
+ArcFurnace.addRecipe(<nuclearcraft:alloy:15> * 16, <ore:ingotIron> * 15, <immersiveengineering:material:7>, 200, 512, [<ore:dustCarbonManganese>], "Alloying"); // HSLA Steel Alloy
+ArcFurnace.addRecipe(<nuclearcraft:alloy:9> * 4, <ore:ingotLead> * 3, <immersiveengineering:material:7>, 200, 512, [<ore:dustPlatinum>], "Alloying"); // Lead Platinum Alloy
+ArcFurnace.addRecipe(<nuclearcraft:alloy:4> * 2, <ore:ingotLithium>, <immersiveengineering:material:7>, 200, 512, [<ore:dustManganeseDioxide>], "Alloying"); // Lithium Manganese Dioxide Alloy
+ArcFurnace.addRecipe(<nuclearcraft:alloy:3> * 3, <ore:ingotMagnesium>, <immersiveengineering:material:7>, 200, 512, [<ore:dustBoron> * 2], "Alloying"); // Magnesium Diboride Alloy
+ArcFurnace.addRecipe(<nuclearcraft:alloy:7> * 4, <ore:ingotCopper> * 3, <immersiveengineering:material:7>, 200, 512, [<ore:dustSilver>], "Alloying"); // Shibuichi Alloy (Not recipes using this, adding for use in custom recipes)
+ArcFurnace.addRecipe(<nuclearcraft:alloy:13> * 2, <ore:itemSilicon>, <immersiveengineering:material:7>, 200, 512, [<ore:dustGraphite>], "Alloying"); // Silicon Carbide Alloy
+ArcFurnace.addRecipe(<nuclearcraft:alloy:11> * 2, <ore:ingotExtreme>, <immersiveengineering:material:7>, 200, 512, [<ore:gemBoronArsenide>], "Alloying"); // Thermoconducting Alloy (Also has no recipes, added for custom use)
+ArcFurnace.addRecipe(<nuclearcraft:alloy:8> * 4, <ore:ingotTin> * 3, <immersiveengineering:material:7>, 200, 512, [<ore:dustSilver>], "Alloying"); // Tin Silver Alloy (Also has no real use)
+ArcFurnace.addRecipe(<nuclearcraft:alloy:1> * 2, <ore:ingotFerroboron>, <immersiveengineering:material:7>, 200, 512, [<ore:dustLithium>], "Alloying"); // Tough Alloy
+ArcFurnace.addRecipe(<nuclearcraft:alloy:12> * 8, <ore:ingotZirconium> * 7, <immersiveengineering:material:7>, 200, 512, [<ore:dustTin>], "Alloying"); // Zircalogy Alloy (Another with no use)
 // Blast Furnace
 BlastFurnace.addRecipe(<techguns:itemshared:84>, <minecraft:obsidian>, 2000, <immersiveengineering:material:7>);
 // Blueprints
