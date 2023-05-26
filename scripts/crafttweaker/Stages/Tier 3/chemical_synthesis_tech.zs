@@ -1,6 +1,7 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
+import mods.multiblockstages.IEMultiBlockStages;
 
 /**
     Chemical Synthesis:
@@ -30,3 +31,6 @@ for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
 }
+
+//Locks Multiblocks
+IEMultiBlockStages.addStage(stage, "IT:electrolyticCrucibleBattery", "Requires " + stage);

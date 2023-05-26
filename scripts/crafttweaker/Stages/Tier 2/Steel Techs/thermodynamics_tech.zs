@@ -1,6 +1,7 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
+import mods.multiblockstages.IEMultiBlockStages;
 
 /**
     All technologies that somehow involve heating
@@ -30,3 +31,7 @@ for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
 }
+
+//Locks Multiblocks
+IEMultiBlockStages.addStage(stage, "IT:meltingCrucible", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IT:SolarMelter", "Requires " + stage);

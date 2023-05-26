@@ -2,6 +2,7 @@ import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
+import mods.multiblockstages.IEMultiBlockStages;
 
 /**
     Anything post smeltry should be put here.  basic_tools_tech should have all the prerequisite materials to this stage
@@ -105,7 +106,8 @@ val stageItems as IItemStack[] = [
     <tconstruct:seared_stairs_brick_small>,
     <tconstruct:seared_stairs_road>,
     <tconstruct:seared_stairs_tile>,
-    <tconstruct:seared_stairs_creeper>
+    <tconstruct:seared_stairs_creeper>,
+    <immersiveengineering:stone_decoration:10>
 ];
 
 val stageAlloys as ILiquidStack[] = [
@@ -125,3 +127,5 @@ for item in stageItems {
 for alloy in stageAlloys {
     mods.tconstruct.Alloy.removeRecipe(alloy);
 }
+
+IEMultiBlockStages.addStage(stage, "IE:AlloySmelter", "Requires " + stage);

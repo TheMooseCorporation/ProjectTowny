@@ -28,5 +28,7 @@ for item in stageItems {
     ItemStages.addItemStage(stage, item);
 }
 
+//Locks Multiblocks
 IEMultiBlockStages.addStage(stage, "IE:Refinery", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IE:Fermenter", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IE:Squeezer", "Requires " + stage);
