@@ -10,7 +10,9 @@ import crafttweaker.item.IItemStack;
 val stage = "advanced_redstone_tech";
 
 val stageMods as string[] = [
-    "projectred-core"
+    "projectred-core",
+    "projectred-integration",
+    "projectred-transmission"
 ];
 
 val stageItems as IItemStack[] = [

@@ -266,6 +266,7 @@ val stageItems as IItemStack[] = [
     // Immersive Tech
     <immersivetech:wooden_crate>,
     // Industiral Wires
+    <industrialwires:general_hv>,
     <industrialwires:ic2_connector>,
     <industrialwires:ic2_connector:1>,
     <industrialwires:ic2_connector:2>,
@@ -381,6 +382,9 @@ val stageItems as IItemStack[] = [
     <techguns:t3_combat_boots>,
     // Misc Techguns items and machines that we don't use
     <techguns:basicmachine:3>,
+    <techguns:itemshared:99>,
+    <techguns:itemshared:100>,
+    <techguns:itemshared:101>,
     <techguns:basicore>,
     <techguns:basicore:1>,
     <techguns:basicore:2>,

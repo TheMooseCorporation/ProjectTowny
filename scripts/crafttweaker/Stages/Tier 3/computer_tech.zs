@@ -25,6 +25,15 @@ val stageItems as IItemStack[] = [
     <buildinggadgets:exchangertool>,
     <buildinggadgets:copypastetool>,
     <buildinggadgets:template>,
+    <buildinggadgets:templatemanager>,
+    <buildinggadgets:constructionblock_dense>,
+    <buildinggadgets:constructionblock>,
+    <buildinggadgets:constructionblockpowder>,
+    <buildinggadgets:constructionpaste>,
+    <buildinggadgets:construction_chunk_dense>,
+    <buildinggadgets:constructionpastecontainer>,
+    <buildinggadgets:constructionpastecontainert2>,
+    <buildinggadgets:constructionpastecontainert3>,
     // EnderIO Conduit
     <enderio:item_opencomputers_conduit>,
     // Opencomputer components and blocks

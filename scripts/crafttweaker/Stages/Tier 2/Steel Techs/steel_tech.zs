@@ -361,6 +361,11 @@ val stageItems as IItemStack[] = [
     <locks:gold_lock_pick>,
     <locks:diamond_lock_pick>, // Move to later stage
     // Early game techguns
+    <techguns:steam_helmet>,
+    <techguns:steam_chestplate>,
+    <techguns:steam_leggings>,
+    <techguns:steam_boots>,
+    <techguns:itemshared:45>,
     <techguns:handcannon>,
     <techguns:itemshared>,
     <techguns:itemshared:37>,

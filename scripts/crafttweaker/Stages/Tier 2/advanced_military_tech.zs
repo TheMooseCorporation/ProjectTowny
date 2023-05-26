@@ -151,7 +151,12 @@ val stageItems as IItemStack[] = [
     <techguns:itemshared:119>,
     <techguns:itemshared:106>,
     <techguns:itemshared:94>,
-    <techguns:crowbar>
+    <techguns:crowbar>,
+    <techguns:hazmat_helmet>,
+    <techguns:hazmat_chestplate>,
+    <techguns:hazmat_leggings>,
+    <techguns:hazmat_boots>
+
 ];
 
 val techGuns as IItemStack[] = [
