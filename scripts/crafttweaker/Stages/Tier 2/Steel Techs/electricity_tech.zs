@@ -169,4 +169,11 @@ for item in stageItems {
     ItemStages.addItemStage(stage, item);
 }
 
+
+//Locks multiblocks
 IEMultiBlockStages.addStage(stage, "IE:Assembler", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IE:MetalPress", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IE:AutoWorkbench", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IE:Lightningrod", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IE:FeedThrough", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IT:Alternator", "Requires " + stage);

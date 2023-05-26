@@ -1,6 +1,7 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
+import mods.multiblockstages.IEMultiBlockStages;
 
 /**
     Fluid based machines
@@ -48,3 +49,10 @@ for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
 }
+
+//Locks Multiblocks
+IEMultiBlockStages.addStage(stage, "IE:SheetmetalTank", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IE:BottlingMachine", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IE:Mixer", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IT:HeatExchanger", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IT:SteelSheetmetalTank", "Requires " + stage);

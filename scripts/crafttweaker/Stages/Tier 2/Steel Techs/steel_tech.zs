@@ -8,6 +8,7 @@ import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Blueprint;
 import mods.immersivetechnology.MeltingCrucible;
 import mods.immersiveengineering.Refinery;
+import mods.multiblockstages.IEMultiBlockStages;
 
 /**
     Steel:
@@ -70,7 +71,6 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:stone_decoration:5>,
     <immersiveengineering:stone_decoration:6>,
     <immersiveengineering:stone_decoration:7>,
-    <immersiveengineering:stone_decoration:10>,
     <immersiveengineering:stone_decoration_slab>,
     <immersiveengineering:stone_decoration_slab:1>,
     <immersiveengineering:stone_decoration_slab:2>,
@@ -400,3 +400,11 @@ Refinery.addRecipe(<liquid:rocketfuel> * 100, <liquid:refined_kerosene> * 50, <l
 // Locks
 recipes.remove(<locks:iron_lock_pick>);
 recipes.addShaped(<locks:steel_lock_pick>, [[null, <ore:ingotSteel>, <ore:ingotSteel>],[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, null, null]]);
+
+
+//Locks the Coke Oven multiblock
+IEMultiBlockStages.addStage(stage, "IE:CokeOven", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IE:BlastFurnace", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IE:BlastFurnaceAdvanced", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IE:MetalPress", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IE:Silo", "Requires " + stage);

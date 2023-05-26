@@ -29,5 +29,9 @@ for item in stageItems {
     ItemStages.addItemStage(stage, item);
 }
 
+
+//Locks Multiblocks
 IEMultiBlockStages.addStage(stage, "IP:DistillationTower", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IP:Pumpjack", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IP:DieselGenerator", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IT:GasTurbine", "Requires " + stage);
