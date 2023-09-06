@@ -20,3 +20,4 @@ config/jei/worldSettings.cfg
 config/mtsconfigclient.json
 config/mtslanguage_en_us.json
 config/antiqueatlas/biome_textures.json
+config/oxygen/data/client/

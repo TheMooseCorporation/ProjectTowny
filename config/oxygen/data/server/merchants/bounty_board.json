@@ -1,0 +1,158 @@
+{
+  "persistent_id": 1,
+  "version_id": 3,
+  "display_name": "Bounty Board",
+  "currency_index": 0,
+  "currency_itemstack": {
+    "registry_name": "minecraft:air",
+    "damage": 0,
+    "itemstack_nbt": "",
+    "capabilities_nbt": ""
+  },
+  "offers": [
+    {
+      "id": 1,
+      "amount": 16,
+      "buy_cost": 0,
+      "selling_cost": 10,
+      "itemstack": {
+        "registry_name": "minecraft:iron_ingot",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 2,
+      "amount": 1,
+      "buy_cost": 0,
+      "selling_cost": 10,
+      "itemstack": {
+        "registry_name": "chisel:chisel_diamond",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 3,
+      "amount": 4,
+      "buy_cost": 0,
+      "selling_cost": 10,
+      "itemstack": {
+        "registry_name": "harvestcraft:spagettiandmeatballsitem",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 4,
+      "amount": 4,
+      "buy_cost": 0,
+      "selling_cost": 10,
+      "itemstack": {
+        "registry_name": "harvestcraft:hamburgeritem",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 5,
+      "amount": 4,
+      "buy_cost": 0,
+      "selling_cost": 10,
+      "itemstack": {
+        "registry_name": "harvestcraft:blueberrypieitem",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 6,
+      "amount": 4,
+      "buy_cost": 0,
+      "selling_cost": 10,
+      "itemstack": {
+        "registry_name": "harvestcraft:cherrypieitem",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 7,
+      "amount": 4,
+      "buy_cost": 0,
+      "selling_cost": 5,
+      "itemstack": {
+        "registry_name": "harvestcraft:pancakesitem",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 8,
+      "amount": 4,
+      "buy_cost": 0,
+      "selling_cost": 10,
+      "itemstack": {
+        "registry_name": "harvestcraft:chiliitem",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 9,
+      "amount": 4,
+      "buy_cost": 0,
+      "selling_cost": 10,
+      "itemstack": {
+        "registry_name": "harvestcraft:steakandchipsitem",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 10,
+      "amount": 4,
+      "buy_cost": 0,
+      "selling_cost": 20,
+      "itemstack": {
+        "registry_name": "harvestcraft:friedchickenitem",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 11,
+      "amount": 4,
+      "buy_cost": 0,
+      "selling_cost": 40,
+      "itemstack": {
+        "registry_name": "harvestcraft:thankfuldinneritem",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 12,
+      "amount": 8,
+      "buy_cost": 0,
+      "selling_cost": 20,
+      "itemstack": {
+        "registry_name": "immersiveengineering:metal_decoration1",
+        "damage": 1,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    }
+  ]
+}
