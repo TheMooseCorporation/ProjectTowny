@@ -3,7 +3,8 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 /**
-    This stage should contain all cooking items that make cooking significantly easier or more streamlined.  It should NOT remove basic cooking tools.
+    Agriculture Specilization:
+    Idk farm and stuff
 */
 
 // Stage Name
@@ -24,10 +25,8 @@ val stageItems as IItemStack[] = [
 
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
-    ItemStages.stageModItems(stage, mod);
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
-    ItemStages.addItemStage(stage, item);
 }
