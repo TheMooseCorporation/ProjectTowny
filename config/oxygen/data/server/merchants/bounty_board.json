@@ -1,6 +1,6 @@
 {
   "persistent_id": 1,
-  "version_id": 3,
+  "version_id": 18,
   "display_name": "Bounty Board",
   "currency_index": 0,
   "currency_itemstack": {
@@ -151,6 +151,186 @@
         "registry_name": "immersiveengineering:metal_decoration1",
         "damage": 1,
         "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 13,
+      "amount": 1,
+      "buy_cost": 0,
+      "selling_cost": 10,
+      "itemstack": {
+        "registry_name": "immersiveengineering:metal_decoration0",
+        "damage": 4,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 14,
+      "amount": 1,
+      "buy_cost": 0,
+      "selling_cost": 20,
+      "itemstack": {
+        "registry_name": "immersiveengineering:metal_decoration0",
+        "damage": 5,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 15,
+      "amount": 5,
+      "buy_cost": 0,
+      "selling_cost": 10,
+      "itemstack": {
+        "registry_name": "immersiveengineering:wirecoil",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 16,
+      "amount": 5,
+      "buy_cost": 0,
+      "selling_cost": 10,
+      "itemstack": {
+        "registry_name": "immersiveengineering:wirecoil",
+        "damage": 1,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 17,
+      "amount": 5,
+      "buy_cost": 0,
+      "selling_cost": 30,
+      "itemstack": {
+        "registry_name": "immersiveengineering:wirecoil",
+        "damage": 2,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 18,
+      "amount": 1,
+      "buy_cost": 0,
+      "selling_cost": 50,
+      "itemstack": {
+        "registry_name": "immersivepetroleum:metal_device",
+        "damage": 1,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 19,
+      "amount": 1,
+      "buy_cost": 0,
+      "selling_cost": 50,
+      "itemstack": {
+        "registry_name": "opencomputers:case1",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 20,
+      "amount": 1,
+      "buy_cost": 0,
+      "selling_cost": 80,
+      "itemstack": {
+        "registry_name": "opencomputers:case2",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 21,
+      "amount": 1,
+      "buy_cost": 0,
+      "selling_cost": 150,
+      "itemstack": {
+        "registry_name": "opencomputers:case3",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 22,
+      "amount": 1,
+      "buy_cost": 0,
+      "selling_cost": 100,
+      "itemstack": {
+        "registry_name": "opencomputers:component",
+        "damage": 0,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 23,
+      "amount": 1,
+      "buy_cost": 0,
+      "selling_cost": 200,
+      "itemstack": {
+        "registry_name": "opencomputers:component",
+        "damage": 1,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 24,
+      "amount": 1,
+      "buy_cost": 0,
+      "selling_cost": 500,
+      "itemstack": {
+        "registry_name": "opencomputers:component",
+        "damage": 2,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 25,
+      "amount": 4,
+      "buy_cost": 0,
+      "selling_cost": 20,
+      "itemstack": {
+        "registry_name": "techguns:itemshared",
+        "damage": 11,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 26,
+      "amount": 4,
+      "buy_cost": 0,
+      "selling_cost": 40,
+      "itemstack": {
+        "registry_name": "techguns:itemshared",
+        "damage": 13,
+        "itemstack_nbt": "",
+        "capabilities_nbt": ""
+      }
+    },
+    {
+      "id": 27,
+      "amount": 1,
+      "buy_cost": 0,
+      "selling_cost": 100,
+      "itemstack": {
+        "registry_name": "techguns:m4",
+        "damage": 0,
+        "itemstack_nbt": "{camo:0b,ammovariant:\"default\",ammo:30s}",
         "capabilities_nbt": ""
       }
     }
