@@ -362,6 +362,16 @@ val stageItems as IItemStack[] = [
     <mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}),
     // Tinkers
     <tconstruct:throwball:1>,
+    <tconstruct:slimesling>,
+    <tconstruct:slimesling:1>,
+    <tconstruct:slimesling:2>,
+    <tconstruct:slimesling:3>,
+    <tconstruct:slimesling:4>,
+    <tconstruct:slime_boots>,
+    <tconstruct:slime_boots:1>,
+    <tconstruct:slime_boots:2>,
+    <tconstruct:slime_boots:3>,
+    <tconstruct:slime_boots:4>
     // Techguns armor that gives a mood speed buff
     <techguns:t1_scout_helmet>,
     <techguns:t1_scout_chestplate>,

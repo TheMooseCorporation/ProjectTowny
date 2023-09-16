@@ -18,3 +18,5 @@ fluid.molten_silicon=Molten Silicon
 tile.contenttweaker.clay_sample.name=Clay Sample
 tile.contenttweaker.rutile_sample.name=Rutile Sample
 tile.contenttweaker.ardite_sample.name=Ardite Sample
+tile.contenttweaker.composite_asphalt.name=Composite Asphalt
+tile.contenttweaker.composite_concrete.name=Composite Concrete

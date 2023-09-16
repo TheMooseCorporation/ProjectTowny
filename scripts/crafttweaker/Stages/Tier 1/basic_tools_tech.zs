@@ -138,7 +138,17 @@ val nonStagedItems as IItemStack[] = [
     <tconstruct:materials:16>,
     <techguns:itemshared>,
     <techguns:itemshared:37>,
-    <techguns:itemshared:42>
+    <techguns:itemshared:42>,
+    <tconstruct:slimesling>,
+    <tconstruct:slimesling:1>,
+    <tconstruct:slimesling:2>,
+    <tconstruct:slimesling:3>,
+    <tconstruct:slimesling:4>,
+    <tconstruct:slime_boots>,
+    <tconstruct:slime_boots:1>,
+    <tconstruct:slime_boots:2>,
+    <tconstruct:slime_boots:3>,
+    <tconstruct:slime_boots:4>
 ];
 
 

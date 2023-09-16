@@ -52,6 +52,13 @@ for item in spec_tech_stageItems {
 // Saw Recipes
 Saw.removeAll(); // Getting a clean slate is probably best here because there are a lot of different woods
 
+// Frame Doubling
+Saw.add(<minecraft:planks>,[<blockcraftery:editable_block> * 4]);
+Saw.add(<minecraft:planks:1>,[<blockcraftery:editable_block> * 4]);
+Saw.add(<minecraft:planks:2>,[<blockcraftery:editable_block> * 4]);
+Saw.add(<minecraft:planks:3>,[<blockcraftery:editable_block> * 4]);
+Saw.add(<minecraft:planks:4>,[<blockcraftery:editable_block> * 4]);
+Saw.add(<minecraft:planks:5>,[<blockcraftery:editable_block> * 4]);
 // Plank Doubling
 Saw.add(<minecraft:log>,[<minecraft:planks> * 8,<betterwithmods:bark>, <betterwithmods:material:22> * 2]);
 Saw.add(<minecraft:log:1>,[<minecraft:planks:1> * 8,<betterwithmods:bark:1>, <betterwithmods:material:22> * 2]);
