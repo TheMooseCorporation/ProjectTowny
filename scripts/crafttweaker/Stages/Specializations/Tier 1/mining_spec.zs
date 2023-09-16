@@ -4,7 +4,8 @@ import crafttweaker.item.IItemStack;
 
 /**
     Mining Specilization:
-    For towns focused on mining
+    For towns focused on mining. Unlocks explosive devices made for mining.
+    Rock and Stone!
 */
 
 // Stage Name
@@ -15,10 +16,7 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-    <geolosys:pro_pick>,
-    <prospectors:prospector_med>,
-    <prospectors:prospector_high>,
-    <prospectors:prospector_best>
+    <immersiveengineering:wooden_device0:4>
 ];
 
 for mod in stageMods {
@@ -28,3 +26,27 @@ for mod in stageMods {
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
 }
+
+recipes.remove(<immersiveengineering:wooden_device0:4>);
+recipes.addShaped(<immersiveengineering:wooden_device0:4> * 5, [[null, <ore:string>, null],[<minecraft:gunpowder>, <ore:chest>, <minecraft:gunpowder>], [<minecraft:gunpowder>, <minecraft:gunpowder>, <minecraft:gunpowder>]]);
+
+// Spec Tech
+
+
+/**
+    Mining Specilization Tech:
+    Unlocks special tinkers modifiers
+*/
+
+val spec_tech_stage = "mining_tech_spec";
+
+val spec_tech_stageItems as IItemStack[] = [
+    <tconstruct:materials:14>,
+    <tconstruct:materials:15>,
+    <tconstruct:materials:16>
+];
+
+for item in spec_tech_stageItems {
+    Recipes.setRecipeStage(spec_tech_stage, item);
+}
+

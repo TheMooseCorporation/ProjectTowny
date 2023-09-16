@@ -15,11 +15,9 @@ val stageMods as string[] = [
 
 val stageItems as IItemStack[] = [
     <harvestcraft:shippingbin>,
-    <harvestcraft:well>,
     <harvestcraft:groundtrap>,
     <harvestcraft:watertrap>,
     <harvestcraft:waterfilter>,
-    <harvestcraft:grinder>,
     <harvestcraft:apiary>,
     <harvestcraft:presser>,
     <harvestcraft:fruitbaititem>,

@@ -47,7 +47,6 @@ recipes.remove(<immersiveengineering:metal_device1:13>);
 recipes.remove(<tconstruct:throwball:1>);
 recipes.remove(<icbmclassic:missile:24>);
 recipes.remove(<icbmclassic:circuit:2>);
-
 recipes.remove(<advancedrocketry:electrolyser>);
 // These should be delt with better later
 recipes.remove(<appliedenergistics2:tiny_tnt>);

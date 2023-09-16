@@ -5,7 +5,7 @@ import mods.betterwithmods.Mill;
 
 /**
     Basic Engineering:
-    Unlocks early game Better with Mods, the late game stuff was all over the place and a pain to fit into progression, might revist later
+    Unlocks early game Better with Mods, the late game stuff was all over the place and a pain to fit into progression, might revist later - Moose
 */
 
 // Stage Name
@@ -114,11 +114,6 @@ for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
 }
-// Better with Mods machine recipes
-// Mill Recipes, mainly related to the farming specilization
-Mill.remove([<betterwithmods:raw_pastry:3>]); 
-Mill.addRecipe([<minecraft:wheat>],[<harvestcraft:flouritem> * 2]);
-Mill.addRecipe([<harvestcraft:barleyitem>],[<harvestcraft:flouritem> * 2]);
 
 // Better with Mods recipe tweaks
 recipes.remove(<betterwithmods:hibachi>);

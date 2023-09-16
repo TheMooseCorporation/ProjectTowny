@@ -17,6 +17,10 @@ val stageItems as IItemStack[] = [
     // AE2
     <appliedenergistics2:network_tool>,
     <appliedenergistics2:material:6>,
+    // Pams Harvest Craft
+    <harvestcraft:market>,
+    <harvestcraft:well>,
+    <harvestcraft:grinder>,
     // Locks
     <locks:wood_lock_pick>,
     // Nuclearcraft
@@ -356,6 +360,8 @@ val stageItems as IItemStack[] = [
     <mekanismgenerators:reactorglass:1>,
     <mekanism:energycube>.withTag({tier: 4}),
     <mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}),
+    // Tinkers
+    <tconstruct:throwball:1>,
     // Techguns armor that gives a mood speed buff
     <techguns:t1_scout_helmet>,
     <techguns:t1_scout_chestplate>,
