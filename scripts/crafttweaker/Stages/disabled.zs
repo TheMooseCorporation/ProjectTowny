@@ -371,7 +371,7 @@ val stageItems as IItemStack[] = [
     <tconstruct:slime_boots:1>,
     <tconstruct:slime_boots:2>,
     <tconstruct:slime_boots:3>,
-    <tconstruct:slime_boots:4>
+    <tconstruct:slime_boots:4>,
     // Techguns armor that gives a mood speed buff
     <techguns:t1_scout_helmet>,
     <techguns:t1_scout_chestplate>,
@@ -565,7 +565,7 @@ val stageItems as IItemStack[] = [
     <icbmclassic:bombcart:2>,
     <adchimneys:bedrock>,
     <adchimneys:bedrock:1>,
-    <adchimneys:bedrock:2>,
+    <adchimneys:bedrock:2>
     // End
 ];
 
