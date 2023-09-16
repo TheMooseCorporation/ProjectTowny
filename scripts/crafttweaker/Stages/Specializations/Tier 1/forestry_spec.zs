@@ -16,7 +16,7 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-
+    <techguns:handcannon>
 ];
 
 for mod in stageMods {
@@ -28,6 +28,8 @@ for item in stageItems {
 }
 
 TinkerStages.addToolTypeStage(stage, "tconstruct:lumberaxe");
+// Gun Staging - Just the one gun we'll give them thats not in a military tech
+Recipes.setRecipeStage(stage, "techguns:handcannon");
 
 // Spec Tech
 

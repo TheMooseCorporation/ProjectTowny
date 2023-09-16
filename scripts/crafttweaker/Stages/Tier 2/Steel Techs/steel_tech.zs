@@ -366,10 +366,6 @@ val stageItems as IItemStack[] = [
     <techguns:steam_leggings>,
     <techguns:steam_boots>,
     <techguns:itemshared:45>,
-    <techguns:handcannon>,
-    <techguns:itemshared>,
-    <techguns:itemshared:37>,
-    <techguns:itemshared:42>,
     <patchouli:guide_book>.withTag({"patchouli:book": "techguns:techguns_manual"})
 ];  
 
@@ -446,6 +442,3 @@ IEMultiBlockStages.addStage(stage, "IE:BlastFurnace", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IE:BlastFurnaceAdvanced", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IE:MetalPress", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IE:Silo", "Requires " + stage);
-
-// Gun Staging - Just the one gun we'll give them thats not in a military tech
-Recipes.setRecipeStage(stage, "techguns:handcannon");
