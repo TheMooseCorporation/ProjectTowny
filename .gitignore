@@ -6,6 +6,7 @@
 !/scripts/
 
 config/BiomeTweaker/
+config/dynamiclights_onfire.cfg
 config/dynamiclights_entityclasses.cfg
 config/InvTweaks.cfg
 config/splash.properties
@@ -14,3 +15,8 @@ config/tlf/HideNames.cfg
 config/worldedit/worldedit.properties
 config/AppliedEnergistics2/items.csv
 config/AppliedEnergistics2/CustomRecipes.cfg
+config/AppliedEnergistics2/VersionChecker.cfg
+config/jei/worldSettings.cfg
+config/mtsconfigclient.json
+config/mtslanguage_en_us.json
+config/antiqueatlas/biome_textures.json

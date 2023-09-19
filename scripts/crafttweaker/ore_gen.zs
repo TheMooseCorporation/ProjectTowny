@@ -37,7 +37,7 @@ ores.addOre(
 // Clay Deposit
 ores.addOre(
     <blockstate:minecraft:clay>, 
-    <blockstate:contenttweaker:clay_sample>, 
+    <blockstate:contenttweaker:clay_sample>,
     40, 
     70, 
     120, 

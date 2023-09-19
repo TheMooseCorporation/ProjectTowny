@@ -41,15 +41,6 @@
 			<itemStack>advancedrocketry:productingot;3</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="6000" power ="1">
-		<input>
-			<itemStack>minecraft:coal;1;1</itemStack>
-			<itemStack>minecraft:iron_ingot</itemStack>
-		</input>
-		<output>
-			<itemStack>libvulpes:productingot;1;6</itemStack>
-		</output>
-	</Recipe>
 	<Recipe timeRequired="3000" power ="20">
 		<input>
 			<itemStack>libvulpes:productingot;1;10</itemStack>
