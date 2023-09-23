@@ -3,6 +3,10 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IItemCondition;
+import crafttweaker.mods.ILoadedMods;
+import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.oredict.IOreDict;
 
 /**
     Disabled:
@@ -607,3 +611,23 @@ for alloy in disabledAlloys {
     ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rE6 Atlantic Tender Frame"}}));
     ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rDSP&P Mogul Frame"}}));
     ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rD&RGW K36 Frame"}}));
+
+    val circuitBasic as IOreDictEntry[] = [
+    <ore:circuitBasic>
+];
+
+
+//Removes these specific circuitboards from oredictionary because
+//They were too easy to create and were being used in place of mekanism/ie boards
+<ore:circuitBasic>.removeItems([
+    <icbmclassic:circuit>,
+    <techguns:itemshared:65>,
+    ]);
+
+<ore:circuitAdvanced>.removeItems([
+    <icbmclassic:circuit:1>
+    ]);
+
+<ore:circuitElite>.removeItems([
+    <techguns:itemshared:66>
+    ]);
