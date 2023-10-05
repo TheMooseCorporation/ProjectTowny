@@ -10,8 +10,7 @@ import mods.multiblockstages.IEMultiBlockStages;
 val stage = "oil_processing_tech";
 
 val stageMods as string[] = [
-    "immersivepetroleum",
-    "immersivetech"
+    "immersivepetroleum"
 ];
 
 val stageItems as IItemStack[] = [

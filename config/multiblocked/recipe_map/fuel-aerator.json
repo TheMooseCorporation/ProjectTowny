@@ -1,0 +1,55 @@
+{
+  "name": "fuel-aerator",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "air_fuel",
+      "duration": 40,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"diesel\",Amount:1000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"air\",Amount:500}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"aerated_diesel\",Amount:1000}"
+          }
+        ]
+      }
+    },
+    {
+      "uid": "oxygen_fuel",
+      "duration": 40,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"diesel\",Amount:250}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"oxygen\",Amount:500}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"aerated_diesel\",Amount:1000}"
+          }
+        ]
+      }
+    }
+  ]
+}

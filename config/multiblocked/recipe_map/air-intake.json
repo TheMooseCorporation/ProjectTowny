@@ -1,0 +1,19 @@
+{
+  "name": "air-intake",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "air",
+      "duration": 10,
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"air\",Amount:5}"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -309,6 +309,7 @@ val stageItems as IItemStack[] = [
     <advancedrocketry:jackhammer>,
     <advancedrocketry:basiclasergun>,
     <advancedrocketry:misc:1>,
+    <libvulpes:coalgenerator>,
     // Mekanism Cables
     <mekanism:transmitter>.withTag({tier: 0}),
     <mekanism:transmitter>.withTag({tier: 1}),

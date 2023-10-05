@@ -1,0 +1,82 @@
+{
+  "name": "unpacker",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "mv",
+      "duration": 976,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:mv_packet\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1024
+          }
+        ]
+      }
+    },
+    {
+      "uid": "lv",
+      "duration": 390,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:lv_packet\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 256
+          }
+        ]
+      }
+    },
+    {
+      "uid": "hv",
+      "duration": 976,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:hv_packet\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickOutputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 4096
+          }
+        ]
+      }
+    }
+  ]
+}

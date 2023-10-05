@@ -17,7 +17,17 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-
+    <immersivetech:valve>,
+    <immersivetech:valve:2>,
+    <immersivetech:valve:1>,
+    <immersiveengineering:wooden_device0:7>,
+    <immersivetech:metal_trash>,
+    <immersivetech:metal_trash:1>,
+    <immersivetech:metal_trash:2>,
+    <engineersdecor:factory_dropper>,
+    <engineersdecor:factory_hopper>,
+    <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}),
+    <immersiveengineering:wooden_device0:3>
 
 ];
 

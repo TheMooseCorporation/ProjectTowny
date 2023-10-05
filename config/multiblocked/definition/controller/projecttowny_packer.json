@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "location": "projecttowny:dilithium_chamber",
+  "location": "projecttowny:packer",
   "traits": {},
   "properties": {
     "rotationState": "ALL",
@@ -16,54 +16,46 @@
   "status": {
     "unformed": {
       "renderer": {
-        "baseTexture": "multiblocked:blocks/gregtech_base",
-        "frontTexture": "multiblocked:blocks/gregtech_front",
-        "type": "gregtech"
+        "state": {
+          "id": "immersiveengineering:metal_decoration0",
+          "meta": 5
+        },
+        "type": "blockstate"
       }
     },
     "idle": {
       "parent": "unformed"
     },
     "working": {
-      "parent": "idle"
+      "parent": "idle",
+      "sound": {
+        "sound": "immersiveengineering:spark",
+        "loop": true,
+        "delay": 100,
+        "volume": 1.0,
+        "pitch": 1.0
+      }
     },
     "suspend": {
       "parent": "working"
     }
   },
-  "recipeMap": "dilithium-chamber",
+  "recipeMap": "packer",
   "basePattern": {
     "structureDir": [
-      "FRONT",
+      "LEFT",
       "UP",
-      "LEFT"
+      "BACK"
     ],
     "pattern": [
       [
-        "ABA",
+        "A@B",
         "CDC",
-        "ACA"
-      ],
-      [
-        "CCC",
-        "EF@",
-        "CGC"
-      ],
-      [
-        "ABA",
         "CDC",
-        "ACA"
+        "CEC"
       ]
     ],
     "aisleRepetitions": [
-      [
-        1,
-        1
-      ],
-      [
-        1,
-        1
-      ],
       [
         1,
         1
@@ -73,44 +65,17 @@
       "A": {
         "states": [
           {
-            "id": "chisel:laboratory",
-            "meta": 4
+            "id": "multiblocked:item_input",
+            "meta": 0
           }
         ],
         "type": "states"
       },
       "controller": {
-        "location": "projecttowny:dilithium_chamber",
+        "location": "projecttowny:packer",
         "type": "component"
       },
       "B": {
-        "states": [
-          {
-            "id": "multiblocked:energy_input",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "C": {
-        "states": [
-          {
-            "id": "mekanism:basicblock",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "D": {
-        "states": [
-          {
-            "id": "engineersdecor:panzerglass_block",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "E": {
         "states": [
           {
             "id": "multiblocked:item_output",
@@ -119,19 +84,28 @@
         ],
         "type": "states"
       },
-      "F": {
+      "C": {
         "states": [
           {
-            "id": "nuclearcraft:ingot_block",
-            "meta": 6
+            "id": "immersiveengineering:wooden_decoration",
+            "meta": 0
           }
         ],
         "type": "states"
       },
-      "G": {
+      "D": {
         "states": [
           {
-            "id": "multiblocked:item_input",
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "multiblocked:energy_input",
             "meta": 0
           }
         ],
@@ -165,12 +139,6 @@
       ],
       "E": [
         "E"
-      ],
-      "F": [
-        "F"
-      ],
-      "G": [
-        "G"
       ],
       "-": [
         "air"

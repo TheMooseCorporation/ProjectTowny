@@ -28,8 +28,6 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:metal_device1:10>,
     <immersivetech:metal_barrel:1>,
     <immersivetech:metal_barrel:2>,
-    <immersivetech:metal_trash:1>,
-    <immersivetech:valve>,
     <engineersdecor:straight_pipe_valve>,
     <immersiveengineering:metal_device0:5>,
     <engineersdecor:straight_pipe_valve>,

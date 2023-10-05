@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "location": "projecttowny:microchip_inscriber",
+  "location": "projecttowny:fuel_aerator",
   "traits": {},
   "properties": {
     "rotationState": "ALL",
@@ -31,48 +31,62 @@
       "parent": "working"
     }
   },
-  "recipeMap": "microchip-inscriber",
+  "recipeMap": "fuel-aerator",
   "basePattern": {
     "structureDir": [
-      "BACK",
+      "FRONT",
       "UP",
-      "RIGHT"
+      "LEFT"
     ],
     "pattern": [
       [
-        "ABC",
-        "DED",
-        "DFD"
+        "ABA",
+        "CDC",
+        "CEC",
+        "FFF",
+        "   "
       ],
       [
-        "ADC",
-        "BGH",
-        "DGD"
+        "BBB",
+        "CE@",
+        "CCC",
+        "FFF",
+        "   "
       ],
       [
-        "ADC",
-        "BGI",
-        "DGD"
+        "BBB",
+        "CEC",
+        "CCC",
+        "FFF",
+        "   "
       ],
       [
-        "ADC",
-        "BJI",
-        "DJD"
+        "ABA",
+        "CEC",
+        "CCC",
+        "FFF",
+        "   "
       ],
       [
-        "ADC",
-        "DGI",
-        "DGD"
+        "BBB",
+        "GEG",
+        "GEG",
+        " E ",
+        " D "
       ],
       [
-        "ADC",
-        "@GH",
-        "DGD"
+        "BBB",
+        "GHG",
+        "FFF",
+        "   ",
+        "   "
       ],
       [
-        "ABC",
-        "DKD",
-        "DFD"
+        "ABA",
+        "   ",
+        "   ",
+        "   ",
+        "   "
       ]
     ],
     "aisleRepetitions": [
@@ -109,21 +123,21 @@
       "A": {
         "states": [
           {
-            "id": "chisel:laboratory",
-            "meta": 14
+            "id": "immersiveengineering:metal_decoration1",
+            "meta": 2
           }
         ],
         "type": "states"
       },
       "controller": {
-        "location": "projecttowny:microchip_inscriber",
+        "location": "projecttowny:fuel_aerator",
         "type": "component"
       },
       "B": {
         "states": [
           {
-            "id": "chisel:laboratory",
-            "meta": 15
+            "id": "immersiveengineering:metal_decoration1_slab",
+            "meta": 2
           }
         ],
         "type": "states"
@@ -131,8 +145,8 @@
       "C": {
         "states": [
           {
-            "id": "chisel:laboratory",
-            "meta": 13
+            "id": "immersiveengineering:sheetmetal",
+            "meta": 0
           }
         ],
         "type": "states"
@@ -140,8 +154,8 @@
       "D": {
         "states": [
           {
-            "id": "chisel:laboratory",
-            "meta": 2
+            "id": "multiblocked:fluid_input",
+            "meta": 0
           }
         ],
         "type": "states"
@@ -149,8 +163,8 @@
       "E": {
         "states": [
           {
-            "id": "multiblocked:item_output",
-            "meta": 0
+            "id": "immersiveengineering:sheetmetal",
+            "meta": 8
           }
         ],
         "type": "states"
@@ -158,8 +172,8 @@
       "F": {
         "states": [
           {
-            "id": "chisel:laboratory",
-            "meta": 10
+            "id": "immersiveengineering:sheetmetal_slab",
+            "meta": 8
           }
         ],
         "type": "states"
@@ -176,41 +190,14 @@
       "H": {
         "states": [
           {
-            "id": "multiblocked:energy_input",
+            "id": "multiblocked:fluid_output",
             "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "I": {
-        "states": [
-          {
-            "id": "chisel:laboratory",
-            "meta": 4
-          }
-        ],
-        "type": "states"
-      },
-      "J": {
-        "states": [
-          {
-            "id": "immersiveengineering:metal_decoration0",
-            "meta": 3
           }
         ],
         "type": "states"
       },
       "air": {
         "type": "air"
-      },
-      "K": {
-        "states": [
-          {
-            "id": "multiblocked:item_input",
-            "meta": 0
-          }
-        ],
-        "type": "states"
       },
       "any": {
         "type": "any"
@@ -246,15 +233,6 @@
       ],
       "H": [
         "H"
-      ],
-      "I": [
-        "I"
-      ],
-      "J": [
-        "J"
-      ],
-      "K": [
-        "K"
       ],
       "-": [
         "air"

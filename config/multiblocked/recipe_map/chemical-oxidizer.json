@@ -39,7 +39,7 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 2048
+            "content": 512
           }
         ]
       }

@@ -5,7 +5,7 @@
   "properties": {
     "rotationState": "ALL",
     "showInJei": true,
-    "isOpaque": false,
+    "isOpaque": true,
     "hasCollision": true,
     "destroyTime": 1.5,
     "explosionResistance": 10.0,

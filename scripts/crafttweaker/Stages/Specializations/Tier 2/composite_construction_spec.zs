@@ -59,8 +59,8 @@ RecipeBuilder.get("mason")
   .addOutput(<contenttweaker:composite_concrete> * 24)
   .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
   .create();
-// Spec Tech
 
+// Spec Tech
 
 /**
     Composite Construction Specilization Tech:
