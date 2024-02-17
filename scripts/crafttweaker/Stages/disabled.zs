@@ -584,7 +584,6 @@ val disabledAlloys as ILiquidStack[] = [
     <liquid:lumium>,
     <liquid:pigiron>,
     <liquid:knightslime>,
-    <liquid:bronze>,
     <liquid:electrum>,
     <liquid:energetic_alloy>,
     <liquid:vibrant_alloy>,
