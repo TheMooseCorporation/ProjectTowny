@@ -59,6 +59,6 @@ RecipeBuilder.get("engineer")
     [<immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>],
     [<immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>]])
   .addTool(<artisanworktables:artisans_hammer_iron>, 50)
-  .addRequirement(GameStages.allOf(["electrical_distribution_tech_spec"]))
+  .addRequirement(GameStages.allOf([spec_tech_stage]))
   .addOutput(<immersiveengineering:graphite_electrode>.withTag({Unbreakable:1}))
   .create();

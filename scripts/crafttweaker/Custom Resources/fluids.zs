@@ -58,3 +58,9 @@ aerated_diesel.register();
 
 var slag_slurry = VanillaFactory.createFluid("slag_slurry", Color.fromHex("0f0f3b"));
 slag_slurry.register();
+
+var salt_water = VanillaFactory.createFluid("salt_water", Color.fromHex("161845"));
+salt_water.register();
+
+var sodium_chlorate = VanillaFactory.createFluid("sodium_chlorate", Color.fromHex("f7ffd1"));
+sodium_chlorate.register();

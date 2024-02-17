@@ -13,6 +13,11 @@ projecttowny.chemical_reactor.description=Chemical Reactor
 multiblocked.recipe_map.chemical-reactor=Chemical Synthesis
 chemical_reactor.name=Chemical Reactor
 
+tile.projecttowny.compact_chemical_reactor.name=Compact Chemical Reactor
+projecttowny.compact_chemical_reactor.description=Compact Chemical Reactor
+multiblocked.recipe_map.compact-chemical-reactor=Chemical Synthesis
+compact_chemical_reactor.name=Compact Chemical Reactor
+
 tile.projecttowny.crystallizer.name=Crystallizer
 projecttowny.crystallizer.description=Crystallizer
 multiblocked.recipe_map.crystallizer=Crystallization

@@ -1,7 +1,6 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
-import mods.orestages.OreStages;
 
 /**
     Atomic Theory:
@@ -18,10 +17,6 @@ val stageMods as string[] = [
 val stageItems as IItemStack[] = [
     <nuclearcraft:bin>,
     <nuclearcraft:machine_interface>,
-    <nuclearcraft:cobblestone_generator>,
-    <nuclearcraft:cobblestone_generator_compact>,
-    <nuclearcraft:cobblestone_generator_dense>,
-    <nuclearcraft:ingot_former_idle>,
     <nuclearcraft:alloy:2>,
     <nuclearcraft:alloy:3>,
     <nuclearcraft:alloy:4>,
@@ -36,7 +31,7 @@ val stageItems as IItemStack[] = [
     <nuclearcraft:alloy:14>,
     <nuclearcraft:alloy:15>,
     <nuclearcraft:alloy:1>,
-    // These parts could be used as comonents for the mechanics system
+    // These parts could be used as components for the mechanics system
     <nuclearcraft:part:11>,
     <nuclearcraft:part:9>,
     <nuclearcraft:part:10>,
@@ -64,7 +59,10 @@ for item in stageItems {
     ItemStages.addItemStage(stage, item);
 }
 
-// Ore Stage changing
-// Nuclear Ores
-OreStages.addReplacement(stage, <geolosys:ore:9>); // Hides Uranium
-OreStages.addReplacement(stage, <nuclearcraft:ore:3>); // Hides Thorium
+// Mechanical System Related Recipes
+recipes.remove(<nuclearcraft:part:9>);
+recipes.remove(<nuclearcraft:part:7>);
+recipes.remove(<nuclearcraft:part:8>);
+recipes.addShaped(<nuclearcraft:part:8>, [[<immersiveengineering:metal:38>, <immersiveengineering:metal:38>, <thermalfoundation:material:288>],[<nuclearcraft:part:4>, <nuclearcraft:part:4>, <immersiveengineering:material:9>], [<immersiveengineering:metal:38>, <immersiveengineering:metal:38>, <thermalfoundation:material:288>]]);
+recipes.addShaped(<nuclearcraft:part:9>, [[null, null, <immersiveengineering:material:9>],[<ore:ingotFerroboron>, <immersiveengineering:material:9>, null], [<ore:ingotCopper>, <ore:ingotFerroboron>, null]]);
+recipes.addShaped(<nuclearcraft:part:7>, [[<ore:ingotFerroboron>, null, <ore:ingotFerroboron>],[<minecraft:redstone>, <immersiveengineering:material:9>, <minecraft:redstone>], [<immersiveengineering:material:9>, <ore:ingotCopper>, <immersiveengineering:material:9>]]);

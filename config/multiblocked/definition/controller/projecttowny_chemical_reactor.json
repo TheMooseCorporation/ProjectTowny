@@ -70,7 +70,7 @@
         "OGKPKG ",
         "@H D H ",
         " I D I ",
-        " H D H ",
+        " H D S ",
         "EHMCMHE",
         " Q D R ",
         "  EEE  "
@@ -274,7 +274,7 @@
       "O": {
         "states": [
           {
-            "id": "multiblocked:energy_input",
+            "id": "multiblocked:item_input",
             "meta": 0
           }
         ],
@@ -308,6 +308,16 @@
           }
         ],
         "type": "states"
+      },
+      "S": {
+        "states": [
+          {
+            "id": "multiblocked:energy_input",
+            "meta": 0
+          }
+        ],
+        "type": "states",
+        "io": "IN"
       }
     },
     "symbolMap": {
@@ -370,6 +380,9 @@
       ],
       "R": [
         "R"
+      ],
+      "S": [
+        "S"
       ]
     }
   }

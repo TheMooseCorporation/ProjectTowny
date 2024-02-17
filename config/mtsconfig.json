@@ -1,8 +1,8 @@
 {
   "general": {
-    "dumpCraftingConfig": {
+    "generateOverrideConfigs": {
       "value": false,
-      "comment": "If true, then all recipes for all items in packs will be dumped into the config file at boot.  WARNING: this will overwrite your existing crafting overrides file!"
+      "comment": "If true, then crafting and damage override config files, as well as language template files, will be dumped into the config folder at boot.  WARNING: this will overwrite your existing override config files!  Language files must be put into packs to function and will NOT overwrite anything."
     },
     "opSignEditingOnly": {
       "value": false,
@@ -88,6 +88,10 @@
       "value": 1.0,
       "comment": "Factor for gravitational forces applied to vehicles.  Can be adjusted if you think cars are too 'floaty'.  Does not affect aircraft."
     },
+    "maxFlightHeight": {
+      "value": 0.0,
+      "comment": "How high planes can fly.  Setting this to 0 (default) will allow planes to fly as high as their natural physics allows.  Useful if you want to cap vertical height for some reason."
+    },
     "engineSpeedTempFactor": {
       "value": 1.0,
       "comment": "Factor for how RPM affects engine temp.  Higher values will make engines heat up quicker at higher RPMs."
@@ -99,6 +103,10 @@
     "rfToElectricityFactor": {
       "value": 0.02,
       "comment": "Factor for converting RF to internal electicity for vehicles.  Default value is 1/100, but can be adjusted."
+    },
+    "vehicleDeathDespawnTime": {
+      "value": 0.0,
+      "comment": "Time (in seconds) between when vehicles reach 0 health and they de-spawn.  Normally 0, which means they never de-spawn."
     },
     "engineDimensionBlacklist": {
       "value": [],
@@ -114,7 +122,10 @@
         "mtsofficialpack": 1.0,
         "unuparts": 1.0,
         "unumilitary": 1.0,
-        "mts": 1.0
+        "mts": 1.0,
+        "unudecor": 1.0,
+        "unupartsexpanded": 1.0,
+        "unucustom": 1.0
       },
       "comment": "Scale of all vehicles for this pack.  You probably won't want to change this, but if you do want the vehicles to be smaller for some reason, you can."
     },
@@ -124,7 +135,10 @@
         "mtsofficialpack": 1.0,
         "unuparts": 1.0,
         "unumilitary": 1.0,
-        "mts": 1.0
+        "mts": 1.0,
+        "unudecor": 1.0,
+        "unupartsexpanded": 1.0,
+        "unucustom": 1.0
       },
       "comment": "A mapping of pack-speciifc speed factors.  These values will only apply to the vehicles in the pack modified.  This allows for speeding up packs with slower vehicles, or slowing down packs with fast vehicles for a more even play experience.  Note that this applies on top of the global speed factor.  So if that is set to 0.30, and a pack is set to 0.5, then the total speed factor will be 0.15"
     },
@@ -185,13 +199,22 @@
       "value": 1.0,
       "comment": "Factor for damage caused by bullets on vehicles."
     },
-    "engineLeakProbability": {
-      "value": 0.01,
-      "comment": "Chance an engine will spring a leak if hit.  Explosions cause 10x this chance."
-    },
     "wheelDamageMinimumVelocity": {
       "value": 0.2,
       "comment": "Minimum velocity (blocks/second) which vehicles must be going to damage entities with their wheels."
+    },
+    "packBulletDamageFactors": {
+      "value": {
+        "ivairlinerpack": 1.0,
+        "mtsofficialpack": 1.0,
+        "unuparts": 1.0,
+        "unudecor": 1.0,
+        "unupartsexpanded": 1.0,
+        "unucustom": 1.0,
+        "unumilitary": 1.0,
+        "mts": 1.0
+      },
+      "comment": "A mapping of pack-speciifc bullet damage factors.  These values will apply to all bullets in a pack when they hit something, be it a vehicle or entity."
     }
   },
   "fuel": {
@@ -344,6 +367,7 @@
       "uranium_233_fluoride": "Molten Uranium-233 Fluoride",
       "plutonium_239_fluoride": "Molten Plutonium-239 Fluoride",
       "iron": "Molten Iron",
+      "salt_water": "Salt Water",
       "depleted_fuel_lep_239": "Molten Depleted LEP-239 Fuel",
       "distwater": "Distilled Water",
       "liquidhydrogenchloride": "Liquid Hydrogen Chloride",
@@ -452,6 +476,7 @@
       "depleted_fuel_lecm_245_fluoride": "Molten Depleted LECm-245 Fluoride Fuel",
       "gold_nak": "Eutectic NaK-Gold Mixture",
       "exhaust_steam": "Exhaust Steam",
+      "sodium_chlorate": "Sodium Chlorate",
       "fuel_heu_235_fluoride": "Molten HEU-235 Fluoride Fuel",
       "fuel_lep_239": "Molten LEP-239 Fuel",
       "depleted_fuel_heb_248_fluoride_flibe": "Molten FLiBe Salt Solution of Depleted HEB-248 Fluoride Fuel",

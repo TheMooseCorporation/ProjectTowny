@@ -200,7 +200,7 @@
 			<itemStack>contenttweaker:dram;1</itemStack>
 			<itemStack>opencomputers:material;4;7</itemStack>
 			<itemStack>opencomputers:material;3;12</itemStack>
-			<oreDict>craftingPiston;1</oreDict>
+			<oreDict>gearIron;4</oreDict>
 			<oreDict>ingotIron;4</oreDict>
 		</input>
 		<output>
@@ -214,7 +214,7 @@
 			<itemStack>contenttweaker:dram;2</itemStack>
 			<itemStack>opencomputers:material;4;8</itemStack>
 			<itemStack>opencomputers:material;3;12</itemStack>
-			<oreDict>craftingPiston;1</oreDict>
+			<itemStack>immersiveengineering:material;4;8</itemStack>
 			<oreDict>ingotGold;4</oreDict>
 		</input>
 		<output>
@@ -228,7 +228,7 @@
 			<itemStack>contenttweaker:dram;4</itemStack>
 			<itemStack>opencomputers:material;4;9</itemStack>
 			<itemStack>opencomputers:material;3;12</itemStack>
-			<oreDict>craftingPiston;1</oreDict>
+			<itemStack>immersiveengineering:material;4;9</itemStack>
 			<itemStack>minecraft:diamond;2</itemStack>
 		</input>
 		<output>
@@ -241,7 +241,7 @@
 			<itemStack>opencomputers:material;1;5</itemStack>
 			<itemStack>opencomputers:material;2;10</itemStack>
 			<itemStack>opencomputers:material;4;8</itemStack>
-			<oreDict>nuggetGold;4</oreDict>
+			<itemStack>immersiveengineering:material;4;9</itemStack>
 			<oreDict>dustRedstone;4</oreDict>
 		</input>
 		<output>

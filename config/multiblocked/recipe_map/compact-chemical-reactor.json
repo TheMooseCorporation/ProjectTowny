@@ -1,0 +1,197 @@
+{
+  "name": "compact-chemical-reactor",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "compact-yellow-cake",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dustUranium"
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"sodium_chlorate\",Amount:50}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"sulfuric_acid\",Amount:150}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"contenttweaker:yellow_cake\",Count:3,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 512
+          }
+        ]
+      }
+    },
+    {
+      "uid": "petrotheum",
+      "duration": 200,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"oil\",Amount:100}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"kerosene\",Amount:50}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"redstone\",Amount:50}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"petrotheum\",Amount:100}"
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 512
+          }
+        ]
+      }
+    },
+    {
+      "uid": "pyrotheum",
+      "duration": 200,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"lava\",Amount:100}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"coal\",Amount:100}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"redstone\",Amount:50}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"pyrotheum\",Amount:100}"
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 512
+          }
+        ]
+      }
+    },
+    {
+      "uid": "compact-butylated-hydroxytoluene",
+      "duration": 200,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"creosote\",Amount:50}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"isobutylene\",Amount:100}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"sulfuric_acid\",Amount:8}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"butylated_hydroxytoluene\",Amount:150}"
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 512
+          }
+        ]
+      }
+    },
+    {
+      "uid": "vibrant-alloy",
+      "duration": 200,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"ender\",Amount:50}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"conductive_iron\",Amount:25}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"energetic_alloy\",Amount:25}"
+          }
+        ]
+      },
+      "outputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"vibrant_alloy\",Amount:100}"
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 512
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -6,7 +6,7 @@ import mods.artisanintegrations.requirement.GameStages;
 
 /**
     Composite Construction Specilization:
-    For towns specilizing in building buildings or infrustructyre. Cheaper rails and better roads
+    For towns specilizing in building buildings or infrustructure. Cheaper rails and better roads
 */
 // Stage Name
 val stage = "composite_construction_spec";
@@ -35,7 +35,7 @@ RecipeBuilder.get("engineer")
     [<ore:ingotSteel>, null, <ore:ingotSteel>]])
   .addTool(<ore:artisansHammer>, 10)
   .addOutput(<immersiverailroading:item_rail_part>.withTag({gauge: 1.435}) * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))
+  .addRequirement(GameStages.allOf([stage]))
   .create();
 
 // Better Asphalt
@@ -46,7 +46,7 @@ RecipeBuilder.get("mason")
     [<immersiveengineering:material:7>, <immersivepetroleum:material>, <immersiveengineering:material:7>]])
   .setFluid(<liquid:water> * 1000)
   .addOutput(<contenttweaker:composite_asphalt> * 24)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))
+  .addRequirement(GameStages.allOf([stage]))
   .create();
 
 // Better Concrete
@@ -57,7 +57,7 @@ RecipeBuilder.get("mason")
     [<immersiveengineering:material:7>, <minecraft:clay_ball>, <immersiveengineering:material:7>]])
   .setFluid(<liquid:water> * 1000)
   .addOutput(<contenttweaker:composite_concrete> * 24)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([stage]))  
   .create();
 
 // Spec Tech
@@ -86,7 +86,7 @@ RecipeBuilder.get("mason")
     [<minecraft:iron_ingot>, <ore:stone>, <minecraft:iron_ingot>]])
   .addTool(<ore:artisansDriver>, 5)
   .addOutput(<chisel:factory> * 64)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))
+  .addRequirement(GameStages.allOf([spec_tech_stage]))
   .create();
 
 RecipeBuilder.get("mason")
@@ -96,7 +96,7 @@ RecipeBuilder.get("mason")
     [<ore:stone>, <ore:stone>, <ore:stone>]])
   .addTool(<ore:artisansDriver>, 5)
   .addOutput(<chisel:futura> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))
+  .addRequirement(GameStages.allOf([spec_tech_stage]))
   .create();
 
 // Better Colored Concrete Recipes
@@ -107,7 +107,7 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();
 
 RecipeBuilder.get("mason")
@@ -117,7 +117,7 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:1> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();
   
 RecipeBuilder.get("mason")
@@ -127,7 +127,7 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:2> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();
 
 RecipeBuilder.get("mason")
@@ -137,7 +137,7 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:3> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();
 
 RecipeBuilder.get("mason")
@@ -147,7 +147,7 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:4> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();
 
 RecipeBuilder.get("mason")
@@ -157,7 +157,7 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:5> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();
 
 RecipeBuilder.get("mason")
@@ -167,7 +167,7 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:6> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();
 
 RecipeBuilder.get("mason")
@@ -177,7 +177,7 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:7> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();
 
 RecipeBuilder.get("mason")
@@ -187,7 +187,7 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:8> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();
 
 RecipeBuilder.get("mason")
@@ -197,7 +197,7 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:9> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();
 
 RecipeBuilder.get("mason")
@@ -207,7 +207,7 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:10> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();
 
 RecipeBuilder.get("mason")
@@ -217,7 +217,7 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:11> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();
 
 RecipeBuilder.get("mason")
@@ -227,7 +227,7 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:12> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();
 
 RecipeBuilder.get("mason")
@@ -237,7 +237,7 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:13> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();
 
 RecipeBuilder.get("mason")
@@ -247,7 +247,7 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:14> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();
 
 RecipeBuilder.get("mason")
@@ -257,5 +257,5 @@ RecipeBuilder.get("mason")
     [<minecraft:gravel>, <minecraft:gravel>, <minecraft:gravel>]])
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:15> * 16)
-  .addRequirement(GameStages.allOf(["composite_construction_spec"]))  
+  .addRequirement(GameStages.allOf([spec_tech_stage]))  
   .create();

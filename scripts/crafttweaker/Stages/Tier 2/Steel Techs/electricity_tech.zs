@@ -2,6 +2,9 @@ import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 import mods.multiblockstages.IEMultiBlockStages;
+import mods.immersiveengineering.Blueprint;
+import mods.artisanworktables.builder.RecipeBuilder;
+import mods.artisanintegrations.requirement.GameStages;
 
 /**
     Allows players to begin making machines from Immersive engineering.  Unlocks basic power options and very basic machines
@@ -137,9 +140,6 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:droppercovered"}),
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"}),
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extractcovered"}),
-    <engineersdecor:small_tree_cutter>,
-    <engineersdecor:small_block_breaker>,
-    <engineersdecor:factory_placer>,
     <immersivetech:connectors>,
     // Industrial Wires (We can't do the IC2 wires because they cause issues, but we don't need them anyway)
     <industrialwires:jacobs_ladder>,
@@ -175,6 +175,15 @@ for item in stageItems {
     ItemStages.addItemStage(stage, item);
 }
 
+// Recipe changes from Immersive Engineering circuit to Primitve Circuit
+Blueprint.removeRecipe(<immersiveengineering:material:27>);
+Blueprint.addRecipe("components", <contenttweaker:tier0_circuit>, [<immersiveengineering:stone_decoration:8>, <ore:plateCopper>, <immersiveengineering:material:26>, <immersiveengineering:material:26>]);
+recipes.remove(<industrialwires:control_panel:3>);
+recipes.remove(<immersivetech:connectors>);
+recipes.remove(<immersiveengineering:connector:13>);
+recipes.addShaped(<industrialwires:control_panel:3>, [[<ore:stickSteel>, <contenttweaker:tier0_circuit>, <ore:stickSteel>],[<immersiveengineering:material:2>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:material:2>], [<ore:stickSteel>, <ore:plateConstantan>, <ore:stickSteel>]]);
+recipes.addShaped(<immersivetech:connectors>, [[<ore:paneGlass>, <immersiveengineering:connector:12>, <ore:paneGlass>],[<contenttweaker:tier0_circuit>, <contenttweaker:tier0_circuit>, <contenttweaker:tier0_circuit>], [<ore:paneGlass>, <ore:gemQuartz>, <ore:paneGlass>]]);
+recipes.addShaped(<immersiveengineering:connector:13>, [[null, <immersiveengineering:connector:12>, null],[<ore:paneGlass>, <contenttweaker:tier0_circuit>, <ore:paneGlass>], [null, <ore:gemQuartz>, null]]);
 
 //Locks multiblocks
 IEMultiBlockStages.addStage(stage, "IE:Assembler", "Requires " + stage);
@@ -183,3 +192,15 @@ IEMultiBlockStages.addStage(stage, "IE:AutoWorkbench", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IE:Lightningrod", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IE:FeedThrough", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IT:Alternator", "Requires " + stage);
+
+// Thermoelectric machines can be used after discovering electricity
+ItemStages.addItemStage(stage, <immersiveengineering:metal_device1:3>);
+
+// Mechanical System Related Recipes
+recipes.remove(<immersiveengineering:conveyor>);
+recipes.remove(<immersiveengineering:metal_device1:2>);
+
+recipes.addShaped(<immersiveengineering:metal_device1:2>, [[null, null, null],[<minecraft:redstone>, <immersiveengineering:metal_decoration0>, <minecraft:redstone>], [<thermalfoundation:material:24>, <immersiveengineering:material:8>, <thermalfoundation:material:24>]]);
+
+recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],[<ore:ingotSteel>, <ore:gearStone>, <ore:ingotSteel>], [<ore:gearStone>, <ore:ingotSteel>, <ore:gearStone>]]);
+recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 16, [[null, null, null],[<ore:leather>, <ore:leather>, <ore:leather>], [<ore:gearIron>, <ore:ingotSteel>, <ore:gearIron>]]);

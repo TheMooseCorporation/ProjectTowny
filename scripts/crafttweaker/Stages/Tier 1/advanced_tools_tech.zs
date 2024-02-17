@@ -110,10 +110,6 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:stone_decoration:10>
 ];
 
-val stageAlloys as ILiquidStack[] = [
-    <liquid:stone>
-];
-
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
@@ -122,10 +118,6 @@ for mod in stageMods {
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
-}
-
-for alloy in stageAlloys {
-    mods.tconstruct.Alloy.removeRecipe(alloy);
 }
 
 IEMultiBlockStages.addStage(stage, "IE:AlloySmelter", "Requires " + stage);

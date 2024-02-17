@@ -9,6 +9,7 @@ import mods.immersiveengineering.Blueprint;
 import mods.immersivetechnology.MeltingCrucible;
 import mods.immersiveengineering.Refinery;
 import mods.multiblockstages.IEMultiBlockStages;
+import mods.immersiveengineering.BottlingMachine;
 
 /**
     Steel:
@@ -27,6 +28,11 @@ val stageItems as IItemStack[] = [
     <contenttweaker:mechanical_parts_mold>,
     // Davincis Vessels, this may be an odd place to put the steam engine, this may be subject to moving
     <davincisvessels:engine>,
+    <immersiveengineering:storage:6>,
+    <immersiveengineering:storage_slab:6>,
+    <immersiveengineering:metal:26>,
+    <immersiveengineering:metal:15>,
+    <immersiveengineering:metal:6>,
     <immersiveengineering:treated_wood>,
     <immersiveengineering:treated_wood:1>,
     <immersiveengineering:treated_wood:2>,
@@ -403,11 +409,21 @@ BlastFurnace.addRecipe(<techguns:itemshared:84>, <minecraft:obsidian>, 2000, <im
 // Blueprints
 Blueprint.addRecipe("molds", <contenttweaker:mechanical_parts_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
 Blueprint.addRecipe("molds", <contenttweaker:inscriber_press_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
+Blueprint.addRecipe("molds", <contenttweaker:casing_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
+Blueprint.removeRecipe(<immersiveengineering:material:8>);
+Blueprint.removeRecipe(<immersiveengineering:material:9>);
+// Bottling Machine
+BottlingMachine.addRecipe(<thermalfoundation:material:1024>, <ore:dustIron>, <liquid:pyrotheum> * 250);
+BottlingMachine.addRecipe(<thermalfoundation:material:1027>, <ore:dustIron>, <liquid:petrotheum> * 250);
 // Crusher
 Crusher.addRecipe(<minecraft:clay_ball> * 4, <ore:hardened_clay>, 128);
 Crusher.addRecipe(<thermalfoundation:material:769>, <minecraft:coal:1>, 128);
 // Melting Crucible [Energy is calculated as (RF/t) * (time)]
-MeltingCrucible.addRecipe(<liquid:molten_silicon> * 20, <minecraft:sand>, 61440, 120); // Molten Silicon
+MeltingCrucible.addRecipe(<liquid:molten_silicon> * 20, <minecraft:sand>, 30720, 120); // Molten Silicon [256 RF/t]
+MeltingCrucible.addRecipe(<liquid:ender> * 250, <minecraft:ender_pearl>, 102400, 400); // Liquid Ender [256 RF/t]
+MeltingCrucible.addRecipe(<liquid:redstone> * 100, <minecraft:redstone>, 102400, 400); // Liquid Redstone [256 RF/t]
+MeltingCrucible.addRecipe(<liquid:coal> * 100, <minecraft:coal>, 30720, 120); // Liquid Coal [256 RF/t]
+
 // Metal Press
 MetalPress.addRecipe(<nuclearcraft:part:6>, <minecraft:reeds>, <immersiveengineering:mold>, 2400, 2); // Bioplastic
 MetalPress.addRecipe(<techguns:itemshared:53>, <techguns:itemshared:64>, <immersiveengineering:mold>, 2400); // Carbon Plate
@@ -417,6 +433,9 @@ MetalPress.addRecipe(<libvulpes:productplate:7>, <ore:ingotTitanium>, <immersive
 MetalPress.addRecipe(<techguns:itemshared:57>, <ore:plateIron>, <contenttweaker:mechanical_parts_mold>, 2400); // Mechanical Parts
 MetalPress.addRecipe(<techguns:itemshared:58>, <ore:plateObsidianSteel>, <contenttweaker:mechanical_parts_mold>, 2400); // Mechanical Parts
 MetalPress.addRecipe(<techguns:itemshared:59>, <ore:plateCarbon>, <contenttweaker:mechanical_parts_mold>, 2400); // Mechanical Parts
+
+MetalPress.addRecipe(<contenttweaker:mechanical_casing>, <ore:plateIron> * 4, <contenttweaker:casing_mold>, 2400); // Iron Casing
+MetalPress.addRecipe(<contenttweaker:mechanical_casing_steel>, <ore:plateSteel> * 4, <contenttweaker:casing_mold>, 2400); // Steel Casing
 
 // AE2 Inscriber Recipes
 MetalPress.addRecipe(<appliedenergistics2:material:13>, <appliedenergistics2:material:10>, <contenttweaker:inscriber_press_mold>, 2400); // Inscriber Calculation

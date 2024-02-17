@@ -16,6 +16,9 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
+    // Look at my note at the bottom, this might make everyone mad.
+    <minecraft:piston>,
+    <minecraft:sticky_piston>,
     <betterwithmods:vase:11>,
     <betterwithmods:vase:12>,
     <betterwithmods:vase:13>,
@@ -114,6 +117,10 @@ for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
 }
+
+// I'm moving the piston to this tech to better fit into the mechanic parts progression. This might be a terrible idea? - Moose
+recipes.remove(<minecraft:piston>);
+recipes.addShaped(<minecraft:piston>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],[<ore:cobblestone>, <ore:gearStone>, <ore:cobblestone>], [<ore:cobblestone>, <minecraft:redstone>, <ore:cobblestone>]]);
 
 // Better with Mods recipe tweaks
 recipes.remove(<betterwithmods:hibachi>);
