@@ -504,6 +504,10 @@ val stageItems as IItemStack[] = [
     <rsgauges:powerplant_yellow>,
     // Storage Drawers
     <storagedrawers:tape>, // Lets players carry mass items in drawers
+    // Vanilla
+    // This will be an experiment of how this goes. Fights where the fighters have crazy enchants on their armor to the point they're unkillable are really boring.
+    <minecraft:enchanting_table>,
+    <minecraft:elytra>,
     // ICBM items that we don't use
     <icbmclassic:antidote>,
     <icbmclassic:wire>,
