@@ -1,3 +1,4 @@
+#priority 0
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
