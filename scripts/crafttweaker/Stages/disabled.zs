@@ -592,7 +592,6 @@ val disabledAlloys as ILiquidStack[] = [
     <liquid:dark_steel>,
     <liquid:stone>,
     <liquid:manyullyn>,
-    <liquid:constantan>,
     <liquid:ferroboron>,
     <liquid:tough>,
     <liquid:hard_carbon>,
@@ -600,7 +599,7 @@ val disabledAlloys as ILiquidStack[] = [
     <liquid:dark_chocolate>,
     <liquid:milk_chocolate>,
     <liquid:hydrated_gelatin>,
-    <liquid:marshmallow>
+    <liquid:marshmallow>,
 ];
 
 for item in stageItems {
