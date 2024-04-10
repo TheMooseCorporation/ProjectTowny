@@ -61,5 +61,5 @@ for item in spec_tech_stageItems {
 
 // 2x Uranium Isotope Recipe
 Mixer.addRecipe(<liquid:salt_water> * 250, <liquid:water> * 250, [<ore:dustSalt>], 256);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:sodium_chlorate> * 50, <liquid:hydrogen> * 150, null, null, <liquid:salt_water> * 200, 2048, 250);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:sodium_chlorate> * 50, <liquid:hydrogen> * 150, null, null, <liquid:salt_water> * 200, 512000, 250);
 isotope_separator.addRecipe([<contenttweaker:yellow_cake>, <nuclearcraft:uranium:8>, <nuclearcraft:uranium:6>]);

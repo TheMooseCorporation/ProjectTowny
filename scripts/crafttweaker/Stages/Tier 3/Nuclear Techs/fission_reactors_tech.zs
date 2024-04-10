@@ -35,7 +35,6 @@ val stageItems as IItemStack[] = [
     <davincisvessels:balloon:4>,
     <davincisvessels:balloon:5>,
     <nuclearcraft:fuel_reprocessor_idle>,
-    <nuclearcraft:isotope_separator_idle>,
     <nuclearcraft:decay_hastener_idle>,
     <nuclearcraft:infuser_idle>,
     <nuclearcraft:melter_idle>,

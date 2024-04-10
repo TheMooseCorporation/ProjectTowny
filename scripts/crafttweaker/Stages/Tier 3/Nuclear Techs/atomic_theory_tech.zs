@@ -46,7 +46,8 @@ val stageItems as IItemStack[] = [
     <nuclearcraft:ingot:3>,
     <nuclearcraft:ingot:4>,
     <nuclearcraft:upgrade>,
-    <nuclearcraft:upgrade:1>
+    <nuclearcraft:upgrade:1>,
+    <nuclearcraft:isotope_separator_idle>
 ];
 
 for mod in stageMods {

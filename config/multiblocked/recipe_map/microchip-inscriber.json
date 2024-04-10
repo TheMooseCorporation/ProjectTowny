@@ -320,7 +320,7 @@
             "chance": 1.0,
             "content": {
               "amount": 3,
-              "ore": "ingotIron"
+              "ore": "nuggetIron"
             }
           },
           {
@@ -425,7 +425,7 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 2,
+              "amount": 1,
               "ore": "ingotAluminum"
             }
           },

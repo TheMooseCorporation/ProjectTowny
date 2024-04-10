@@ -46,7 +46,8 @@ val stageItems as IItemStack[] = [
     <betterwithmods:hand_crank>,
     <betterwithmods:material>,
     <betterwithmods:shaft>,
-    <betterwithmods:material:22>
+    <betterwithmods:material:22>,
+    <tconstruct:soil>
 ];
 
 val nonStagedItems as IItemStack[] = [
@@ -59,7 +60,6 @@ val nonStagedItems as IItemStack[] = [
     <tconstruct:seared_furnace_controller>,
     <tconstruct:seared_slab>,
     <tconstruct:seared_slab:1>,
-    <tconstruct:soil>,
     <tconstruct:materials>,
     <adchimneys:seared_brick>,
     <adchimneys:seared_brick:1>,

@@ -24,7 +24,6 @@ val stageItems as IItemStack[] = [
     <tconstruct:cast>,
     <tconstruct:clay_cast>,
     <tconstruct:toolforge>,
-    <tconstruct:soil>,
     <tconstruct:materials>,
     <tconstruct:seared_tank>,
     <tconstruct:seared_tank:1>,

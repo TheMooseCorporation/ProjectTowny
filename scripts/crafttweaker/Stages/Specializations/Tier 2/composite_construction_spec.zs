@@ -16,7 +16,14 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-
+  <engineersdecor:rebar_concrete>,
+  <engineersdecor:rebar_concrete_slab>,
+  <engineersdecor:rebar_concrete_stairs>,
+  <engineersdecor:rebar_concrete_wall>,
+  <engineersdecor:rebar_concrete_tile>,
+  <engineersdecor:rebar_concrete_tile_slab>,
+  <engineersdecor:rebar_concrete_tile_stairs>,
+  <engineersdecor:halfslab_rebar_concrete>
 ];
 
 for mod in stageMods {
