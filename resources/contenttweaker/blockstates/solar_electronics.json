@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "side": "contenttweaker:blocks/solar_frame",
+      "circuit": "contenttweaker:blocks/circuit_block",
+      "black": "minecraft:blocks/wool_colored_black",
+      "red": "minecraft:blocks/wool_colored_red",
+      "particle": "contenttweaker:blocks/solar_frame"
+    },
+    "model": "contenttweaker:solar_electronics",
+    "uvlock": true
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

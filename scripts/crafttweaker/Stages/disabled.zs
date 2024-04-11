@@ -457,6 +457,11 @@ val stageItems as IItemStack[] = [
     <rsgauges:timerswitch_glass1>,
     <rsgauges:powerplant_red>,
     <rsgauges:powerplant_yellow>,
+    // Solar Flux
+    <solarflux:solar_panel_7>,
+    <solarflux:solar_panel_8>,
+    <solarflux:photovoltaic_cell_5>,
+    <solarflux:photovoltaic_cell_6>,
     // Storage Drawers
     <storagedrawers:tape>, // Lets players carry mass items in drawers
     // Techguns armor that gives a mood speed buff
