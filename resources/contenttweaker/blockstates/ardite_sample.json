@@ -5,6 +5,7 @@
     "transform": "forge:default-block",
     "textures": {
       "all": "tconstruct:blocks/ore_ardite",
+      "stone": "minecraft:blocks/netherrack",
       "particle": "minecraft:blocks/netherrack"
     }
   },

@@ -3,22 +3,9 @@ import mods.geolosys.ores;
 // Initial test of CraftTweaker Geolosys control.
 // This is a much better way of handling ore generation and should be used from here on out.
 
-val onlyEarth = [-1,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35] as int[];
-val allDimensions = [0,-1,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35] as int[];    
-
-
-//UNFINISHED FUNCTION DO LATER
-
-// function makePlanetWhitelist(whiteListedPlanets as int[]){
-//     val oreSpawnDimensions = [0,-1,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35] as int[];    
-//     for item in whiteListedPlanets{
-//         if (allDimensions.includes(item)){
-//             oreSpawnDimensions.remove(item);
-//         }
-//     }
-//     return oreSpawnDimensions;
-// }
-
+val onlyEarth = [-1,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35] as int[];   
+val onlyLuna = [-1,0,1,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34] as int[];   
+val onlyMercury = [-1,0,1,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35] as int[];
 
 // Example Ore Deposit
 /*
@@ -131,20 +118,43 @@ ores.addOre(
 );
 
 // Iron (Hematite) Deposit 
-ores.addOre(
-    <blockstate:minecraft:stone:variant=hematite>, 
-    <blockstate:geolosys:ore_sample:variant=hematite>, 
-    32, 
-    60, 
-    6, 
-    170, 
-    0.5 as float, 
-    onlyEarth
-);
+    // Overworld Deposit
+    ores.addOre(
+        <blockstate:geolosys:ore:variant=hematite>, 
+        <blockstate:geolosys:ore_sample:variant=hematite>, 
+        32, 
+        60, 
+        6, 
+        170, 
+        0.5 as float, 
+        onlyEarth
+    );
+    // Luna Deposit
+    ores.addOre(
+        <blockstate:geolosys:ore:variant=hematite>, 
+        <blockstate:geolosys:ore_sample:variant=hematite>, 
+        32, 
+        60, 
+        6, 
+        85, 
+        0.5 as float, 
+        onlyLuna
+    );
+    // Mercury Deposit
+    ores.addOre(
+        <blockstate:geolosys:ore:variant=hematite>, 
+        <blockstate:geolosys:ore_sample:variant=hematite>, 
+        32, 
+        60, 
+        6, 
+        340, 
+        0.5 as float, 
+        onlyEarth
+    );
 
-// Iron (Limonite) Deposit 
+// Iron/Nickel (Limonite) Deposit 
 ores.addOre(
-    <blockstate:minecraft:stone:variant=limonite>, 
+    <blockstate:geolosys:ore:variant=limonite>, 
     <blockstate:geolosys:ore_sample:variant=limonite>, 
     22, 
     42, 
@@ -156,10 +166,10 @@ ores.addOre(
 
 // Copper Deposit 
 ores.addOre(
-    [<blockstate:minecraft:stone:variant=malachite>,<blockstate:minecraft:stone:variant=azurite>],
+    [<blockstate:geolosys:ore:variant=malachite>,<blockstate:geolosys:ore:variant=azurite>],
     [50,50],
     [<blockstate:geolosys:ore_sample:variant=malachite>,<blockstate:geolosys:ore_sample:variant=azurite>],
-    [50,50],
+    [50, 50],
     22, 
     44, 
     6, 
@@ -170,7 +180,7 @@ ores.addOre(
 
 // Tin (Cassiterite) Deposit 
 ores.addOre(
-    <blockstate:minecraft:stone:variant=cassiterite>, 
+    <blockstate:geolosys:ore:variant=cassiterite>, 
     <blockstate:geolosys:ore_sample:variant=cassiterite>, 
     44, 
     68, 
@@ -178,14 +188,14 @@ ores.addOre(
     60, 
     0.5 as float, 
     onlyEarth
-);
+); 
 
 // Tin (Teallite) Deposit 
 ores.addOre(
-    [<blockstate:minecraft:stone:variant=teallite>,<blockstate:minecraft:stone:variant=galena>],
-    [90,10],
-    [<blockstate:geolosys:ore_sample:variant=teallite>,<blockstate:geolosys:ore_sample:variant=galena>],
-    [100,0],
+    [<blockstate:geolosys:ore:variant=teallite>,<blockstate:geolosys:ore_vanilla:variant=beryl>],
+    [90, 10],
+    [<blockstate:geolosys:ore_sample:variant=teallite>, <blockstate:geolosys:ore_sample_vanilla:variant=beryl>],
+    [100, 0],
     22, 
     43, 
     2, 
@@ -196,7 +206,7 @@ ores.addOre(
 
 // Lead (Galena) Deposit 
 ores.addOre(
-    <blockstate:minecraft:stone:variant=galena>, 
+    <blockstate:geolosys:ore:variant=galena>, 
     <blockstate:geolosys:ore_sample:variant=galena>, 
     26, 
     50, 
@@ -208,7 +218,7 @@ ores.addOre(
 
 // Aluminum (Bauxite) Deposit 
 ores.addOre(
-    <blockstate:minecraft:stone:variant=bauxite>, 
+    <blockstate:geolosys:ore:variant=bauxite>, 
     <blockstate:geolosys:ore_sample:variant=bauxite>, 
     45, 
     70, 
@@ -220,22 +230,23 @@ ores.addOre(
 
 // Platinum (Osmium) Deposit 
 ores.addOre(
-    <blockstate:minecraft:stone:variant=platinum>, 
+    <blockstate:geolosys:ore:variant=platinum>, 
     <blockstate:geolosys:ore_sample:variant=platinum>, 
     23, 
     45, 
     4, 
     175, 
     0.5 as float, 
-    onlyEarth
+    onlyLuna
 );
 
-// Uranium (Autunite) Deposit 
+// The following two deposits could potentially be made stand-alone deposit:
+// Uranium/Thorium (Autunite) Deposit
 ores.addOre( 
-   //The json file has multiple ores, but I dont know whats what so im putting it in as
-    //a single ore deposit
-    <blockstate:minecraft:stone:variant=autunite>, 
-    <blockstate:geolosys:ore_sample:variant=autunite>, 
+    [<blockstate:geolosys:ore:variant=autunite>, <blockstate:nuclearcraft:ore:type=thorium>, <blockstate:minecraft:stone:variant=granite>],
+    [50, 40, 10], 
+    [<blockstate:geolosys:ore_sample:variant=autunite>, <blockstate:nuclearcraft:ore:type=thorium>, <blockstate:minecraft:stone:variant=granite>],
+    [100, 0, 0], 
     14, 
     33, 
     3, 
@@ -244,12 +255,43 @@ ores.addOre(
     onlyEarth
 );
 
-// Zinc (Sphalerite) Deposit 
+// Boron/Lithium/Magnesium (Autunite) Deposit
 ores.addOre( 
-    <blockstate:minecraft:stone:variant=sphalerite>, 
+    [<blockstate:nuclearcraft:ore:type=boron>, <blockstate:nuclearcraft:ore:type=lithium>, <blockstate:nuclearcraft:ore:type=magnesium>, <blockstate:minecraft:stone:variant=granite>],
+    [20, 50, 20, 10], 
+    [<blockstate:geolosys:ore_sample:variant=autunite>, <blockstate:nuclearcraft:ore:type=lithium>, <blockstate:nuclearcraft:ore:type=magnesium>, <blockstate:minecraft:stone:variant=granite>], 
+    [100, 0, 0, 0],
+    14, 
+    33, 
+    7, 
+    60, 
+    0.5 as float, 
+    onlyEarth
+);
+
+/*
+// Zinc (Sphalerite) Deposit 
+[Disabled] Zinc has no use as of now
+ores.addOre( 
+    <blockstate:geolosys:ore:variant=sphalerite>, 
     <blockstate:geolosys:ore_sample:variant=sphalerite>, 
     37, 
     46, 
+    5, 
+    65, 
+    0.5 as float, 
+    onlyEarth
+);
+*/
+
+// Ardite Deposit
+ores.addOre( 
+    [<blockstate:minecraft:netherrack>, <blockstate:tconstruct:ore:type=ardite>],
+    [85, 15], 
+    [<blockstate:contenttweaker:ardite_sample>, <blockstate:minecraft:netherrack>], 
+    [100, 0],
+    37, 
+    46,
     5, 
     65, 
     0.5 as float, 

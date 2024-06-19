@@ -5,7 +5,8 @@
     "transform": "forge:default-block",
     "textures": {
       "all": "minecraft:blocks/clay",
-      "particle": "minecraft:blocks/stone"
+      "stone": "minecraft:blocks/clay",
+      "particle": "minecraft:blocks/clay"
     }
   },
   "variants": {
