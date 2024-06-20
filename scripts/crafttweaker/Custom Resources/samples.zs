@@ -20,6 +20,8 @@ claySample.fullBlock = false;
 claySample.blockHardness = 0.2;
 claySample.passable = false;
 claySample.toolLevel = 0;
+claySample.blockLayer = "CUTOUT_MIPPED";
+claySample.blockSoundType = <soundtype:ground>;
 claySample.axisAlignedBB = sampleBounds;
 claySample.register();
 
@@ -35,6 +37,7 @@ rutileSample.fullBlock = false;
 rutileSample.blockHardness = 0.2;
 rutileSample.passable = true;
 rutileSample.toolLevel = 0;
+rutileSample.blockSoundType = <soundtype:ground>;
 rutileSample.axisAlignedBB = sampleBounds;
 rutileSample.register();
 
