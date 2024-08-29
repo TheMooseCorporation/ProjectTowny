@@ -612,6 +612,10 @@ for alloy in disabledAlloys {
     mods.tconstruct.Alloy.removeRecipe(alloy);
 }
 
+// Fixes melting related dupes with healing items like spring water
+mods.tconstruct.Melting.removeEntityMelting(<entity:minecraft:villager_golem>);
+mods.tconstruct.Melting.removeEntityMelting(<entity:minecraft:villager>);
+
 // Immersive Railroading, ugly trains, we hate ugly trains
     ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rClass B-B-70/70-4HM829 Boxcab Frame"}}));
     ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rGE B40-8w Frame"}}));
