@@ -28,16 +28,13 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:metal_device1:10>,
     <immersivetech:metal_barrel:1>,
     <immersivetech:metal_barrel:2>,
-    <immersivetech:metal_trash:1>,
-    <immersivetech:valve>,
     <engineersdecor:straight_pipe_valve>,
     <immersiveengineering:metal_device0:5>,
     <engineersdecor:straight_pipe_valve>,
     <engineersdecor:straight_pipe_valve_redstone>,
     <engineersdecor:straight_pipe_valve_redstone_analog>,
     <engineersdecor:small_fluid_funnel>,
-    <engineersdecor:passive_fluid_accumulator>,
-    <engineersdecor:small_milking_machine>
+    <engineersdecor:passive_fluid_accumulator>
 ];
 
 for mod in stageMods {

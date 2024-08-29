@@ -38,6 +38,52 @@
           }
         ]
       }
+    },
+    {
+      "uid": "yellow-cake",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "dustUranium"
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"sodium_chlorate\",Amount:50}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"sulfuric_acid\",Amount:150}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"contenttweaker:yellow_cake\",Count:3,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 1024
+          }
+        ]
+      }
     }
   ]
 }

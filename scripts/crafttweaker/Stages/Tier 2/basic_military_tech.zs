@@ -30,7 +30,6 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:material:14>,
     <immersiveengineering:material:15>,
     <immersiveengineering:material:16>,
-    <immersiveengineering:wooden_device0:4>,
     // Techguns related items
     <techguns:itemshared:1>,
     <techguns:itemshared:2>,

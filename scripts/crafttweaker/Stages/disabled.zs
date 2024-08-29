@@ -17,6 +17,10 @@ val stageItems as IItemStack[] = [
     // AE2
     <appliedenergistics2:network_tool>,
     <appliedenergistics2:material:6>,
+    // Pams Harvest Craft
+    <harvestcraft:market>,
+    <harvestcraft:well>,
+    <harvestcraft:grinder>,
     // Locks
     <locks:wood_lock_pick>,
     // Nuclearcraft
@@ -305,6 +309,7 @@ val stageItems as IItemStack[] = [
     <advancedrocketry:jackhammer>,
     <advancedrocketry:basiclasergun>,
     <advancedrocketry:misc:1>,
+    <libvulpes:coalgenerator>,
     // Mekanism Cables
     <mekanism:transmitter>.withTag({tier: 0}),
     <mekanism:transmitter>.withTag({tier: 1}),
@@ -356,6 +361,18 @@ val stageItems as IItemStack[] = [
     <mekanismgenerators:reactorglass:1>,
     <mekanism:energycube>.withTag({tier: 4}),
     <mekanism:energycube>.withTag({tier: 4, mekData: {energyStored: 1.7976931348623157E308}}),
+    // Tinkers
+    <tconstruct:throwball:1>,
+    <tconstruct:slimesling>,
+    <tconstruct:slimesling:1>,
+    <tconstruct:slimesling:2>,
+    <tconstruct:slimesling:3>,
+    <tconstruct:slimesling:4>,
+    <tconstruct:slime_boots>,
+    <tconstruct:slime_boots:1>,
+    <tconstruct:slime_boots:2>,
+    <tconstruct:slime_boots:3>,
+    <tconstruct:slime_boots:4>,
     // Techguns armor that gives a mood speed buff
     <techguns:t1_scout_helmet>,
     <techguns:t1_scout_chestplate>,
@@ -487,6 +504,10 @@ val stageItems as IItemStack[] = [
     <rsgauges:powerplant_yellow>,
     // Storage Drawers
     <storagedrawers:tape>, // Lets players carry mass items in drawers
+    // Vanilla
+    // This will be an experiment of how this goes. Fights where the fighters have crazy enchants on their armor to the point they're unkillable are really boring.
+    <minecraft:enchanting_table>,
+    <minecraft:elytra>,
     // ICBM items that we don't use
     <icbmclassic:antidote>,
     <icbmclassic:wire>,
@@ -549,7 +570,7 @@ val stageItems as IItemStack[] = [
     <icbmclassic:bombcart:2>,
     <adchimneys:bedrock>,
     <adchimneys:bedrock:1>,
-    <adchimneys:bedrock:2>,
+    <adchimneys:bedrock:2>
     // End
 ];
 
@@ -563,13 +584,23 @@ val disabledAlloys as ILiquidStack[] = [
     <liquid:lumium>,
     <liquid:pigiron>,
     <liquid:knightslime>,
-    <liquid:bronze>,
     <liquid:electrum>,
     <liquid:energetic_alloy>,
     <liquid:vibrant_alloy>,
     <liquid:conductive_iron>,
     <liquid:pulsating_iron>,
-    <liquid:dark_steel>
+    <liquid:dark_steel>,
+    <liquid:stone>,
+    <liquid:manyullyn>,
+    <liquid:constantan>,
+    <liquid:ferroboron>,
+    <liquid:tough>,
+    <liquid:hard_carbon>,
+    <liquid:unsweetened_chocolate>,
+    <liquid:dark_chocolate>,
+    <liquid:milk_chocolate>,
+    <liquid:hydrated_gelatin>,
+    <liquid:marshmallow>
 ];
 
 for item in stageItems {

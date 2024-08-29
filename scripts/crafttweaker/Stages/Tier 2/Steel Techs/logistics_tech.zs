@@ -17,8 +17,18 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-
-
+    <immersivetech:valve>,
+    <immersivetech:valve:2>,
+    <immersivetech:valve:1>,
+    <immersiveengineering:wooden_device0:7>,
+    <immersivetech:metal_trash>,
+    <immersivetech:metal_trash:1>,
+    <immersivetech:metal_trash:2>,
+    <engineersdecor:factory_dropper>,
+    <engineersdecor:factory_hopper>,
+    <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}),
+    <immersiveengineering:wooden_device0:3>,
+    <nuclearcraft:ingot_former_idle>
 ];
 
 for mod in stageMods {
@@ -30,6 +40,17 @@ for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
 }
+
+// Engineer's Decor
+recipes.remove(<engineersdecor:factory_hopper>);
+recipes.remove(<engineersdecor:factory_dropper>);
+
+recipes.addShaped(<engineersdecor:factory_dropper>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],[<ore:plankTreatedWood>, <minecraft:dropper>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <immersiveengineering:material:8>, <ore:plankTreatedWood>]]);
+recipes.addShaped(<engineersdecor:factory_hopper>, [[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],[<ore:plankTreatedWood>, <minecraft:hopper>, <ore:plankTreatedWood>], [<ore:plankTreatedWood>, <immersiveengineering:material:8>, <ore:plankTreatedWood>]]);
+
+// Ingot Former
+recipes.remove(<nuclearcraft:ingot_former_idle>);
+recipes.addShaped(<nuclearcraft:ingot_former_idle>, [[<ore:ingotSteel>, <minecraft:hopper>, <ore:ingotSteel>],[<ore:ingotCopper>, <immersiveengineering:metal_device0:4>, <ore:ingotCopper>], [<ore:ingotSteel>, <ore:ingotLead>, <ore:ingotSteel>]]);
 
 // Funky Locomotion Recipe Tweaks
 recipes.remove(<funkylocomotion:frame_projector>);

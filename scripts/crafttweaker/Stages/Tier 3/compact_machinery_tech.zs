@@ -1,6 +1,8 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
+import mods.artisanworktables.builder.RecipeBuilder;
+import mods.artisanintegrations.requirement.GameStages;
 
 /**
     Tier 1 of Mekanism
@@ -198,10 +200,6 @@ val stageItems as IItemStack[] = [
     <mekanism:plasticfence:15>,
     <mekanismgenerators:generator:3>,
     <mekanismgenerators:generator:4>,
-    <mekanism:energycube>.withTag({tier: 0}),
-    <mekanism:energycube>.withTag({tier: 0, mekData: {energyStored: 2000000.0}}),
-    <mekanism:energycube>.withTag({tier: 1}),
-    <mekanism:energycube>.withTag({tier: 1, mekData: {energyStored: 8000000.0}}),
     <mekanism:transmitter:6>.withTag({tier: 0}),
     <mekanism:transmitter:6>.withTag({tier: 1}),
     <mekanism:electricbow>,
@@ -219,3 +217,5 @@ for item in stageItems {
     ItemStages.addItemStage(stage, item);
 }
 
+recipes.remove(<mekanism:basicblock:8>);
+recipes.addShaped(<mekanism:basicblock:8>, [[<immersiveengineering:material:9>, <ore:blockGlass>, <immersiveengineering:material:9>],[<ore:blockGlass>, <ore:ingotOsmium>, <ore:blockGlass>],[<immersiveengineering:material:9>, <ore:blockGlass>, <immersiveengineering:material:9>]]);

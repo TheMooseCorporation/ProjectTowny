@@ -9,3 +9,7 @@ mechanicalParts.register();
 var inscriberPresses = VanillaFactory.createItem("inscriber_press_mold");
 inscriberPresses.maxStackSize = 1;
 inscriberPresses.register();
+
+var casings = VanillaFactory.createItem("casing_mold");
+casings.maxStackSize = 1;
+casings.register();

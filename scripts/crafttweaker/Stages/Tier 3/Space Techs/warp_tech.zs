@@ -62,14 +62,6 @@ val stageItems as IItemStack[] = [
     <mekanism:teleportationcore>
 ];
 
-val stageAlloys as ILiquidStack[] = [
-    <liquid:manyullyn>
-];
-
-for alloy in stageAlloys {
-    mods.tconstruct.Alloy.removeRecipe(alloy);
-}
-
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
@@ -94,7 +86,8 @@ val nonStagedItems as IItemStack[] = [
     <enderio:item_redstone_conduit>,
     <enderio:item_me_conduit>,
     <enderio:item_material:22>,
-    <enderio:item_material:4>
+    <enderio:item_material:4>,
+    <enderio:item_basic_capacitor>
 ];
 
 var found = false;

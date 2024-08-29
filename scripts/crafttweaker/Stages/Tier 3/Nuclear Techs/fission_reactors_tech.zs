@@ -344,3 +344,6 @@ electrolyser.removeRecipeWithInput(<liquid:water> * 500);
 electrolyser.removeRecipeWithInput(<liquid:water> * 1000);
 electrolyser.removeRecipeWithInput(<liquid:heavy_water> * 500);
 
+// Remove Nuclear Furnace requirement from fission controller
+recipes.remove(<nuclearcraft:fission_controller_new_fixed>);
+recipes.addShaped(<nuclearcraft:fission_controller_new_fixed>, [[<nuclearcraft:part:1>, <nuclearcraft:part:5>, <nuclearcraft:part:1>],[<nuclearcraft:fission_block>, <nuclearcraft:part:10>, <nuclearcraft:fission_block>], [<nuclearcraft:part:1>, <nuclearcraft:part:5>, <nuclearcraft:part:1>]]);

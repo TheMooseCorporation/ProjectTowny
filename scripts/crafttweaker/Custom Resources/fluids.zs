@@ -44,3 +44,23 @@ refined_petroleum.register();
 var silicon = VanillaFactory.createFluid("molten_silicon", Color.fromHex("0f0f0f"));
 silicon.viscosity = 1500;
 silicon.register();
+
+var air = VanillaFactory.createFluid("air", Color.fromHex("a6a6a6"));
+air.gaseous = true;
+air.register();
+
+var aerated_diesel = VanillaFactory.createFluid("aerated_diesel", Color.fromHex("ffffff"));
+aerated_diesel.density = 780;
+aerated_diesel.viscosity = 1750;
+aerated_diesel.stillLocation = "immersivepetroleum:blocks/fluid/diesel_still";
+aerated_diesel.flowingLocation = "immersivepetroleum:blocks/fluid/diesel_flow";
+aerated_diesel.register();
+
+var slag_slurry = VanillaFactory.createFluid("slag_slurry", Color.fromHex("0f0f3b"));
+slag_slurry.register();
+
+var salt_water = VanillaFactory.createFluid("salt_water", Color.fromHex("161845"));
+salt_water.register();
+
+var sodium_chlorate = VanillaFactory.createFluid("sodium_chlorate", Color.fromHex("f7ffd1"));
+sodium_chlorate.register();

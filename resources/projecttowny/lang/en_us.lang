@@ -13,6 +13,11 @@ projecttowny.chemical_reactor.description=Chemical Reactor
 multiblocked.recipe_map.chemical-reactor=Chemical Synthesis
 chemical_reactor.name=Chemical Reactor
 
+tile.projecttowny.compact_chemical_reactor.name=Compact Chemical Reactor
+projecttowny.compact_chemical_reactor.description=Compact Chemical Reactor
+multiblocked.recipe_map.compact-chemical-reactor=Chemical Synthesis
+compact_chemical_reactor.name=Compact Chemical Reactor
+
 tile.projecttowny.crystallizer.name=Crystallizer
 projecttowny.crystallizer.description=Crystallizer
 multiblocked.recipe_map.crystallizer=Crystallization
@@ -32,3 +37,23 @@ tile.projecttowny.microchip_inscriber.name=Microchip Inscriber
 projecttowny.microchip_inscriber.description=Microchip Inscriber
 multiblocked.recipe_map.microchip-inscriber=Microchip Inscribing
 microchip_inscriber.name=Microchip Inscriber
+
+tile.projecttowny.air_intake.name=Air Intake
+projecttowny.air_intake.description=Air Intake
+multiblocked.recipe_map.air-intake=Air Intaking
+air_intake.name=Air Intake
+
+tile.projecttowny.fuel_aerator.name=Fuel Aerator
+projecttowny.fuel_aerator.description=Fuel Aerator
+multiblocked.recipe_map.fuel-aerator=Fuel Aeration
+fuel_aerator.name=Fuel Aerator
+
+tile.projecttowny.packer.name=Electricity Packer
+projecttowny.packer.description=Electricity Packer
+multiblocked.recipe_map.packer=Electricity Packing
+packer.name=Electricity Packer
+
+tile.projecttowny.unpacker.name=Electricity Unpacker
+projecttowny.unpacker.description=Electricity Unpacker
+multiblocked.recipe_map.unpacker=Electricity Unpacking
+unpacker.name=Electricity Unpacker

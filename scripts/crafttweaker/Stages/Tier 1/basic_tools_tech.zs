@@ -131,7 +131,24 @@ val nonStagedItems as IItemStack[] = [
     <tconstruct:seared_stairs_brick_small>,
     <tconstruct:seared_stairs_road>,
     <tconstruct:seared_stairs_tile>,
-    <tconstruct:toolforge>
+    <tconstruct:toolforge>,
+    <tconstruct:throwball:1>,
+    <tconstruct:materials:14>,
+    <tconstruct:materials:15>,
+    <tconstruct:materials:16>,
+    <techguns:itemshared>,
+    <techguns:itemshared:37>,
+    <techguns:itemshared:42>,
+    <tconstruct:slimesling>,
+    <tconstruct:slimesling:1>,
+    <tconstruct:slimesling:2>,
+    <tconstruct:slimesling:3>,
+    <tconstruct:slimesling:4>,
+    <tconstruct:slime_boots>,
+    <tconstruct:slime_boots:1>,
+    <tconstruct:slime_boots:2>,
+    <tconstruct:slime_boots:3>,
+    <tconstruct:slime_boots:4>
 ];
 
 
@@ -160,7 +177,7 @@ recipes.remove(<tconstruct:materials:12>);
 recipes.addShaped(<tconstruct:materials:13>, [[null, <minecraft:piston>, null],[<minecraft:dye:4>, <tconstruct:ingots:2>, <minecraft:dye:4>], [null, <minecraft:piston>, null]]);
 recipes.addShaped(<tconstruct:materials:12>, [[null, <minecraft:dye:4>, null],[<minecraft:piston>, <tconstruct:ingots:2>, <minecraft:piston>], [null, <minecraft:dye:4>, null]]);
 
-TinkerStages.addMaterialStage("chemical_engineering_spec", "pigiron");
+TinkerStages.addMaterialStage("composite_construction_spec", "pigiron");
 TinkerStages.addMaterialStage("asteroid_mining_tech", "cobalt");
 TinkerStages.addMaterialStage("warp_tech", "ardite");
 TinkerStages.addMaterialStage("warp_tech", "ardite");

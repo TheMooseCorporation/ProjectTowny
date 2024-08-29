@@ -1,6 +1,8 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
+import mods.artisanworktables.builder.RecipeBuilder;
+import mods.artisanintegrations.requirement.GameStages;
 
 /**
     Pollution Management:
@@ -44,4 +46,4 @@ recipes.remove(<pollutantpump:pipe>);
 recipes.remove(<pollutantpump:pump>);
 
 recipes.addShaped(<pollutantpump:pipe> * 8, [[<ore:ingotSteel>, null, <ore:ingotSteel>],[<ore:ingotSteel>, null, <ore:ingotSteel>], [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
-recipes.addShaped(<pollutantpump:pump>, [[<ore:ingotSteel>, <minecraft:diamond>, <ore:ingotSteel>],[<minecraft:stone>, <minecraft:redstone_block>, <minecraft:stone>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<pollutantpump:pump>, [[<immersiveengineering:metal:8>, <minecraft:diamond>, <immersiveengineering:metal:8>], [<immersiveengineering:material:8>, <minecraft:redstone_block>, <immersiveengineering:material:8>], [<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>]]);
