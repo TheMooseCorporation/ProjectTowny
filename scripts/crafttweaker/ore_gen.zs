@@ -84,7 +84,7 @@ ores.addOre(
         15, 
         40, 
         70,
-        6,   
+        4,   
         0.5 as float, 
         onlyEarth
     );
@@ -194,7 +194,7 @@ ores.addOre(
     22, 
     42, 
     60, 
-    4, 
+    3, 
     0.5 as float, 
     onlyEarth,
     ["minecraft:swampland", "minecraft:mutated_swampland", "minecraft:mushroom_island", "minecraft:mushroom_island_shore", "biomesoplenty:bayou", "biomesoplenty:bog", "biomesoplenty:dead_swamp", "biomesoplenty:lush_swamp", "biomesoplenty:marsh", "biomesoplenty:quagmire", "biomesoplenty:wetland"],
@@ -316,6 +316,18 @@ ores.addOre(
     onlyEarth,
     ["minecraft:savanna", "minecraft:savanna_rock", "minecraft:mutated_savanna", "minecraft:mutated_savanna_rock", "biomesoplenty:outback", "biomesoplenty:shrubland", "biomesoplenty:brushland"],
     true
+);
+
+// Titanium
+ores.addOre(
+    <blockstate:libvulpes:ore0:varient=8>, 
+    <blockstate:contenttweaker:rutile_sample>, 
+    22, 
+    40, 
+    60,
+    3,  
+    0.5 as float, 
+    onlyEarth
 );
 
 /*
