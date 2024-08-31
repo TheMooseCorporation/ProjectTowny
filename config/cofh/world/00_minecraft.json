@@ -125,9 +125,14 @@
 		"coal": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "coal_ore",
+				"block": {
+					"name": "geolosys:ore_vanilla",
+					"properties": {
+						"variant": "coal"
+					}
+				},
 				"material": "minecraft:stone",
-				"cluster-size": 17
+				"cluster-size": 6
 			},
 			"cluster-count": 20,
 			"min-height": 0,
@@ -146,9 +151,14 @@
 		"iron": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "iron_ore",
+				"block": {
+					"name": "geolosys:ore",
+					"properties": {
+						"variant": "hematite"
+					}
+				},
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 3
 			},
 			"cluster-count": 20,
 			"min-height": 0,
@@ -167,9 +177,14 @@
 		"gold": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "gold_ore",
+				"block": {
+					"name": "geolosys:ore_vanilla",
+					"properties": {
+						"variant": "gold"
+					}
+				},
 				"material": "minecraft:stone",
-				"cluster-size": 9
+				"cluster-size": 3
 			},
 			"cluster-count": 2,
 			"min-height": 0,
@@ -188,9 +203,14 @@
 		"redstone": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "redstone_ore",
+				"block": {
+					"name": "geolosys:ore_vanilla",
+					"properties": {
+						"variant": "cinnabar"
+					}
+				},
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 3
 			},
 			"cluster-count": 8,
 			"min-height": 0,
@@ -207,11 +227,17 @@
 		},
 
 		"diamond": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
-				"block": "diamond_ore",
+				"block": {
+					"name": "geolosys:ore_vanilla",
+					"properties": {
+						"variant": "kimberlite"
+					}
+				},
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 2
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -230,9 +256,14 @@
 		"lapis": {
 			"distribution": "gaussian",
 			"generator": {
-				"block": "lapis_ore",
+				"block": {
+					"name": "geolosys:ore_vanilla",
+					"properties": {
+						"variant": "lapis"
+					}
+				},
 				"material": "minecraft:stone",
-				"cluster-size": 7
+				"cluster-size": 3
 			},
 			"cluster-count": 1,
 			"center-height": 16,
@@ -249,7 +280,7 @@
 		},
 
 		"mesa_gold": {
-			"enabled": true,
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
@@ -288,10 +319,14 @@
 		},
 
 		"emerald": {
+			"enabled": false,
 			"distribution": "uniform",
 			"generator": {
 				"block": {
-					"name": "emerald_ore"
+					"name": "geolosys:ore_vanilla",
+					"properties": {
+						"variant": "beryl"
+					}
 				},
 				"material": "minecraft:stone",
 				"cluster-size": 1
@@ -372,7 +407,7 @@
 			"generator": {
 				"block": "quartz_ore",
 				"material": "minecraft:netherrack",
-				"cluster-size": 14
+				"cluster-size": 5
 			},
 			"cluster-count": 16,
 			"min-height": 10,
