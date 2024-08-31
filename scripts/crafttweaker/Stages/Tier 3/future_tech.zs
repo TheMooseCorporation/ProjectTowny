@@ -67,7 +67,6 @@ val techGuns as IItemStack[] = [
     <techguns:itemshared:71>,
     <techguns:itemshared:73>,
     <techguns:itemshared:74>,
-    <techguns:itemshared:75>,
     <techguns:itemshared:76>,
     <techguns:itemshared:92>,
     <techguns:itemshared:118>,

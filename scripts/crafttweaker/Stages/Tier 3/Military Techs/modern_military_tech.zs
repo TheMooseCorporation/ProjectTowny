@@ -12,7 +12,7 @@ import crafttweaker.item.IItemCondition;
 val stage = "modern_military_tech";
 
 val stageMods as string[] = [
-
+    "openmodularturrets"
 ];
 
 val stageItems as IItemStack[] = [

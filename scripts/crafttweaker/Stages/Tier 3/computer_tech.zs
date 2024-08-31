@@ -170,3 +170,34 @@ recipes.addShaped(<buildinggadgets:exchangertool>, [[<ore:ingotIron>, <opencompu
 recipes.addShaped(<buildinggadgets:copypastetool>, [[<ore:ingotIron>, <opencomputers:component>, <ore:ingotIron>],[<minecraft:emerald>, <opencomputers:case1>, <minecraft:emerald>], [<ore:ingotIron>, <opencomputers:card:1>, <ore:ingotIron>]]);
 // Computronics Tape Disk
 recipes.addShapeless(<opencomputers:storage:1>.withTag({"oc:data": {"oc:fs.label": "tape"}, "oc:color": 15, "oc:lootFactory": "computronics:tape"}), [<opencomputers:storage:1>,<computronics:tape>]);
+
+// OpenComputers Component Rework Recipe Removals
+recipes.remove(<opencomputers:component:17>);
+recipes.remove(<opencomputers:card:8>);
+recipes.remove(<opencomputers:card:6>);
+recipes.remove(<opencomputers:component:5>);
+recipes.remove(<opencomputers:storage:4>);
+recipes.remove(<opencomputers:card:3>);
+recipes.remove(<opencomputers:component:11>);
+recipes.remove(<opencomputers:component:10>);
+recipes.remove(<opencomputers:card:12>);
+recipes.remove(<opencomputers:component:16>);
+recipes.remove(<opencomputers:component:4>);
+recipes.remove(<opencomputers:storage:3>);
+recipes.remove(<opencomputers:card:7>);
+recipes.remove(<opencomputers:card:5>);
+recipes.remove(<opencomputers:card:2>);
+recipes.remove(<opencomputers:card:11>);
+recipes.remove(<opencomputers:component:9>);
+recipes.remove(<opencomputers:component:8>);
+recipes.remove(<opencomputers:component:3>);
+recipes.remove(<opencomputers:storage:2>);
+recipes.remove(<opencomputers:upgrade:31>);
+recipes.remove(<opencomputers:card:4>);
+recipes.remove(<opencomputers:card:1>);
+recipes.remove(<opencomputers:card:10>);
+recipes.remove(<opencomputers:component:7>);
+recipes.remove(<opencomputers:component:6>);
+recipes.remove(<opencomputers:component:2>);
+recipes.remove(<opencomputers:component:1>);
+recipes.remove(<opencomputers:component>);

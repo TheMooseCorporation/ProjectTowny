@@ -33,7 +33,7 @@
 <!-->
 <Recipes useDefault="false">
 	<!-- CPU 1 -->
-	<Recipe timeRequired="2400" power ="1024">
+	<Recipe timeRequired="600" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;11</itemStack>
 			<itemStack>opencomputers:material;1;10</itemStack>
@@ -46,7 +46,7 @@
 		</output>
 	</Recipe>
 	<!-- CPU 2 -->
-	<Recipe timeRequired="4800" power ="1024">
+	<Recipe timeRequired="1200" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;11</itemStack>
 			<itemStack>opencomputers:material;1;10</itemStack>
@@ -59,7 +59,7 @@
 		</output>
 	</Recipe>
 	<!-- CPU 3 -->
-	<Recipe timeRequired="6000" power ="1024">
+	<Recipe timeRequired="2400" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;11</itemStack>
 			<itemStack>opencomputers:material;1;10</itemStack>
@@ -72,7 +72,7 @@
 		</output>
 	</Recipe>	
 	<!-- Graphics Card 1 -->
-	<Recipe timeRequired="1200" power ="1024">
+	<Recipe timeRequired="600" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;5</itemStack>
 			<itemStack>opencomputers:material;2;10</itemStack>
@@ -86,7 +86,7 @@
 		</output>
 	</Recipe>
 	<!-- Graphics Card 2 -->
-	<Recipe timeRequired="2400" power ="1024">
+	<Recipe timeRequired="1200" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;5</itemStack>
 			<itemStack>opencomputers:material;4;10</itemStack>
@@ -100,7 +100,7 @@
 		</output>
 	</Recipe>
 	<!-- Graphics Card 3 -->
-	<Recipe timeRequired="4800" power ="1024">
+	<Recipe timeRequired="2400" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;5</itemStack>
 			<itemStack>opencomputers:material;8;10</itemStack>
@@ -114,7 +114,7 @@
 		</output>
 	</Recipe>
 	<!-- RAM 1 -->
-	<Recipe timeRequired="1200" power ="1024">
+	<Recipe timeRequired="600" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;4</itemStack>
 			<itemStack>contenttweaker:dram;2</itemStack>
@@ -194,7 +194,7 @@
 		</output>
 	</Recipe>
 	<!-- Hard Drive 1 -->
-	<Recipe timeRequired="1200" power ="1024">
+	<Recipe timeRequired="600" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;4</itemStack>
 			<itemStack>contenttweaker:dram;1</itemStack>
@@ -208,7 +208,7 @@
 		</output>
 	</Recipe>
 	<!-- Hard Drive 2 -->
-	<Recipe timeRequired="2400" power ="1024">
+	<Recipe timeRequired="1200" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;4</itemStack>
 			<itemStack>contenttweaker:dram;2</itemStack>
@@ -222,7 +222,7 @@
 		</output>
 	</Recipe>
 	<!-- Hard Drive 3 -->
-	<Recipe timeRequired="4800" power ="1024">
+	<Recipe timeRequired="2400" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;4</itemStack>
 			<itemStack>contenttweaker:dram;4</itemStack>
@@ -236,7 +236,7 @@
 		</output>
 	</Recipe>
 	<!-- Data Card 1 -->
-	<Recipe timeRequired="1200" power ="1024">
+	<Recipe timeRequired="600" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;5</itemStack>
 			<itemStack>opencomputers:material;2;10</itemStack>
@@ -249,7 +249,7 @@
 		</output>
 	</Recipe>
 	<!-- Data Card 2 -->
-	<Recipe timeRequired="2400" power ="1024">
+	<Recipe timeRequired="1200" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;5</itemStack>
 			<itemStack>opencomputers:component;1</itemStack>
@@ -262,7 +262,7 @@
 		</output>
 	</Recipe>
 	<!-- Data Card 3 -->
-	<Recipe timeRequired="4800" power ="1024">
+	<Recipe timeRequired="2400" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;5</itemStack>
 			<itemStack>opencomputers:component;1;1</itemStack>
@@ -276,7 +276,7 @@
 		</output>
 	</Recipe>
 	<!-- Network Card -->
-	<Recipe timeRequired="1200" power ="1024">
+	<Recipe timeRequired="600" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;5</itemStack>
 			<itemStack>opencomputers:cable;4</itemStack>
@@ -289,7 +289,7 @@
 		</output>
 	</Recipe>
 	<!-- Internet Card -->
-	<Recipe timeRequired="2400" power ="1024">
+	<Recipe timeRequired="1200" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;5</itemStack>
 			<itemStack>opencomputers:material;1;13</itemStack>
@@ -304,7 +304,7 @@
 		</output>
 	</Recipe>
 	<!-- Redstone Card 1 -->
-	<Recipe timeRequired="1200" power ="1024">
+	<Recipe timeRequired="600" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;5</itemStack>
 			<itemStack>minecraft:redstone_torch</itemStack>
@@ -317,7 +317,7 @@
 		</output>
 	</Recipe>
 	<!-- Redstone Card 2 -->
-	<Recipe timeRequired="2400" power ="1024">
+	<Recipe timeRequired="1200" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;5</itemStack>
 			<oreDict>blockRedstone;1</oreDict>
@@ -331,7 +331,7 @@
 		</output>
 	</Recipe>
 	<!-- Wireless Card 1 -->
-	<Recipe timeRequired="1200" power ="1024">
+	<Recipe timeRequired="600" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;5</itemStack>
 			<itemStack>minecraft:repeater</itemStack>
@@ -344,7 +344,7 @@
 		</output>
 	</Recipe>
 	<!-- Wireless Card 2 -->
-	<Recipe timeRequired="2400" power ="1024">
+	<Recipe timeRequired="1200" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;5</itemStack>
 			<itemStack>minecraft:ender_eye</itemStack>
@@ -357,7 +357,7 @@
 		</output>
 	</Recipe>
 	<!-- Component Bus 1 -->
-	<Recipe timeRequired="1200" power ="1024">
+	<Recipe timeRequired="600" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;4</itemStack>
 			<itemStack>opencomputers:material;8;7</itemStack>
@@ -370,7 +370,7 @@
 		</output>
 	</Recipe>
 	<!-- Component Bus 2 -->
-	<Recipe timeRequired="2400" power ="1024">
+	<Recipe timeRequired="1200" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;4</itemStack>
 			<itemStack>opencomputers:material;8;8</itemStack>
@@ -383,7 +383,7 @@
 		</output>
 	</Recipe>
 	<!-- Component Bus 3 -->
-	<Recipe timeRequired="4800" power ="1024">
+	<Recipe timeRequired="2400" power ="1024">
 		<input>
 			<itemStack>opencomputers:material;1;4</itemStack>
 			<itemStack>opencomputers:material;4;9</itemStack>
@@ -396,7 +396,7 @@
 		</output>
 	</Recipe>
 	<!-- APU 2 -->
-	<Recipe timeRequired="4800" power ="1024">
+	<Recipe timeRequired="2400" power ="1024">
 		<input>
 			<itemStack>opencomputers:component;1;3</itemStack>
 			<itemStack>opencomputers:component;1;1</itemStack>
@@ -410,7 +410,7 @@
 		</output>	
 	</Recipe>
 	<!-- APU 3 -->
-	<Recipe timeRequired="6000" power ="1024">
+	<Recipe timeRequired="3000" power ="1024">
 		<input>
 			<itemStack>opencomputers:component;1;3</itemStack>
 			<itemStack>opencomputers:component;1;2</itemStack>

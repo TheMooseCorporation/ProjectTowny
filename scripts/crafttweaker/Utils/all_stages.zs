@@ -37,7 +37,7 @@ static gameStages as string[] = [
     // Tier 3
     "advanced_compact_machinery_tech",    
     "aeromobiles_tech",
-    "automobiles_tech",
+    "mechanics_tech",
     "chemical_synthesis_tech",
     "compact_machinery_tech",
     "computers_tech",

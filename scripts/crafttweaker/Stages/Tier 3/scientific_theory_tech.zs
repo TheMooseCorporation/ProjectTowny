@@ -3,20 +3,19 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 /**
-    Automobiles:
-    Unlocks Immersive Vehicles
+    Scientific Theory:
+    Unlocks the Modern Research Lab
 */
 
 // Stage Name
-val stage = "automobiles_tech";
+val stage = "scientific_theory_tech";
 
 val stageMods as string[] = [
-    "mts",
-    "trafficcontrol"
+
 ];
 
 val stageItems as IItemStack[] = [
-
+    
 ];
 
 for mod in stageMods {
@@ -28,3 +27,4 @@ for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
 }
+

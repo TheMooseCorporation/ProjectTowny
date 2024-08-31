@@ -30,6 +30,7 @@ val stageItems as IItemStack[] = [
     <enderio:item_material:4>,
     <enderio:item_alloy_ingot:4>,
     <enderio:item_basic_capacitor>,
+    <enderio:item_redstone_conduit>,
     // Opencomputers components that we use for making microchips
     <opencomputers:material:10>,
     <opencomputers:material:11>,
@@ -78,11 +79,6 @@ recipes.remove(<enderio:item_basic_capacitor>);
 
 // Raw circuit new recipe
 recipes.addShapeless(<opencomputers:material:2>, [<ore:plateCopper>,<immersiveengineering:stone_decoration:8>]);
-
-// New circuit ore dictionary
-oreDict.get("circuitBasic").add(<immersiveengineering:material:27>);
-oreDict.get("circuitAdvanced").add(<contenttweaker:tier2_circuit>);
-oreDict.get("circuitElite").add(<contenttweaker:tier3_circuit>);
 
 // Circuit Recipes
 // Basic Circuit

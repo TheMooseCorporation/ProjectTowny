@@ -5,7 +5,7 @@
   "recipes": [
     {
       "uid": "dram",
-      "duration": 1200,
+      "duration": 600,
       "inputs": {
         "item": [
           {
@@ -68,7 +68,7 @@
     },
     {
       "uid": "control-unit",
-      "duration": 3000,
+      "duration": 1200,
       "inputs": {
         "item": [
           {
@@ -131,7 +131,7 @@
     },
     {
       "uid": "alu",
-      "duration": 3000,
+      "duration": 1200,
       "inputs": {
         "item": [
           {
@@ -194,7 +194,7 @@
     },
     {
       "uid": "microchip3",
-      "duration": 3000,
+      "duration": 1200,
       "inputs": {
         "item": [
           {
@@ -250,7 +250,7 @@
     },
     {
       "uid": "microchip2",
-      "duration": 1200,
+      "duration": 600,
       "inputs": {
         "item": [
           {
@@ -365,7 +365,7 @@
     },
     {
       "uid": "microchip1",
-      "duration": 600,
+      "duration": 300,
       "inputs": {
         "item": [
           {

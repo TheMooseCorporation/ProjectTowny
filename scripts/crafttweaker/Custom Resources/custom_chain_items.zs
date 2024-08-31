@@ -2,9 +2,6 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 
-var purified_nitrate = VanillaFactory.createItem("purified_nitrate");
-purified_nitrate.register();
-
 // Industrial Manufacturing Steel
 var treated_iron = VanillaFactory.createItem("treated_iron");
 treated_iron.register();

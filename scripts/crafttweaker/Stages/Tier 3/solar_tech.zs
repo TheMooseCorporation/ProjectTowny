@@ -50,6 +50,7 @@ for item in stageItems {
 }
 
 // Garden Cloche alternative recipe, maybe something to put behind a specialization?
+recipes.remove(<immersiveengineering:metal_device1:13>);
 Recipes.addShaped("solar_stage", <immersiveengineering:metal_device1:13>, [[<sereneseasons:greenhouse_glass>, <solarflux:photovoltaic_cell_5>, <sereneseasons:greenhouse_glass>],[<sereneseasons:greenhouse_glass>, <immersiveengineering:material:26>, <sereneseasons:greenhouse_glass>], [<ore:plankTreatedWood>, <immersiveengineering:material:9>, <ore:plankTreatedWood>]]);
 
 // Solar Flux Reborn Rework

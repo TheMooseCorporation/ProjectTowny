@@ -617,6 +617,9 @@ for alloy in disabledAlloys {
     mods.tconstruct.Alloy.removeRecipe(alloy);
 }
 
+// Disables the End, this is subject to change but right now we don't have a good place for it
+mods.DimensionStages.addDimensionStage(stage, 1);
+
 // Fixes melting related dupes with healing items like spring water
 mods.tconstruct.Melting.removeEntityMelting(<entity:minecraft:villager_golem>);
 mods.tconstruct.Melting.removeEntityMelting(<entity:minecraft:villager>);

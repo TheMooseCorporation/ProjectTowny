@@ -35,3 +35,4 @@ for item in stageItems {
 //Locks Multiblocks
 IEMultiBlockStages.addStage(stage, "IT:meltingCrucible", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IT:SolarMelter", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "QI:CokeOvenBattery", "Requires " + stage);
