@@ -21,3 +21,9 @@ config/mtsconfigclient.json
 config/mtslanguage_en_us.json
 config/antiqueatlas/biome_textures.json
 config/oxygen/data/client/
+config/BiomeTweaker/output/entity/bwm_jungle_spider (betterwithmods_bwm_jungle_spider).json
+config/BiomeTweaker/output/entity/entity_sheared_creeper (betterwithmods_entity_sheared_creeper).json
+config/oxygen/data/client/settings/settings.json
+config/fancymenu/locals/en_us.local
+config/fancymenu/locals/ru_ru.local
+config/fancymenu/locals/uk_ua.local
