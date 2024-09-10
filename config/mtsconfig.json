@@ -20,21 +20,9 @@
       "value": false,
       "comment": "If true, vehicles can only be started if the player has the key in their hand."
     },
-    "blockBreakage": {
-      "value": false,
-      "comment": "Whether or not vehicles can break blocks when they hit them.  If false, vehicles will simply stop when they hit blocks."
-    },
-    "vehicleDestruction": {
-      "value": true,
-      "comment": "Whether or not vehicles can be destroyed by ramming into blocks at high speeds.  Set this to false if you don't like loosing vehicles to badly-placed walls."
-    },
     "noclipVehicles": {
       "value": false,
       "comment": "If true, vehicles will not be able to collide with blocks.  This also prevents them from moving if they do not have wheels on them, as otherwise they would phase through the ground into the void."
-    },
-    "creativeDamage": {
-      "value": false,
-      "comment": "If true, damage from vehicles and guns will be applied to creative players."
     },
     "chunkloadVehicles": {
       "value": true,
@@ -55,6 +43,14 @@
     "giveManualsOnJoin": {
       "value": false,
       "comment": "If true, then whenever a new player joins a world, they will be given a copy of the mod manuals."
+    },
+    "performModCompatFunctions": {
+      "value": true,
+      "comment": "If true, mod compatibility functions will be executed.  Should be true unless you're configuring a modpack and know and have addressed the various incompatibilities."
+    },
+    "forceRenderLastSolid": {
+      "value": false,
+      "comment": "If enabled, MTS will do rendering on the world-last Forge event.  This is not normally something you want, but can be used if some mods make things invisible.  Replaymod being one such example."
     },
     "devMode": {
       "value": false,
@@ -107,6 +103,18 @@
     "vehicleDeathDespawnTime": {
       "value": 0.0,
       "comment": "Time (in seconds) between when vehicles reach 0 health and they de-spawn.  Normally 0, which means they never de-spawn."
+    },
+    "seaLevel": {
+      "value": 63,
+      "comment": "The Y-Level that will be used to base altitude off of. Will also be factored in for engine performance calculations. Change only if you know what you're doing/ why this matters to engines/flying."
+    },
+    "defaultVehicleRepairMaterials": {
+      "value": [],
+      "comment": "List of items that can be used to repair vehicles by default, if no repair recipe is set in the vehicle's JSON."
+    },
+    "defaultPartRepairMaterials": {
+      "value": [],
+      "comment": "List of items that can be used to repair part by default, if no repair recipe is set in the part's JSON."
     },
     "engineDimensionBlacklist": {
       "value": [],
@@ -163,9 +171,29 @@
     }
   },
   "damage": {
-    "explosions": {
+    "bulletBlockBreaking": {
       "value": true,
-      "comment": "Whether or not vehicles explode when crashed or shot down."
+      "comment": "Whether or not bullets/bombs can break blocks when they hit them.  This will also disable explosive block breakage (though not explosions themselves) and prevent incendiary bullets from setting blocks on fire."
+    },
+    "bulletExplosions": {
+      "value": true,
+      "comment": "Whether or not bullets/bombs will blow up.  This does not disable block breakage, but it will pretty much nerf all block mass-destruction weapons."
+    },
+    "vehicleBlockBreaking": {
+      "value": true,
+      "comment": "Whether or not vehicles can break blocks when they run into them.  If false, vehicles will simply stop when they hit blocks."
+    },
+    "vehicleDestruction": {
+      "value": true,
+      "comment": "Whether or not vehicles can be destroyed by ramming into blocks at high speeds.  Set this to false if you don't like loosing vehicles to badly-placed walls."
+    },
+    "vehicleExplosions": {
+      "value": true,
+      "comment": "Whether or not vehicles explode when crashed or shot down.  If this is false, vehicles will simply poof when they crash."
+    },
+    "creativePlayerDamage": {
+      "value": false,
+      "comment": "If true, damage from vehicles and guns will be applied to creative players.  Not sure why you'd want this, but it's here."
     },
     "wheelBreakage": {
       "value": true,
