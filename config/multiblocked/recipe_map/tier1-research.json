@@ -437,36 +437,6 @@
       }
     },
     {
-      "uid": "military-points3",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"techguns:itemshared\",Count:1,Damage:5s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"contenttweaker:military_points\",Count:4,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
       "uid": "kitchens_tech",
       "duration": 200,
       "inputs": {
@@ -637,7 +607,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:blacksmith_points\",Count:8,Damage:0s}"
+                "{id:\"contenttweaker:blacksmith_points\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -699,7 +669,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:blacksmith_points\",Count:8,Damage:0s}"
+                "{id:\"contenttweaker:blacksmith_points\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -863,7 +833,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:2,Damage:0s}"
+                "{id:\"contenttweaker:engineering_points\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -960,7 +930,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:2,Damage:0s}"
+                "{id:\"contenttweaker:engineering_points\",Count:3,Damage:0s}"
               ]
             }
           }
@@ -1081,36 +1051,6 @@
       }
     },
     {
-      "uid": "military-points1",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 12,
-              "matches": [
-                "{id:\"techguns:itemshared\",Count:12,Damage:1s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:military_points\",Count:4,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
       "uid": "steel-tech",
       "duration": 200,
       "inputs": {
@@ -1152,36 +1092,6 @@
               "amount": 1,
               "matches": [
                 "{id:\"contenttweaker:steel_tech\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "military-points2",
-      "duration": 1,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"techguns:itemshared\",Count:4,Damage:3s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:military_points\",Count:4,Damage:0s}"
               ]
             }
           }

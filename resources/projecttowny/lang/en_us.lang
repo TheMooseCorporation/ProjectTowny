@@ -57,3 +57,8 @@ tile.projecttowny.unpacker.name=Electricity Unpacker
 projecttowny.unpacker.description=Electricity Unpacker
 multiblocked.recipe_map.unpacker=Electricity Unpacking
 unpacker.name=Electricity Unpacker
+
+tile.projecttowny.war_table.name=War Table
+projecttowny.war_table.description=War Table
+multiblocked.recipe_map.war-table=Art of War
+war_table.name=War Table

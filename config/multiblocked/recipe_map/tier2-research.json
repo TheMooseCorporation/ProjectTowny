@@ -4,54 +4,6 @@
   "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
-      "uid": "advanced_military_tech",
-      "duration": 200,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 6,
-              "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 32,
-              "matches": [
-                "{id:\"contenttweaker:military_points\",Count:32,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 16,
-              "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:32,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:advanced_military_tech\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
       "uid": "thermodynamics_tech",
       "duration": 200,
       "inputs": {
@@ -61,7 +13,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{id:\"modcurrency:banknote\",Count:4,Damage:5s}"
               ]
             }
           },
@@ -70,7 +22,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:advanced_materials_points\",Count:8,Damage:0s}"
+                "{id:\"contenttweaker:advanced_materials_points\",Count:4,Damage:0s}"
               ]
             }
           },
@@ -88,7 +40,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:electricity_points\",Count:16,Damage:0s}"
+                "{id:\"contenttweaker:electricity_points\",Count:4,Damage:0s}"
               ]
             }
           }
@@ -118,7 +70,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{id:\"modcurrency:banknote\",Count:4,Damage:5s}"
               ]
             }
           },
@@ -127,7 +79,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:64,Damage:0s}"
+                "{id:\"contenttweaker:mechanical_points\",Count:128,Damage:0s}"
               ]
             }
           },
@@ -136,7 +88,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:32,Damage:0s}"
+                "{id:\"contenttweaker:petroleum_points\",Count:128,Damage:0s}"
               ]
             }
           }
@@ -166,7 +118,7 @@
             "content": {
               "amount": 6,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{id:\"modcurrency:banknote\",Count:6,Damage:5s}"
               ]
             }
           },
@@ -175,7 +127,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:8,Damage:0s}"
+                "{id:\"contenttweaker:engineering_points\",Count:16,Damage:0s}"
               ]
             }
           },
@@ -184,7 +136,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:8,Damage:0s}"
+                "{id:\"contenttweaker:fluid_points\",Count:32,Damage:0s}"
               ]
             }
           }
@@ -214,7 +166,7 @@
             "content": {
               "amount": 6,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{id:\"modcurrency:banknote\",Count:6,Damage:5s}"
               ]
             }
           },
@@ -253,321 +205,6 @@
       }
     },
     {
-      "uid": "computer_tech",
-      "duration": 200,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 32,
-              "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:64,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:computer_tech\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "mechanics_tech",
-      "duration": 200,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:64,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:32,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:mechanics_tech\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "oil_processing_tech",
-      "duration": 200,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 32,
-              "matches": [
-                "{id:\"contenttweaker:advanced_materials_points\",Count:8,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 32,
-              "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:8,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 32,
-              "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:8,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:oil_processing_tech\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "fluidynamics_tech",
-      "duration": 200,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"contenttweaker:advanced_materials_points\",Count:8,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:8,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"contenttweaker:electricity_points\",Count:16,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:fluidynamics_tech\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "chemical_synthesis_tech",
-      "duration": 200,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:fivehundred_bill\",Count:1,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:8,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 64,
-              "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:32,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 32,
-              "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:64,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:chemical_synthesis_tech\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "steam_energy_tech",
-      "duration": 200,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 16,
-              "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:8,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 8,
-              "matches": [
-                "{id:\"contenttweaker:electricity_points\",Count:16,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:steam_energy_tech\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
       "uid": "basic_circuitry_tech",
       "duration": 200,
       "inputs": {
@@ -577,7 +214,7 @@
             "content": {
               "amount": 7,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{id:\"modcurrency:banknote\",Count:7,Damage:5s}"
               ]
             }
           },
@@ -586,7 +223,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electricity_points\",Count:16,Damage:0s}"
+                "{id:\"contenttweaker:electricity_points\",Count:256,Damage:0s}"
               ]
             }
           },
@@ -625,7 +262,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
+                "{id:\"contenttweaker:electronic_points\",Count:32,Damage:0s}"
               ]
             }
           },
@@ -634,7 +271,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:64,Damage:0s}"
+                "{id:\"contenttweaker:mechanical_points\",Count:32,Damage:0s}"
               ]
             }
           },
@@ -665,26 +302,40 @@
       }
     },
     {
-      "uid": "wireless_tech",
-      "duration": 200,
+      "uid": "fluid-points1",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"lava\",Amount:4000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:fluid_points\",Count:12,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "electronic-points1",
+      "duration": 1,
       "inputs": {
         "item": [
           {
             "chance": 1.0,
             "content": {
-              "amount": 4,
-              "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
-              ]
+              "amount": 1,
+              "ore": "circuitBasic"
             }
           }
         ]
@@ -696,7 +347,35 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:wireless_tech\",Count:1,Damage:0s}"
+                "{id:\"contenttweaker:electronic_points\",Count:4,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "electronic-points2",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "circuitAdvanced"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"contenttweaker:electronic_points\",Count:4,Damage:0s}"
               ]
             }
           }
@@ -713,7 +392,7 @@
             "content": {
               "amount": 7,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{id:\"modcurrency:banknote\",Count:7,Damage:5s}"
               ]
             }
           },
@@ -722,7 +401,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:8,Damage:0s}"
+                "{id:\"contenttweaker:engineering_points\",Count:64,Damage:0s}"
               ]
             }
           },
@@ -752,6 +431,81 @@
       }
     },
     {
+      "uid": "fluid-points4",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"ethanol\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"contenttweaker:fluid_points\",Count:12,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "fluid-points5",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"chlorine\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 12,
+              "matches": [
+                "{id:\"contenttweaker:fluid_points\",Count:12,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "fluid-points2",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"creosote\",Amount:2000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:fluid_points\",Count:12,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "arc_smelting_tech",
       "duration": 200,
       "inputs": {
@@ -761,7 +515,7 @@
             "content": {
               "amount": 6,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{id:\"modcurrency:banknote\",Count:6,Damage:5s}"
               ]
             }
           },
@@ -770,7 +524,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:8,Damage:0s}"
+                "{id:\"contenttweaker:engineering_points\",Count:16,Damage:0s}"
               ]
             }
           },
@@ -779,7 +533,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:electricity_points\",Count:16,Damage:0s}"
+                "{id:\"contenttweaker:electricity_points\",Count:32,Damage:0s}"
               ]
             }
           }
@@ -793,6 +547,671 @@
               "amount": 1,
               "matches": [
                 "{id:\"contenttweaker:arc_smelting_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "fluid-points3",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"plantoil\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"contenttweaker:fluid_points\",Count:12,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "atomic_theory_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"contenttweaker:electronic_points\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"contenttweaker:mechanical_points\",Count:64,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:atomic_theory_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "petroleum-points4",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"refined_kerosene\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"contenttweaker:petroleum_points\",Count:4,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "advanced_military_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 6,
+              "matches": [
+                "{id:\"modcurrency:banknote\",Count:6,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"contenttweaker:military_points\",Count:32,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"contenttweaker:petroleum_points\",Count:16,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:advanced_military_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "electricity-points1",
+      "duration": 1,
+      "inputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 196000
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:electricity_points\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "petroleum-points3",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"butane\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"contenttweaker:petroleum_points\",Count:4,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "petroleum-points5",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"jet_fuel\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"contenttweaker:petroleum_points\",Count:4,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "mechanical-points1",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "gearSteel"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:mechanical_points\",Count:12,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "mechanical-points2",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"immersiveengineering:material\",Count:1,Damage:9s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:mechanical_points\",Count:12,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "computer_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"modcurrency:banknote\",Count:4,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:electronic_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"contenttweaker:mechanical_points\",Count:32,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:computer_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "mechanics_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"modcurrency:banknote\",Count:4,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:mechanical_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:petroleum_points\",Count:128,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:mechanics_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "oil_processing_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:thousand_bill\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"contenttweaker:advanced_materials_points\",Count:32,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"contenttweaker:engineering_points\",Count:32,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"contenttweaker:fluid_points\",Count:32,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:oil_processing_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "fluidynamics_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"modcurrency:banknote\",Count:4,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"contenttweaker:advanced_materials_points\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"contenttweaker:engineering_points\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"contenttweaker:electricity_points\",Count:2,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:fluidynamics_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "chemical_synthesis_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:fivehundred_bill\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:fluid_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"contenttweaker:petroleum_points\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"contenttweaker:mechanical_points\",Count:32,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:chemical_synthesis_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "steam_energy_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"modcurrency:banknote\",Count:3,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"contenttweaker:engineering_points\",Count:16,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"contenttweaker:electricity_points\",Count:8,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:steam_energy_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "wireless_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"modcurrency:banknote\",Count:4,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:electronic_points\",Count:128,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:wireless_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "nuclear-points2",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:uranium\",Count:1,Damage:0s}",
+                "{id:\"nuclearcraft:uranium\",Count:1,Damage:4s}",
+                "{id:\"nuclearcraft:thorium\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"contenttweaker:nuclear_points\",Count:2,Damage:0s}"
               ]
             }
           }
@@ -818,7 +1237,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:advanced_materials_points\",Count:8,Damage:0s}"
+                "{id:\"contenttweaker:advanced_materials_points\",Count:16,Damage:0s}"
               ]
             }
           },
@@ -827,7 +1246,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:8,Damage:0s}"
+                "{id:\"contenttweaker:engineering_points\",Count:16,Damage:0s}"
               ]
             }
           },
@@ -866,7 +1285,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{id:\"modcurrency:banknote\",Count:4,Damage:5s}"
               ]
             }
           },
@@ -884,7 +1303,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:8,Damage:0s}"
+                "{id:\"contenttweaker:fluid_points\",Count:16,Damage:0s}"
               ]
             }
           }
@@ -905,34 +1324,42 @@
       }
     },
     {
-      "uid": "atomic_theory_tech",
-      "duration": 200,
+      "uid": "chemical-points1",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"sodium_chlorate\",Amount:200}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:chemical_points\",Count:2,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "nuclear-points1",
+      "duration": 1,
       "inputs": {
         "item": [
           {
             "chance": 1.0,
             "content": {
-              "amount": 8,
+              "amount": 1,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 64,
-              "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 64,
-              "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:64,Damage:0s}"
+                "{id:\"nuclearcraft:uranium\",Count:1,Damage:8s}",
+                "{id:\"nuclearcraft:thorium\",Count:1,Damage:4s}"
               ]
             }
           }
@@ -945,7 +1372,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:atomic_theory_tech\",Count:1,Damage:0s}"
+                "{id:\"contenttweaker:nuclear_points\",Count:2,Damage:0s}"
               ]
             }
           }
@@ -962,7 +1389,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{id:\"modcurrency:banknote\",Count:3,Damage:5s}"
               ]
             }
           },
@@ -1051,6 +1478,81 @@
               "amount": 1,
               "matches": [
                 "{id:\"contenttweaker:server_storage_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "petroleum-points2",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"gasoline\",Amount:1000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"contenttweaker:petroleum_points\",Count:4,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "petroleum-points1",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"oil\",Amount:16000}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:petroleum_points\",Count:4,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "chemical-points2",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"sulfuric_acid\",Amount:200}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"contenttweaker:chemical_points\",Count:2,Damage:0s}"
               ]
             }
           }

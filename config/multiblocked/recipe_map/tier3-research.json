@@ -4,16 +4,16 @@
   "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
   "recipes": [
     {
-      "uid": "modern_military_tech",
+      "uid": "space_exploration_tech",
       "duration": 200,
       "inputs": {
         "item": [
           {
             "chance": 1.0,
             "content": {
-              "amount": 8,
+              "amount": 16,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:15,Damage:5s}"
+                "{id:\"modcurrency:banknote\",Count:16,Damage:5s}"
               ]
             }
           },
@@ -22,55 +22,16 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:military_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 128,
+              "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:512,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:modern_military_tech\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "compact_machinery_tech",
-      "duration": 200,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 3,
-              "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 256,
-              "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:rocketry_points\",Count:16,Damage:0s}"
               ]
             }
           },
@@ -79,16 +40,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 256,
-              "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:propellant_points\",Count:32,Damage:0s}"
               ]
             }
           }
@@ -101,7 +53,410 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:compact_machinery_tech\",Count:1,Damage:0s}"
+                "{id:\"contenttweaker:space_exploration_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "space_stations_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"contenttweaker:thousand_bill\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 256,
+              "matches": [
+                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"contenttweaker:rocketry_points\",Count:32,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"contenttweaker:propellant_points\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"contenttweaker:exotic_materials_points\",Count:16,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:space_stations_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "basic_missiles_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"contenttweaker:chemical_points\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:military_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:petroleum_points\",Count:128,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:basic_missiles_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "exotic-materials-points1",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"mekanism:ingot\",Count:4,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:exotic_materials_points\",Count:16,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "exotic-materials-points2",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"libvulpes:productgem\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:exotic_materials_points\",Count:16,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "electronic-points3",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "ore": "circuitElite"
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"contenttweaker:electronic_points\",Count:16,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "manhattan_project_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"contenttweaker:thousand_bill\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 512,
+              "matches": [
+                "{id:\"contenttweaker:military_points\",Count:512,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"contenttweaker:propellant_points\",Count:32,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:nuclear_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"contenttweaker:rocketry_points\",Count:32,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manhattan_project_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "exotic-materials-points3",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tconstruct:ingots\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 12,
+              "matches": [
+                "{id:\"contenttweaker:exotic_materials_points\",Count:16,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "exotic-materials-points4",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tconstruct:ingots\",Count:1,Damage:1s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"contenttweaker:exotic_materials_points\",Count:16,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "advanced_compact_machinery_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 5,
+              "matches": [
+                "{id:\"contenttweaker:thousand_bill\",Count:5,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 256,
+              "matches": [
+                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"contenttweaker:exotic_materials_points\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 256,
+              "matches": [
+                "{id:\"contenttweaker:chemical_points\",Count:256,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:nuclear_points\",Count:128,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:advanced_compact_machinery_tech\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -127,7 +482,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
               ]
             }
           },
@@ -136,7 +491,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:rocketry_points\",Count:32,Damage:0s}"
               ]
             }
           },
@@ -145,7 +500,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:nuclear_points\",Count:128,Damage:0s}"
               ]
             }
           },
@@ -154,7 +509,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:exotic_materials_points\",Count:128,Damage:0s}"
               ]
             }
           }
@@ -175,34 +530,16 @@
       }
     },
     {
-      "uid": "manhattan_project_tech",
+      "uid": "intercontinental_ballistics_tech",
       "duration": 200,
       "inputs": {
         "item": [
           {
             "chance": 1.0,
             "content": {
-              "amount": 2,
+              "amount": 12,
               "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 512,
-              "matches": [
-                "{id:\"contenttweaker:military_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 32,
-              "matches": [
-                "{id:\"contenttweaker:propellant_points\",Count:512,Damage:0s}"
+                "{id:\"modcurrency:banknote\",Count:12,Damage:5s}"
               ]
             }
           },
@@ -211,46 +548,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 32,
-              "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:512,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:manhattan_project_tech\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "space_exploration_tech",
-      "duration": 200,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 16,
-              "matches": [
-                "{id:\"modcurrency:banknote\",Count:15,Damage:5s}"
+                "{id:\"contenttweaker:chemical_points\",Count:128,Damage:0s}"
               ]
             }
           },
@@ -259,7 +557,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:military_points\",Count:256,Damage:0s}"
               ]
             }
           },
@@ -268,16 +566,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 32,
-              "matches": [
-                "{id:\"contenttweaker:propellant_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:propellant_points\",Count:16,Damage:0s}"
               ]
             }
           }
@@ -290,7 +579,325 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:space_exploration_tech\",Count:1,Damage:0s}"
+                "{id:\"contenttweaker:intercontinental_ballistics_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "rocketry-points1",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"advancedrocketry:fueltank\",Count:2,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:rocketry_points\",Count:8,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "rocketry-points2",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"advancedrocketry:rocketmotor\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"contenttweaker:rocketry_points\",Count:8,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "rocketry-points3",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"advancedrocketry:fuelingstation\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"contenttweaker:rocketry_points\",Count:8,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "rocketry-points4",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"advancedrocketry:guidancecomputer\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"contenttweaker:rocketry_points\",Count:8,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "asteroid_mining_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"contenttweaker:thousand_bill\",Count:3,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 256,
+              "matches": [
+                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"contenttweaker:rocketry_points\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:propellant_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"contenttweaker:exotic_materials_points\",Count:32,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:asteroid_mining_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "basic_rocketry_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"contenttweaker:thousand_bill\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:electronic_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:mechanical_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:chemical_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:nuclear_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:military_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:petroleum_points\",Count:128,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:basic_rocketry_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "modern_military_tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 256,
+              "matches": [
+                "{id:\"contenttweaker:military_points\",Count:256,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 128,
+              "matches": [
+                "{id:\"contenttweaker:petroleum_points\",Count:128,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:modern_military_tech\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -316,7 +923,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:chemical_points\",Count:256,Damage:0s}"
               ]
             }
           },
@@ -325,7 +932,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:exotic_materials_points\",Count:32,Damage:0s}"
               ]
             }
           },
@@ -334,7 +941,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
               ]
             }
           },
@@ -343,7 +950,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:nuclear_points\",Count:256,Damage:0s}"
               ]
             }
           }
@@ -364,70 +971,22 @@
       }
     },
     {
-      "uid": "basic_rocketry_tech",
-      "duration": 200,
+      "uid": "nuclear-points4",
+      "duration": 1,
       "inputs": {
         "item": [
           {
             "chance": 1.0,
             "content": {
-              "amount": 2,
+              "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:military_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:512,Damage:0s}"
+                "{id:\"nuclearcraft:curium\",Count:1,Damage:0s}",
+                "{id:\"nuclearcraft:curium\",Count:1,Damage:4s}",
+                "{id:\"nuclearcraft:curium\",Count:1,Damage:8s}",
+                "{id:\"nuclearcraft:curium\",Count:1,Damage:12s}",
+                "{id:\"nuclearcraft:americium\",Count:1,Damage:0s}",
+                "{id:\"nuclearcraft:americium\",Count:1,Damage:4s}",
+                "{id:\"nuclearcraft:americium\",Count:1,Damage:8s}"
               ]
             }
           }
@@ -438,9 +997,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 8,
               "matches": [
-                "{id:\"contenttweaker:basic_rocketry_tech\",Count:1,Damage:0s}"
+                "{id:\"contenttweaker:nuclear_points\",Count:16,Damage:0s}"
               ]
             }
           }
@@ -448,43 +1007,19 @@
       }
     },
     {
-      "uid": "basic_missiles_tech",
-      "duration": 200,
+      "uid": "nuclear-points5",
+      "duration": 1,
       "inputs": {
         "item": [
           {
             "chance": 1.0,
             "content": {
-              "amount": 8,
+              "amount": 1,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:15,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 64,
-              "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:military_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:512,Damage:0s}"
+                "{id:\"nuclearcraft:californium\",Count:1,Damage:0s}",
+                "{id:\"nuclearcraft:californium\",Count:1,Damage:4s}",
+                "{id:\"nuclearcraft:californium\",Count:1,Damage:8s}",
+                "{id:\"nuclearcraft:californium\",Count:1,Damage:12s}"
               ]
             }
           }
@@ -495,9 +1030,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
+              "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:basic_missiles_tech\",Count:1,Damage:0s}"
+                "{id:\"contenttweaker:nuclear_points\",Count:16,Damage:0s}"
               ]
             }
           }
@@ -514,7 +1049,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:4,Damage:0s}"
+                "{id:\"contenttweaker:thousand_bill\",Count:2,Damage:0s}"
               ]
             }
           },
@@ -523,7 +1058,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:chemical_points\",Count:128,Damage:0s}"
               ]
             }
           },
@@ -532,7 +1067,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:electronic_points\",Count:128,Damage:0s}"
               ]
             }
           },
@@ -541,7 +1076,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:mechanical_points\",Count:128,Damage:0s}"
               ]
             }
           },
@@ -550,7 +1085,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:nuclear_points\",Count:128,Damage:0s}"
               ]
             }
           }
@@ -571,7 +1106,42 @@
       }
     },
     {
-      "uid": "asteroid_mining_tech",
+      "uid": "nuclear-points3",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"nuclearcraft:neptunium\",Count:1,Damage:0s}",
+                "{id:\"nuclearcraft:neptunium\",Count:1,Damage:4s}",
+                "{id:\"nuclearcraft:plutonium\",Count:1,Damage:0s}",
+                "{id:\"nuclearcraft:plutonium\",Count:1,Damage:4s}",
+                "{id:\"nuclearcraft:plutonium\",Count:1,Damage:8s}",
+                "{id:\"nuclearcraft:plutonium\",Count:1,Damage:12s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"contenttweaker:nuclear_points\",Count:16,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "compact_machinery_tech",
       "duration": 200,
       "inputs": {
         "item": [
@@ -580,7 +1150,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:4,Damage:0s}"
+                "{id:\"contenttweaker:thousand_bill\",Count:3,Damage:0s}"
               ]
             }
           },
@@ -589,25 +1159,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 64,
-              "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:propellant_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
               ]
             }
           },
@@ -616,7 +1168,16 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:512,Damage:0s}"
+                "{id:\"contenttweaker:exotic_materials_points\",Count:32,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 256,
+              "matches": [
+                "{id:\"contenttweaker:chemical_points\",Count:256,Damage:0s}"
               ]
             }
           }
@@ -629,7 +1190,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:asteroid_mining_tech\",Count:1,Damage:0s}"
+                "{id:\"contenttweaker:compact_machinery_tech\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -637,45 +1198,13 @@
       }
     },
     {
-      "uid": "intercontinental_ballistics_tech",
-      "duration": 200,
+      "uid": "propellant-points1",
+      "duration": 1,
       "inputs": {
-        "item": [
+        "fluid": [
           {
             "chance": 1.0,
-            "content": {
-              "amount": 12,
-              "matches": [
-                "{id:\"modcurrency:banknote\",Count:15,Damage:5s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 256,
-              "matches": [
-                "{id:\"contenttweaker:military_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 16,
-              "matches": [
-                "{id:\"contenttweaker:propellant_points\",Count:512,Damage:0s}"
-              ]
-            }
+            "content": "{FluidName:\"rocketfuel\",Amount:1000}"
           }
         ]
       },
@@ -686,139 +1215,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:intercontinental_ballistics_tech\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "space_stations_tech",
-      "duration": 200,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 2,
-              "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 256,
-              "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 32,
-              "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 64,
-              "matches": [
-                "{id:\"contenttweaker:propellant_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 16,
-              "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:512,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:space_stations_tech\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "advanced_compact_machinery_tech",
-      "duration": 200,
-      "inputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 5,
-              "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:4,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 256,
-              "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 64,
-              "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 256,
-              "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:512,Damage:0s}"
-              ]
-            }
-          },
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 128,
-              "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:512,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:advanced_compact_machinery_tech\",Count:1,Damage:0s}"
+                "{id:\"contenttweaker:propellant_points\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -993,6 +1390,31 @@
               "amount": 1,
               "matches": [
                 "{id:\"contenttweaker:future_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "chemical-points3",
+      "duration": 1,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"butylated_hydroxytoluene\",Amount:100}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 8,
+              "matches": [
+                "{id:\"contenttweaker:chemical_points\",Count:8,Damage:0s}"
               ]
             }
           }
