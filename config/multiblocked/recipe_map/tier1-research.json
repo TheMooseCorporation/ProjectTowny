@@ -122,7 +122,7 @@
     },
     {
       "uid": "basic-material-points1",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -152,7 +152,7 @@
     },
     {
       "uid": "basic-material-points3",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -182,7 +182,7 @@
     },
     {
       "uid": "basic-material-points2",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -210,7 +210,7 @@
     },
     {
       "uid": "basic-material-points5",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -240,7 +240,7 @@
     },
     {
       "uid": "basic-material-points4",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -309,7 +309,7 @@
     },
     {
       "uid": "advanced-materials-points2",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -339,7 +339,7 @@
     },
     {
       "uid": "advanced-materials-points1",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -369,7 +369,7 @@
     },
     {
       "uid": "advanced-materials-points3",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -486,7 +486,7 @@
     },
     {
       "uid": "blacksmith-points4",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -585,7 +585,7 @@
     },
     {
       "uid": "blacksmith-points1",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -616,7 +616,7 @@
     },
     {
       "uid": "blacksmith-points3",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -647,7 +647,7 @@
     },
     {
       "uid": "blacksmith-points2",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -678,7 +678,7 @@
     },
     {
       "uid": "agriculture-points3",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -754,7 +754,7 @@
     },
     {
       "uid": "engineering-points3",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -784,7 +784,7 @@
     },
     {
       "uid": "agriculture-points1",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -812,7 +812,7 @@
     },
     {
       "uid": "engineering-points1",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -881,7 +881,7 @@
     },
     {
       "uid": "agriculture-points2",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -909,7 +909,7 @@
     },
     {
       "uid": "engineering-points2",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {

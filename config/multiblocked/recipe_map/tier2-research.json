@@ -303,7 +303,7 @@
     },
     {
       "uid": "fluid-points1",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "fluid": [
           {
@@ -328,7 +328,7 @@
     },
     {
       "uid": "electronic-points1",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -356,7 +356,7 @@
     },
     {
       "uid": "electronic-points2",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -432,7 +432,7 @@
     },
     {
       "uid": "fluid-points4",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "fluid": [
           {
@@ -457,7 +457,7 @@
     },
     {
       "uid": "fluid-points5",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "fluid": [
           {
@@ -482,7 +482,7 @@
     },
     {
       "uid": "fluid-points2",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "fluid": [
           {
@@ -555,7 +555,7 @@
     },
     {
       "uid": "fluid-points3",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "fluid": [
           {
@@ -628,7 +628,7 @@
     },
     {
       "uid": "petroleum-points4",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "fluid": [
           {
@@ -701,7 +701,7 @@
     },
     {
       "uid": "electricity-points1",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "forge_energy": [
           {
@@ -726,7 +726,7 @@
     },
     {
       "uid": "petroleum-points3",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "fluid": [
           {
@@ -751,7 +751,7 @@
     },
     {
       "uid": "petroleum-points5",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "fluid": [
           {
@@ -776,7 +776,7 @@
     },
     {
       "uid": "mechanical-points1",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -804,7 +804,7 @@
     },
     {
       "uid": "mechanical-points2",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -1188,7 +1188,7 @@
     },
     {
       "uid": "nuclear-points2",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -1325,7 +1325,7 @@
     },
     {
       "uid": "chemical-points1",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "fluid": [
           {
@@ -1350,7 +1350,7 @@
     },
     {
       "uid": "nuclear-points1",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -1486,7 +1486,7 @@
     },
     {
       "uid": "petroleum-points2",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "fluid": [
           {
@@ -1511,7 +1511,7 @@
     },
     {
       "uid": "petroleum-points1",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "fluid": [
           {
@@ -1536,7 +1536,7 @@
     },
     {
       "uid": "chemical-points2",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "fluid": [
           {

@@ -40,15 +40,16 @@ static gameStages as string[] = [
     "mechanics_tech",
     "chemical_synthesis_tech",
     "compact_machinery_tech",
-    "computers_tech",
+    "computer_tech",
     "future_tech",
+    "scientific_theory_tech",
     "server_storage_tech",
     "solar_tech",
-    "wireless_technology_tech",
+    "wireless_tech",
     // Military Techs
     "basic_missiles_tech",
     "intercontinental_ballistics_tech",
-    "manhatten_project_tech",
+    "manhattan_project_tech",
     "modern_military_tech",
     // Nuclear Techs
     "atomic_theory_tech",
@@ -81,4 +82,4 @@ static gameStages as string[] = [
     "mechanical_engineering_tech_spec",
     "nuclear_engineering_spec",
     "nuclear_engineering_tech_spec"
-    ];
+];

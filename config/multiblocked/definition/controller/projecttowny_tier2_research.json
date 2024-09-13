@@ -5,7 +5,7 @@
   "properties": {
     "rotationState": "ALL",
     "showInJei": true,
-    "isOpaque": false,
+    "isOpaque": true,
     "hasCollision": true,
     "destroyTime": 1.5,
     "explosionResistance": 10.0,
@@ -17,8 +17,8 @@
     "unformed": {
       "renderer": {
         "state": {
-          "id": "immersiveengineering:treated_wood",
-          "meta": 2
+          "id": "minecraft:crafting_table",
+          "meta": 0
         },
         "type": "blockstate"
       }
@@ -42,14 +42,24 @@
     ],
     "pattern": [
       [
-        "ABCD",
-        "    ",
+        "@AAG",
+        " BB ",
         "    "
       ],
       [
-        " EFE",
-        " G@H",
-        "  C "
+        "CDDC",
+        "EFFE",
+        " EE "
+      ],
+      [
+        "CDDC",
+        "EFFE",
+        " EE "
+      ],
+      [
+        " CC ",
+        " EE ",
+        "    "
       ]
     ],
     "aisleRepetitions": [
@@ -60,9 +70,26 @@
       [
         1,
         1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
       ]
     ],
     "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "immersiveengineering:wooden_device0",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
       "controller": {
         "location": "projecttowny:tier2_research",
         "type": "component"
@@ -70,8 +97,8 @@
       "B": {
         "states": [
           {
-            "id": "immersiveengineering:treated_wood_stairs1",
-            "meta": 7
+            "id": "chisel:glass",
+            "meta": 9
           }
         ],
         "type": "states"
@@ -79,8 +106,8 @@
       "C": {
         "states": [
           {
-            "id": "immersiveengineering:treated_wood_slab",
-            "meta": 2
+            "id": "immersiveengineering:treated_wood",
+            "meta": 1
           }
         ],
         "type": "states"
@@ -88,8 +115,8 @@
       "D": {
         "states": [
           {
-            "id": "immersiveengineering:treated_wood_stairs1",
-            "meta": 6
+            "id": "immersiveengineering:metal_decoration0",
+            "meta": 4
           }
         ],
         "type": "states"
@@ -97,8 +124,8 @@
       "E": {
         "states": [
           {
-            "id": "immersiveengineering:metal_decoration0",
-            "meta": 1
+            "id": "minecraft:brick_block",
+            "meta": 0
           }
         ],
         "type": "states"
@@ -106,36 +133,18 @@
       "F": {
         "states": [
           {
-            "id": "multiblocked:energy_input",
+            "id": "minecraft:redstone_block",
             "meta": 0
           }
         ],
         "type": "states"
       },
-      "G": {
-        "states": [
-          {
-            "id": "immersiveengineering:treated_wood_stairs1",
-            "meta": 2
-          }
-        ],
-        "type": "states"
-      },
-      "H": {
-        "states": [
-          {
-            "id": "immersiveengineering:treated_wood_stairs1",
-            "meta": 3
-          }
-        ],
-        "type": "states"
-      },
-      "I": {
-        "capability": "item",
-        "type": "capability"
-      },
       "any": {
         "type": "any"
+      },
+      "FE": {
+        "capability": "forge_energy",
+        "type": "capability"
       }
     },
     "symbolMap": {
@@ -146,7 +155,7 @@
         "any"
       ],
       "A": [
-        "I"
+        "A"
       ],
       "B": [
         "B"
@@ -164,10 +173,8 @@
         "F"
       ],
       "G": [
-        "G"
-      ],
-      "H": [
-        "H"
+        "any",
+        "FE"
       ]
     }
   }

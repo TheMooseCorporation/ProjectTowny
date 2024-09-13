@@ -40,7 +40,7 @@
     ],
     "pattern": [
       [
-        " @AAB ",
+        "M@HHBM",
         " CBBC ",
         "  CC  ",
         "      "
@@ -52,13 +52,13 @@
         "  BB  "
       ],
       [
-        "HDDDDH",
+        "ADDDDK",
         "BFIIFB",
         "CGJJGC",
         " BCCB "
       ],
       [
-        "HDDDDH",
+        "ADDDDK",
         "BFIIFB",
         "CGJJGC",
         " BCCB "
@@ -70,7 +70,7 @@
         "  BB  "
       ],
       [
-        " BKKB ",
+        " BLLB ",
         " CBBC ",
         "  CC  ",
         "      "
@@ -155,7 +155,7 @@
       "F": {
         "states": [
           {
-            "id": "immersiveengineering:wooden_device0",
+            "id": "immersiveengineering:metal_decoration0",
             "meta": 5
           }
         ],
@@ -171,13 +171,12 @@
         "type": "states"
       },
       "H": {
-        "states": [
+        "blocks": [
           {
-            "id": "multiblocked:item_input",
-            "meta": 0
+            "id": "multiblocked:item_input"
           }
         ],
-        "type": "states"
+        "type": "blocks"
       },
       "I": {
         "states": [
@@ -197,9 +196,6 @@
         ],
         "type": "states"
       },
-      "air": {
-        "type": "air"
-      },
       "K": {
         "states": [
           {
@@ -209,8 +205,20 @@
         ],
         "type": "states"
       },
+      "L": {
+        "blocks": [
+          {
+            "id": "multiblocked:energy_output"
+          }
+        ],
+        "type": "blocks"
+      },
       "any": {
         "type": "any"
+      },
+      "ITEM": {
+        "capability": "item",
+        "type": "capability"
       }
     },
     "symbolMap": {
@@ -253,8 +261,12 @@
       "K": [
         "K"
       ],
-      "-": [
-        "air"
+      "L": [
+        "L"
+      ],
+      "M": [
+        "ITEM",
+        "any"
       ]
     }
   }

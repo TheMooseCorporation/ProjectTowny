@@ -185,7 +185,7 @@
     },
     {
       "uid": "exotic-materials-points1",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -206,7 +206,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:16,Damage:0s}"
+                "{id:\"contenttweaker:exotic_materials_points\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -215,7 +215,7 @@
     },
     {
       "uid": "exotic-materials-points2",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -236,7 +236,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:16,Damage:0s}"
+                "{id:\"contenttweaker:exotic_materials_points\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -245,7 +245,7 @@
     },
     {
       "uid": "electronic-points3",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -339,7 +339,7 @@
     },
     {
       "uid": "exotic-materials-points3",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -360,7 +360,7 @@
             "content": {
               "amount": 12,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:16,Damage:0s}"
+                "{id:\"contenttweaker:exotic_materials_points\",Count:12,Damage:0s}"
               ]
             }
           }
@@ -369,7 +369,7 @@
     },
     {
       "uid": "exotic-materials-points4",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -588,7 +588,7 @@
     },
     {
       "uid": "rocketry-points1",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -609,7 +609,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:8,Damage:0s}"
+                "{id:\"contenttweaker:rocketry_points\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -618,7 +618,7 @@
     },
     {
       "uid": "rocketry-points2",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -639,7 +639,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:8,Damage:0s}"
+                "{id:\"contenttweaker:rocketry_points\",Count:2,Damage:0s}"
               ]
             }
           }
@@ -648,7 +648,7 @@
     },
     {
       "uid": "rocketry-points3",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -669,7 +669,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:8,Damage:0s}"
+                "{id:\"contenttweaker:rocketry_points\",Count:4,Damage:0s}"
               ]
             }
           }
@@ -678,7 +678,7 @@
     },
     {
       "uid": "rocketry-points4",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -972,7 +972,7 @@
     },
     {
       "uid": "nuclear-points4",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -999,7 +999,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:16,Damage:0s}"
+                "{id:\"contenttweaker:nuclear_points\",Count:8,Damage:0s}"
               ]
             }
           }
@@ -1008,7 +1008,7 @@
     },
     {
       "uid": "nuclear-points5",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -1107,7 +1107,7 @@
     },
     {
       "uid": "nuclear-points3",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "item": [
           {
@@ -1133,7 +1133,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:16,Damage:0s}"
+                "{id:\"contenttweaker:nuclear_points\",Count:4,Damage:0s}"
               ]
             }
           }
@@ -1199,7 +1199,7 @@
     },
     {
       "uid": "propellant-points1",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "fluid": [
           {
@@ -1398,7 +1398,7 @@
     },
     {
       "uid": "chemical-points3",
-      "duration": 1,
+      "duration": 300,
       "inputs": {
         "fluid": [
           {

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/tier_one_side"
+    "layer0": "contenttweaker:items/tier_one_main"
   }
 }

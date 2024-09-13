@@ -62,3 +62,18 @@ tile.projecttowny.war_table.name=War Table
 projecttowny.war_table.description=War Table
 multiblocked.recipe_map.war-table=Art of War
 war_table.name=War Table
+
+tile.projecttowny.tier1_research.name=Primitive Research Bench
+projecttowny.tier1_research.description=Primitive Research Bench
+multiblocked.recipe_map.tier1-research=Tier 1 Research
+tier1_research.name=Primitive Research Bench
+
+tile.projecttowny.tier2_research.name=Research Workshop
+projecttowny.tier2_research.description=Research Workshop
+multiblocked.recipe_map.tier2-research=Tier 2 Research
+tier2_research.name=Research Workshop
+
+tile.projecttowny.tier3_research.name=Research Lab
+projecttowny.tier3_research.description=Research Lab
+multiblocked.recipe_map.tier3-research=Tier 3 Research
+tier3_research.name=Research Lab

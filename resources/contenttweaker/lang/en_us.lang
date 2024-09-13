@@ -41,6 +41,7 @@ item.contenttweaker.basic_tools_tech.name=Basic Tools Research Scroll
 item.contenttweaker.cooking_tech.name=Cooking Research Scroll
 item.contenttweaker.cartography_tech.name=Cartography Research Scroll
 item.contenttweaker.architecture_tech.name=Architecture Research Scroll
+item.contenttweaker.advanced_redstone_tech.name=Advanced Redstone Research Scroll
 item.contenttweaker.forestry_spec.name=Forestry Specialization Ordinance
 item.contenttweaker.forestry_tech_spec.name=Lumber Processing Research Scroll
 item.contenttweaker.agriculture_spec.name=Agriculture Specialization Ordinance
