@@ -43,6 +43,15 @@
                 "{id:\"contenttweaker:propellant_points\",Count:32,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:space_exploration_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
           }
         ]
       },
@@ -109,6 +118,15 @@
                 "{id:\"contenttweaker:exotic_materials_points\",Count:16,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:space_stations_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
           }
         ]
       },
@@ -164,6 +182,15 @@
               "amount": 128,
               "matches": [
                 "{id:\"contenttweaker:petroleum_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:basic_missiles_tech_template\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -320,6 +347,15 @@
                 "{id:\"contenttweaker:rocketry_points\",Count:32,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:manhattan_project_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
           }
         ]
       },
@@ -446,6 +482,15 @@
                 "{id:\"contenttweaker:nuclear_points\",Count:128,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:advanced_compact_machinery_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
           }
         ]
       },
@@ -512,6 +557,15 @@
                 "{id:\"contenttweaker:exotic_materials_points\",Count:128,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:warp_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
           }
         ]
       },
@@ -567,6 +621,15 @@
               "amount": 16,
               "matches": [
                 "{id:\"contenttweaker:propellant_points\",Count:16,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:intercontinental_ballistics_tech_template\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -755,6 +818,15 @@
                 "{id:\"contenttweaker:exotic_materials_points\",Count:32,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:asteroid_mining_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
           }
         ]
       },
@@ -839,6 +911,15 @@
                 "{id:\"contenttweaker:petroleum_points\",Count:128,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:basic_rocketry_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
           }
         ]
       },
@@ -885,6 +966,15 @@
               "amount": 128,
               "matches": [
                 "{id:\"contenttweaker:petroleum_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:modern_military_tech_template\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -951,6 +1041,15 @@
               "amount": 256,
               "matches": [
                 "{id:\"contenttweaker:nuclear_points\",Count:256,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:fusion_reactors_tech_template\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -1088,6 +1187,15 @@
                 "{id:\"contenttweaker:nuclear_points\",Count:128,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:fission_reactors_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
           }
         ]
       },
@@ -1178,6 +1286,15 @@
               "amount": 256,
               "matches": [
                 "{id:\"contenttweaker:chemical_points\",Count:256,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:compact_machinery_tech_template\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -1377,6 +1494,15 @@
               "amount": 512,
               "matches": [
                 "{id:\"contenttweaker:exotic_materials_points\",Count:512,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:future_tech_template\",Count:1,Damage:0s}"
               ]
             }
           }

@@ -25,6 +25,15 @@
                 "{id:\"contenttweaker:blacksmith_points\",Count:24,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:advanced_tools_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
           }
         ]
       },
@@ -64,6 +73,15 @@
                 "{id:\"contenttweaker:blacksmith_points\",Count:256,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:blacksmithing_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
           }
         ]
       },
@@ -101,6 +119,15 @@
               "amount": 128,
               "matches": [
                 "{id:\"contenttweaker:basic_materials_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:basic_engineering_tech_template\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -144,6 +171,63 @@
               "amount": 1,
               "matches": [
                 "{id:\"contenttweaker:basic_materials_points\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "agriculture-spec-tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"modcurrency:banknote\",Count:5,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"contenttweaker:basic_materials_points\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"contenttweaker:agriculture_points\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:agriculture_tech_spec_template\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:agriculture_tech_spec\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -290,6 +374,15 @@
                 "{id:\"contenttweaker:blacksmith_points\",Count:8,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:architecture_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
           }
         ]
       },
@@ -419,6 +512,15 @@
                 "{id:\"contenttweaker:agriculture_points\",Count:8,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:cartography_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
           }
         ]
       },
@@ -430,6 +532,63 @@
               "amount": 1,
               "matches": [
                 "{id:\"contenttweaker:cartography_tech\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "forestry-spec-tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"modcurrency:banknote\",Count:5,Damage:5s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 32,
+              "matches": [
+                "{id:\"contenttweaker:basic_materials_points\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 16,
+              "matches": [
+                "{id:\"contenttweaker:blacksmith_points\",Count:256,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:forestry_tech_spec_template\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:forestry_tech_spec\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -465,6 +624,15 @@
               "amount": 128,
               "matches": [
                 "{id:\"contenttweaker:agriculture_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:kitchen_tech_template\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -536,6 +704,15 @@
                 "{id:\"contenttweaker:agriculture_points\",Count:16,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:cooking_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
           }
         ]
       },
@@ -564,6 +741,15 @@
               "amount": 16,
               "matches": [
                 "{id:\"contenttweaker:basic_materials_points\",Count:16,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:basic_tools_tech_template\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -735,6 +921,15 @@
                 "{id:\"contenttweaker:engineering_points\",Count:4,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:railroading_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
           }
         ]
       },
@@ -841,6 +1036,63 @@
       }
     },
     {
+      "uid": "mining-spec-tech",
+      "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:fivehundred_bill\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 64,
+              "matches": [
+                "{id:\"contenttweaker:basic_materials_points\",Count:64,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 256,
+              "matches": [
+                "{id:\"contenttweaker:blacksmith_points\",Count:256,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:mining_tech_spec_template\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:mining_tech_spec\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
       "uid": "basic-military-tech",
       "duration": 200,
       "inputs": {
@@ -860,6 +1112,15 @@
               "amount": 128,
               "matches": [
                 "{id:\"contenttweaker:blacksmith_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:basic_military_tech_template\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -940,6 +1201,19 @@
     {
       "uid": "iron_tech",
       "duration": 200,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:iron_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
       "outputs": {
         "item": [
           {
@@ -983,6 +1257,15 @@
               "amount": 16,
               "matches": [
                 "{id:\"contenttweaker:agriculture_points\",Count:16,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:sailing_tech_template\",Count:1,Damage:0s}"
               ]
             }
           }
@@ -1033,6 +1316,15 @@
                 "{id:\"contenttweaker:engineering_points\",Count:4,Damage:0s}"
               ]
             }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:electricity_tech_template\",Count:1,Damage:0s}"
+              ]
+            }
           }
         ]
       },
@@ -1079,6 +1371,15 @@
               "amount": 128,
               "matches": [
                 "{id:\"contenttweaker:blacksmith_points\",Count:128,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"contenttweaker:steel_tech_template\",Count:1,Damage:0s}"
               ]
             }
           }

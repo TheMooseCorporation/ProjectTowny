@@ -77,3 +77,8 @@ tile.projecttowny.tier3_research.name=Research Lab
 projecttowny.tier3_research.description=Research Lab
 multiblocked.recipe_map.tier3-research=Tier 3 Research
 tier3_research.name=Research Lab
+
+tile.projecttowny.civicsbench.name=Civics Bench
+projecttowny.civicsbench.description=Civics Bench
+multiblocked.recipe_map.civics-bench=Bureaucracy
+civicsbench.name=Civics Bench

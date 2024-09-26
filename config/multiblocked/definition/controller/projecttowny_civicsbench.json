@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "location": "projecttowny:tier1_research",
+  "location": "projecttowny:civicsbench",
   "traits": {},
   "properties": {
     "rotationState": "ALL",
     "showInJei": true,
-    "isOpaque": false,
+    "isOpaque": true,
     "hasCollision": true,
     "destroyTime": 1.5,
     "explosionResistance": 10.0,
@@ -33,7 +33,7 @@
       "parent": "working"
     }
   },
-  "recipeMap": "tier1-research",
+  "recipeMap": "civics-bench",
   "basePattern": {
     "structureDir": [
       "LEFT",
@@ -52,45 +52,42 @@
       ]
     ],
     "predicates": {
+      "Item": {
+        "capability": "item",
+        "type": "capability"
+      },
       "controller": {
-        "location": "projecttowny:tier1_research",
+        "location": "projecttowny:civicsbench",
         "type": "component"
       },
       "B": {
         "states": [
           {
-            "id": "minecraft:bookshelf",
-            "meta": 0
+            "id": "chisel:bookshelf_oak",
+            "meta": 9
           },
           {
-            "id": "quark:custom_bookshelf",
-            "meta": 0
+            "id": "chisel:bookshelf_spruce",
+            "meta": 9
           },
           {
-            "id": "quark:custom_bookshelf",
-            "meta": 1
+            "id": "chisel:bookshelf_birch",
+            "meta": 9
           },
           {
-            "id": "quark:custom_bookshelf",
-            "meta": 2
+            "id": "chisel:bookshelf_jungle",
+            "meta": 9
           },
           {
-            "id": "quark:custom_bookshelf",
-            "meta": 3
+            "id": "chisel:bookshelf_acacia",
+            "meta": 9
           },
           {
-            "id": "quark:custom_bookshelf",
-            "meta": 4
+            "id": "chisel:bookshelf_darkoak",
+            "meta": 9
           }
         ],
         "type": "states"
-      },
-      "I": {
-        "capability": "item",
-        "type": "capability",
-        "minCount": 1,
-        "maxCount": 1,
-        "previewCount": 1
       }
     },
     "symbolMap": {
@@ -98,7 +95,7 @@
         "controller"
       ],
       "A": [
-        "I"
+        "Item"
       ],
       "B": [
         "B"
