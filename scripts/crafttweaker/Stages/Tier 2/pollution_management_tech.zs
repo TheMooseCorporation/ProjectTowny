@@ -1,8 +1,6 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
-import mods.artisanworktables.builder.RecipeBuilder;
-import mods.artisanintegrations.requirement.GameStages;
 
 /**
     Pollution Management:

@@ -48,7 +48,6 @@ val stageItems as IItemStack[] = [
     <icbmclassic:launcherframe:1>,
     <icbmclassic:launcherframe:2>,
     <icbmclassic:launcherbase:2>,
-    <icbmclassic:circuit:2>,
     <icbmclassic:emptower>
 ];
 

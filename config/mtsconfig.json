@@ -25,11 +25,11 @@
       "comment": "If true, vehicles will not be able to collide with blocks.  This also prevents them from moving if they do not have wheels on them, as otherwise they would phase through the ground into the void."
     },
     "chunkloadVehicles": {
-      "value": true,
+      "value": false,
       "comment": "If true, vehicles will be chunkloaded when on roads/tracks.  This allows them to travel into unloaded chunks."
     },
     "doLegacyLightCompats": {
-      "value": true,
+      "value": false,
       "comment": "If true, legacy compatibility code will be performed on all models to make their lights work with newer versions.  This code will significantly slow down boot times due to needing to parse all models on boot, however, packs may not have functional lights without it.  Choose wisely if you want speed or features."
     },
     "useHSV": {
@@ -172,7 +172,7 @@
   },
   "damage": {
     "bulletBlockBreaking": {
-      "value": true,
+      "value": false,
       "comment": "Whether or not bullets/bombs can break blocks when they hit them.  This will also disable explosive block breakage (though not explosions themselves) and prevent incendiary bullets from setting blocks on fire."
     },
     "bulletExplosions": {
@@ -180,7 +180,7 @@
       "comment": "Whether or not bullets/bombs will blow up.  This does not disable block breakage, but it will pretty much nerf all block mass-destruction weapons."
     },
     "vehicleBlockBreaking": {
-      "value": true,
+      "value": false,
       "comment": "Whether or not vehicles can break blocks when they run into them.  If false, vehicles will simply stop when they hit blocks."
     },
     "vehicleDestruction": {

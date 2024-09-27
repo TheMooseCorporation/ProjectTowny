@@ -3,8 +3,6 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 import mods.multiblockstages.IEMultiBlockStages;
 import mods.immersiveengineering.Blueprint;
-import mods.artisanworktables.builder.RecipeBuilder;
-import mods.artisanintegrations.requirement.GameStages;
 
 /**
     Allows players to begin making machines from Immersive engineering.  Unlocks basic power options and very basic machines
@@ -162,7 +160,8 @@ val stageItems as IItemStack[] = [
     <industrialwires:panel_component:8>,
     <industrialwires:panel_component:9>,
     <industrialwires:key>,
-    <industrialwires:key:2>
+    <industrialwires:key:2>,
+    <projecttowny:tier2_research>
 ];
 
 for mod in stageMods {
@@ -195,6 +194,11 @@ IEMultiBlockStages.addStage(stage, "IT:Alternator", "Requires " + stage);
 
 // Thermoelectric machines can be used after discovering electricity
 ItemStages.addItemStage(stage, <immersiveengineering:metal_device1:3>);
+
+// Tier 2 Engineer Workbench
+recipes.addShaped(<artisanworktables:workstation:6>, [[<ore:plateSteel>, <ore:plateCopper>, <ore:plateSteel>],[<ore:plateCopper>, <artisanworktables:worktable:6>, <ore:plateCopper>], [<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>]]);
+// Tier 2 Lab Multiblock Controller
+recipes.addShaped(<projecttowny:tier2_research>, [[<minecraft:brick_block>, <minecraft:brick_block>, <minecraft:brick_block>],[<minecraft:brick_block>, <projecttowny:tier1_research>, <minecraft:brick_block>], [<immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:5>]]);
 
 // Mechanical System Related Recipes
 recipes.remove(<immersiveengineering:conveyor>);

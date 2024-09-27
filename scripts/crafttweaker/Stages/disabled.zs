@@ -40,6 +40,8 @@ val stageItems as IItemStack[] = [
     // AE2
     <appliedenergistics2:network_tool>,
     <appliedenergistics2:material:6>,
+    <appliedenergistics2:tiny_tnt>,
+    <appliedenergistics2:matter_cannon>,
     // B.A.S.E Wrench - I don't think this has a need to be here, but content tweaker depends on B.A.S.E so this will do
     <base:wrench>,
     // Better with Mods
@@ -197,6 +199,9 @@ val stageItems as IItemStack[] = [
     <icbmclassic:ingot:1>,
     <icbmclassic:clump>,
     <icbmclassic:signaldisrupter>,
+    <icbmclassic:circuit>,
+    <icbmclassic:circuit:1>,
+    <icbmclassic:circuit:2>,
     //Everything below are items temporarily disabled since they bypass explosion restrictions, until I figure out a solution
     <icbmclassic:grenade:2>,
     <icbmclassic:explosives:2>,

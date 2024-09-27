@@ -445,6 +445,9 @@ Refinery.addRecipe(<liquid:rocketfuel> * 100, <liquid:refined_kerosene> * 50, <l
 recipes.remove(<locks:iron_lock_pick>);
 recipes.addShaped(<locks:steel_lock_pick>, [[null, <ore:ingotSteel>, <ore:ingotSteel>],[null, <ore:ingotSteel>, null], [<ore:ingotSteel>, null, null]]);
 
+// Tier 1 Engineer Workbench
+recipes.addShaped(<artisanworktables:worktable:6>, [[<ore:plateSteel>, <ore:plateCopper>, <ore:plateSteel>],[<ore:plateCopper>, <minecraft:crafting_table>, <ore:plateCopper>], [<immersiveengineering:metal_decoration1>, null, <immersiveengineering:metal_decoration1>]]);
+
 // Misc IE Recipe Changes
 recipes.remove(<immersiveengineering:material:2> * 4);
 recipes.addShaped(<immersiveengineering:material:2> * 3, [[null, <ore:ingotSteel>, null],[null, <ore:ingotSteel>, null], [null, null, null]]);

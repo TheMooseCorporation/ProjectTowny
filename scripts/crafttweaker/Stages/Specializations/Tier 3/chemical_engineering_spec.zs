@@ -1,6 +1,8 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
+import mods.artisanworktables.builder.RecipeBuilder;
+import mods.artisanintegrations.requirement.GameStages;
 
 /**
     Chemical Engineering Specilization:
@@ -49,3 +51,13 @@ for item in spec_tech_stageItems {
 recipes.remove(<thermalfoundation:material:1024>);
 recipes.remove(<thermalfoundation:material:1027>);
 
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>, <immersiveengineering:metal_device1:6>],
+    [<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_decoration0:5>, <engineersdecor:panzerglass_block>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_device1:6>],
+    [<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_decoration0:5>, <opencomputers:component:2>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_device1:6>],
+    [<immersiveengineering:metal_device1:6>, <immersiveengineering:metal_decoration0:5>, <engineersdecor:panzerglass_block>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_device1:6>],
+    [<immersiveengineering:metal_decoration0:2>, <immersiveengineering:metal_decoration0:2>, <immersiveengineering:metal_decoration0:2>, <immersiveengineering:metal_decoration0:2>, <immersiveengineering:metal_decoration0:2>]])
+  .addOutput(<projecttowny:compact_chemical_reactor>)
+  .addRequirement(GameStages.allOf([spec_tech_stage]))
+  .create();

@@ -1,8 +1,6 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
-import mods.artisanworktables.builder.RecipeBuilder;
-import mods.artisanintegrations.requirement.GameStages;
 import mods.immersiveengineering.BottlingMachine;
 import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.BlastFurnace;
@@ -62,3 +60,7 @@ for item in spec_tech_stageItems {
 
 // This value might need to be tweaked around a bit
 DieselHandler.addFuel(<liquid:aerated_diesel>, 500);
+
+// Fuel Aeration Multiblock Controllers
+recipes.addShaped(<projecttowny:fuel_aerator>, [[<ore:blockSheetmetalCopper>, <ore:blockSheetmetalCopper>, <ore:blockSheetmetalCopper>],[<ore:blockSheetmetalCopper>, <immersiveengineering:metal_device0:5>, <ore:blockSheetmetalCopper>], [<immersiveengineering:material:9>, <ore:blockSheetmetalCopper>, <immersiveengineering:material:9>]]);
+recipes.addShaped(<projecttowny:air_intake>, [[<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>],[<ore:barsIron>, <immersiveengineering:material:9>, <ore:barsIron>], [<ore:plateSteel>, <ore:barsIron>, <ore:plateSteel>]]);

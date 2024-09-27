@@ -80,6 +80,23 @@ recipes.remove(<enderio:item_basic_capacitor>);
 // Raw circuit new recipe
 recipes.addShapeless(<opencomputers:material:2>, [<ore:plateCopper>,<immersiveengineering:stone_decoration:8>]);
 
+// Tier 3 Engineering Workbench
+recipes.addShaped(<artisanworktables:workshop:6>, [[<ore:circuitBasic>, <ore:blockCopper>, <ore:circuitBasic>],[<immersivetech:metal_barrel:2>, <artisanworktables:workstation:6>, <immersivetech:metal_barrel:2>], [<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>]]);
+
+// Crystallizer Multiblock Controller
+recipes.addShaped(<projecttowny:crystallizer>, [[<immersiveengineering:metal_decoration0:4>, <immersiveengineering:metal_decoration0:4>, <immersiveengineering:metal_decoration0:4>],[<immersiveengineering:metal_decoration0:5>, <minecraft:dispenser>, <immersiveengineering:metal_decoration0:5>], [<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>]]);
+
+// Microchip Inscriber
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<chisel:laboratory>, <chisel:laboratory>, <chisel:laboratory>, <chisel:laboratory>, <chisel:laboratory>],
+    [<immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:3>],
+    [<immersiveengineering:metal_decoration0:3>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), <immersiveengineering:metal_decoration0:3>],
+    [<immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:3>],
+    [<chisel:laboratory>, <chisel:laboratory>, <chisel:laboratory>, <chisel:laboratory>, <chisel:laboratory>]])
+  .addOutput(<projecttowny:microchip_inscriber>)
+  .create();
+
 // Circuit Recipes
 // Basic Circuit
 RecipeBuilder.get("engineer")

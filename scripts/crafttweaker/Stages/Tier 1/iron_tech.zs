@@ -12,7 +12,8 @@ import crafttweaker.item.IItemStack;
 val stage = "iron_tech";
 
 val stageItems as IItemStack[] = [
-    
+    <projecttowny:civicsbench>,
+    <projecttowny:war_table>
 ];
 
 for item in stageItems {
@@ -20,5 +21,16 @@ for item in stageItems {
     ItemStages.addItemStage(stage, item);
 }
 
-// Makes ATM Craftable
+// Money mod ATM
 recipes.addShaped(<fsmm:atm>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],[<ore:ingotIron>, <modcurrency:banknote:3>, <ore:ingotIron>], [<ore:blockIron>, <ore:blockRedstone>, <ore:blockIron>]]);
+
+// Early game multiblock controller recipes (These might be moved around on the culture update)
+recipes.addShaped(<projecttowny:tier1_research>, [[<minecraft:book>, <ore:plankWood>, <minecraft:book>],[<ore:plankWood>, <contenttweaker:iron_tech_template>, <ore:plankWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+recipes.addShaped(<projecttowny:civicsbench>, [[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],[<ore:bookshelf>, <modcurrency:banknote:5>, <ore:bookshelf>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+recipes.addShaped(<projecttowny:war_table>, [[<ore:blockWoolGreen>, <ore:blockWoolGreen>, <ore:blockWoolGreen>],[<ore:ingotIron>, <projecttowny:civicsbench>, <ore:ingotIron>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+
+// Basic Artisan Worktables
+// Basic
+recipes.addShaped(<artisanworktables:worktable:5>, [[<ore:plankWood>, null, <ore:plankWood>],[<ore:plankWood>, <minecraft:crafting_table>, <ore:plankWood>], [<ore:logWood>, null, <ore:logWood>]]);
+// Mason
+recipes.addShaped(<artisanworktables:worktable:2>, [[<minecraft:brick_block>, <minecraft:stone_slab>, <minecraft:brick_block>],[<minecraft:brick_block>, <minecraft:anvil>, <minecraft:brick_block>], [<ore:fenceWood>, null, <ore:fenceWood>]]);

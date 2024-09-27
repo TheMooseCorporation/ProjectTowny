@@ -1,7 +1,14 @@
 import mods.geolosys.ores;
+import mods.orestages.OreStages;
 
 // Initial test of CraftTweaker Geolosys control.
 // This is a much better way of handling ore generation and should be used from here on out.
+
+// Ore Stage changing
+// Nuclear Ores, unlocked with Nuclear Engineering, or Atomic Theory
+OreStages.addReplacement("uranium_tech", <geolosys:ore:9>); // Hides Uranium
+OreStages.addReplacement("uranium_tech", <geolosys:ore_sample:9>); // Hides Uranium Sample
+OreStages.addReplacement("uranium_tech", <nuclearcraft:ore:3>); // Hides Thorium
 
 /* Biome Ideas:
     Clay - Rivers

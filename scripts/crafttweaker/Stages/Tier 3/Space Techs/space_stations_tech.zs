@@ -91,3 +91,6 @@ recipes.remove(<advancedrocketry:stationbuilder>);
 recipes.remove(<advancedrocketry:oxygenscrubber>);
 Recipes.addShaped("space_station_stage", <advancedrocketry:stationbuilder>, [[<advancedrocketry:misc>, <ore:dustLithium>, <libvulpes:productgear:7>],[<ore:dustLithium>, <advancedrocketry:rocketbuilder>, <ore:dustLithium>], [<advancedrocketry:ic:2>, <ore:dustLithium>, <advancedrocketry:ic:2>]]);
 Recipes.addShaped("space_station_stage", <advancedrocketry:oxygenscrubber>, [[<minecraft:iron_bars>, <libvulpes:productfan:6>, <minecraft:iron_bars>],[<minecraft:iron_bars>, <ore:blockMotor>, <minecraft:iron_bars>], [<minecraft:iron_bars>, <immersiveengineering:material:19>, <minecraft:iron_bars>]]);
+
+// Dilithium Chamber Multiblock Controller
+recipes.addShaped(<projecttowny:dilithium_chamber>, [[<ore:ingotTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>],[<ore:ingotTitanium>, <opencomputers:component:1>, <ore:ingotTitanium>], [<ore:ingotTitanium>, <ore:blockOsmium>, <ore:ingotTitanium>]]);
