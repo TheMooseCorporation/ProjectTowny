@@ -58,6 +58,14 @@ for item in spec_tech_stageItems {
     Recipes.setRecipeStage(spec_tech_stage, item);
 }
 
+// Spec Item Staging
+ItemStages.addItemStage("electricity_tech", <immersiveengineering:metal_device1>);
+ItemStages.addItemStage("heavy_machinery_tech", <contenttweaker:treated_iron>);
+ItemStages.addItemStage("heavy_machinery_tech", <contenttweaker:limestone_dust>);
+ItemStages.addItemStage("heavy_machinery_tech", <contenttweaker:limeslag_compound>);
+ItemStages.addItemStage("replaceable_parts_tech", <projecttowny:air_intake>);
+ItemStages.addItemStage("replaceable_parts_tech", <projecttowny:fuel_aerator>);
+
 // This value might need to be tweaked around a bit
 DieselHandler.addFuel(<liquid:aerated_diesel>, 500);
 

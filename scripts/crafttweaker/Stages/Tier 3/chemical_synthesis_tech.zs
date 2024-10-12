@@ -20,8 +20,7 @@ val stageMods as string[] = [
 val stageItems as IItemStack[] = [
     <projecttowny:chemical_oxidizer>,
     <projecttowny:chemical_reactor>,
-    <projecttowny:isomerization_unit>,
-    <projecttowny:compact_chemical_reactor>
+    <projecttowny:isomerization_unit>
 ];
 
 for mod in stageMods {

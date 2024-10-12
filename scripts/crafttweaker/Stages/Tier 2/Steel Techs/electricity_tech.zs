@@ -95,7 +95,6 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:material:11>,
     <immersiveengineering:material:12>,
     <immersiveengineering:material:26>,
-    <immersiveengineering:material:27>,
     <immersiveengineering:material:20>,
     <immersiveengineering:material:21>,
     <immersiveengineering:material:22>,
@@ -139,6 +138,12 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"}),
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extractcovered"}),
     <immersivetech:connectors>,
+    <artisanworktables:worktable:6>,
+    <artisanworktables:workstation:6>,
+    <contenttweaker:tier0_circuit>,
+    <contenttweaker:casing_mold>,
+    <contenttweaker:mechanical_casing>,
+    <contenttweaker:mechanical_casing_steel>,
     // Industrial Wires (We can't do the IC2 wires because they cause issues, but we don't need them anyway)
     <industrialwires:jacobs_ladder>,
     <industrialwires:jacobs_ladder:1>,
@@ -159,6 +164,7 @@ val stageItems as IItemStack[] = [
     <industrialwires:panel_component:7>,
     <industrialwires:panel_component:8>,
     <industrialwires:panel_component:9>,
+    <industrialwires:panel_component:10>,
     <industrialwires:key>,
     <industrialwires:key:2>,
     <projecttowny:tier2_research>
@@ -191,9 +197,6 @@ IEMultiBlockStages.addStage(stage, "IE:AutoWorkbench", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IE:Lightningrod", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IE:FeedThrough", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IT:Alternator", "Requires " + stage);
-
-// Thermoelectric machines can be used after discovering electricity
-ItemStages.addItemStage(stage, <immersiveengineering:metal_device1:3>);
 
 // Tier 2 Engineer Workbench
 recipes.addShaped(<artisanworktables:workstation:6>, [[<ore:plateSteel>, <ore:plateCopper>, <ore:plateSteel>],[<ore:plateCopper>, <artisanworktables:worktable:6>, <ore:plateCopper>], [<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>]]);

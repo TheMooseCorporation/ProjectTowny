@@ -23,7 +23,9 @@ val stageItems as IItemStack[] = [
   <engineersdecor:rebar_concrete_tile>,
   <engineersdecor:rebar_concrete_tile_slab>,
   <engineersdecor:rebar_concrete_tile_stairs>,
-  <engineersdecor:halfslab_rebar_concrete>
+  <engineersdecor:halfslab_rebar_concrete>,
+  <contenttweaker:composite_asphalt>,
+  <contenttweaker:composite_concrete>
 ];
 
 for mod in stageMods {
@@ -83,6 +85,18 @@ val spec_tech_stageItems as IItemStack[] = [
 for item in spec_tech_stageItems {
     Recipes.setRecipeStage(spec_tech_stage, item);
 }
+
+// Spec Item Staging
+ItemStages.addItemStage("steel_tech", <engineersdecor:rebar_concrete>);
+ItemStages.addItemStage("steel_tech", <engineersdecor:rebar_concrete_slab>);
+ItemStages.addItemStage("steel_tech", <engineersdecor:rebar_concrete_stairs>);
+ItemStages.addItemStage("steel_tech", <engineersdecor:rebar_concrete_wall>);
+ItemStages.addItemStage("steel_tech", <engineersdecor:rebar_concrete_tile>);
+ItemStages.addItemStage("steel_tech", <engineersdecor:rebar_concrete_tile_slab>);
+ItemStages.addItemStage("steel_tech", <engineersdecor:rebar_concrete_tile_stairs>);
+ItemStages.addItemStage("steel_tech", <engineersdecor:halfslab_rebar_concrete>);
+ItemStages.addItemStage("steel_tech", <contenttweaker:composite_asphalt>);
+ItemStages.addItemStage("steel_tech", <contenttweaker:composite_concrete>);
 
 // Better Chisel Blocks
 

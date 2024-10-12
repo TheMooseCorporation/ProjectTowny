@@ -16,7 +16,7 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-
+    <rsgauges:switchlink_pearl>
 ];
 
 for mod in stageMods {

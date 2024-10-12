@@ -46,6 +46,9 @@ val stageItems as IItemStack[] = [
     <advancedrocketry:arcfurnace>,
     <advancedrocketry:lathe>,
     <advancedrocketry:rollingmachine>,
+    <advancedrocketry:servicemonitor>,
+    <advancedrocketry:invhatch>,
+    <advancedrocketry:servicestation>,
     // Large Commerical Planes
     <mts:ivairlinerpack.707-320c>,
     <mts:ivairlinerpack.707-320c_airfrance>,

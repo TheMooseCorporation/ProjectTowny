@@ -23,8 +23,8 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:drillhead:1>,
     <immersiveengineering:toolupgrade:1>,
     <immersiveengineering:toolupgrade>,
-    <immersiveengineering:toolupgrade:2>
-
+    <immersiveengineering:toolupgrade:2>,
+    <artisanworktables:workshop:6>
 ];
 
 for mod in stageMods {

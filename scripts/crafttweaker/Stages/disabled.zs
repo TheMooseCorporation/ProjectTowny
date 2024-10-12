@@ -14,6 +14,10 @@ import crafttweaker.item.IItemCondition;
 val stage = "disabled";
 
 val stageItems as IItemStack[] = [
+    // Creative Items
+    <immersiveengineering:metal_device0:3>, // Creative Capacitor (IE)
+    <immersivetech:metal_barrel>, // Creative Barrel (IT)
+    <locks:master_key>, // Creative Key
     // Advanced Chimneys
     <adchimneys:bedrock>,
     <adchimneys:bedrock:1>,
@@ -36,6 +40,9 @@ val stageItems as IItemStack[] = [
     <advancedrocketry:jackhammer>,
     <advancedrocketry:basiclasergun>,
     <advancedrocketry:misc:1>,
+    <advancedrocketry:terraformingterminal>,
+    <advancedrocketry:satelliteprimaryfunction:6>,
+    <advancedrocketry:weathercontroller>,
     <libvulpes:coalgenerator>,
     // AE2
     <appliedenergistics2:network_tool>,
@@ -191,6 +198,8 @@ val stageItems as IItemStack[] = [
     // Building Gadgets
     <buildinggadgets:destructiontool>,
     <buildinggadgets:constructionpastecontainercreative>,
+    //Fex Mod's
+    <fcl:blueprinttable>,
     // ICBM items that we don't use
     <icbmclassic:antidote>,
     <icbmclassic:wire>,
@@ -254,6 +263,9 @@ val stageItems as IItemStack[] = [
     <icbmclassic:bombcart:19>,
     <icbmclassic:bombcart:21>,
     <icbmclassic:bombcart:2>,
+    // Immersive Engineering
+    <immersiveengineering:metal_device1:10>, // IE turrents, maybe reimplement?
+    <immersiveengineering:metal_device1:11>,
     // Immersive Tech
     <immersivetech:wooden_crate>,
     // Industiral Wires
@@ -278,6 +290,7 @@ val stageItems as IItemStack[] = [
     <industrialwires:ic2_connector:9>,
     // Locks
     <locks:wood_lock_pick>,
+    <locks:iron_lock_pick>,
     // Mekanism Cables
     <mekanism:transmitter>.withTag({tier: 0}),
     <mekanism:transmitter>.withTag({tier: 1}),
@@ -427,7 +440,6 @@ val stageItems as IItemStack[] = [
     <opencomputers:card>,
     <opencomputers:upgrade:32>,
     // Pams Harvest Craft
-    <harvestcraft:market>,
     <harvestcraft:well>,
     <harvestcraft:grinder>,
     // RSgauges that we don't use

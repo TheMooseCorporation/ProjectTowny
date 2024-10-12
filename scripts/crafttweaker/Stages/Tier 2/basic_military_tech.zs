@@ -55,7 +55,8 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:bullet:2>.withTag({bullet: "silver"}),
     <immersiveengineering:bullet:2>.withTag({bullet: "dragonsbreath"}),
     <immersiveengineering:bullet:2>.withTag({bullet: "potion"}),
-    <immersiveengineering:bullet:2>.withTag({bullet: "flare"})
+    <immersiveengineering:bullet:2>.withTag({bullet: "flare"}),
+    <immersiveengineering:bullet:2>.withTag({bullet: "casull"})
 
 ];
 

@@ -28,6 +28,7 @@ for item in stageItems {
 }
 
 TinkerStages.addToolTypeStage(stage, "tconstruct:lumberaxe");
+
 // Gun Staging - Just the one gun we'll give them thats not in a military tech
 Recipes.setRecipeStage(stage, "techguns:handcannon");
 
@@ -48,6 +49,10 @@ val spec_tech_stageItems as IItemStack[] = [
 for item in spec_tech_stageItems {
     Recipes.setRecipeStage(spec_tech_stage, item);
 }
+
+// Spec Item Staging
+ItemStages.addItemStage("basic_tools_tech", <techguns:handcannon>);
+ItemStages.addItemStage("basic_tools_tech", <betterwithmods:saw>);
 
 // Saw Recipes
 Saw.removeAll(); // Getting a clean slate is probably best here because there are a lot of different woods

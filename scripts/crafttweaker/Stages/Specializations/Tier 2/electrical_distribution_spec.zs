@@ -53,6 +53,21 @@ for item in spec_tech_stageItems {
     Recipes.setRecipeStage(spec_tech_stage, item);
 }
 
+// Spec Item Staging
+ItemStages.addItemStage("electricity_tech", <immersiveengineering:faraday_suit_head>);
+ItemStages.addItemStage("electricity_tech", <immersiveengineering:faraday_suit_chest>);
+ItemStages.addItemStage("electricity_tech", <immersiveengineering:faraday_suit_legs>);
+ItemStages.addItemStage("electricity_tech", <immersiveengineering:faraday_suit_feet>);
+ItemStages.addItemStage("electricity_tech", <immersiveengineering:railgun>);
+ItemStages.addItemStage("electricity_tech", <immersiveengineering:toolupgrade:8>);
+ItemStages.addItemStage("electricity_tech", <immersiveengineering:toolupgrade:9>);
+ItemStages.addItemStage("electricity_tech", <immersiveengineering:metal_device1:8>);
+ItemStages.addItemStage("electricity_tech", <immersiveengineering:metal_device1:4>);
+ItemStages.addItemStage("electricity_tech", <alternatingflux:material>);
+ItemStages.addItemStage("electricity_tech", <alternatingflux:connector>);
+ItemStages.addItemStage("electricity_tech", <alternatingflux:connector:1>);
+ItemStages.addItemStage("electricity_tech", <alternatingflux:wirecoil>);
+
 RecipeBuilder.get("engineer")
   .setShaped([
     [<immersiveengineering:material:19>, <immersiveengineering:material:19>, <immersiveengineering:material:19>],

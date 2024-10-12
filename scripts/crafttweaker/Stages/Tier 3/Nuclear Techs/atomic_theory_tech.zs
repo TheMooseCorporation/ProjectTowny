@@ -15,6 +15,7 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
+    <nuclearcraft:configuration_blueprint_empty>,
     <nuclearcraft:bin>,
     <nuclearcraft:machine_interface>,
     <nuclearcraft:alloy:2>,

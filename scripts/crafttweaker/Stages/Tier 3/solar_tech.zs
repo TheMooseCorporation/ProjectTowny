@@ -35,8 +35,10 @@ val stageItems as IItemStack[] = [
     <solarflux:solar_panel_3>,
     <solarflux:solar_panel_4>,
     <solarflux:solar_panel_5>,
-    <solarflux:solar_panel_6>
-    // TODO Add contenttweaker components in here
+    <solarflux:solar_panel_6>,
+    <contenttweaker:solar_frame>,
+    <contenttweaker:solar_electronics>,
+    <immersiveengineering:metal_device1:13>
 ];
 
 for mod in stageMods {
@@ -50,8 +52,9 @@ for item in stageItems {
 }
 
 // Garden Cloche alternative recipe, maybe something to put behind a specialization?
+// For now I'm keeping it disabled because it's really good, but could easily be added back via this script
 recipes.remove(<immersiveengineering:metal_device1:13>);
-Recipes.addShaped("solar_stage", <immersiveengineering:metal_device1:13>, [[<sereneseasons:greenhouse_glass>, <solarflux:photovoltaic_cell_5>, <sereneseasons:greenhouse_glass>],[<sereneseasons:greenhouse_glass>, <immersiveengineering:material:26>, <sereneseasons:greenhouse_glass>], [<ore:plankTreatedWood>, <immersiveengineering:material:9>, <ore:plankTreatedWood>]]);
+//Recipes.addShaped("solar_stage", <immersiveengineering:metal_device1:13>, [[<sereneseasons:greenhouse_glass>, <solarflux:photovoltaic_cell_5>, <sereneseasons:greenhouse_glass>],[<sereneseasons:greenhouse_glass>, <immersiveengineering:material:26>, <sereneseasons:greenhouse_glass>], [<ore:plankTreatedWood>, <immersiveengineering:material:9>, <ore:plankTreatedWood>]]);
 
 // Solar Flux Reborn Rework
 recipes.remove(<solarflux:photovoltaic_cell_1>);

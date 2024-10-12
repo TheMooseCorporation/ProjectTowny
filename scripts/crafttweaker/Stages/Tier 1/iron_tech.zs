@@ -13,7 +13,8 @@ val stage = "iron_tech";
 
 val stageItems as IItemStack[] = [
     <projecttowny:civicsbench>,
-    <projecttowny:war_table>
+    <projecttowny:war_table>,
+    <fsmm:atm>
 ];
 
 for item in stageItems {

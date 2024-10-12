@@ -18,7 +18,8 @@ val stageMods as string[] = [
 val stageItems as IItemStack[] = [
     // EnderIO ME Conduits
     <enderio:item_me_conduit>,
-    <enderio:item_me_conduit:1>
+    <enderio:item_me_conduit:1>,
+    <contenttweaker:inscriber_press_mold>
 ];
 
 for mod in stageMods {

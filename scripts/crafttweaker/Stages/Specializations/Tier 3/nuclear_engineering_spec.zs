@@ -20,7 +20,7 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-
+    <nuclearcraft:nuclear_furnace_idle>
 ];
 
 for mod in stageMods {
@@ -58,6 +58,10 @@ val spec_tech_stageItems as IItemStack[] = [
 for item in spec_tech_stageItems {
     Recipes.setRecipeStage(spec_tech_stage, item);
 }
+
+// Spec Item Staging
+ItemStages.addItemStage("basic_circuitry_tech", <nuclearcraft:nuclear_furnace_idle>);
+ItemStages.addItemStage("atomic_theory_tech", <contenttweaker:yellow_cake>);
 
 // 2x Uranium Isotope Recipe
 Mixer.addRecipe(<liquid:salt_water> * 250, <liquid:water> * 250, [<ore:dustSalt>], 256);

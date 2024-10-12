@@ -319,7 +319,20 @@ val stageItems as IItemStack[] = [
     <nuclearcraft:part:3>,
     <nuclearcraft:part:5>,
     <nuclearcraft:tiny_dust_lead>,
-    <nuclearcraft:block_ice>
+    <nuclearcraft:block_ice>,
+    <nuclearcraft:gelatin>,
+    <nuclearcraft:marshmallow>,
+    <nuclearcraft:smore>,
+    <nuclearcraft:moresmore>,
+    <nuclearcraft:cocoa_solids>,
+    <nuclearcraft:flour>,
+    <nuclearcraft:graham_cracker>,
+    <nuclearcraft:roasted_cocoa_beans>,
+    <nuclearcraft:ground_cocoa_nibs>,
+    <nuclearcraft:cocoa_butter>,
+    <nuclearcraft:unsweetened_chocolate>,
+    <nuclearcraft:dark_chocolate>,
+    <nuclearcraft:milk_chocolate>
 ];
 
 for mod in stageMods {

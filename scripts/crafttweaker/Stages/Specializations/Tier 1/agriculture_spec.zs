@@ -50,6 +50,15 @@ for item in spec_tech_stageItems {
     Recipes.setRecipeStage(spec_tech_stage, item);
 }
 
+// Spec Item Staging
+ItemStages.addItemStage("basic_tools_tech", <harvestcraft:market>);
+ItemStages.addItemStage("basic_tools_tech", <sereneseasons:greenhouse_glass>);
+ItemStages.addItemStage("basic_tools_tech", <sereneseasons:season_sensor_spring>);
+ItemStages.addItemStage("basic_tools_tech", <sereneseasons:season_sensor_summer>);
+ItemStages.addItemStage("basic_tools_tech", <sereneseasons:season_sensor_autumn>);
+ItemStages.addItemStage("basic_tools_tech", <sereneseasons:season_sensor_winter>);
+ItemStages.addItemStage("basic_tools_tech", <betterwithmods:single_machine>);
+
 // Mill Recipes
 Mill.remove([<betterwithmods:raw_pastry:3>]); 
 Mill.remove([<harvestcraft:cornmealitem>]); 

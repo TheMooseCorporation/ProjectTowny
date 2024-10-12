@@ -43,11 +43,18 @@ val stageItems as IItemStack[] = [
     <locks:iron_lock_mechanism>,
     <locks:wood_lock>,
     <locks:iron_lock>,
+    <locks:key_blank>,
+    <locks:key>,
+    <locks:key_ring>,
     <betterwithmods:hand_crank>,
     <betterwithmods:material>,
     <betterwithmods:shaft>,
     <betterwithmods:material:22>,
-    <tconstruct:soil>
+    <tconstruct:soil>,
+    <techguns:itemshared>,
+    <techguns:itemshared:37>,
+    <techguns:itemshared:42>,
+    <techguns:itemshared:60>
 ];
 
 val nonStagedItems as IItemStack[] = [
@@ -136,9 +143,6 @@ val nonStagedItems as IItemStack[] = [
     <tconstruct:materials:14>,
     <tconstruct:materials:15>,
     <tconstruct:materials:16>,
-    <techguns:itemshared>,
-    <techguns:itemshared:37>,
-    <techguns:itemshared:42>,
     <tconstruct:slimesling>,
     <tconstruct:slimesling:1>,
     <tconstruct:slimesling:2>,

@@ -13,7 +13,8 @@ import crafttweaker.item.IItemStack;
 val stage = "future_tech";
 
 val stageMods as string[] = [
-    "environmentaltech"
+    "environmentaltech",
+    "valkyrielib"
 ];
 
 val stageItems as IItemStack[] = [

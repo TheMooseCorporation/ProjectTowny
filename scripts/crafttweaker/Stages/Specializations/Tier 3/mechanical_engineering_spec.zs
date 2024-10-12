@@ -17,39 +17,49 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-    <engineersdecor:factory_placer>,
-    <engineersdecor:small_block_breaker>,
-    <engineersdecor:small_tree_cutter>,
-    <engineersdecor:small_milking_machine>
-
+  <engineersdecor:factory_placer>,
+  <engineersdecor:small_block_breaker>,
+  <engineersdecor:small_tree_cutter>,
+  <engineersdecor:small_milking_machine>
 ];
 
 for mod in stageMods {
-    Recipes.setRecipeStageByMod(stage, mod);
+  Recipes.setRecipeStageByMod(stage, mod);
 }
 
 for item in stageItems {
-    Recipes.setRecipeStage(stage, item);
+  Recipes.setRecipeStage(stage, item);
 }
 
 // Spec Tech
 
 /**
-    Mechanical Engineering Specilization Tech:
-    Unlocks the unbreakable graphite rod
+  Mechanical Engineering Specilization Tech:
+  Unlocks cobblestone generators and infinite pollution filters
 */
 
 val spec_tech_stage = "mechanical_engineering_tech_spec";
 
 val spec_tech_stageItems as IItemStack[] = [
-    <nuclearcraft:cobblestone_generator>,
-    <nuclearcraft:cobblestone_generator_compact>,
-    <nuclearcraft:cobblestone_generator_dense>
+  <nuclearcraft:cobblestone_generator>,
+  <nuclearcraft:cobblestone_generator_compact>,
+  <nuclearcraft:cobblestone_generator_dense>,
+  <contenttweaker:air_scrubber>
 ];
 
 for item in spec_tech_stageItems {
-    Recipes.setRecipeStage(spec_tech_stage, item);
+  Recipes.setRecipeStage(spec_tech_stage, item);
 }
+
+// Spec Item Staging
+ItemStages.addItemStage("replaceable_parts_tech", <engineersdecor:factory_placer>);
+ItemStages.addItemStage("replaceable_parts_tech", <engineersdecor:small_block_breaker>);
+ItemStages.addItemStage("replaceable_parts_tech", <engineersdecor:small_tree_cutter>);
+ItemStages.addItemStage("replaceable_parts_tech", <engineersdecor:small_milking_machine>);
+ItemStages.addItemStage("replaceable_parts_tech", <nuclearcraft:cobblestone_generator>);
+ItemStages.addItemStage("replaceable_parts_tech", <nuclearcraft:cobblestone_generator_compact>);
+ItemStages.addItemStage("replaceable_parts_tech", <nuclearcraft:cobblestone_generator_dense>);
+ItemStages.addItemStage("replaceable_parts_tech", <contenttweaker:air_scrubber>);
 
 // Engineer's Decor Machine Recipes
 recipes.remove(<engineersdecor:small_milking_machine>);

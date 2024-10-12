@@ -261,3 +261,20 @@ RecipeBuilder.get("engineer")
   .addOutput(<immersiveengineering:metal_device1:3>)
   .addRequirement(GameStages.anyOf([spec_tech_stage]))
   .create();
+
+// Spec Item Staging
+ItemStages.addItemStage("electricity_tech", <immersiveengineering:metal_device1:3>);
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:energycube>.withTag({tier: 0}));
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:energycube>.withTag({tier: 1}));
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:energycube>.withTag({tier: 2}));
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:energycube>.withTag({tier: 3}));
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:basicblock2:1>);
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:basicblock2:2>);
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:basicblock2:3>.withTag({tier: 1}));
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:basicblock2:3>.withTag({tier: 3}));
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:basicblock2:3>.withTag({tier: 2}));
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:basicblock2:3>.withTag({tier: 0}));
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:basicblock2:4>.withTag({tier: 0}));
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:basicblock2:4>.withTag({tier: 3}));
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:basicblock2:4>.withTag({tier: 1}));
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:basicblock2:4>.withTag({tier: 2}));
