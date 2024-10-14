@@ -1,0 +1,9 @@
+{
+	title: "Aeromobiles O",
+	x: 6.0d,
+	y: -6.5d,
+	tasks: [{
+		uid: "b38acd93",
+		type: "checkmark"
+	}]
+}

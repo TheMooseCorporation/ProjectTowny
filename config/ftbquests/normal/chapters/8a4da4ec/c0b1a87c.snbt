@@ -1,0 +1,44 @@
+{
+	title: "Asteroid Mining",
+	icon: "advancedrocketry:drill",
+	x: 42.0d,
+	y: 4.0d,
+	shape: "hexagon",
+	description: "§oDig the diggy hole in the diggy diggy sky.",
+	text: [
+		"Did you know that there's rocks up there? Neither did I! This is pretty big news. Rocks means metal, metal means money, and money is what moves mountains.",
+		"",
+		"Launching satellites to do some asteroid mining for us is sure to be a lucrative endeavor. Unlike terrestrial ores, it quite literally will never be depleted, and doesn't even require a pickaxe.",
+		"",
+		"I’ll give you a cookie if you can automate it.",
+		"",
+		"§a§lUnlocks Asteroid Mining."
+	],
+	dependencies: [
+		"e8448eb7"
+	],
+	size: 1.5d,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "4b4154a2",
+		type: "gamestage",
+		stage: "asteroid_mining_tech"
+	},
+	{
+		uid: "127e4684",
+		type: "item",
+		items: [{
+			item: "contenttweaker:asteroid_mining_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8224d578",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "asteroid_mining_tech"
+	}]
+}

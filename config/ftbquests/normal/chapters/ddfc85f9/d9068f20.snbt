@@ -1,0 +1,9 @@
+{
+	title: "Steel O",
+	x: -6.5d,
+	y: -5.5d,
+	tasks: [{
+		uid: "456da867",
+		type: "checkmark"
+	}]
+}

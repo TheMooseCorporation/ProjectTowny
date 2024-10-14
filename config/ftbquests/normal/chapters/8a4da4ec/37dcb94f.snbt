@@ -1,0 +1,42 @@
+{
+	title: "Fission Reactors",
+	icon: "nuclearcraft:fission_controller_new_fixed",
+	x: 36.0d,
+	y: 3.0d,
+	shape: "rsquare",
+	description: "§oYall got any more of that LEU-235.com?",
+	text: [
+		"I cannot stress this enough: A nuclear reactor is necessary. The sheer output that even the smallest of those things can produce is several times what the largest immersive engineering multiblocks make, and the ability to continuously recycle the byproducts into better and better fuels means that there's no comparison.",
+		"",
+		"Let me tell you, you'll need the power in the future. You've needed the power for while now. You'll need the power in space. Build a nuclear reactor.",
+		"",
+		"§a§lUnlocks Nuclearcraft's Fission Reactors."
+	],
+	dependencies: [
+		"6166dbaa",
+		"9a8a7a59"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "c486181b",
+		type: "gamestage",
+		stage: "fission_reactors_tech"
+	},
+	{
+		uid: "83625220",
+		type: "item",
+		items: [{
+			item: "contenttweaker:fission_reactors_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "02feee2d",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "fission_reactors_tech"
+	}]
+}

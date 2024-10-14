@@ -1,0 +1,45 @@
+{
+	title: "Railroading",
+	icon: {
+		id: "immersiverailroading:item_rolling_stock",
+		tag: {
+			defID: "rolling_stock/locomotives/big_boy.json",
+			gauge: 1.435d
+		}
+	},
+	x: 10.0d,
+	y: -3.0d,
+	description: "§oIt's a bird! It's a train! No, it's- wait, no, yeah, it's a train.",
+	text: [
+		"The vast distances that tend to be involved when mining large amounts of materials necessitate better means of transportation than a 2-wide path of flattened grass. With the advent of steel, however, great engines can be constructed with tremendous capacities to haul cargo and personnel across the continent at incredible speeds.",
+		"",
+		"§a§lUnlocks Immersive Railroading."
+	],
+	dependencies: [
+		"d9d38a23",
+		"39f15dce"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "74cce564",
+		type: "gamestage",
+		stage: "railroading_tech"
+	},
+	{
+		uid: "1deb0355",
+		type: "item",
+		items: [{
+			item: "contenttweaker:railroading_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9e43fae7",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "railroading_tech"
+	}]
+}

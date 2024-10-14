@@ -1,0 +1,48 @@
+{
+	title: "Advanced Compact Machinery",
+	icon: {
+		id: "mekanism:machineblock",
+		Damage: 7s,
+		tag: {
+			recipeType: 1
+		}
+	},
+	x: 45.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "§oCuter little meat pulverizers.",
+	text: [
+		"Okay, these smaller machines are pretty cool. They're not cheap, but it turns out that they’re capable of things that even a colossal, room-sized construct isn't. ",
+		"",
+		"Rumor has it amongst the labcoats that a new system in the works can somehow return five times the amount of ore we put in as metal. What kind of pact they’ve made with an eldritch entity to be capable of that, I don’t know and I don’t want to know. If it means there's enough copper in the chest when I need it, I won't ask questions.",
+		"",
+		"§a§lUnlocks Mekanism’s T2 and T3 machines."
+	],
+	dependencies: [
+		"60905a55"
+	],
+	size: 1.5d,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "d286c144",
+		type: "gamestage",
+		stage: "advanced_compact_machinery_tech"
+	},
+	{
+		uid: "253b10e2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:advanced_compact_machinery_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c844194e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "advanced_compact_machinery_tech"
+	}]
+}

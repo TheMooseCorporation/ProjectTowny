@@ -1,0 +1,41 @@
+{
+	title: "Thermodynamics",
+	icon: "engineersdecor:small_electrical_furnace",
+	x: 12.0d,
+	y: 1.5d,
+	description: "§oAn extremely healthy discovery with no potential downsides.",
+	text: [
+		"Electricity is energy, which means it can be turned into other forms of energy, like heat. This is particularly useful, as heat so far has been in high demand. No more will you be burning all of your wood into charcoal and burning all of your charcoal to smelt stone or whatever it is the builders want now.",
+		"",
+		"Theoretically, yes, you could turn heat back into electricity. Practically, it was too easy so god deleted it.",
+		"",
+		"§a§lUnlocks the External Heater, Electric Furnace, and Melter."
+	],
+	dependencies: [
+		"78f4c169",
+		"8f82fc30"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "dfe751cf",
+		type: "gamestage",
+		stage: "thermodynamics_tech"
+	},
+	{
+		uid: "aff29585",
+		type: "item",
+		items: [{
+			item: "contenttweaker:thermodynamics_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a8272a32",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "thermodynamics_tech"
+	}]
+}

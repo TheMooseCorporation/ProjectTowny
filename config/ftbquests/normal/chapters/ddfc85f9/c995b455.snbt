@@ -1,0 +1,9 @@
+{
+	title: "Basic Rocketry O",
+	x: 6.0d,
+	y: -5.5d,
+	tasks: [{
+		uid: "018455d2",
+		type: "checkmark"
+	}]
+}

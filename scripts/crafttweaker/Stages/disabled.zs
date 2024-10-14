@@ -507,6 +507,7 @@ val stageItems as IItemStack[] = [
     <techguns:t3_combat_boots>,
     // Misc Techguns items and machines that we don't use
     <techguns:basicmachine:3>,
+    <techguns:itemshared:65>,
     <techguns:itemshared:99>,
     <techguns:itemshared:100>,
     <techguns:itemshared:101>,

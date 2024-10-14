@@ -1,0 +1,42 @@
+{
+	title: "Wireless Technology",
+	icon: "scannable:scanner",
+	x: 30.5d,
+	y: 2.0d,
+	description: "§oSomething connects us.",
+	text: [
+		"Our attempts so far to create wireless power have been... well, fruitful, but tesla coils aren't quite what we were going for. We've settled for using electromagnetic radiation instead of electricity, and the results have actually been fairly decent.",
+		"",
+		"I mean, what else would you call the ability to scan the surrounding area for any block of choice, including but not limited to ores, secret bases, and the TNT your roommate keeps scattering around the town?",
+		"",
+		"§a§lUnlocks Scannable."
+	],
+	dependencies: [
+		"8c09a875",
+		"9a8a7a59"
+	],
+	dependency_requirement: "one_completed",
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "9f01db56",
+		type: "gamestage",
+		stage: "wireless_tech"
+	},
+	{
+		uid: "9c8642d9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:wireless_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "efd93b5b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "wireless_tech"
+	}]
+}

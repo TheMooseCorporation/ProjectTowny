@@ -1,0 +1,16 @@
+{
+	title: "Forestry Dependent",
+	x: -11.5d,
+	y: -6.5d,
+	text: [
+		"This quest is a requirement for the respective specialty. If a different specialty is chosen, it'll become uncompleted, making it impossible to acquire a second specialty."
+	],
+	dependencies: [
+		"2a45d044",
+		"24ca3041"
+	],
+	tasks: [{
+		uid: "dc319551",
+		type: "checkmark"
+	}]
+}

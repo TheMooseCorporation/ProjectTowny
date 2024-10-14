@@ -1,0 +1,44 @@
+{
+	title: "Basic Circuitry",
+	icon: "immersiveengineering:material 1 27",
+	x: 23.0d,
+	y: 1.0d,
+	shape: "hexagon",
+	description: "§oThe age of indurnet.",
+	text: [
+		"Did you know that there's actually tiny electrical signals within our brains whenever we think? It's true. Scientists, upon learning that, realized that they could make machines do the exact same thing.",
+		"",
+		"Okay, that's a lie, but it’s really a pretty similar process. In both cases, though, anything with the capacity to think has to be incredibly dense, requiring much smaller parts than what can be made in a 3x3 grid. This is where an assembly line comes in.",
+		"",
+		"Imagine all the wonders we could make with this level of technology.",
+		"",
+		"§a§lUnlocks the Microchip Inscriber and Precision Assembler."
+	],
+	dependencies: [
+		"cee5c072"
+	],
+	size: 1.5d,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "1f659947",
+		type: "gamestage",
+		stage: "basic_circuitry_tech"
+	},
+	{
+		uid: "9902595b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:basic_circuitry_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7cfce990",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "basic_circuitry_tech"
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Computers!",
+	icon: "opencomputers:case1",
+	x: 28.5d,
+	y: 1.0d,
+	description: "§oLike self-driving cars, but with less mobility.",
+	text: [
+		"Computers are the difference between precisely designing a mechanical blade to move in exact ways to neatly and cleanly dissect the object you need disassembled, requiring months of planning and work, and just asking Jeeves to pulverize the prisoners for you. Complete difference between the two, there's just no comparison.",
+		"",
+		"§a§lUnlocks Opencomputers and its addons."
+	],
+	dependencies: [
+		"0062eec2",
+		"ad0faa29"
+	],
+	dependency_requirement: "one_completed",
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "23e69142",
+		type: "gamestage",
+		stage: "computer_tech"
+	},
+	{
+		uid: "40f138dc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:computer_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e3fa4e47",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "computer_tech"
+	}]
+}

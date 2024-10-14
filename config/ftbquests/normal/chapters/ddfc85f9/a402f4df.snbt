@@ -1,0 +1,10 @@
+{
+	title: "Mechanical Dependent",
+	x: 2.5d,
+	y: -6.0d,
+	hide: true,
+	tasks: [{
+		uid: "8fec2ea7",
+		type: "checkmark"
+	}]
+}

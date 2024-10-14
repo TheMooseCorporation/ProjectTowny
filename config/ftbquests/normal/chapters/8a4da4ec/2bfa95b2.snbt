@@ -1,0 +1,47 @@
+{
+	title: "Biofuels",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "biocrude",
+			Amount: 1000
+		}
+	},
+	x: 21.0d,
+	y: -3.0d,
+	description: "§oGreen, smelly gold.",
+	text: [
+		"Okay, look. Yes, oil can be automated forever, but it gets reeeeeal slow if you deplete it, and it requires an underground deposit which can be inconvenient to find. Not to worry, we've got a greener solution.",
+		"",
+		"Literally, green. Squeeze seeds, refine them, and turn them into biodiesel. It still produces pollution, don't get me wrong, but it's much easier to upscale.",
+		"",
+		"§a§lUnlocks Immersive Engineering's Refinery."
+	],
+	dependencies: [
+		"b068f736",
+		"cee5c072"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "994eca42",
+		type: "gamestage",
+		stage: "biodiesel_tech"
+	},
+	{
+		uid: "a7d38535",
+		type: "item",
+		items: [{
+			item: "contenttweaker:biodiesel_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a33f6561",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "biodiesel_tech"
+	}]
+}

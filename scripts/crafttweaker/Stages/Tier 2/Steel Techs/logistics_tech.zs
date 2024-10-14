@@ -13,7 +13,10 @@ import crafttweaker.item.IItemStack;
 val stage = "logistics_tech";
 
 val stageMods as string[] = [
-    "funkylocomotion"
+    "funkylocomotion",
+    "projectred-core",
+    "projectred-integration",
+    "projectred-transmission"
 ];
 
 val stageItems as IItemStack[] = [
@@ -28,7 +31,8 @@ val stageItems as IItemStack[] = [
     <engineersdecor:factory_hopper>,
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:splitter"}),
     <immersiveengineering:wooden_device0:3>,
-    <nuclearcraft:ingot_former_idle>
+    <nuclearcraft:ingot_former_idle>,
+    <rsgauges:switchlink_pearl>
 ];
 
 for mod in stageMods {

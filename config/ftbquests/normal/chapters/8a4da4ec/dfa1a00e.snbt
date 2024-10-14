@@ -1,0 +1,43 @@
+{
+	title: "Fusion Reactors",
+	icon: "nuclearcraft:fusion_core",
+	x: 39.0d,
+	y: 3.0d,
+	shape: "hexagon",
+	description: "§oTwo protons are better than one.",
+	text: [
+		"Fission's nice and all, but it has a pretty glaring flaw: It turns a lot of valuable stuff into less valuable stuff. As a stuff aficionado myself, I believe in not doing that.",
+		"",
+		"Instead, let's turn less valuable stuff to more valuable stuff, and get rewarded with vast quantities of power for the trouble! Why fusion does this, I don't actually know, but that sure won't stop me from building a reactor!",
+		"",
+		"§a§lUnlocks Nuclearcraft's Fusion Reactors."
+	],
+	dependencies: [
+		"e8448eb7",
+		"37dcb94f"
+	],
+	size: 1.5d,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "d460f473",
+		type: "gamestage",
+		stage: "fusion_reactors_tech"
+	},
+	{
+		uid: "0f61872c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:fusion_reactors_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "453884d4",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "fusion_reactors_tech"
+	}]
+}

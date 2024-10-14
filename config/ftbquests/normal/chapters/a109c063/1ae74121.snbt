@@ -1,0 +1,20 @@
+{
+	title: "Seasons",
+	icon: "sereneseasons:season_clock",
+	disable_toast: true,
+	x: 0.0d,
+	y: -2.0d,
+	description: "§oTime, Like Everything Else, is a Square.",
+	text: [
+		"The world around you won't always stay the same. The season will change slowly over time affecting temperature, and more importantly, what crops will grow. Be sure to plant things that'll grow, and be sure to cover up your water sources in winter."
+	],
+	dependencies: [
+		"a48da5a5"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "f798d91b",
+		type: "checkmark",
+		title: "TLDR: Check Seed Tooltips."
+	}]
+}

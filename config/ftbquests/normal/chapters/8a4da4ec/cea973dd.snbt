@@ -1,0 +1,40 @@
+{
+	title: "Server Storage",
+	icon: "appliedenergistics2:drive",
+	x: 30.5d,
+	y: 0.0d,
+	description: "§oHe's beginning to believe (that the 50 chests plan isn't working out).",
+	text: [
+		"I'm tired. You know that? I’m tired of it all. Nobody puts anything where they're supposed to. The valuables chest is filled with cobblestone, the cobblestone drawer has somehow been filled with several different damaged iron swords, and the weapons chest was renamed to \"Task's world domination supplies\" and contains enough eggplants to feed the town for weeks.",
+		"",
+		"It’s time we got an ME system.",
+		"",
+		"§a§lUnlocks Applied Energistics."
+	],
+	dependencies: [
+		"ae79240b"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "cadc7949",
+		type: "gamestage",
+		stage: "server_storage_tech"
+	},
+	{
+		uid: "3692d435",
+		type: "item",
+		items: [{
+			item: "contenttweaker:server_storage_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1ddd8ec4",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "server_storage_tech"
+	}]
+}

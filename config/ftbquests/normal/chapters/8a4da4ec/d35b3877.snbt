@@ -1,0 +1,40 @@
+{
+	title: "Cartography",
+	icon: "antiqueatlas:antique_atlas",
+	x: 2.5d,
+	y: 1.5d,
+	description: "§oHow far we've come.",
+	text: [
+		"The world is rather big, all things considered, and finding your way can be pretty difficult with maps that have edges. What if they simply didn't?",
+		"",
+		"The antique atlas is, objectively speaking, the best map. It has custom waypoints, death markers, a nice aesthetic, cross-dimensionality, and most importantly, the ability to combine an empty and opened atlas to create an exact duplicate of it, that will synchronize all of their discoveries and waypoints even if carried by two different people at once. Did I mention that it’s a minimap if placed in the hotbar?",
+		"",
+		"§a§lUnlocks Antique Atlas and Nature's Compass. Atlases with the same name are synchronized."
+	],
+	dependencies: [
+		"c2fe79ff"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "21eae790",
+		type: "gamestage",
+		stage: "cartography_tech"
+	},
+	{
+		uid: "60df1a60",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cartography_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e2e7bafd",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "cartography_tech"
+	}]
+}

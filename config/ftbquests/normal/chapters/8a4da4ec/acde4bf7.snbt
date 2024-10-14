@@ -1,0 +1,44 @@
+{
+	title: "Specialization: §9Agriculture",
+	icon: "minecraft:iron_hoe",
+	x: 5.0d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "§oAn army marches on its stomach.",
+	text: [
+		"Focus your efforts towards growing crops and feeding a large population year-round. By refining a special type of glass, you're able to ignore the usual season restrictions on most crops (which is why they won't grow) to ensure a steady food supply.",
+		"",
+		"Naturally, with a larger and more varied food supply, you'll have a headstart in refining your cooking technologies.",
+		"",
+		"§a§lUnlocks Serene Seasons' Greenhouse Glass."
+	],
+	dependencies: [
+		"24ca3041",
+		"15513f82"
+	],
+	size: 1.5d,
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "816e3e0f",
+		type: "gamestage",
+		stage: "agriculture_spec"
+	},
+	{
+		uid: "254a1f98",
+		type: "item",
+		items: [{
+			item: "contenttweaker:agriculture_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "303b5d45",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "agriculture_spec"
+	}]
+}

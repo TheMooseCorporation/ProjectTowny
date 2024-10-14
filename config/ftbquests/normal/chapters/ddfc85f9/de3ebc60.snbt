@@ -1,0 +1,9 @@
+{
+	title: "Nuclear Dependent",
+	x: 2.5d,
+	y: -4.0d,
+	tasks: [{
+		uid: "11a89497",
+		type: "checkmark"
+	}]
+}

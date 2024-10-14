@@ -1,0 +1,41 @@
+{
+	title: "Electricity",
+	icon: "immersiveengineering:metal_device1 1 2",
+	x: 12.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "§oTame the lightning with cookies and dynamos.",
+	text: [
+		"Steel on its own is useful, but there's only so much that a particularly tough alloy can do. Electricity is where the real fun begins.",
+		"",
+		"By manipulating magnets and electromagnets, we can convert kinetic energy into electrical energy, finally beginning the process of true automation.",
+		"",
+		"§a§lUnlocks basic Immersive Engineering machines and belts."
+	],
+	dependencies: [
+		"d9d38a23"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "5c9fb939",
+		type: "gamestage",
+		stage: "electricity_tech"
+	},
+	{
+		uid: "ed0d2b7a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:electricity_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5c2bc76b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "electricity_tech"
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "Specialization: §aNuclear Engineering",
+	icon: "nuclearcraft:nuclear_furnace_idle",
+	x: 26.0d,
+	y: 3.0d,
+	shape: "diamond",
+	description: "§oHaha demon core go bwooooooooooom.",
+	text: [
+		"Focus your minds towards the discovery and utilization of an unknown energy source. It's dangerous, yes, but the raw power it possesses is... enticing. You must learn more. Perhaps it can be captured for your own purposes, like being a faster furnace. Yeah, that's probably the best use of this material you can think of.",
+		"",
+		"This research, while not giving you all that much in the way of exclusive tech, will allow you to see uranium ores and deposits before anyone else. Naturally, this’ll give you a headstart in building nuclear reactors.",
+		"",
+		"§a§lUnlocks the Nuclear Furnace, and allows you to see uranium (before having the Atomic Theory tech)."
+	],
+	dependencies: [
+		"94ad12d7",
+		"de3ebc60",
+		"486b041c"
+	],
+	size: 1.5d,
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "0836c2a2",
+		type: "gamestage",
+		stage: "nuclear_engineering_spec"
+	},
+	{
+		uid: "d6435a8e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:nuclear_engineering_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8b6cbc1e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "nuclear_engineering_spec"
+	}]
+}

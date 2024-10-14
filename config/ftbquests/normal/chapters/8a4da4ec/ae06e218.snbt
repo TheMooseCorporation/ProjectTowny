@@ -1,0 +1,44 @@
+{
+	title: "Specialization: §4Mining",
+	icon: "minecraft:iron_pickaxe",
+	x: 5.0d,
+	y: 1.5d,
+	shape: "diamond",
+	description: "§oMountains and molehills.",
+	text: [
+		"Focus your efforts towards the efficient extraction of valuables from deep within the earth. And the non-valuables, too. By refining the recipe of your bombs, you can create explosives that drop 100% of what they break. The reduced destructivity makes for a much cheaper recipe, as well.",
+		" ",
+		"The hard conditions and plentiful materials will jumpstart your blacksmithing and tool improvement later on.",
+		"",
+		"§a§lUnlocks Mining Chargees and Gunpowder Barrels."
+	],
+	dependencies: [
+		"df918e2b",
+		"24ca3041"
+	],
+	size: 1.5d,
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "1f022771",
+		type: "gamestage",
+		stage: "mining_spec"
+	},
+	{
+		uid: "b6b04023",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mining_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f3eb6de7",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "mining_spec"
+	}]
+}

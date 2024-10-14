@@ -1,0 +1,41 @@
+{
+	title: "Arc Smelting",
+	icon: "immersiveengineering:storage 1 8",
+	x: 19.0d,
+	y: 3.0d,
+	description: "§oHigh-capcity hellfire.",
+	text: [
+		"While electric furnaces are fine and dandy, they don't have the output for our purposes.",
+		"",
+		"This, though, this is true power. Not only is it capable of directly doubling any ore it smelts, it can also recycle many items and machines, and even directly combine alloys, steel included. It takes a lot of energy, sure, but the economics of scale speak for themselves.",
+		"",
+		"§a§lUnlocks Immersive Engineering's Arc Furnace."
+	],
+	dependencies: [
+		"3ee00cbe",
+		"de6966fa"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "59f57e91",
+		type: "gamestage",
+		stage: "arc_smelting_tech"
+	},
+	{
+		uid: "eb67892b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:arc_smelting_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c7964e4c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "arc_smelting_tech"
+	}]
+}

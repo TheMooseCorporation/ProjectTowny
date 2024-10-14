@@ -1,0 +1,40 @@
+{
+	title: "Modern Military",
+	icon: "techguns:t2_combat_helmet",
+	x: 32.5d,
+	y: -2.0d,
+	description: "§oSlightly worse than thermonuclear missiles, slightly better than everything else.",
+	text: [
+		"Our continued investigation into bomb science has reminded us that guns are, in fact, bombs, and therefore should have been buffed when we made the missiles. Oops.",
+		"",
+		"Regardless, advancements in killing and not-being-killed-ing technologies have borne fruits of... well, not lead, since it’s actually not all that good of an ammunition material, but cool projectiles at cool speeds. ",
+		"",
+		"§a§lUnlocks even more of Techguns."
+	],
+	dependencies: [
+		"4de26b74"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "54bb5bcb",
+		type: "gamestage",
+		stage: "modern_military_tech"
+	},
+	{
+		uid: "eaca9c71",
+		type: "item",
+		items: [{
+			item: "contenttweaker:modern_military_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fd27b7a8",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "modern_military_tech"
+	}]
+}

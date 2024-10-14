@@ -1,0 +1,16 @@
+{
+	title: "Basic Rocketry I",
+	x: 5.0d,
+	y: -5.5d,
+	dependencies: [
+		"de3e585a",
+		"0062eec2"
+	],
+	dependency_requirement: "one_completed",
+	rewards: [{
+		uid: "9d3acc69",
+		type: "command",
+		auto: "enabled",
+		command: "/ftbquests change_progress complete @team c995b455"
+	}]
+}

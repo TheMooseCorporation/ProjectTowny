@@ -1,0 +1,49 @@
+{
+	title: "Oil Processing",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "oil",
+			Amount: 1000
+		}
+	},
+	x: 21.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "§oBlack, smelly gold.",
+	text: [
+		"Coal burns for a while, but it doesn't have the heat necessary to produce electricity on its own. Aside from steel production, it's not useful for much.",
+		"",
+		"Oil, on the other hand, is incredibly energy-dense, and burns quite hot. What's more, the byproducts of the diesel refinement process can be used for a variety of other purposes.",
+		"",
+		"It can also be automated, and explodes slightly less often than coal.",
+		"",
+		"§a§lUnlocks Immersive Petroleum."
+	],
+	dependencies: [
+		"3ee00cbe"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "94c44109",
+		type: "gamestage",
+		stage: "oil_processing_tech"
+	},
+	{
+		uid: "9f9d1687",
+		type: "item",
+		items: [{
+			item: "contenttweaker:oil_processing_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "67ac9387",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "oil_processing_tech"
+	}]
+}

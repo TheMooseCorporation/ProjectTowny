@@ -1,0 +1,46 @@
+{
+	title: "Specialization: §aComposite Construction",
+	icon: "engineersdecor:rebar_concrete",
+	x: 16.0d,
+	y: -1.5d,
+	shape: "diamond",
+	description: "§oPave da world. My final message. Goodb ye.",
+	text: [
+		"Master the art of mixing together powders, liquids, and the occasional goop to create better road materials. Making concrete and asphalt (with your new workstation) produces twice as much and now gives an even greater speed boost to anyone walking on it. Later on, you'll get a similar bonus for all decorative blocks, not just concrete.",
+		"",
+		"What's more, you can create train tracks in a crafting table rather than in a megastructure made out of more steel than the rest of your factory combined. They're cheaper as well.",
+		"",
+		"Finally, knowledge of all that stuff gives you the ability to pack more stuff into a smaller space by dolling up your chests with precious metals. How, you ask?",
+		"",
+		"§a§lUnlocks improved concrete and rail recipes, as well as Iron Chests."
+	],
+	dependencies: [
+		"aec5d76f",
+		"8498c1bb"
+	],
+	size: 1.5d,
+	optional: true,
+	min_width: 400,
+	or_tasks: true,
+	tasks: [{
+		uid: "7133940c",
+		type: "gamestage",
+		stage: "composite_construction_spec"
+	},
+	{
+		uid: "2e49c63a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:composite_construction_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "36153492",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "composite_construction_spec"
+	}]
+}

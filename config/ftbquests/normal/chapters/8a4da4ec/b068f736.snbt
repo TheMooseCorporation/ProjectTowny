@@ -1,0 +1,41 @@
+{
+	title: "Logistics",
+	icon: "immersiveengineering:wooden_device0 1 7",
+	x: 19.0d,
+	y: -3.0d,
+	description: "§oEverything everywhere it shouldn't be.",
+	text: [
+		"Moving things by hand was fun when you were playing around with sticks, stones, and iron buckets containing molten iron. It is less fun now that stacks are smaller than one stack and the next machine's gonna need three hundred or so steel.",
+		"",
+		"So, the guys we threatened to assign to moving duty whipped up a few assorted gizmos to do all that for us. Mostly sorters and stuff, though there does seem to be a way to make a primitive computer out of redstone for the more complex tasks.",
+		"",
+		"§aUnlocks Item and Fluid routers as well as Project Red."
+	],
+	dependencies: [
+		"ff232233",
+		"3ee00cbe"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "bf3c3af8",
+		type: "gamestage",
+		stage: "logistics_tech"
+	},
+	{
+		uid: "9e00d872",
+		type: "item",
+		items: [{
+			item: "contenttweaker:logistics_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "91df2f4c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "logistics_tech"
+	}]
+}

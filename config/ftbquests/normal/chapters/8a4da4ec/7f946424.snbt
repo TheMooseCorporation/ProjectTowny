@@ -1,0 +1,41 @@
+{
+	title: "Thermoelectricity",
+	icon: "immersiveengineering:metal_device1 1 3",
+	x: 27.0d,
+	y: 0.0d,
+	description: "§oMom says it's my turn to sin.",
+	text: [
+		"Okay, fine, you win, you can have the thermoelectric generator. We don't even care anymore. So what if it's the least interactive, ugliest form of power generation possible? The players asked, so the players receive.",
+		"",
+		"Ah, but the coldest and hottest fluids are made by the Chemical Engineering folk, so if you REALLY want efficiency, go bother them.",
+		"",
+		"§a§lUnlocks the Thermoelectric Generator."
+	],
+	dependencies: [
+		"ad0faa29"
+	],
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "c5c0199d",
+		type: "gamestage",
+		stage: "electrical_engineering_tech_spec"
+	},
+	{
+		uid: "9137e908",
+		type: "item",
+		items: [{
+			item: "contenttweaker:electrical_engineering_tech_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ee1dabe0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "electrical_engineering_tech_spec"
+	}]
+}

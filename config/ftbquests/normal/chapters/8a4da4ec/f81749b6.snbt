@@ -1,0 +1,48 @@
+{
+	title: "Specialization: §eElectrical Distribution",
+	icon: "alternatingflux:connector 1 1",
+	x: 16.0d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "§oFunny subtitle.",
+	text: [
+		"Master the art of transporting the energy you create long distances. Assert the dominance of the noble Nikola Tesla over the cowardly, vile Edison by making those electrons boogie. In doing so, they'll be less likely to run away and cost you power over long distances.",
+		"",
+		"Use that energy to light your home. Like, a lot. You can now have a light level of approximately 64. Out of 15.",
+		"",
+		"Weaponize that energy with the wacky and wild world of theoretical physics, and more importantly, protect yourself from that energy with a faraday suit so that you stop killing yourself on your own unprotected wires, idiot.",
+		"",
+		"Later on, you'll even be able to design a new form of electrode that doesn't break every other minute and require several dinosaurs worth of coal to recreate.",
+		"",
+		"§a§lUnlocks Alternating Flux, the Powered Lantern, the Railgun, and the Faraday Armor."
+	],
+	dependencies: [
+		"aec5d76f",
+		"b5dea641"
+	],
+	size: 1.5d,
+	optional: true,
+	min_width: 450,
+	or_tasks: true,
+	tasks: [{
+		uid: "519036ce",
+		type: "gamestage",
+		stage: "electrical_distribution_spec"
+	},
+	{
+		uid: "67bc592c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:electrical_distribution_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2fc26472",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "electrical_distribution_spec"
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"I still need to set all of the task logics to \"or\" in the main tree."
+	],
+	tasks: [{
+		uid: "5c9049e5",
+		type: "checkmark",
+		title: "Note to Self"
+	}]
+}

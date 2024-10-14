@@ -1,0 +1,51 @@
+{
+	title: "Blacksmithing",
+	icon: {
+		id: "tconstruct:toolforge",
+		tag: {
+			textureBlock: {
+				id: "minecraft:iron_block",
+				Count: 1,
+				Damage: 0s
+			}
+		}
+	},
+	x: 8.0d,
+	y: 1.5d,
+	description: "§oThey're not complete until they've been seasoned.",
+	text: [
+		"Your tools are good, and that's fine, but they could and should be better. Better materials will make them more difficult to repair, but that’s not the case for modifiers. A light sprinkling of redstone makes them quicker, wrapping them in silk makes them solfter, and slapping a diamond on there makes literally everything better.",
+		"",
+		"The tinkers have also determined that they can unscrew your stupid tool decisions and replace them with their objectively better tool decisions by swapping parts. Look, I don't make the rules, I just make the tools.",
+		"",
+		"§a§lUnlocks Tinkers Construct Tool Modifiers."
+	],
+	dependencies: [
+		"d9d38a23",
+		"ae06e218"
+	],
+	dependency_requirement: "one_completed",
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "9c6a4dcb",
+		type: "gamestage",
+		stage: "blacksmithing_tech"
+	},
+	{
+		uid: "a71c303e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:blacksmithing_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5e5e3a88",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "blacksmithing_tech"
+	}]
+}

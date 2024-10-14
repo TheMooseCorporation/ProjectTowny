@@ -1,0 +1,48 @@
+{
+	title: "Scientific Theory",
+	icon: {
+		id: "immersiveengineering:blueprint",
+		tag: {
+			blueprint: "components"
+		}
+	},
+	x: 32.5d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "§oLearn to Learn to Learn to Learn to",
+	text: [
+		"As it turns out, a can-do attitude and a self-help course isn't actually enough to do real science. You have to, y'know, §oknow§r things.",
+		"",
+		"No worries, just because you made the strictly worst specialization choice doesn't mean you can't cross-reference a few things. Take some remedial classes and bribe the grader and you'll be a scientist in no time.",
+		"",
+		"§a§lUnlocks an improved research lab and allows backtracking to get technologies you may have missed."
+	],
+	dependencies: [
+		"c995b455"
+	],
+	dependency_requirement: "one_completed",
+	size: 1.5d,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "a2419e1b",
+		type: "gamestage",
+		stage: "scientific_theory_tech"
+	},
+	{
+		uid: "8f304dba",
+		type: "item",
+		items: [{
+			item: "contenttweaker:scientific_theory_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "abf7a70d",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "scientific_theory_tech"
+	}]
+}

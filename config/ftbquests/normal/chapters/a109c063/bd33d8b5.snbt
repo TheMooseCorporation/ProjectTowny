@@ -1,0 +1,27 @@
+{
+	title: "Mining",
+	icon: "minecraft:iron_pickaxe",
+	disable_toast: true,
+	x: -1.0d,
+	y: -2.0d,
+	description: "§oDig the diggy hole",
+	text: [
+		"This modpack, being a rather large one, is going to require a lot of ore. Luckily for you, we've got just the place for you to look for it. You can still strip mine for shinies, of course (what kind of idiot would take that away?), but there's a better way to do it.",
+		"",
+		"As you explore the surface, you may find little patches of ore samples from the Geolosys mod. By digging down from wherever you find these surface samples, you'll find vast deposits of that respective ore, ripe for the taking. Most of these samples and ores are under different names, but you can check what they actually are with the Field Guide."
+	],
+	dependencies: [
+		"a48da5a5"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "ee701c26",
+		type: "checkmark",
+		title: "TLDR: Find Ore Pile, Dig Down."
+	}],
+	rewards: [{
+		uid: "dbe24faa",
+		type: "item",
+		item: "geolosys:field_manual"
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Heavy Machinery",
+	icon: "immersiveengineering:metal_decoration0 1 5",
+	x: 19.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "§oHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA.",
+	text: [
+		"We've done it. By completely and utterly annihilating the ores we dig up via a process of spinning blades, compacting walls, shark pits, and the odd supervillain, we can get out twice as many ingots as ores we put in. The easy dusting of any substance on earth, including but not limited to our dashing yet infuriating nemesis, will similarly prove useful for alloy creation and/or world domination.",
+		"",
+		"§a§lUnlocks Immersive Engineering's Crusher and Industrial Squeezer."
+	],
+	dependencies: [
+		"1d89c08d",
+		"f81749b6",
+		"5da8ab6a"
+	],
+	dependency_requirement: "one_completed",
+	size: 1.25d,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "d7c9fc7e",
+		type: "gamestage",
+		stage: "heavy_machinery_tech"
+	},
+	{
+		uid: "b37e982c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:heavy_machinery_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "72a156fa",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "heavy_machinery_tech"
+	}]
+}

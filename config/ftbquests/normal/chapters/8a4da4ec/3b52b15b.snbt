@@ -1,0 +1,55 @@
+{
+	title: "Manhattan Project",
+	icon: {
+		id: "icbmclassic:missile",
+		Damage: 15s,
+		ForgeCaps: {
+			Parent: {
+				explosive: {}
+			}
+		}
+	},
+	x: 39.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	description: "§oThermonuclear missiles.",
+	text: [
+		"I am become death, destroyer of worlds.",
+		"",
+		"Well, I’ve been death, since the one writing these is a dev, and devs have /kill. You, on the other hand, now have the next best thing: Devastating explosives, able to be launched from extreme distances.",
+		"",
+		"Do keep in mind that using one of these things is liable to paint a target on your back. It's too much power for one town to hold.",
+		"",
+		"Be ready.",
+		"",
+		"§a§lUnlocks T3 ICBMs."
+	],
+	dependencies: [
+		"ad21e7ad",
+		"e8448eb7"
+	],
+	size: 1.5d,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "95c54aa5",
+		type: "gamestage",
+		stage: "manhattan_project_tech"
+	},
+	{
+		uid: "3b2d4368",
+		type: "item",
+		items: [{
+			item: "contenttweaker:manhattan_project_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a8395e99",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "manhattan_project_tech"
+	}]
+}

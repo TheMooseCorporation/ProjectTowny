@@ -1,0 +1,9 @@
+{
+	title: "Chemical Dependent",
+	x: 2.5d,
+	y: -7.0d,
+	tasks: [{
+		uid: "cd30ca18",
+		type: "checkmark"
+	}]
+}

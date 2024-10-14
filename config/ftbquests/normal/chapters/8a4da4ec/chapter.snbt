@@ -1,0 +1,7 @@
+{
+	title: "Research",
+	icon: "immersiveengineering:wooden_device0 1 2",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,45 @@
+{
+	title: "Specialization: §eElectrical Engineering",
+	icon: "industrialwires:jacobs_ladder 1 2",
+	x: 26.0d,
+	y: 1.0d,
+	shape: "diamond",
+	description: "§oElectricity tastes like cooked tongue.",
+	text: [
+		"Focus your minds towards the efficient creation of circuitry and electronics. The industrial age was fruitful, but the digital age is coming and it's high time that you be in the lead. For now, let's work on making some ugly conduits and generators that god keeps wanting us to not have for some reason.",
+		"",
+		"With all these spare circuits laying around, we may as well whip them up into computers that do the thinking for us. They probably won’t overthrow the fleshies. Probably.",
+		"",
+		"§a§lUnlock the ability to make low-tier Ender IO conduits."
+	],
+	dependencies: [
+		"94ad12d7",
+		"486b041c",
+		"d5b26c29"
+	],
+	size: 1.5d,
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "95322241",
+		type: "gamestage",
+		stage: "electrical_engineering_spec"
+	},
+	{
+		uid: "07e63736",
+		type: "item",
+		items: [{
+			item: "contenttweaker:electrical_engineering_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da92da23",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "electrical_engineering_spec"
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "Steam Energy",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "high_pressure_steam",
+			Amount: 1000
+		}
+	},
+	x: 12.0d,
+	y: 3.0d,
+	description: "§oGaseous Hubris.",
+	text: [
+		"Okay, good news, we've found a loophole to the whole \"no electricity from heat\" rule. See, if we use heat from the sun to make steam, then run our town off of that, there's no problem.",
+		"",
+		"Well, one problem. The sun's pretty far, so we need a pretty big surface to capture enough light. Steam power is an investment, but it pays off if you put enough in.",
+		"",
+		"Make sure you can still see the sun through all that smog.",
+		"",
+		"§a§lUnlocks the Solar Tower, Steam Turbine, and Alternator."
+	],
+	dependencies: [
+		"de6966fa"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "fc48f1a1",
+		type: "gamestage",
+		stage: "steam_energy_tech"
+	},
+	{
+		uid: "46e50a6c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:steam_energy_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c443cc56",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "steam_energy_tech"
+	}]
+}

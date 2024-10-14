@@ -1,0 +1,43 @@
+{
+	title: "Steel",
+	icon: "immersiveengineering:metal 1 8",
+	x: 10.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "§oNext ingot ETA 2027",
+	text: [
+		"We've drawn up plans for great, hulking machines that can do all of our jobs for us so that we can get to important things like killing each other or killing others, but iron just won't cut it. Thankfully, we've found from other experiments with alloys that adding a small amount of carbon to iron will create an extremely strong and versatile metal, Steel. We're going to need a lot of it.",
+		"",
+		"The byproduct gives wood a wonderful color.",
+		"",
+		"§a§lUnlocks the beginning of Immersive Engineering."
+	],
+	dependencies: [
+		"d9068f20"
+	],
+	dependency_requirement: "one_completed",
+	size: 1.5d,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "06e1c08a",
+		type: "gamestage",
+		stage: "steel_tech"
+	},
+	{
+		uid: "9f96d4f7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:steel_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b33d9a04",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "steel_tech"
+	}]
+}

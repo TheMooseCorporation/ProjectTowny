@@ -1,0 +1,42 @@
+{
+	title: "Basic Engineering",
+	icon: "betterwithmods:wooden_gearbox",
+	x: 8.0d,
+	y: -1.5d,
+	description: "§oHow does one place reins on motion itself?",
+	text: [
+		"There is only so much that manual labor can accomplish. The next logical step, obviously, is to tell the weather to do it for us. If we’re persuasive enough, the weather will listen.",
+		"",
+		"It’s no Create, but it'll have to do.",
+		"",
+		"§a§lUnlocks Better With Mods."
+	],
+	dependencies: [
+		"d9d38a23",
+		"f0339f60"
+	],
+	dependency_requirement: "one_completed",
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "78b2841f",
+		type: "gamestage",
+		stage: "basic_engineering_tech"
+	},
+	{
+		uid: "d065a325",
+		type: "item",
+		items: [{
+			item: "contenttweaker:basic_engineering_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "93b7f59c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "basic_engineering_tech"
+	}]
+}

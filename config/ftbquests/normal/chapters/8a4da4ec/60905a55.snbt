@@ -1,0 +1,44 @@
+{
+	title: "Compact Machinery",
+	icon: "mekanism:machineblock",
+	x: 42.0d,
+	y: -4.0d,
+	shape: "hexagon",
+	description: "§oCute little meat pulverizers.",
+	text: [
+		"Our factory's pretty big.",
+		"",
+		"That’s not a bad thing. It's very aesthetically appealing and has a sort of industrial charm to it. It also allows us to lure hapless fools into the labyrinth, never again to see the light of day. However, there comes a point where efficiency is inversely proportional to size, and that point is now.",
+		"",
+		"Our new research direction is the creation of machines that do the same thing as the bigger ones, but smaller.",
+		"",
+		"§a§lUnlocks Mekanism's T1 machines."
+	],
+	dependencies: [
+		"e8448eb7"
+	],
+	size: 1.5d,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "b9407701",
+		type: "gamestage",
+		stage: "compact_machinery_tech"
+	},
+	{
+		uid: "ec6f8688",
+		type: "item",
+		items: [{
+			item: "contenttweaker:compact_machinery_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a435a4f1",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "compact_machinery_tech"
+	}]
+}

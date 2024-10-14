@@ -1,0 +1,39 @@
+{
+	title: "Modern Specializations",
+	icon: "appliedenergistics2:sky_compass",
+	x: 24.5d,
+	y: 0.0d,
+	shape: "gear",
+	description: "§oThe unstoppable force of progress is a lil bit lost.",
+	text: [
+		"We're at the edge of a cliff here. Behind us, the road we've taken so far. Beyond, a land of pure untapped potential. We must choose a direction for our engineers to strive.",
+		"",
+		"You can't have everything, but you can still use everything. With so many choices, it's likely someone will choose differently from you. Reach out. Spread your name. Buy the science.",
+		"",
+		"Even if a specialization doesn't grant that many exclusives, it means that you get the related researches MUCH earlier.",
+		"",
+		"§a§lThe following choices are a final round of specializations. You can choose only one of the four. They will affect what order you develop future technologies in."
+	],
+	dependencies: [
+		"fb10c4b0",
+		"94ad12d7"
+	],
+	dependency_requirement: "one_completed",
+	min_width: 320,
+	or_tasks: true,
+	tasks: [{
+		uid: "41030a12",
+		type: "checkmark"
+	},
+	{
+		uid: "5e2b84f0",
+		type: "gamestage",
+		stage: "spec_3"
+	}],
+	rewards: [{
+		uid: "5291210b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "spec_3"
+	}]
+}

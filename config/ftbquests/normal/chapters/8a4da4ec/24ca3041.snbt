@@ -1,0 +1,36 @@
+{
+	title: "Specializations",
+	icon: "artisanworktables:artisans_compass_stone",
+	disable_toast: true,
+	x: 3.5d,
+	y: 0.0d,
+	shape: "gear",
+	description: "§oWhat's the plan, boss?",
+	text: [
+		"It is time to make a choice. No one town can do everything, and yours is no exception. What direction would you like to go in?",
+		"",
+		"The following quests are specializations. Choosing a specialization will lock you out of the other two, but give you bonuses that other towns don't have. It will also influence what order you get the following researches in.",
+		"",
+		"§a§lYou can only choose one of the three. You can still use items from other specializations, but you cannot craft them. Consider trading with your neighbors."
+	],
+	dependencies: [
+		"c2fe79ff"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "2bcc7d42",
+		type: "checkmark"
+	},
+	{
+		uid: "717ab2f4",
+		type: "gamestage",
+		stage: "spec_1"
+	}],
+	rewards: [{
+		uid: "9fcb1d04",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "spec_1"
+	}]
+}

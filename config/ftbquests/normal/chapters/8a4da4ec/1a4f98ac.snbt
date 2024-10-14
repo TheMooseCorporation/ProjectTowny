@@ -1,0 +1,38 @@
+{
+	title: "Cooking",
+	icon: "harvestcraft:spagettiandmeatballsitem",
+	x: 1.5d,
+	y: 1.5d,
+	description: "§oWE HAVE THE BEETS.",
+	text: [
+		"As much as cucumbers and the odd bread will fill your stomach, it has no place in your heart of hearts. Even with the same ingredients, better meals will create a happier society, greatly increasing your capacity for work and also the rate at which legs grow back when you fall from a 22-meter height again I swear just make some stairs.",
+		"",
+		"§a§lUnlocks Pam's Harvestcraft tools."
+	],
+	dependencies: [
+		"c2fe79ff"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "d26e0ef8",
+		type: "gamestage",
+		stage: "cooking_tech"
+	},
+	{
+		uid: "ed044130",
+		type: "item",
+		items: [{
+			item: "contenttweaker:cooking_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aef8f64f",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "cooking_tech"
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Kitchens",
+	icon: "cookingforblockheads:cooking_table",
+	x: 8.0d,
+	y: 0.0d,
+	description: "§oOUT of the INGREDIENTS until I'm DONE WITH THEM.",
+	text: [
+		"Cooking is hard work, as the one person who's been assigned to be the food dood has discovered. When they say you need this research, they mean it. With a kitchen, you'll be able to skip the tedious multi-step processes involved in cooking and instead have the blocks do it all for you. ",
+		"",
+		"How does it work? I dunno. Ask that Merlin dude who sold them to me.",
+		"",
+		"§a§lUnlocks Cooking for Blockheads."
+	],
+	dependencies: [
+		"d9d38a23",
+		"acde4bf7"
+	],
+	dependency_requirement: "one_completed",
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "3eab32b9",
+		type: "gamestage",
+		stage: "kitchen_tech"
+	},
+	{
+		uid: "867dbdab",
+		type: "item",
+		items: [{
+			item: "contenttweaker:kitchen_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a5be4d54",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "kitchen_tech"
+	}]
+}

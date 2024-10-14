@@ -1,0 +1,38 @@
+{
+	title: "Architecture",
+	icon: "chisel:chisel_iron",
+	x: 2.5d,
+	y: -1.5d,
+	description: "§oSteakthroughs in brick technology.",
+	text: [
+		"Our construction techniques so far have been rather basic, utilitarian things. We're building a town here, not a prison, so why don't we make it look the part? Simply by etching a few nice designs into the blocks we use, we can vastly improve the aesthetic appeal of our town.",
+		"",
+		"§a§lUnlocks Chisel, Blockcraftery, Bibliocraft, and Littletiles."
+	],
+	dependencies: [
+		"c2fe79ff"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "9b7e6321",
+		type: "gamestage",
+		stage: "architecture_tech"
+	},
+	{
+		uid: "3a93e5f2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:architecture_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cd7f2167",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "architecture_tech"
+	}]
+}

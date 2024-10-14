@@ -1,0 +1,44 @@
+{
+	title: "Iron Age",
+	icon: "minecraft:iron_ingot",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "§oEverything begins here.",
+	text: [
+		"Congratulations, you've just created your town! This tab contains the tech tree, where you can invest in research and unlock new mods and technologies. This tree is shared with the rest of your town, but if you leave your town, you lose your tech.",
+		"",
+		"Remember that the prices here are the same for a town of any size. That means that larger towns will have an easier time completing the same research. This pack can be completed on singleplayer, but it’s a lot easier with friends.",
+		"",
+		"A lot of these researches are optional, but you’ll probably want them regardless.",
+		"",
+		"§a§lTo begin, craft a template into an Iron Age Research Scroll."
+	],
+	dependencies: [
+		"a851fe7a"
+	],
+	size: 1.5d,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "d387c28b",
+		type: "gamestage",
+		stage: "iron_tech"
+	},
+	{
+		uid: "6acb690d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:iron_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "60e3133e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "iron_tech"
+	}]
+}

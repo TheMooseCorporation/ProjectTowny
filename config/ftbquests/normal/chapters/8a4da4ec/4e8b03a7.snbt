@@ -1,0 +1,41 @@
+{
+	title: "Basic Military",
+	icon: "techguns:stielgranate",
+	x: 10.0d,
+	y: 3.0d,
+	description: "§oSlightly better than bows, slightly worse than enchanted bows.",
+	text: [
+		"Your town is rather united, but the world is not. The easiest method of having something is to take it, and the easiest method of taking something is by killing off whoever had it before. You can bang together sticks and stones all you like, but cold weapons will only carry you so far.",
+		"",
+		"Let them taste lead.",
+		"",
+		"§a§lUnlocks the beginning of Techguns."
+	],
+	dependencies: [
+		"d9d38a23",
+		"8f82fc30"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "5f815fff",
+		type: "gamestage",
+		stage: "basic_military_tech"
+	},
+	{
+		uid: "9fbf128f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:basic_military_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "927098d3",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "basic_military_tech"
+	}]
+}

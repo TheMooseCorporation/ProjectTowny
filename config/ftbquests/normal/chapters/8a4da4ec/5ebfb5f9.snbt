@@ -1,0 +1,52 @@
+{
+	title: "Future Tech!",
+	icon: "chisel:futura 1 2",
+	x: 42.0d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "§o<3",
+	text: [
+		"It seems that we are out of science. We've done it all.",
+		"",
+		"You've completed the tech tree, and have unlocked a plethora of nonsensical technologies to play around with. However, that's certainly not the only thing this modpack’s built for.",
+		"",
+		"This pack is about diplomacy. Playing and competing in towns and nations, working with and against each other. You've gotten all the science you need, but you certainly haven't yet conquered the world.",
+		"",
+		"Let's fix that, shall we?",
+		"",
+		"§a§lUnlocks Environmental Tech and several previously-disabled items from other mods."
+	],
+	dependencies: [
+		"e8448eb7",
+		"60905a55",
+		"1807b1d0",
+		"3b52b15b",
+		"8d3bb972",
+		"c0b1a87c",
+		"dfa1a00e"
+	],
+	size: 3.0d,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "f0a8bdbb",
+		type: "gamestage",
+		stage: "future_tech"
+	},
+	{
+		uid: "01e6c2d5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:future_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "83b50ecb",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "future_tech"
+	}]
+}

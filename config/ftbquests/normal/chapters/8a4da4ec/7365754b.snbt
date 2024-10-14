@@ -1,0 +1,40 @@
+{
+	title: "Chemical Synthesis",
+	icon: "artisanworktables:artisans_beaker_iron",
+	x: 28.5d,
+	y: -3.0d,
+	description: "§oDynamic Entropy",
+	text: [
+		"A lot of the components we'll need in the future will not only need to be assembled with precision, but also with liquids and gases that may not be readily available. If we can isolate and manipulate what we already have in the right way, we can produce the science juice necessary to build and fuel even more wacky and zany constructs.",
+		"",
+		"§a§lUnlocks the Chemical Reactor multiblock."
+	],
+	dependencies: [
+		"de3e585a",
+		"2b5af195"
+	],
+	dependency_requirement: "one_completed",
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "cb04272e",
+		type: "gamestage",
+		stage: "chemical_synthesis_tech"
+	},
+	{
+		uid: "d23e49d6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:chemical_synthesis_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a54dfda9",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "chemical_synthesis_tech"
+	}]
+}

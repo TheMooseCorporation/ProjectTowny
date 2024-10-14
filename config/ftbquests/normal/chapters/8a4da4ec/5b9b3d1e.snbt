@@ -1,0 +1,39 @@
+{
+	title: "Lumber Processing",
+	icon: "betterwithmods:saw",
+	x: 6.5d,
+	y: -2.0d,
+	description: "§oCosts an arm and a leg.",
+	text: [
+		"Refining all these logs into wooden planks is hard, tedious work. We can do better. By utilizing the power of a nearby river, a circular saw can be made to process fallen trees, yielding more planks per log and a few other valuable resources.",
+		"",
+		"§a§lUnlocks Better With Mods' Saw. You need the rest of the mod to power it."
+	],
+	dependencies: [
+		"f0339f60"
+	],
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "986e3b66",
+		type: "gamestage",
+		stage: "forestry_tech_spec"
+	},
+	{
+		uid: "6d30addb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:forestry_tech_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "58c29781",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "forestry_tech_spec"
+	}]
+}

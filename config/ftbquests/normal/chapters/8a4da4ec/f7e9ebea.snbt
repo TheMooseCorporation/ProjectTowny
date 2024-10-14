@@ -1,0 +1,39 @@
+{
+	title: "Advanced Machining",
+	icon: "engineersdecor:small_tree_cutter",
+	x: 27.0d,
+	y: -2.0d,
+	description: "§oJeeves, go pulverize the prisoners for me, would you?",
+	text: [
+		"With a little bit of ingenuity and also giving our scientists several hallucinogens, we've created a collection of single-block machines that automatically do all sorts of things, from felling trees to breaking blocks to planting trees to collecting more hallucinogenic mushrooms. Oh, a cow milker, too. They’re all pretty cheap and pretty handy.",
+		"",
+		"§a§lUnlocks the Factory Block Placer, Small Block Breaker, Small Tree Cutter, Small Milking Machine, and Small Solar Panel."
+	],
+	dependencies: [
+		"e3e2b822"
+	],
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "78900987",
+		type: "gamestage",
+		stage: "mechanical_engineering_tech_spec"
+	},
+	{
+		uid: "4dd57892",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mechanical_engineering_tech_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d71b7f6a",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "mechanical_engineering_tech_spec"
+	}]
+}

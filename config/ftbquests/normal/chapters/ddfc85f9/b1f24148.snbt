@@ -1,0 +1,23 @@
+{
+	title: "Mining Cull",
+	x: -9.5d,
+	y: -4.5d,
+	text: [
+		"This quest will uncomplete the other two quests on the left column, making it impossible for the other two specializations to be chosen."
+	],
+	dependencies: [
+		"ae06e218"
+	],
+	rewards: [{
+		uid: "e4ec68a8",
+		type: "command",
+		auto: "enabled",
+		command: "/ftbquests change_progress 0 @team 5ff5fd0f"
+	},
+	{
+		uid: "7a97bf57",
+		type: "command",
+		auto: "enabled",
+		command: "/ftbquests change_progress 0 @team 15513f82"
+	}]
+}

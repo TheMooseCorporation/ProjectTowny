@@ -1,0 +1,43 @@
+{
+	title: "Compact Chemistry",
+	icon: "minecraft:experience_bottle",
+	x: 27.0d,
+	y: -4.0d,
+	description: "§oUuuuugh I don't want to build that stupid multiblock.",
+	text: [
+		"Chemical reactions require a very precise and very isolated environment, which usually means that the machines that react chemicals together tend to be quite large. And also expensive, as it turns out, which our scientists have determined is kinda cringe ngl.",
+		"",
+		"So let's build a smaller one, that's a lil more efficient to boot. How do we accomplish this, you ask?",
+		"",
+		"No more questions out of you.",
+		"",
+		"§a§lUnlocks the Compact Chemical Reactor multiblock."
+	],
+	dependencies: [
+		"2b5af195"
+	],
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "ef48d171",
+		type: "gamestage",
+		stage: "chemical_engineering_tech_spec"
+	},
+	{
+		uid: "766d1d2c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:chemical_engineering_tech_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cf90ebf5",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "chemical_engineering_tech_spec"
+	}]
+}

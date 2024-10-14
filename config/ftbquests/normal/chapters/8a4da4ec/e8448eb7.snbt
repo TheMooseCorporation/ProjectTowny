@@ -1,0 +1,45 @@
+{
+	title: "Space Stations",
+	icon: "advancedrocketry:stationbuilder",
+	x: 38.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "§oIt's so lonely up here.",
+	text: [
+		"Creating an outpost in low earth orbit will be rather difficult, but it's basically guaranteed to be a safe location, mostly because it's against the rules to break into another town's space station.",
+		"",
+		"As for what we can do up there? A lot of stuff, really, but most of it involves low gravity and science. ",
+		"",
+		"You're nearly at the end of the tech tree, after all. Buckle up for the final sprint.",
+		"",
+		"§a§lUnlocks Space Stations."
+	],
+	dependencies: [
+		"7f247918",
+		"37dcb94f"
+	],
+	size: 1.5d,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "03774212",
+		type: "gamestage",
+		stage: "space_stations_tech"
+	},
+	{
+		uid: "4de799f8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:space_stations_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "92fa54e0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "space_stations_tech"
+	}]
+}

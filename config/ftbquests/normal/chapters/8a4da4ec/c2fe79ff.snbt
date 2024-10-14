@@ -1,0 +1,39 @@
+{
+	title: "Basic Tools",
+	icon: "tconstruct:tooltables",
+	x: 2.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "§oAdvancements in stick technology.",
+	text: [
+		"Before anything can be built, we should probably get better tools. These tools can be repaired when broken, built out of custom parts, and even modified later on. For now, metals are beyond our reach, but we'll get there. Crafting tables that don’t dump your stuff on the ground when you’re not looking at them certainly doesn’t hurt.",
+		"",
+		"§a§lUnlocks the beginning of Tinker's Construct."
+	],
+	dependencies: [
+		"ede89e1e"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "4254f2b1",
+		type: "gamestage",
+		stage: "basic_tools_tech"
+	},
+	{
+		uid: "677e13cc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:basic_tools_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9384ac07",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "basic_tools_tech"
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	title: "Project Towny",
+	x: 0.0d,
+	y: 0.0d,
+	description: "§oEvery grand civilization starts with a checkbox.",
+	text: [
+		"Welcome to Project Towny! This is a cooperative and competitive tech-based modpack engineered towards playing in towns and nations, engaging in diplomacy (and sometimes war!) as you progress through the ages. Many things in this pack have been designed to be done as a town, so gather some friends or make some new ones!",
+		"",
+		"The quests on this page will teach you some things that may be different from your usual modpack experience. You don't have to read it, but you really should.",
+		"",
+		"Seriously though, this pack is pain if you're running solo. Find a buddy, there's plenty to be found."
+	],
+	size: 1.5d,
+	min_width: 300,
+	tasks: [{
+		uid: "a01d8105",
+		type: "checkmark",
+		title: "<3",
+		icon: "minecraft:writable_book",
+		disable_toast: true
+	}]
+}

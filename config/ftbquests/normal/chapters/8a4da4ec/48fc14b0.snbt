@@ -1,0 +1,42 @@
+{
+	title: "Superconductors",
+	icon: "immersiveengineering:graphite_electrode",
+	x: 17.0d,
+	y: -0.5d,
+	description: "§oWhite-hot, smelly gold.",
+	text: [
+		"Arc furnaces are incredibly powerful constructs, but the constant need to dump half of your coal coke into making more graphite electrodes is tedious and time-consuming. The inability to automate the insertion of the electrodes only makes it worse.",
+		"",
+		"So, we'll just make indestructible electrodes. Does that have anything whatsoever to do with superconductors? Absolutely not. In fact, it's quite literally the opposite of what superconductors do. Eh.",
+		"",
+		"§a§lUnlocks a recipe for indestructible graphite electrodes."
+	],
+	dependencies: [
+		"f81749b6"
+	],
+	dependency_requirement: "one_completed",
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "8235acc3",
+		type: "gamestage",
+		stage: "electrical_distribution_tech_spec"
+	},
+	{
+		uid: "5c4b8a3f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:electrical_distribution_tech_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "71dfe050",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "electrical_distribution_tech_spec"
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "Dwarven Materials",
+	icon: "tconstruct:materials 1 14",
+	x: 6.5d,
+	y: 1.0d,
+	description: "§oDiggy Diggy Hole.",
+	text: [
+		"You're not like the others. You know the truth. You know that ores are the thing that'll fuel the fires of civilization through the ages, and you'll stop at nothing to improve your ability to get them. Preciouss.",
+		"",
+		"The downright obsession with minerals your scientists have acquired has also produced results in protecting them, be it getting fragile ores in their raw form, or reinforcing the durability of your pickaxe.",
+		"",
+		"§a§lUnlocks Silky Jewel and Reinforcement Modifiers."
+	],
+	dependencies: [
+		"ae06e218"
+	],
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "6249877b",
+		type: "gamestage",
+		stage: "mining_tech_spec"
+	},
+	{
+		uid: "fd0a1dea",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mining_tech_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9a4f8984",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "mining_tech_spec"
+	}]
+}

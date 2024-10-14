@@ -1,0 +1,40 @@
+{
+	title: "Pollution Management",
+	icon: "pollutantpump:pump",
+	x: 12.0d,
+	y: -3.0d,
+	description: "§oI'm sure the sky was always that color.",
+	text: [
+		"Gas is a fluid. Having realized that, we're now able to more efficiently redirect pollution, to the point where we can even siphon it out of the upper atmosphere.",
+		"",
+		"Vents can be pretty tricky to use well, but they're a valuable tool for preventing pressure explosions in small spaces, and moving carbon into farms to act as fertilizer.",
+		"",
+		"§a§lUnlocks Vents and the Pollution Pump."
+	],
+	dependencies: [
+		"ff232233"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "d21da0da",
+		type: "gamestage",
+		stage: "pollution_management_tech"
+	},
+	{
+		uid: "8a0149ca",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pollution_management_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eb1191eb",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "pollution_management_tech"
+	}]
+}

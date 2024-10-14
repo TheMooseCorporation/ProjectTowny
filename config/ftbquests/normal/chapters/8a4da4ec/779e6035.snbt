@@ -1,0 +1,39 @@
+{
+	title: "Milling",
+	icon: "betterwithmods:single_machine",
+	x: 6.5d,
+	y: -0.5d,
+	description: "§oFlour and flowers.",
+	text: [
+		"While grains can be be directly baked into bread, doing so wastes the majority of its nutritional value. Being able to first grind it into powder will allow our chefs to use it to its full potential. So long as we can find a way to power the millstone, that is. Similarly, dyes are much more vivid when processed rather than merely smearing flower petals onto wool.",
+		"",
+		"§a§lUnlocks Better With Mods' Millstone. You need the rest of the mod to power it."
+	],
+	dependencies: [
+		"acde4bf7"
+	],
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "730c258e",
+		type: "gamestage",
+		stage: "agriculture_tech_spec"
+	},
+	{
+		uid: "1db527b9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:agriculture_tech_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eab915bc",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "agriculture_tech_spec"
+	}]
+}

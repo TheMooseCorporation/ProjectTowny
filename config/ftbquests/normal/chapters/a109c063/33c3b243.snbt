@@ -1,0 +1,22 @@
+{
+	title: "Nutrition",
+	icon: "minecraft:wheat",
+	disable_toast: true,
+	x: 1.0d,
+	y: -2.0d,
+	description: "§oEverything You Eat is Processed Starlight",
+	text: [
+		"As Project Towny is best played with a group of people, that makes food acquisition rather necessary. What's more, we have the nutrition mod, so a balanced diet will give long-lasting buffs, but an imbalanced diet will cause similar symptoms to starvation.",
+		"",
+		"Be sure to feed your people enough of every food group: Grain, Vegetable, Fruit, Protein, and Dairy. Check your own nutritional levels with N."
+	],
+	dependencies: [
+		"a48da5a5"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "8979ab99",
+		type: "checkmark",
+		title: "TLDR: Make Many Food, Not Same Food."
+	}]
+}

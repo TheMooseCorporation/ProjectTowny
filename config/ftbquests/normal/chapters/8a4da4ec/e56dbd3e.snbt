@@ -1,0 +1,40 @@
+{
+	title: "Solar Panels",
+	icon: "solarflux:solar_panel_3",
+	x: 32.5d,
+	y: 2.0d,
+	description: "§oPraise the sun.",
+	text: [
+		"Figuring out that there's a way to produce invisible magic beams with energy has allowed us to turn visible magic beams into energy. I sure hope you’ve been keeping a relatively clean atmosphere, since those grey and yellow blocks in the sky WILL stop solar panels from working well.",
+		"",
+		"How it's possible to squeeze so much power production into so small a space, I really don’t know, but the scientists paid me enough hush money not to question it.",
+		"",
+		"§a§lUnlocks Solar Flux Reborn."
+	],
+	dependencies: [
+		"0062eec2"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "84cc256a",
+		type: "gamestage",
+		stage: "solar_tech"
+	},
+	{
+		uid: "cf9262fb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:solar_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2e1e1de0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "solar_tech"
+	}]
+}

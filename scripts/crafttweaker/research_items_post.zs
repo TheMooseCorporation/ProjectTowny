@@ -5,8 +5,7 @@ import crafttweaker.item.IItemStack;
 // This script is executed after the items are created in research_items.zs
 // Put tooltip, recipes, and thing like that here.
 
-val templateItemstacks as IItemStack[] = [
-    <contenttweaker:advanced_redstone_tech_template>,
+val templateItemstacksT1 as IItemStack[] = [
     <contenttweaker:advanced_tools_tech_template>,
     <contenttweaker:architecture_tech_template>,
     <contenttweaker:basic_engineering_tech_template>,
@@ -20,7 +19,10 @@ val templateItemstacks as IItemStack[] = [
     <contenttweaker:kitchen_tech_template>,
     <contenttweaker:railroading_tech_template>,
     <contenttweaker:sailing_tech_template>,
-    <contenttweaker:steel_tech_template>,
+    <contenttweaker:steel_tech_template>
+];
+
+val templateItemstacksT2 as IItemStack[] = [
     <contenttweaker:advanced_military_tech_template>,
     <contenttweaker:aeromobiles_tech_template>,
     <contenttweaker:arc_smelting_tech_template>,
@@ -41,7 +43,10 @@ val templateItemstacks as IItemStack[] = [
     <contenttweaker:solar_tech_template>,
     <contenttweaker:steam_energy_tech_template>,
     <contenttweaker:thermodynamics_tech_template>,
-    <contenttweaker:wireless_tech_template>,
+    <contenttweaker:wireless_tech_template>
+];
+
+val templateItemstacksT3 as IItemStack[] = [
     <contenttweaker:advanced_compact_machinery_tech_template>, 
     <contenttweaker:asteroid_mining_tech_template>,
     <contenttweaker:basic_missiles_tech_template>,
@@ -55,7 +60,10 @@ val templateItemstacks as IItemStack[] = [
     <contenttweaker:modern_military_tech_template>,
     <contenttweaker:space_exploration_tech_template>,
     <contenttweaker:space_stations_tech_template>,
-    <contenttweaker:warp_tech_template>,
+    <contenttweaker:warp_tech_template>
+];
+
+val templateItemstacksSpecs as IItemStack[] = [
     <contenttweaker:agriculture_spec_template>,
     <contenttweaker:agriculture_tech_spec_template>,
     <contenttweaker:forestry_spec_template>,
@@ -78,7 +86,22 @@ val templateItemstacks as IItemStack[] = [
     <contenttweaker:nuclear_engineering_tech_spec_template>
 ];
 
-for templateItemstack in templateItemstacks {
+for templateItemstack in templateItemstacksT1 {
+    recipes.addShapeless(templateItemstack, [<minecraft:paper>]);
+    templateItemstack.addTooltip("An unresearch research template. Research with research points in a research lab.");
+}
+
+for templateItemstack in templateItemstacksT2 {
+    recipes.addShapeless(templateItemstack, [<minecraft:book>]);
+    templateItemstack.addTooltip("An unresearch research template. Research with research points in a research lab.");
+}
+
+for templateItemstack in templateItemstacksT3 {
+    recipes.addShapeless(templateItemstack, [<ore:oc:floppy>]);
+    templateItemstack.addTooltip("An unresearch research template. Research with research points in a research lab.");
+}
+
+for templateItemstack in templateItemstacksSpecs {
     recipes.addShapeless(templateItemstack, [<minecraft:writable_book>]);
     templateItemstack.addTooltip("An unresearch research template. Research with research points in a research lab.");
 }

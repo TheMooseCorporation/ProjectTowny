@@ -1,0 +1,42 @@
+{
+	title: "Mechanics",
+	icon: "mts:unumilitary.unumilitary_vehicle_unu_wolf_base_winter",
+	x: 28.5d,
+	y: -1.0d,
+	description: "Like self-driving cars, but with greater control.",
+	text: [
+		"They're cars. Woo!",
+		"",
+		"Knowing how to make machines that move also lets us make machines that move, but, like, the other way. Compared to other methods of moving stuff around, it's got a lot of adjustability and you can run multiple lines through the same block. There's also covers for it, which is nice because otherwise your factory would be uglier than it already is.",
+		"",
+		"§a§lUnlocks Immersive Vehicles and Item Conduits. Woo!"
+	],
+	dependencies: [
+		"de3e585a",
+		"e3e2b822"
+	],
+	dependency_requirement: "one_completed",
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "fe88d3f9",
+		type: "gamestage",
+		stage: "mechanics_tech"
+	},
+	{
+		uid: "371e3f5b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mechanics_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d6f550b0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "mechanics_tech"
+	}]
+}

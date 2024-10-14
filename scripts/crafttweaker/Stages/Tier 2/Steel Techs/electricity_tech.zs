@@ -127,7 +127,6 @@ val stageItems as IItemStack[] = [
     <techguns:itemshared:70>,
     <techguns:basicmachine>,
     <techguns:itemshared:10>,
-    <techguns:itemshared:65>,
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}),
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:uncontrolled"}),
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:dropper"}),

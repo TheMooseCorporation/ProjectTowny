@@ -1,0 +1,16 @@
+{
+	title: "Mining Dependent",
+	x: -11.5d,
+	y: -4.5d,
+	text: [
+		"This quest is a requirement for the respective specialty. If a different specialty is chosen, it'll become uncompleted, making it impossible to acquire a second specialty."
+	],
+	dependencies: [
+		"2a45d044",
+		"24ca3041"
+	],
+	tasks: [{
+		uid: "9127a6b6",
+		type: "checkmark"
+	}]
+}

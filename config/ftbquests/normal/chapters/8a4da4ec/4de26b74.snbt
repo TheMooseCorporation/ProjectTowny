@@ -1,0 +1,52 @@
+{
+	title: "Ballistics",
+	icon: {
+		id: "icbmclassic:missile",
+		ForgeCaps: {
+			Parent: {
+				explosive: {}
+			}
+		}
+	},
+	x: 32.5d,
+	y: -3.0d,
+	description: "§oOh, so tha''s what warhead means. I thought that was just Modok.",
+	text: [
+		"Bombs are cool. Bombs on sticks are cooler. Bombs on bombs? Can't get much cooler than that.",
+		"",
+		"Yes, that’s how ballistic missiles basically work. Bombs power rockets which carry bombs to whatever new neighbors we have as fun little housewarming gift.",
+		"",
+		"Due to science, the payload isn't all that large right now, and the range isn't much to speak of, but I’m sure we can figure something out later.",
+		"",
+		"Note that you're not allowed to make missiles until you actually, y'know, go to war.",
+		"",
+		"§a§lUnlocks T1 ICBMs."
+	],
+	dependencies: [
+		"de3e585a",
+		"7365754b"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "aa7a88d5",
+		type: "gamestage",
+		stage: "basic_missiles_tech"
+	},
+	{
+		uid: "9b30f79b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:basic_missiles_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f1586ba4",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "basic_missiles_tech"
+	}]
+}

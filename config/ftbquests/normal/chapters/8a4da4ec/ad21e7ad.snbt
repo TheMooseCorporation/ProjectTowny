@@ -1,0 +1,52 @@
+{
+	title: "Intercontinental Ballistics",
+	icon: {
+		id: "icbmclassic:missile",
+		Damage: 10s,
+		ForgeCaps: {
+			Parent: {
+				explosive: {}
+			}
+		}
+	},
+	x: 36.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	description: "§oSlightly better than missiles, slightly worse than thermonuclear missiles.",
+	text: [
+		"What if bombs, but bigger?",
+		"",
+		"After asking ourselves this question, we’ve determined the answer to be \"yes\" and have proceeded to make bombs but bigger, farther, and also a lot more colorful because there's a lotta fun stuff you can pack into explosives nowadays.",
+		"",
+		"And all this practice in launching things into the upper atmosphere will prepare us for launching something up there that isn’t built to explode.",
+		"",
+		"§a§lUnlocks T2 ICBMs."
+	],
+	dependencies: [
+		"4de26b74",
+		"9a8a7a59"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "ab918365",
+		type: "gamestage",
+		stage: "intercontinental_ballistics_tech"
+	},
+	{
+		uid: "e2fd9a37",
+		type: "item",
+		items: [{
+			item: "contenttweaker:intercontinental_ballistics_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "031b3e1e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "intercontinental_ballistics_tech"
+	}]
+}

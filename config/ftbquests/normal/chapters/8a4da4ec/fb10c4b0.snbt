@@ -1,0 +1,42 @@
+{
+	title: "Replaceable Parts",
+	icon: "thermalfoundation:material 1 24",
+	x: 23.0d,
+	y: -1.0d,
+	shape: "hexagon",
+	description: "§oThe age of industry.",
+	text: [
+		"Our factory so far has been put to good use, automating the basic materials and energy that we'll use. The actual conversion of our storehouses of wires and plates into gizmos, gadgets, and the assorted whirligigs has been done by hand, though, which is rapidly proving tedious and time-consuming.",
+		"",
+		"By taking our machines one step further, we can practically automate every step of the process, from the dusting of ores to the assembly of mechanical components for any number of more advanced machines, which will then make more components for more machines, and so on and so forth. This is a fun gameplay loop.",
+		"",
+		"§a§lUnlocks the Mechanical Assembly multiblock and efficient machine part production."
+	],
+	dependencies: [
+		"cee5c072"
+	],
+	size: 1.5d,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "b0cbe1cd",
+		type: "gamestage",
+		stage: "replaceable_parts_tech"
+	},
+	{
+		uid: "1c77cdc7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:replaceable_parts_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8c43994b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "replaceable_parts_tech"
+	}]
+}

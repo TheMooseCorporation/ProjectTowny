@@ -1,0 +1,42 @@
+{
+	title: "Atomic Theory",
+	icon: "geolosys:cluster 1 9",
+	x: 28.5d,
+	y: 3.0d,
+	description: "§oTasty",
+	text: [
+		"This new energy source we've discovered is incredible. It's far more compact than any other form, and it gives off no pollution, since we turned off radiation poisoning in this modpack after everyone whined about it.",
+		"",
+		"Using it as inspiration, we can vastly decrease the size of a lot of the useful machines we need for processing, and this certainly isn't all that this branch of research has to offer.",
+		"",
+		"§a§lUnlocks Nuclearcraft single-block machines, and allows you to see uranium in the world."
+	],
+	dependencies: [
+		"0062eec2",
+		"00f71747"
+	],
+	dependency_requirement: "one_completed",
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "c2f69d86",
+		type: "gamestage",
+		stage: "atomic_theory_tech"
+	},
+	{
+		uid: "5f6a4cc2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:atomic_theory_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e1c3a9e4",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "atomic_theory_tech"
+	}]
+}

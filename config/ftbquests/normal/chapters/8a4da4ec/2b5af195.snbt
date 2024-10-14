@@ -1,0 +1,47 @@
+{
+	title: "Specialization: §bChemical Engineering",
+	icon: "extracells:certustank",
+	x: 26.0d,
+	y: -3.0d,
+	shape: "diamond",
+	description: "§oBottled war crimes.",
+	text: [
+		"Focus your minds towards the efficient synthesis of chemical components and reagents. The alchemists of old once believed that there was a way to purify lead into gold. We now know that such a thing is far more difficult than is realistic, but their theories of transmutation and equivalent exchange remain.",
+		"",
+		"This will gradually lead towards the development of more... volatile chemicals. The kind that people make treaties to stop from being used. ",
+		"",
+		"The kind that powers spaceships.",
+		"",
+		"§a§lUnlock the ability to make many exclusive chemicals that are extremely useful to all fields of engineering, and gain more efficient recipes for existing chemicals."
+	],
+	dependencies: [
+		"fb10c4b0",
+		"7139c1eb",
+		"486b041c"
+	],
+	size: 1.5d,
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "3e1e78e2",
+		type: "gamestage",
+		stage: "chemical_engineering_spec"
+	},
+	{
+		uid: "5a378c58",
+		type: "item",
+		items: [{
+			item: "contenttweaker:chemical_engineering_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0573a75b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "chemical_engineering_spec"
+	}]
+}

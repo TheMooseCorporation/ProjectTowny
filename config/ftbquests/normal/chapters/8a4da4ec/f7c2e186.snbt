@@ -1,0 +1,40 @@
+{
+	title: "Advanced Military",
+	icon: "techguns:fraggrenade",
+	x: 23.0d,
+	y: -3.0d,
+	description: "§oSlightly better than enchanted bows, slightly worse than thermonuclear missiles.",
+	text: [
+		"We've got a problem, boss. We've got quite a few neighbors, and they've got quite a few shinies, and those shinies aren't in our pockets.",
+		"",
+		"They've got some defenses, but with the power of technology and also this gun I made, we shall prevail.",
+		"",
+		"§a§lUnlocks more advanced guns, ammunitions, and armors from Techguns."
+	],
+	dependencies: [
+		"fb10c4b0"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "3df0fcf3",
+		type: "gamestage",
+		stage: "advanced_military_tech"
+	},
+	{
+		uid: "428d953a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:advanced_military_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ea762feb",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "advanced_military_tech"
+	}]
+}

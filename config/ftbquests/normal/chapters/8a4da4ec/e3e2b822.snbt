@@ -1,0 +1,45 @@
+{
+	title: "Specialization: §4Mechanical Engineering",
+	icon: "betterwithmods:steel_gearbox",
+	x: 26.0d,
+	y: -1.0d,
+	shape: "diamond",
+	description: "§oEverything's a hammer if you swing it fast enough.",
+	text: [
+		"Focus your minds towards the efficient creation of moving parts and machines. All engineering is, in some way, motion, be it the spinning of a wheel, the smashing of a hammer, or the subtle slipping of even more commas into this sentence, and you can’t stop me, either. Cut out a lot of the unnecessary motion in your current machines and just... build better ones, yo.",
+		"",
+		"Moving parts naturally develop into parts that move even faster, and even machines that move themselves. Cars. I’m talking about cars.",
+		"",
+		"§a§lUnlock the ability to make mechanical parts more efficiently and quickly, and more recipes that use those parts."
+	],
+	dependencies: [
+		"fb10c4b0",
+		"a402f4df",
+		"486b041c"
+	],
+	size: 1.5d,
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "ddce855e",
+		type: "gamestage",
+		stage: "mechanical_engineering_spec"
+	},
+	{
+		uid: "3623e2aa",
+		type: "item",
+		items: [{
+			item: "contenttweaker:mechanical_engineering_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "be273d7b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "mechanical_engineering_spec"
+	}]
+}

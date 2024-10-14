@@ -1,0 +1,39 @@
+{
+	title: "Advanced Specializations",
+	icon: "minecraft:compass",
+	disable_toast: true,
+	x: 14.0d,
+	y: 0.0d,
+	shape: "gear",
+	description: "§oThere's no wrong choices. Except that one. That one sucks.",
+	text: [
+		"Congradulations, you've made it through the early-midgame. You're never really gonna stop needing all these machines.",
+		"",
+		"Still, it's time to make things easier. The following specializations unlock a few unique items, but more importantly greatly decrease the tedium of a certain aspect of your town. Which one you simplify is up to you.",
+		"",
+		"Like last time, you can always buy and sell specialized items, because everyone can use items from all specializations. The end products may be the same, but you'll be able to make them a whole lot cheaper.",
+		"",
+		"§a§lThe following choices are a second round of specializations. You can choose only one of the three. They will improve your efficiency in a certain aspect of your factories."
+	],
+	dependencies: [
+		"78f4c169"
+	],
+	min_width: 400,
+	or_tasks: true,
+	tasks: [{
+		uid: "4074d704",
+		type: "gamestage",
+		disable_toast: true,
+		stage: "spec_2"
+	},
+	{
+		uid: "a1944f0a",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "00d620b4",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "Spec_2"
+	}]
+}

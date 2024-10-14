@@ -1,0 +1,41 @@
+{
+	title: "Advanced Uranium Processing",
+	icon: "immersiveengineering:metal 1 5",
+	x: 27.0d,
+	y: 2.0d,
+	description: "§oYellowcake for everyone!",
+	text: [
+		"The green stuff's tasty, but supplies are low, so we're going to have to ration them out. I know, I was disappointed too. The good news is that we've whipped up a way to get more uranium per ore we dig up, so we don't have to use such a large portion of it for power production.",
+		"",
+		"Apparently it involves something about physically irradiating the rest of the stone around the ore so that it seems just convincing enough that none of the players complain about realism.",
+		"",
+		"§a§lUnlocks the Ore Reaction Chamber."
+	],
+	dependencies: [
+		"00f71747"
+	],
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "16ca29f5",
+		type: "gamestage",
+		stage: "nuclear_engineering_tech_spec"
+	},
+	{
+		uid: "5a0b64d8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:nuclear_engineering_tech_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "35b3f6ba",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "nuclear_engineering_tech_spec"
+	}]
+}

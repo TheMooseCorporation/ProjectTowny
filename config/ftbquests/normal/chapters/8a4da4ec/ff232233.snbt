@@ -1,0 +1,41 @@
+{
+	title: "Fluidynamics",
+	icon: "engineersdecor:straight_pipe_valve",
+	x: 12.0d,
+	y: -1.5d,
+	description: "§oHold water gentle like fox.",
+	text: [
+		"Buckets and bottles will get you far, but pipes and pumps will get you a lot farther. The ability to pump fluids from place to place particularly helps if a river's not in arm’s reach.",
+		"",
+		"Perhaps we can even take these discoveries to the extreme. That’s right, we’re weaponizing liquid.",
+		"",
+		"§a§lUnlocks Immersive Engineering's Pipes, Pumps, and Chemthrower."
+	],
+	dependencies: [
+		"78f4c169",
+		"39f15dce"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "3384e3a3",
+		type: "gamestage",
+		stage: "fluidynamics_tech"
+	},
+	{
+		uid: "19deecf0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:fluidynamics_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "290dd8c1",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "fluidynamics_tech"
+	}]
+}

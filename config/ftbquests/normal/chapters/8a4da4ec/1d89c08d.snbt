@@ -1,0 +1,48 @@
+{
+	title: "Specialization: §4Industrial Manufacturing",
+	icon: "immersiveengineering:metal_decoration1 1 3",
+	x: 16.0d,
+	y: 1.5d,
+	shape: "diamond",
+	description: "§oNext ingot ETA §r§7NOW!",
+	text: [
+		"Master the art of giving that ingot a nice even roast with a lovely garnish of the byproduct of other, less refined methods of baking steel.",
+		"",
+		"Specifically, gain the ability to use slag to double the amount of steel you produce at the cost of producing no slag, which is required in the process of doubling steel.",
+		"",
+		"You'll have to get it from somewhere else. Wink wink.",
+		"",
+		"Later on, you can extend this new trend of efficiency by treating your diesel fuel.",
+		"",
+		"§a§lUnlocks Treated Iron, which produces two steel per ingot."
+	],
+	dependencies: [
+		"aec5d76f",
+		"9cfca1b2"
+	],
+	size: 1.5d,
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "273a0bc1",
+		type: "gamestage",
+		stage: "industrial_manufacturing_spec"
+	},
+	{
+		uid: "982ee9e1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:industrial_manufacturing_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ec8d002f",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "industrial_manufacturing_spec"
+	}]
+}

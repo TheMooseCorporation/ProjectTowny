@@ -1,0 +1,44 @@
+{
+	title: "Aeromobiles",
+	icon: "mts:ivairlinerpack.737-300",
+	x: 30.5d,
+	y: -2.0d,
+	description: "§oIt's a plane!",
+	text: [
+		"Ships, trains, and cars all have their upsides, but airplanes are simply the best method of cross-continental transportation there is. Ignore the significant fuel cost and massive plume of pollution left in their wake.",
+		"",
+		"Their cargo capacity is nothing to sneeze at, though, and if trading fees are getting too hefty and/or the prices are too high to begin with, you can always just fly over to neighboring towns to conduct trade and/or pillage and loot them for all they’re worth.",
+		"",
+		"If you prefer flying solo, there's also assorted jetpacks for you to take to the skies with.",
+		"",
+		"§a§lUnlocks Golden Airport Pack and Simply Jetpacks."
+	],
+	dependencies: [
+		"9a8a7a59",
+		"efd54a22"
+	],
+	dependency_requirement: "one_completed",
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "812b589a",
+		type: "gamestage",
+		stage: "aeromobiles_tech"
+	},
+	{
+		uid: "b92a38a6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:aeromobiles_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0336e75f",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "aeromobiles_tech"
+	}]
+}

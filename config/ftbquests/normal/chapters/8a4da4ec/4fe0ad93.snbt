@@ -1,0 +1,46 @@
+{
+	title: "Bulk Construction",
+	icon: {
+		id: "chiselsandbits:chisel_diamond",
+		tag: {}
+	},
+	x: 17.0d,
+	y: -2.0d,
+	description: "§oWe switched to Costco.",
+	text: [
+		"Okay, I've got bad news and good news.",
+		"",
+		"The bad news is that the construction company we outsourced the job of building factory blocks to has absconded with half of our materials and is nowhere to be found.",
+		"",
+		"The good news is that we are no longer being scalped for our iron, so we can now make the same exact wireframe floor as everyone else for only half the price.",
+		"",
+		"§a§lUnlocks cheaper recipes for Chisel custom blocks, like factory and laboratory blocks, as well as more bricks per clay."
+	],
+	dependencies: [
+		"5da8ab6a"
+	],
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "63e62d4c",
+		type: "gamestage",
+		stage: "composite_construction_tech_spec"
+	},
+	{
+		uid: "6ce35b22",
+		type: "item",
+		items: [{
+			item: "contenttweaker:composite_construction_tech_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c99e5ea6",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "composite_construction_tech_spec"
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	title: "Aeration",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "oxygen",
+			Amount: 1000
+		}
+	},
+	x: 17.0d,
+	y: 1.0d,
+	description: "§oGet carbureted, idiot.",
+	text: [
+		"Oil is an unprecedentedly dense fuel, making it burn longer and hotter than most others and also the whole blotting out the sky thing but that's beside the point.",
+		"",
+		"However, it burns unevenly when you just set it alight like that. Not enough oxygen, I'm told. Our idea for putting trees in the engines didn't pan out, so we're going with the next best thing.",
+		"",
+		"By mixing the oil with air, we improve its energy efficiency and reduce its pollution footprint. For some reason.",
+		"",
+		"§a§lUnlocks Aerated Diesel."
+	],
+	dependencies: [
+		"1d89c08d"
+	],
+	optional: true,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "ea0e60ec",
+		type: "gamestage",
+		stage: "industrial_manufacturing_tech_spec"
+	},
+	{
+		uid: "3927ce04",
+		type: "item",
+		items: [{
+			item: "contenttweaker:industrial_manufacturing_tech_spec"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa3706d5",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "industrial_manufacturing_tech_spec"
+	}]
+}

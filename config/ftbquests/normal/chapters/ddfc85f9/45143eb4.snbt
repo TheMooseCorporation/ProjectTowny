@@ -1,0 +1,23 @@
+{
+	title: "Forestry Cull",
+	x: -9.5d,
+	y: -6.5d,
+	text: [
+		"This quest will uncomplete the other two quests on the left column, making it impossible for the other two specializations to be chosen."
+	],
+	dependencies: [
+		"f0339f60"
+	],
+	rewards: [{
+		uid: "7528713b",
+		type: "command",
+		auto: "enabled",
+		command: "/ftbquests change_progress 0 @team 15513f82"
+	},
+	{
+		uid: "2e6c61ad",
+		type: "command",
+		auto: "enabled",
+		command: "/ftbquests change_progress 0 @team df918e2b"
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "Space Exploration",
+	icon: "advancedrocketry:spacehelmet",
+	x: 36.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "§oI spy with my orbital eye.",
+	text: [
+		"What comes up and comes down clearly didn’t go far enough up. By analyzing all the data that our satellites have beamed down to us, we can finally calculate stable slingshot maneuvers and whatever else it is that astronauts do. Space stations are still a small ways away, but you know what's not? Other planets! With the data we’ve collected, we can finally get one of our rockets onto another celestial body.",
+		"",
+		"Each planet has a few exclusive resources you'll need, so be sure to check them out.",
+		"",
+		"Another side effect of all this wonderful data is that we've now got a digital map of our home planet.",
+		"",
+		"§a§lUnlocks Manned Missions and Journeymap."
+	],
+	dependencies: [
+		"ad21e7ad",
+		"99dfeffc"
+	],
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "33ad3585",
+		type: "gamestage",
+		stage: "space_exploration_tech"
+	},
+	{
+		uid: "6210a3be",
+		type: "item",
+		items: [{
+			item: "contenttweaker:space_exploration_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "55d4c0d4",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "space_exploration_tech"
+	}]
+}

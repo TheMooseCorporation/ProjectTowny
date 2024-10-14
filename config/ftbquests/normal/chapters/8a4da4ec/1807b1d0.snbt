@@ -1,0 +1,44 @@
+{
+	title: "Warp Technology",
+	icon: "portality:controller",
+	x: 45.0d,
+	y: 3.0d,
+	shape: "hexagon",
+	description: "§oFarther than the stars and closer than your fingertips.",
+	text: [
+		"It has come to our attention that things can be far away from each other. This is rather problematic to us, as we want everything here, now, and also where it's supposed to be at the same time.",
+		"",
+		"The scientists have made various complaints to us about asking for the impossible, but after asking enough, they’ve reluctantly done the impossible.",
+		"",
+		"Teleportation is here (and also there at the same time).",
+		"",
+		"§a§lUnlocks Portality and EnderIO."
+	],
+	dependencies: [
+		"c0b1a87c"
+	],
+	size: 1.5d,
+	min_width: 300,
+	or_tasks: true,
+	tasks: [{
+		uid: "51ba48b9",
+		type: "gamestage",
+		stage: "warp_tech"
+	},
+	{
+		uid: "e56eeca2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:warp_tech"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2679f66c",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "warp_tech"
+	}]
+}
