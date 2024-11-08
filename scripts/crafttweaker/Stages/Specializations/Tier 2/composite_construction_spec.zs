@@ -6,13 +6,13 @@ import mods.artisanintegrations.requirement.GameStages;
 
 /**
     Composite Construction Specilization:
-    For towns specilizing in building buildings or infrustructure. Cheaper rails and better roads
+    For towns specilizing in building buildings or infrustructure. Cheaper rails, better roads, better chests
 */
 // Stage Name
 val stage = "composite_construction_spec";
 
 val stageMods as string[] = [
-
+  "ironchest"
 ];
 
 val stageItems as IItemStack[] = [
@@ -97,6 +97,7 @@ ItemStages.addItemStage("steel_tech", <engineersdecor:rebar_concrete_tile_stairs
 ItemStages.addItemStage("steel_tech", <engineersdecor:halfslab_rebar_concrete>);
 ItemStages.addItemStage("steel_tech", <contenttweaker:composite_asphalt>);
 ItemStages.addItemStage("steel_tech", <contenttweaker:composite_concrete>);
+ItemStages.stageModItems("steel_tech", "ironchest");
 
 // Better Chisel Blocks
 
@@ -279,4 +280,12 @@ RecipeBuilder.get("mason")
     .setFluid(<liquid:water> * 50)
   .addOutput(<minecraft:concrete:15> * 16)
   .addRequirement(GameStages.allOf([spec_tech_stage]))  
+  .create();
+
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<minecraft:brick>, <minecraft:brick>],
+    [<minecraft:brick>, <minecraft:brick>]])
+  .addOutput(<minecraft:brick_block> * 4)
+  .addRequirement(GameStages.allOf([spec_tech_stage]))
   .create();

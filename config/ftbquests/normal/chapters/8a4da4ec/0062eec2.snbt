@@ -9,7 +9,7 @@
 		"",
 		"I mean, what else would you call the ability to scan the surrounding area for any block of choice, including but not limited to ores, secret bases, and the TNT your roommate keeps scattering around the town?",
 		"",
-		"§a§lUnlocks Scannable."
+		"§a§lUnlocks the Scanner, and wireless computer components."
 	],
 	dependencies: [
 		"8c09a875",

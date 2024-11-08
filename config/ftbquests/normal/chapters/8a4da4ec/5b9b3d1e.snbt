@@ -5,7 +5,7 @@
 	y: -2.0d,
 	description: "§oCosts an arm and a leg.",
 	text: [
-		"Refining all these logs into wooden planks is hard, tedious work. We can do better. By utilizing the power of a nearby river, a circular saw can be made to process fallen trees, yielding more planks per log and a few other valuable resources.",
+		"Refining all these logs into wooden planks is hard, tedious work. We can do better. By utilizing the power of a nearby river, a circular saw can be made to process fallen trees, yielding more planks per log and more blockcraftery frames per plank.",
 		"",
 		"§a§lUnlocks Better With Mods' Saw. You need the rest of the mod to power it."
 	],

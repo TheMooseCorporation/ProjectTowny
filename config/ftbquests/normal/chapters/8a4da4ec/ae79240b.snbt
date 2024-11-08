@@ -7,7 +7,7 @@
 	text: [
 		"Computers are the difference between precisely designing a mechanical blade to move in exact ways to neatly and cleanly dissect the object you need disassembled, requiring months of planning and work, and just asking Jeeves to pulverize the prisoners for you. Complete difference between the two, there's just no comparison.",
 		"",
-		"§a§lUnlocks Opencomputers and its addons."
+		"§a§lUnlocks Opencomputers and its addons, Building Gadgets, and calculators."
 	],
 	dependencies: [
 		"0062eec2",

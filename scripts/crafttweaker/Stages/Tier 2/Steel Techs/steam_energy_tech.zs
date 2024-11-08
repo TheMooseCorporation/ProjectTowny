@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 import mods.multiblockstages.IEMultiBlockStages;
 
 /**
-    Unlocks the Solar Tower, Steam Turbine, and Alternator.
+    Unlocks the Solar Tower, Steam Turbine, and Boilers.
 */
 
 // Stage Name

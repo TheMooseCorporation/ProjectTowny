@@ -11,8 +11,7 @@ import mods.TinkerStages;
 val stage = "basic_tools_tech";
 
 val stageMods as string[] = [
-    "toolbelt",
-    "ironchest"
+    "toolbelt"
 ];
 
 val stageItems as IItemStack[] = [

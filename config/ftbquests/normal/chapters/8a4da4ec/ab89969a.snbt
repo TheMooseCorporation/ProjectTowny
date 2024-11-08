@@ -1,6 +1,6 @@
 {
 	title: "Sailing",
-	icon: "minecraft:boat",
+	icon: "davincisvessels:anchorpoint",
 	x: 8.0d,
 	y: -3.0d,
 	description: "§oRide the tide.",

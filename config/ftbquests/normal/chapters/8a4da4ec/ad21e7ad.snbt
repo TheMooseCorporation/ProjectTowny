@@ -20,7 +20,9 @@
 		"",
 		"And all this practice in launching things into the upper atmosphere will prepare us for launching something up there that isn’t built to explode.",
 		"",
-		"§a§lUnlocks T2 ICBMs."
+		"§a§lUnlocks T2 ICBMs and Radar technology.",
+		"",
+		"§4Note T2 and T3 ICBMs are currently disabled due to bypassing claim rules. They will be added back in v0.8!"
 	],
 	dependencies: [
 		"4de26b74",

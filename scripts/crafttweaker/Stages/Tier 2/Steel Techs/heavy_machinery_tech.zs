@@ -37,7 +37,4 @@ for item in stageItems {
     ItemStages.addItemStage(stage, item);
 }
 
-IEMultiBlockStages.addStage(stage, "IE:Squeezer", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IE:Crusher", "Requires " + stage);
-IEMultiBlockStages.addStage(stage, "IE:Excavator", "Requires " + stage);
-IEMultiBlockStages.addStage(stage, "IE:BucketWheel", "Requires " + stage);

@@ -12,7 +12,7 @@
 		"",
 		"Finally, knowledge of all that stuff gives you the ability to pack more stuff into a smaller space by dolling up your chests with precious metals. How, you ask?",
 		"",
-		"§a§lUnlocks improved concrete and rail recipes, as well as Iron Chests."
+		"§a§lUnlocks improved concrete and Rail Segment recipes, as well as Iron Chests."
 	],
 	dependencies: [
 		"aec5d76f",

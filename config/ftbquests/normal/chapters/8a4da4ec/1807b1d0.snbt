@@ -12,7 +12,7 @@
 		"",
 		"Teleportation is here (and also there at the same time).",
 		"",
-		"§a§lUnlocks Portality and EnderIO."
+		"§a§lUnlocks Portality and Advanced Rocketry warp tech."
 	],
 	dependencies: [
 		"c0b1a87c"

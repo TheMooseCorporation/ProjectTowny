@@ -15,7 +15,7 @@
 		"",
 		"Literally, green. Squeeze seeds, refine them, and turn them into biodiesel. It still produces pollution, don't get me wrong, but it's much easier to upscale.",
 		"",
-		"§a§lUnlocks Immersive Engineering's Refinery."
+		"§a§lUnlocks Immersive Engineering's Squeezer, Fermenter, and Refinery."
 	],
 	dependencies: [
 		"b068f736",

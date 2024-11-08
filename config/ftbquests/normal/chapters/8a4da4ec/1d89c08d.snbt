@@ -14,7 +14,7 @@
 		"",
 		"Later on, you can extend this new trend of efficiency by treating your diesel fuel.",
 		"",
-		"§a§lUnlocks Treated Iron, which produces two steel per ingot."
+		"§a§lUnlocks Blast Furnace Preheaters and Treated Iron, which produces two steel per ingot."
 	],
 	dependencies: [
 		"aec5d76f",

@@ -9,7 +9,7 @@
 		"",
 		"Theoretically, yes, you could turn heat back into electricity. Practically, it was too easy so god deleted it.",
 		"",
-		"§a§lUnlocks the External Heater, Electric Furnace, and Melter."
+		"§a§lUnlocks the External Heater, Electric Furnace, Melter, and Coke Oven Battery."
 	],
 	dependencies: [
 		"78f4c169",

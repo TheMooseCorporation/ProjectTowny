@@ -1,6 +1,6 @@
 {
 	title: "Aeromobiles",
-	icon: "mts:ivairlinerpack.737-300",
+	icon: "mts:mtsofficialpack.comanche_red",
 	x: 30.5d,
 	y: -2.0d,
 	description: "§oIt's a plane!",
@@ -9,9 +9,7 @@
 		"",
 		"Their cargo capacity is nothing to sneeze at, though, and if trading fees are getting too hefty and/or the prices are too high to begin with, you can always just fly over to neighboring towns to conduct trade and/or pillage and loot them for all they’re worth.",
 		"",
-		"If you prefer flying solo, there's also assorted jetpacks for you to take to the skies with.",
-		"",
-		"§a§lUnlocks Golden Airport Pack and Simply Jetpacks."
+		"§a§lUnlocks planes."
 	],
 	dependencies: [
 		"9a8a7a59",

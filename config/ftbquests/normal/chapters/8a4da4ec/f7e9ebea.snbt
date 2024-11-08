@@ -1,13 +1,15 @@
 {
 	title: "Advanced Machining",
-	icon: "engineersdecor:small_tree_cutter",
+	icon: "contenttweaker:air_scrubber",
 	x: 27.0d,
 	y: -2.0d,
 	description: "§oJeeves, go pulverize the prisoners for me, would you?",
 	text: [
-		"With a little bit of ingenuity and also giving our scientists several hallucinogens, we've created a collection of single-block machines that automatically do all sorts of things, from felling trees to breaking blocks to planting trees to collecting more hallucinogenic mushrooms. Oh, a cow milker, too. They’re all pretty cheap and pretty handy.",
+		"These big machines have been taking up so much space in our factories, and it's finally time to do something about it! Unfortunately technology only allows the condensing of the cobblestone generator to a 1x1x1 block. Maybe after space we'll be able to do a little better.",
 		"",
-		"§a§lUnlocks the Factory Block Placer, Small Block Breaker, Small Tree Cutter, Small Milking Machine, and Small Solar Panel."
+		"We did figure out infinite pollution scrubbing in the process though! Replacing the leaves was getting annoying.",
+		"",
+		"§a§lUnlocks cobblestone generators and the Infinte Pollution Filter."
 	],
 	dependencies: [
 		"e3e2b822"

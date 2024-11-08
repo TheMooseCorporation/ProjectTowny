@@ -22,7 +22,9 @@
 		"",
 		"Be ready.",
 		"",
-		"§a§lUnlocks T3 ICBMs."
+		"§a§lUnlocks T3 ICBMs.",
+		"",
+		"§4Note T2 and T3 ICBMs are currently disabled due to bypassing claim rules. They will be added back in v0.8!"
 	],
 	dependencies: [
 		"ad21e7ad",

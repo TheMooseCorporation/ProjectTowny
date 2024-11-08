@@ -12,7 +12,7 @@
 		"",
 		"Imagine all the wonders we could make with this level of technology.",
 		"",
-		"§a§lUnlocks the Microchip Inscriber and Precision Assembler."
+		"§a§lUnlocks the Microchip Inscriber, circuit components, and circuits."
 	],
 	dependencies: [
 		"cee5c072"

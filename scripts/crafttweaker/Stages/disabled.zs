@@ -3,6 +3,7 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IItemCondition;
+import mods.multiblockstages.IEMultiBlockStages;
 
 /**
     Disabled:
@@ -652,3 +653,7 @@ mods.tconstruct.Melting.removeEntityMelting(<entity:minecraft:villager>);
     ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rE6 Atlantic Tender Frame"}}));
     ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rDSP&P Mogul Frame"}}));
     ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rD&RGW K36 Frame"}}));
+
+// Disabled Immersive Engineering multiblocks
+IEMultiBlockStages.addStage(stage, "IE:Excavator", "Requires " + stage);
+IEMultiBlockStages.addStage(stage, "IE:BucketWheel", "Requires " + stage);

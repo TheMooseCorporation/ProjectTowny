@@ -9,7 +9,7 @@
 		"",
 		"Knowing how to make machines that move also lets us make machines that move, but, like, the other way. Compared to other methods of moving stuff around, it's got a lot of adjustability and you can run multiple lines through the same block. There's also covers for it, which is nice because otherwise your factory would be uglier than it already is.",
 		"",
-		"§a§lUnlocks Immersive Vehicles and Item Conduits. Woo!"
+		"§a§lUnlocks Immersive Vehicles and Item Conduits."
 	],
 	dependencies: [
 		"de3e585a",

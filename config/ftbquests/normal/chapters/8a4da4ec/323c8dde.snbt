@@ -17,7 +17,7 @@
 		"",
 		"Make sure you can still see the sun through all that smog.",
 		"",
-		"§a§lUnlocks the Solar Tower, Steam Turbine, and Alternator."
+		"§a§lUnlocks the Solar Tower, Steam Turbine, and Boilers."
 	],
 	dependencies: [
 		"de6966fa"

@@ -9,7 +9,7 @@
 		"",
 		"Perhaps we can even take these discoveries to the extreme. That’s right, we’re weaponizing liquid.",
 		"",
-		"§a§lUnlocks Immersive Engineering's Pipes, Pumps, and Chemthrower."
+		"§a§lUnlocks Immersive Engineering's Pipes, Pumps, Chemthrower, and various fluid machines."
 	],
 	dependencies: [
 		"78f4c169",

@@ -8,7 +8,7 @@
 	text: [
 		"We've done it. By completely and utterly annihilating the ores we dig up via a process of spinning blades, compacting walls, shark pits, and the odd supervillain, we can get out twice as many ingots as ores we put in. The easy dusting of any substance on earth, including but not limited to our dashing yet infuriating nemesis, will similarly prove useful for alloy creation and/or world domination.",
 		"",
-		"§a§lUnlocks Immersive Engineering's Crusher and Industrial Squeezer."
+		"§a§lUnlocks Immersive Engineering's Crusher and Handheld Drill."
 	],
 	dependencies: [
 		"1d89c08d",

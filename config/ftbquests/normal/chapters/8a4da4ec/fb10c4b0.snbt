@@ -10,7 +10,7 @@
 		"",
 		"By taking our machines one step further, we can practically automate every step of the process, from the dusting of ores to the assembly of mechanical components for any number of more advanced machines, which will then make more components for more machines, and so on and so forth. This is a fun gameplay loop.",
 		"",
-		"§a§lUnlocks the Mechanical Assembly multiblock and efficient machine part production."
+		"§a§lUnlocks liquid conduits, and efficient mechanical part production."
 	],
 	dependencies: [
 		"cee5c072"

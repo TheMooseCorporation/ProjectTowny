@@ -1,6 +1,6 @@
 {
 	title: "Specialization: §4Mechanical Engineering",
-	icon: "betterwithmods:steel_gearbox",
+	icon: "engineersdecor:small_tree_cutter",
 	x: 26.0d,
 	y: -1.0d,
 	shape: "diamond",
@@ -8,9 +8,9 @@
 	text: [
 		"Focus your minds towards the efficient creation of moving parts and machines. All engineering is, in some way, motion, be it the spinning of a wheel, the smashing of a hammer, or the subtle slipping of even more commas into this sentence, and you can’t stop me, either. Cut out a lot of the unnecessary motion in your current machines and just... build better ones, yo.",
 		"",
-		"Moving parts naturally develop into parts that move even faster, and even machines that move themselves. Cars. I’m talking about cars.",
+		"With a little bit of ingenuity and also giving our scientists several hallucinogens, we've created a collection of single-block machines that automatically do all sorts of things, from felling trees to breaking blocks to planting trees to collecting more hallucinogenic mushrooms. Oh, a cow milker, too. They’re all pretty cheap and pretty handy.",
 		"",
-		"§a§lUnlock the ability to make mechanical parts more efficiently and quickly, and more recipes that use those parts."
+		"§a§lUnlocks the Block Placer and Breaker, Tree Cutter, and Milking Machine."
 	],
 	dependencies: [
 		"fb10c4b0",

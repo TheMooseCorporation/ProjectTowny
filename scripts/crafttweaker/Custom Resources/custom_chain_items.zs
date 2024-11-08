@@ -13,6 +13,8 @@ limeslag_compound.register();
 // Nuclear Engineering Uranium
 var yellow_cake = VanillaFactory.createItem("yellow_cake");
 yellow_cake.register();
+var refined_yellow_cake = VanillaFactory.createItem("refined_yellow_cake");
+refined_yellow_cake.register();
 
 // Mechanical Parts
 var mechanical_casing = VanillaFactory.createItem("mechanical_casing");

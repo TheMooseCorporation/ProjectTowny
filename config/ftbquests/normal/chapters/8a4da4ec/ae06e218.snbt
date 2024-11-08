@@ -10,7 +10,7 @@
 		" ",
 		"The hard conditions and plentiful materials will jumpstart your blacksmithing and tool improvement later on.",
 		"",
-		"§a§lUnlocks Mining Chargees and Gunpowder Barrels."
+		"§a§lUnlocks Gunpowder Barrels and Mining Helmets."
 	],
 	dependencies: [
 		"df918e2b",

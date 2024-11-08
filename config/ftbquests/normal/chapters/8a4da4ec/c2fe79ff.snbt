@@ -8,7 +8,7 @@
 	text: [
 		"Before anything can be built, we should probably get better tools. These tools can be repaired when broken, built out of custom parts, and even modified later on. For now, metals are beyond our reach, but we'll get there. Crafting tables that don’t dump your stuff on the ground when you’re not looking at them certainly doesn’t hurt.",
 		"",
-		"§a§lUnlocks the beginning of Tinker's Construct."
+		"§a§lUnlocks pre-metal Tinker's Construct and Basic Locks."
 	],
 	dependencies: [
 		"ede89e1e"

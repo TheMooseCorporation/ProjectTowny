@@ -6,13 +6,16 @@ import mods.betterwithmods.Mill;
 /**
     Basic Engineering:
     Unlocks early game Better with Mods, the late game stuff was all over the place and a pain to fit into progression, might revist later - Moose
+    Also unlocks the project red mods, for cooler redstone!
 */
 
 // Stage Name
 val stage = "basic_engineering_tech";
 
 val stageMods as string[] = [
-
+    "projectred-core",
+    "projectred-integration",
+    "projectred-transmission"
 ];
 
 val stageItems as IItemStack[] = [

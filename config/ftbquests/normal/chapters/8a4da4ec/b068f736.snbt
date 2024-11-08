@@ -9,7 +9,7 @@
 		"",
 		"So, the guys we threatened to assign to moving duty whipped up a few assorted gizmos to do all that for us. Mostly sorters and stuff, though there does seem to be a way to make a primitive computer out of redstone for the more complex tasks.",
 		"",
-		"§aUnlocks Item and Fluid routers as well as Project Red."
+		"§aUnlocks Item and Fluid routers as well as Funky Locomotion."
 	],
 	dependencies: [
 		"ff232233",

@@ -1,6 +1,12 @@
 {
 	title: "Specialization: §eElectrical Engineering",
-	icon: "industrialwires:jacobs_ladder 1 2",
+	icon: {
+		id: "mekanism:basicblock2",
+		Damage: 3s,
+		tag: {
+			tier: 0
+		}
+	},
 	x: 26.0d,
 	y: 1.0d,
 	shape: "diamond",
@@ -10,7 +16,7 @@
 		"",
 		"With all these spare circuits laying around, we may as well whip them up into computers that do the thinking for us. They probably won’t overthrow the fleshies. Probably.",
 		"",
-		"§a§lUnlock the ability to make low-tier Ender IO conduits."
+		"§a§lUnlock the ability to make Ender IO energy conduits and Mekanism Energy Cubes and Induction Matrices."
 	],
 	dependencies: [
 		"94ad12d7",

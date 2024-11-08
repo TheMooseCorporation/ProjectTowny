@@ -1,6 +1,7 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
+import crafttweaker.formatting.IFormattedText;
 
 // This script is executed after the items are created in research_items.zs
 // Put tooltip, recipes, and thing like that here.
@@ -88,20 +89,20 @@ val templateItemstacksSpecs as IItemStack[] = [
 
 for templateItemstack in templateItemstacksT1 {
     recipes.addShapeless(templateItemstack, [<minecraft:paper>]);
-    templateItemstack.addTooltip("An unresearch research template. Research with research points in a research lab.");
+    templateItemstack.addTooltip("An unresearched " ~ format.darkGreen("tier 1") ~ format.gray(" research template. Research with research points in a Primitive Research Bench."));
 }
 
 for templateItemstack in templateItemstacksT2 {
     recipes.addShapeless(templateItemstack, [<minecraft:book>]);
-    templateItemstack.addTooltip("An unresearch research template. Research with research points in a research lab.");
+    templateItemstack.addTooltip("An unresearched " ~ format.gold("tier 2") ~ format.gray(" research template. Research with research points in a Research Workshop."));
 }
 
 for templateItemstack in templateItemstacksT3 {
     recipes.addShapeless(templateItemstack, [<ore:oc:floppy>]);
-    templateItemstack.addTooltip("An unresearch research template. Research with research points in a research lab.");
+    templateItemstack.addTooltip("An unresearched " ~ format.darkRed("tier 3") ~ format.gray(" research template. Research with research points in a Research Lab."));
 }
 
 for templateItemstack in templateItemstacksSpecs {
     recipes.addShapeless(templateItemstack, [<minecraft:writable_book>]);
-    templateItemstack.addTooltip("An unresearch research template. Research with research points in a research lab.");
+    templateItemstack.addTooltip("An unresearched " ~ format.blue("specialization") ~ format.gray(" template. Research with research points in a Civics Bench."));
 }

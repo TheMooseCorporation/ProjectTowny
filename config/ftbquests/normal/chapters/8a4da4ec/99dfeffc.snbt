@@ -11,7 +11,7 @@
 		"",
 		"However, we can still prepare for our inevitable ascension to the stars. Putting a Steve in space isn't quite there yet, but a few satellites is no problem.",
 		"",
-		"§a§lUnlocks the Rocket Fuel recipe and Satellites. You will need Chemical Synthesis and Computers to make them, though. Time to backtrack."
+		"§a§lUnlocks Rocket Fuel, Jets, and Satellites. You will need Chemical Synthesis and Computers to make them, though. Time to backtrack."
 	],
 	dependencies: [
 		"9a8a7a59"

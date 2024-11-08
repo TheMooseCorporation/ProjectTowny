@@ -3,11 +3,11 @@
 	icon: "chisel:chisel_iron",
 	x: 2.5d,
 	y: -1.5d,
-	description: "§oSteakthroughs in brick technology.",
+	description: "§oBreakthroughs in brick technology.",
 	text: [
 		"Our construction techniques so far have been rather basic, utilitarian things. We're building a town here, not a prison, so why don't we make it look the part? Simply by etching a few nice designs into the blocks we use, we can vastly improve the aesthetic appeal of our town.",
 		"",
-		"§a§lUnlocks Chisel, Blockcraftery, Bibliocraft, and Littletiles."
+		"§a§lUnlocks Chisel, Blockcraftery, Bibliocraft, Chisels & Bits/Littletiles, Mr. Crayfish's Furniture, and Fairylights."
 	],
 	dependencies: [
 		"c2fe79ff"

@@ -10,7 +10,7 @@
 		"",
 		"Naturally, with a larger and more varied food supply, you'll have a headstart in refining your cooking technologies.",
 		"",
-		"§a§lUnlocks Serene Seasons' Greenhouse Glass."
+		"§a§lUnlocks Serene Seasons' Greenhouse Glass and buying seeds with the Pam's Harvestcraft Market."
 	],
 	dependencies: [
 		"24ca3041",

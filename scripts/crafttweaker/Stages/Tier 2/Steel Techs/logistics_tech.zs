@@ -13,10 +13,7 @@ import crafttweaker.item.IItemStack;
 val stage = "logistics_tech";
 
 val stageMods as string[] = [
-    "funkylocomotion",
-    "projectred-core",
-    "projectred-integration",
-    "projectred-transmission"
+    "funkylocomotion"
 ];
 
 val stageItems as IItemStack[] = [

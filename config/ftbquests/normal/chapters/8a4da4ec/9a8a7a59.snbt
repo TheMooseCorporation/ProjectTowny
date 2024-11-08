@@ -15,7 +15,7 @@
 		"",
 		"No worries, just because you made the strictly worst specialization choice doesn't mean you can't cross-reference a few things. Take some remedial classes and bribe the grader and you'll be a scientist in no time.",
 		"",
-		"§a§lUnlocks an improved research lab and allows backtracking to get technologies you may have missed."
+		"§a§lUnlocks the modern research lab and allows backtracking to get technologies you may have missed."
 	],
 	dependencies: [
 		"c995b455"

@@ -10,7 +10,7 @@
 		"",
 		"The byproduct gives wood a wonderful color.",
 		"",
-		"§a§lUnlocks the beginning of Immersive Engineering."
+		"§a§lUnlocks the beginning of Immersive Engineering, Gauges and Switches, and stronger locks."
 	],
 	dependencies: [
 		"d9068f20"

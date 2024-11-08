@@ -5,7 +5,6 @@
 
 static gameStages as string[] = [
     // Tier 1 Techs:
-    "advanced_redstone_tech",
     "advanced_tools_tech",
     "architecture_tech",
     "basic_tools_tech", 

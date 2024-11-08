@@ -5,13 +5,15 @@
 	y: -4.0d,
 	description: "§oUuuuugh I don't want to build that stupid multiblock.",
 	text: [
-		"Chemical reactions require a very precise and very isolated environment, which usually means that the machines that react chemicals together tend to be quite large. And also expensive, as it turns out, which our scientists have determined is kinda cringe ngl.",
+		"Chemical reactions require a very precise and very isolated environment, which usually means that the machines that react chemicals together tend to be quite large. And also expensive, as it turns out, which our scientists have determined is a huge pain in the ass.",
 		"",
 		"So let's build a smaller one, that's a lil more efficient to boot. How do we accomplish this, you ask?",
 		"",
 		"No more questions out of you.",
 		"",
-		"§a§lUnlocks the Compact Chemical Reactor multiblock."
+		"§a§lUnlocks the Compact Chemical Reactor multiblock.",
+		"",
+		"§2The chemistry spec is still in an alpha state. While we are toying around with ideas of transmutating things, we have no definite ideas, please suggest some in the Discord!"
 	],
 	dependencies: [
 		"2b5af195"
@@ -25,14 +27,9 @@
 		stage: "chemical_engineering_tech_spec"
 	},
 	{
-		uid: "766d1d2c",
-		type: "item",
-		items: [{
-			item: "contenttweaker:chemical_engineering_tech_spec"
-		}],
-		consume_items: true,
-		ignore_damage: true,
-		ignore_nbt: 1b
+		uid: "bf6d8349",
+		type: "checkmark",
+		title: "Work in Progress"
 	}],
 	rewards: [{
 		uid: "cf90ebf5",

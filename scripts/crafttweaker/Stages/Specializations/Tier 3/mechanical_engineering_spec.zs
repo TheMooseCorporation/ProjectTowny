@@ -6,7 +6,7 @@ import mods.artisanintegrations.requirement.GameStages;
 
 /**
     Mechanical Engineering Specilization:
-    For towns focused on chemistry
+    For towns focused on mechanics
 */
 
 // Stage Name
