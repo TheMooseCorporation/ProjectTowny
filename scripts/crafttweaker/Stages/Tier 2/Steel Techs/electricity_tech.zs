@@ -48,7 +48,6 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:connector:11>,
     <immersiveengineering:connector:12>,
     <immersiveengineering:connector:13>,
-    <immersiveengineering:wooden_device0:3>,
     <immersiveengineering:wooden_device0:6>,
     <immersiveengineering:wooden_device1>,
     <immersiveengineering:wooden_device1:1>,

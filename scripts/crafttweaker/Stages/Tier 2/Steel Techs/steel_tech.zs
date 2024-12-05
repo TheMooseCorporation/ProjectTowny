@@ -123,7 +123,6 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:metal_ladder>,
     <immersiveengineering:metal_ladder:1>,
     <immersiveengineering:metal_ladder:2>,
-    <immersiveengineering:conveyor>,
     <immersiveengineering:material>,
     <immersiveengineering:material:1>,
     <immersiveengineering:material:2>,

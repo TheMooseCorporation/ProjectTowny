@@ -22,8 +22,13 @@ for item in stageItems {
     ItemStages.addItemStage(stage, item);
 }
 
-// Money mod ATM
+// Money mod ATM and Bills
 recipes.addShaped(<fsmm:atm>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],[<ore:ingotIron>, <modcurrency:banknote:3>, <ore:ingotIron>], [<ore:blockIron>, <ore:blockRedstone>, <ore:blockIron>]]);
+recipes.addShapeless(<contenttweaker:thousand_bill>, [<contenttweaker:fivehundred_bill>,<contenttweaker:fivehundred_bill>]);
+recipes.addShapeless(<modcurrency:banknote:5> * 10, [<contenttweaker:thousand_bill>]);
+recipes.addShapeless(<contenttweaker:fivehundred_bill> * 2, [<contenttweaker:thousand_bill>]);
+recipes.addShapeless(<contenttweaker:fivehundred_bill>, [<modcurrency:banknote:5>,<modcurrency:banknote:5>,<modcurrency:banknote:5>,<modcurrency:banknote:5>,<modcurrency:banknote:5>]);
+recipes.addShapeless(<modcurrency:banknote:5> * 5, [<contenttweaker:fivehundred_bill>]);
 
 // Early game multiblock controller recipes (These might be moved around on the culture update)
 recipes.addShaped(<projecttowny:tier1_research>, [[<minecraft:book>, <ore:plankWood>, <minecraft:book>],[<ore:plankWood>, <contenttweaker:iron_tech_template>, <ore:plankWood>], [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);

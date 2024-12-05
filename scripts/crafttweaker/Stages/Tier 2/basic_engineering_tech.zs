@@ -15,7 +15,8 @@ val stage = "basic_engineering_tech";
 val stageMods as string[] = [
     "projectred-core",
     "projectred-integration",
-    "projectred-transmission"
+    "projectred-transmission",
+    "projectred-illumination"
 ];
 
 val stageItems as IItemStack[] = [

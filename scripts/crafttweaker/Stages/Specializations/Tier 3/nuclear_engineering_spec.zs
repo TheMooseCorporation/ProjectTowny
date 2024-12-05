@@ -21,6 +21,10 @@ val stageMods as string[] = [
 
 val stageItems as IItemStack[] = [
     <nuclearcraft:nuclear_furnace_idle>,
+    <nuclearcraft:rtg_uranium>,
+    <nuclearcraft:rtg_plutonium>,
+    <nuclearcraft:rtg_americium>,
+    <nuclearcraft:rtg_californium>,
     <contenttweaker:yellow_cake>,
     <contenttweaker:refined_yellow_cake>
 ];
@@ -63,6 +67,10 @@ for item in spec_tech_stageItems {
 
 // Spec Item Staging
 ItemStages.addItemStage("basic_circuitry_tech", <nuclearcraft:nuclear_furnace_idle>);
+ItemStages.addItemStage("atomic_theory_tech", <nuclearcraft:rtg_uranium>);
+ItemStages.addItemStage("atomic_theory_tech", <nuclearcraft:rtg_plutonium>);
+ItemStages.addItemStage("atomic_theory_tech", <nuclearcraft:rtg_americium>);
+ItemStages.addItemStage("atomic_theory_tech", <nuclearcraft:rtg_californium>);
 ItemStages.addItemStage(spec_tech_stage, <contenttweaker:yellow_cake>);
 ItemStages.addItemStage(spec_tech_stage, <contenttweaker:refined_yellow_cake>);
 

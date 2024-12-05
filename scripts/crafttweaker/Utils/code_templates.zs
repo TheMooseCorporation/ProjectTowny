@@ -1,3 +1,10 @@
+#norun
+
+/* 
+    Script Priority Standard:
+    0 - First Loaded
+*/
+
 /*
 
 [New Stage Template]

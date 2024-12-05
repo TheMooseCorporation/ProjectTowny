@@ -1,12 +1,12 @@
 {
 	title: "Ballistics",
 	icon: {
-		id: "icbmclassic:missile",
 		ForgeCaps: {
 			Parent: {
 				explosive: {}
 			}
-		}
+		},
+		id: "icbmclassic:missile"
 	},
 	x: 32.5d,
 	y: -3.0d,
@@ -24,7 +24,8 @@
 	],
 	dependencies: [
 		"de3e585a",
-		"7365754b"
+		"7365754b",
+		"9a8a7a59"
 	],
 	min_width: 300,
 	or_tasks: true,

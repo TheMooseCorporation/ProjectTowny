@@ -3,8 +3,8 @@
 	icon: {
 		id: "forge:bucketfilled",
 		tag: {
-			FluidName: "biocrude",
-			Amount: 1000
+			Amount: 1000,
+			FluidName: "biocrude"
 		}
 	},
 	x: 21.0d,

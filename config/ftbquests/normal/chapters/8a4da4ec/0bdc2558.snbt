@@ -2,7 +2,7 @@
 	title: "Modern Military",
 	icon: "techguns:t2_combat_helmet",
 	x: 32.5d,
-	y: -2.0d,
+	y: -5.0d,
 	description: "§oSlightly worse than thermonuclear missiles, slightly better than everything else.",
 	text: [
 		"Our continued investigation into bomb science has reminded us that guns are, in fact, bombs, and therefore should have been buffed when we made the missiles. Oops.",
@@ -12,6 +12,7 @@
 		"§a§lUnlocks modern Techguns and military vehicles."
 	],
 	dependencies: [
+		"f7c2e186",
 		"4de26b74"
 	],
 	min_width: 300,

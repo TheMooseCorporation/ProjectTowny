@@ -14,6 +14,7 @@
 		"§a§lUnlocks Rocket Fuel, Jets, and Satellites. You will need Chemical Synthesis and Computers to make them, though. Time to backtrack."
 	],
 	dependencies: [
+		"4de26b74",
 		"9a8a7a59"
 	],
 	min_width: 300,

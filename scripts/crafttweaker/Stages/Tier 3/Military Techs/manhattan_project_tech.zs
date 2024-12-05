@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 
 /**
     Manhattan Project:
-    The final military tech, unlocks tier 3 ICBMs and some pretty good techguns
+    The final military tech, unlocks tier 3 ICBMs
     For now the tier 3 explosives are disbaled because they can bypass claims, but we'll figure something out to fix that in the diplomacy update
     This should have a pretty cool things to unlock it since it's got such a famous title :)
 */

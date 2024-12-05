@@ -200,6 +200,8 @@ val stageItems as IItemStack[] = [
     <mekanismgenerators:generator:4>,
     <mekanism:transmitter:6>.withTag({tier: 0}),
     <mekanism:transmitter:6>.withTag({tier: 1}),
+    <mekanism:transmitter:6>.withTag({tier: 2}),
+    <mekanism:transmitter:6>.withTag({tier: 3}),
     <mekanism:electricbow>,
     <mekanism:dust:2>,
     <mekanism:clump:2>,

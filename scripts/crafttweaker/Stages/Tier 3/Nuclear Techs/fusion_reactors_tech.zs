@@ -60,6 +60,7 @@ val stageItems as IItemStack[] = [
     <nuclearcraft:turbine_inlet>,
     <nuclearcraft:turbine_outlet>,
     <nuclearcraft:turbine_computer_port>,
+    <nuclearcraft:turbine_coil_connector>,
     // Fusion Reactor
     <nuclearcraft:accelerator_electromagnet_idle>,
     <nuclearcraft:electromagnet_supercooler_idle>,

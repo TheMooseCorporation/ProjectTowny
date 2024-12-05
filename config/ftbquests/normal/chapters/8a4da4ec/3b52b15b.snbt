@@ -2,12 +2,12 @@
 	title: "Manhattan Project",
 	icon: {
 		id: "icbmclassic:missile",
-		Damage: 15s,
 		ForgeCaps: {
 			Parent: {
 				explosive: {}
 			}
-		}
+		},
+		Damage: 15s
 	},
 	x: 39.0d,
 	y: -3.0d,

@@ -92,6 +92,7 @@ val stageItems as IItemStack[] = [
     <nuclearcraft:compound:10>,
     <nuclearcraft:compound>,
     <nuclearcraft:gem_dust:10>,
+    <nuclearcraft:decay_generator>,
     // Nuclearcraft Fuel Materials
     <nuclearcraft:thorium>,
     <nuclearcraft:thorium:1>,

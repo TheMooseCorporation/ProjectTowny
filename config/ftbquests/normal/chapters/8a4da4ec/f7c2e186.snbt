@@ -2,7 +2,7 @@
 	title: "Advanced Military",
 	icon: "techguns:fraggrenade",
 	x: 23.0d,
-	y: -3.0d,
+	y: -5.0d,
 	description: "§oSlightly better than enchanted bows, slightly worse than thermonuclear missiles.",
 	text: [
 		"We've got a problem, boss. We've got quite a few neighbors, and they've got quite a few shinies, and those shinies aren't in our pockets.",

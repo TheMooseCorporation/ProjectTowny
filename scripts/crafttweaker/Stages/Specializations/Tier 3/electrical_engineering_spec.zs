@@ -265,9 +265,13 @@ RecipeBuilder.get("engineer")
 // Spec Item Staging
 ItemStages.addItemStage("electricity_tech", <immersiveengineering:metal_device1:3>);
 ItemStages.addItemStage("basic_circuitry_tech", <mekanism:energycube>.withTag({tier: 0}));
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:energycube>.withTag({tier: 0, mekData: {energyStored: 2000000.0}}));
 ItemStages.addItemStage("basic_circuitry_tech", <mekanism:energycube>.withTag({tier: 1}));
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:energycube>.withTag({tier: 1, mekData: {energyStored: 8000000.0}}));
 ItemStages.addItemStage("basic_circuitry_tech", <mekanism:energycube>.withTag({tier: 2}));
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:energycube>.withTag({tier: 2, mekData: {energyStored: 3.2E7}}));
 ItemStages.addItemStage("basic_circuitry_tech", <mekanism:energycube>.withTag({tier: 3}));
+ItemStages.addItemStage("basic_circuitry_tech", <mekanism:energycube>.withTag({tier: 3, mekData: {energyStored: 1.28E8}}));
 ItemStages.addItemStage("basic_circuitry_tech", <mekanism:basicblock2:1>);
 ItemStages.addItemStage("basic_circuitry_tech", <mekanism:basicblock2:2>);
 ItemStages.addItemStage("basic_circuitry_tech", <mekanism:basicblock2:3>.withTag({tier: 1}));

@@ -2,12 +2,12 @@
 	title: "Intercontinental Ballistics",
 	icon: {
 		id: "icbmclassic:missile",
-		Damage: 10s,
 		ForgeCaps: {
 			Parent: {
 				explosive: {}
 			}
-		}
+		},
+		Damage: 10s
 	},
 	x: 36.0d,
 	y: -3.0d,
@@ -25,8 +25,7 @@
 		"§4Note T2 and T3 ICBMs are currently disabled due to bypassing claim rules. They will be added back in v0.8!"
 	],
 	dependencies: [
-		"4de26b74",
-		"9a8a7a59"
+		"4de26b74"
 	],
 	min_width: 300,
 	or_tasks: true,

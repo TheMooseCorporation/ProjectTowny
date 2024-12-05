@@ -64,7 +64,7 @@ for item in stageItems {
     ItemStages.addItemStage(stage, item);
 }
 
-// Conventional Missile Recipe since our's seems broken
-Recipes.addShaped(stage, <icbmclassic:missile:24>, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <minecraft:redstone_block>, <ore:ingotSteel>], [<ore:ingotSteel>, <techguns:itemshared:58>, <ore:ingotSteel>]]);
+recipes.remove(<icbmclassic:missile:24>);
+recipes.addShaped(<icbmclassic:missile:24>, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <minecraft:redstone_block>, <ore:ingotSteel>], [<ore:ingotSteel>, <techguns:itemshared:58>, <ore:ingotSteel>]]);
 
 
