@@ -31,7 +31,6 @@ val stageItems as IItemStack[] = [
     <nuclearcraft:alloy:13>,
     <nuclearcraft:alloy:14>,
     <nuclearcraft:alloy:15>,
-    <nuclearcraft:alloy:1>,
     // These parts could be used as components for the mechanics system
     <nuclearcraft:part:11>,
     <nuclearcraft:part:9>,

@@ -11,9 +11,11 @@
 		"",
 		"No more questions out of you.",
 		"",
-		"§a§lUnlocks the Compact Chemical Reactor multiblock.",
+		"§a§lUnlocks nothing. WIP",
 		"",
-		"§2The chemistry spec is still in an alpha state. While we are toying around with ideas of transmutating things, we have no definite ideas, please suggest some in the Discord!"
+		"§2The chemistry spec is still in an alpha state. While we are toying around with ideas of transmutating things, we have no definite ideas, please suggest some in the Discord!",
+		"",
+		"§4Don't bother getting this tech, it is a WIP and doesn't unlock anything at this time."
 	],
 	dependencies: [
 		"2b5af195"

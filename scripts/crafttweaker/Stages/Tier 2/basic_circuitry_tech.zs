@@ -52,7 +52,8 @@ val stageItems as IItemStack[] = [
     // Nuclearcraft parts for making basic plating
     <nuclearcraft:part>,
     <nuclearcraft:dust:8>,
-    <nuclearcraft:ingot:8>
+    <nuclearcraft:ingot:8>,
+    <nuclearcraft:alloy:1>
 ];
 
 val nonStagedItems as IItemStack[] = [

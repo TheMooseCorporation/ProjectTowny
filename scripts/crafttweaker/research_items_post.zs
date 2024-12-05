@@ -66,26 +66,26 @@ val templateItemstacksT3 = {
 } as IIngredient[][IItemStack];
 
 val templateItemstacksSpecs = {
-    <contenttweaker:agriculture_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:agriculture_tech_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:forestry_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:forestry_tech_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:mining_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:mining_tech_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:composite_construction_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:composite_construction_tech_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:electrical_distribution_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:electrical_distribution_tech_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:industrial_manufacturing_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:industrial_manufacturing_tech_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:chemical_engineering_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:chemical_engineering_tech_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:electrical_engineering_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:electrical_engineering_tech_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:mechanical_engineering_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:mechanical_engineering_tech_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:nuclear_engineering_spec_template> : [<minecraft:writable_book>],
-    <contenttweaker:nuclear_engineering_tech_spec_template> : [<minecraft:writable_book>]
+    <contenttweaker:agriculture_spec_template> : [<minecraft:writable_book>, <minecraft:iron_hoe>],
+    <contenttweaker:agriculture_tech_spec_template> : [<minecraft:writable_book>, <sereneseasons:greenhouse_glass>, <sereneseasons:greenhouse_glass>],
+    <contenttweaker:forestry_spec_template> : [<minecraft:writable_book>, <minecraft:iron_axe>],
+    <contenttweaker:forestry_tech_spec_template> : [<minecraft:writable_book>, <tconstruct:broad_axe_head>.withTag({Material: "iron"})],
+    <contenttweaker:mining_spec_template> : [<minecraft:writable_book>, <minecraft:iron_pickaxe>],
+    <contenttweaker:mining_tech_spec_template> : [<minecraft:writable_book>, <immersiveengineering:wooden_device0:4>, <immersiveengineering:wooden_device0:4>, <immersiveengineering:wooden_device0:4>, <immersiveengineering:wooden_device0:4>],
+    <contenttweaker:composite_construction_spec_template> : [<minecraft:writable_book>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>, <immersiveengineering:stone_decoration:5>],
+    <contenttweaker:composite_construction_tech_spec_template> : [<minecraft:writable_book>, <contenttweaker:composite_concrete>, <contenttweaker:composite_concrete>, <contenttweaker:composite_concrete>, <contenttweaker:composite_concrete>],
+    <contenttweaker:electrical_distribution_spec_template> : [<minecraft:writable_book>, <immersiveengineering:metal_device0:2>],
+    <contenttweaker:electrical_distribution_tech_spec_template> : [<minecraft:writable_book>, <immersiveengineering:graphite_electrode>, <immersiveengineering:graphite_electrode>, <immersiveengineering:graphite_electrode>],
+    <contenttweaker:industrial_manufacturing_spec_template> : [<minecraft:writable_book>, <ore:blockSteel>],
+    <contenttweaker:industrial_manufacturing_tech_spec_template> : [<minecraft:writable_book>, <immersiveengineering:metal_device1>, <immersiveengineering:metal_device1>, <forge:bucketfilled>.withTag({FluidName: "diesel", Amount: 1000})],
+    <contenttweaker:chemical_engineering_spec_template> : [<minecraft:writable_book>, <forge:bucketfilled>.withTag({FluidName: "oil", Amount: 1000})],
+    <contenttweaker:chemical_engineering_tech_spec_template> : [<minecraft:writable_book>, <projecttowny:compact_chemical_reactor>],
+    <contenttweaker:electrical_engineering_spec_template> : [<minecraft:writable_book>, <ore:circuitAdvanced>],
+    <contenttweaker:electrical_engineering_tech_spec_template> : [<minecraft:writable_book>, <mekanism:basicblock2:3>.withTag({tier: 0})],
+    <contenttweaker:mechanical_engineering_spec_template> : [<minecraft:writable_book>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:metal_decoration0:5>],
+    <contenttweaker:mechanical_engineering_tech_spec_template> : [<minecraft:writable_book>, <engineersdecor:factory_placer>, <engineersdecor:small_block_breaker>],
+    <contenttweaker:nuclear_engineering_spec_template> : [<minecraft:writable_book>, <betterboilers:controller>, <ore:blockLead>],
+    <contenttweaker:nuclear_engineering_tech_spec_template> : [<minecraft:writable_book>, <nuclearcraft:nuclear_furnace_idle>]
 } as IIngredient[][IItemStack];
 
 for templateItemstack, recipe in templateItemstacksT1 {
@@ -103,7 +103,7 @@ for templateItemstack, recipe in templateItemstacksT3 {
     templateItemstack.addTooltip("An unresearched " ~ format.darkRed("tier 3") ~ format.gray(" research template. Research with research points in a Research Lab."));
 }
 
-for templateItemstack in templateItemstacksSpecs {
-    //recipes.addShapeless(templateItemstack, [<minecraft:writable_book>]);
+for templateItemstack, recipe in templateItemstacksSpecs {
+    recipes.addShapeless(templateItemstack, recipe);
     templateItemstack.addTooltip("An unresearched " ~ format.blue("specialization") ~ format.gray(" template. Research with research points in a Civics Bench."));
 }

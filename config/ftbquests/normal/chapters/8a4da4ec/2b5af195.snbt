@@ -12,7 +12,7 @@
 		"",
 		"The kind that powers spaceships.",
 		"",
-		"§a§lUnlock the ability to make many exclusive chemicals that are extremely useful to all fields of engineering, and gain more efficient recipes for existing chemicals. Also unlocks pressurized fluid conduits."
+		"§a§lUnlocks a compact version of the Chemical Reactor and pressurized fluid conduits."
 	],
 	dependencies: [
 		"fb10c4b0",
