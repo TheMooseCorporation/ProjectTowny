@@ -32,17 +32,16 @@ customization {
 customization {
   orientation = top-left
   restartbackgroundanimations = true
-  buttonaction = closegui
+  buttonaction = closegui;null%btnaction_splitter_fm%
   backgroundhovered = resources\menuV3\blank.png
   label = X
   loopbackgroundanimations = true
   x = 457
   width = 24
-  actionid = 04119bfa-0634-46e1-86d7-d8f4a64248111663435249860
   action = addbutton
+  actionid = 04119bfa-0634-46e1-86d7-d8f4a64248111663435249860
   y = -1
   backgroundnormal = resources\menuV3\blank.png
-  value = null
   height = 20
 }
 
@@ -127,7 +126,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 0.8
-  source = Sona - Lead Tester
+  source = Sona - Community Manager
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -184,26 +183,7 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 0.8
-  source = oreh.chu - Art Director
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = 8
-  width = 138
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = d4bb0865-5dfe-4dad-9eb5-7bcafa6e63b21663438949130
-  y = 86
-  alignment = left
-  height = 10
-}
-
-customization {
-  orientation = top-left
-  enable_scrolling = false
-  shadow = true
-  scale = 0.8
-  source = hulkboy05 - Community Manager
+  source = task - Programmer
   text_border = 0
   case_mode = normal
   source_mode = direct
@@ -212,7 +192,7 @@ customization {
   width = 138
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = a90f01fa-177e-4f93-846e-0e8fec6404cd1663439114964
-  y = 98
+  y = 86
   alignment = left
   height = 10
 }
@@ -231,7 +211,7 @@ customization {
   width = 138
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 1a03fe7f-1b83-4427-9d35-9f19aaa608621663439283930
-  y = 122
+  y = 110
   alignment = left
   height = 10
 }
@@ -250,7 +230,7 @@ customization {
   width = 138
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 036c23e9-2a6f-4a4f-afee-9bdde0559dff1663439283930
-  y = 134
+  y = 122
   alignment = left
   height = 10
 }
@@ -269,7 +249,7 @@ customization {
   width = 138
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = b4e82a7b-f0c2-4cb9-809c-6f3c9f44b0ea1663439283930
-  y = 146
+  y = 134
   alignment = left
   height = 10
 }
@@ -288,7 +268,7 @@ customization {
   width = 138
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = c6d17f0f-c5a6-45a3-95fc-a776fa72d5f21663439283930
-  y = 158
+  y = 146
   alignment = left
   height = 10
 }
@@ -307,6 +287,44 @@ customization {
   width = 138
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 6966469e-eac8-48a0-96cc-37011dbc35da1663439468030
+  y = 158
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = animandan
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 50
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 8b47bd0a-f202-4212-a3eb-939096b3bd901663439554160
+  y = 170
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = beanie
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 50
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 360639aa-2029-4d22-afd8-d49d09d4c9be1663439565921
   y = 182
   alignment = left
   height = 10
@@ -323,9 +341,85 @@ customization {
   source_mode = direct
   line_spacing = 1
   x = 8
+  width = 50
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = a2363f54-3fe0-4ebc-8c32-79932ab964391663439588722
+  y = 194
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.5
+  source = Menu textures from OpenComputers under MIT license
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 7
   width = 138
   action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 8b47bd0a-f202-4212-a3eb-939096b3bd901663439554160
+  actionid = 262800a3-2e0b-4708-a425-cd8804010f4a1663442696254
+  y = -8
+  alignment = left
+  height = 6
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.5
+  source = Special Thanks to PabloGates.%n%Project Towny wouldn't be where it is without him!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 7
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = b60bb486-888b-45fb-a41a-609f71e7c4ad1668042083658
+  y = -22
+  alignment = left
+  height = 12
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = SPThree - Lead Builder
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 138
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 84b81797-51fc-4a60-994b-a59d4a171e821668215234712
+  y = 98
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = Xiopox
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 60
+  width = 50
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = d664a811-2de8-4cbf-a2eb-f0fad5e8202d1734382652140
   y = 194
   alignment = left
   height = 10
@@ -341,11 +435,11 @@ customization {
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 8
-  width = 138
+  x = 60
+  width = 50
   action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 360639aa-2029-4d22-afd8-d49d09d4c9be1663439565921
-  y = 206
+  actionid = 14d0c0ac-e084-4c03-bb68-bfd7a625726a1734382652140
+  y = 182
   alignment = left
   height = 10
 }
@@ -355,73 +449,35 @@ customization {
   enable_scrolling = false
   shadow = true
   scale = 0.8
-  source = animandan
+  source = kynour
   text_border = 0
   case_mode = normal
   source_mode = direct
   line_spacing = 1
-  x = 8
-  width = 138
+  x = 60
+  width = 50
   action = custom_layout_element:fancymenu_customization_item_text
-  actionid = a2363f54-3fe0-4ebc-8c32-79932ab964391663439588722
-  y = 218
-  alignment = left
-  height = 10
-}
-
-customization {
-  orientation = top-left
-  enable_scrolling = false
-  shadow = true
-  scale = 0.5
-  source = Menu textures from OpenComputers under MIT license
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = 8
-  width = 138
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 262800a3-2e0b-4708-a425-cd8804010f4a1663442696254
-  y = 248
-  alignment = left
-  height = 6
-}
-
-customization {
-  orientation = top-left
-  enable_scrolling = false
-  shadow = true
-  scale = 0.8
-  source = PabloGates - States Mod Manager
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = 8
-  width = 138
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = b60bb486-888b-45fb-a41a-609f71e7c4ad1668042083658
-  y = 110
-  alignment = left
-  height = 10
-}
-
-customization {
-  orientation = top-left
-  enable_scrolling = false
-  shadow = true
-  scale = 0.8
-  source = SPThree
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = 8
-  width = 138
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 84b81797-51fc-4a60-994b-a59d4a171e821668215234712
+  actionid = e7df9a3d-a98f-40c0-b68e-dda521bb8f0b1734382652140
   y = 170
+  alignment = left
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = false
+  shadow = true
+  scale = 0.8
+  source = Zalgo
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 8
+  width = 50
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 885d7388-b2eb-4a53-8dfa-a14b2dfb828b1734382813491
+  y = 206
   alignment = left
   height = 10
 }
