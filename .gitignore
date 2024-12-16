@@ -4,6 +4,8 @@
 !/config/
 !/resources/
 !/scripts/
+!/local/client/sidebar_buttons.json
+!/local/ftbutilities/ranks.txt
 
 config/BiomeTweaker/
 config/dynamiclights_onfire.cfg
