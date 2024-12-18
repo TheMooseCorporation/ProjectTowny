@@ -13,7 +13,7 @@
     "accept_key": 19,
     "reject_key": 45,
     "interaction_key": 33,
-    "date_time_formatter_pattern": "d MM yyyy"
+    "date_time_formatter_pattern": "MM/dd/yyyy"
   },
   "server": {
     "region_id": "US/Eastern",

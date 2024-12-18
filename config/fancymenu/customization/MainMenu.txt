@@ -264,7 +264,7 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 826
+  x = 414
   width = 268
   action = deep_customization_element:title_screen_forge_top
   actionid = 5ad4d0bf-2f31-43a5-8883-3324a2fa2cff1663434804261
@@ -286,29 +286,29 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 1691
+  x = 868
   width = 228
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 3741b756-4235-48ff-aad8-9156a53391121663434804266
-  y = 1005
+  y = 566
   height = 9
 }
 
 customization {
   orientation = top-left
   hidden = false
-  x = 1063
+  x = 651
   width = 13
   action = deep_customization_element:title_screen_realms_notification
   actionid = e51db9d4-fcf4-42e4-830c-1eb5f97d7c6c1663434804267
-  y = 356
+  y = 246
   height = 13
 }
 
 customization {
   orientation = top-left
   hidden = false
-  x = 823
+  x = 411
   width = 274
   action = deep_customization_element:title_screen_logo
   actionid = e27a62db-e58a-4138-be8e-bd86c2da48921663434804267
@@ -785,7 +785,7 @@ customization {
   shadow = true
   [loading_requirement:fancymenu_visibility_requirement_is_variable_value][requirement_mode:if_not][req_id:859b7bfb-d7c8-4e5f-bcd8-e1476ec5912f1727383048606] = <closed_notice>:<true>
   scale = 1.0
-  source = Hey there, and welcome to Project Towny!%n%%n%While this pack can be played on your own server, %n%we invite you to play on the Official PT Server!%n%%n%To join the server, click on the icon that say "PT Server"!%n%%n%Again thank you for downloading <3%n%%n%Best Regards, %n%The Project Towny Development Team
+  source = Hey there, and welcome to Project Towny!%n%%n%While this pack can be played on your own server, %n%we invite you to play on the Official PT Server!%n%%n%To join the server, click on the "PT Server" icon to connect!%n%%n%Again thank you for downloading <3%n%%n%Best Regards, %n%The Project Towny Development Team
   text_border = 0
   case_mode = normal
   source_mode = direct

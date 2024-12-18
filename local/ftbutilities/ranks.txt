@@ -1,0 +1,19 @@
+// For more info visit https://faq.ftb.world/books/ftb-utilities/page/ranks
+
+[beta_tester]
+power: 1
+default_player_rank: true
+command.ftbutilities.back: false
+command.ftbutilities.tpa: false
+command.ftbutilities.home: false
+command.ftbutilities.warp: false
+command.ftbutilities.spawn: false
+command.ftbutilities.rtp: false
+command.ftbutilities.sethome: false
+command.ftbutilities.delhome: false
+command.ftblib.team: false
+
+[op]
+power: 100
+default_op_rank: true
+command: true

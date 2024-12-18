@@ -21,8 +21,8 @@
     "parcel_max_amount": 16,
     "cod_max_value": 50000,
     "remittance_postage_percent": 5,
-    "parcel_postage_value": 20,
-    "cod_postage_percent": 20,
+    "parcel_postage_value": 50,
+    "cod_postage_percent": 50,
     "advanced_logging": false
   }
 }

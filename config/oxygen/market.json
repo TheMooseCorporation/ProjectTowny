@@ -15,8 +15,8 @@
     "enable_sales_history": true,
     "enable_sales_history_sync": true,
     "sales_history_expire_time_hours": 336,
-    "offer_creation_fee_percent": 0,
-    "offer_sale_fee_percent": 5,
+    "offer_creation_fee_percent": 5,
+    "offer_sale_fee_percent": 10,
     "advanced_logging": false
   }
 }

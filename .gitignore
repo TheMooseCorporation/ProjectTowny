@@ -4,8 +4,13 @@
 !/config/
 !/resources/
 !/scripts/
-!/local/client/**
-!/local/ftbutilities/**
+
+!/local/
+/local/client/*
+!/local/client/sidebar_buttons.json
+/local/ftbutilities/*
+!/local/ftbutilities/ranks.txt
+/local/ftbquests/
 
 config/BiomeTweaker/
 config/dynamiclights_onfire.cfg
