@@ -8,6 +8,8 @@ import crafttweaker.item.IItemStack;
 // Handles initialization of research items, including resarch points, items, and templates
 // For thing registered after creation like tooltips, recipes, etc check research_items_post.zs 
 
+# Research Points #
+
 val researchPointItems as string[] = [
     "basic_materials_points",
     "blacksmith_points",
@@ -30,6 +32,9 @@ val researchPointItems as string[] = [
 for researchPointItem in researchPointItems {
     VanillaFactory.createItem(researchPointItem).register();
 }
+
+# Research Items (Completed)
+# The bool represents if the tech is a main or side tech and should be colored accordingly
 
 val tier1Stages = {
     "advanced_redstone_tech" : false,
@@ -89,6 +94,8 @@ val tier3Stages = {
     "space_stations_tech" : true,
     "warp_tech" : true
 } as bool[string];
+
+# Generates the research item and the research template for each stage in the above arrays
 
 for research, isMainTech in tier1Stages {
     var researchBuilder = VanillaFactory.createItem(research);
