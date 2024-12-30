@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/satellite_points"
+    "layer0": "contenttweaker:items/compiled_data"
   }
 }

@@ -1,0 +1,29 @@
+{
+	title: "Chunks Advanced",
+	icon: "minecraft:redstone",
+	disable_toast: true,
+	x: -6.5d,
+	y: 1.5d,
+	description: "Advanced Chunk functions",
+	text: [
+		"Chunks can be claimed into a district, bought, sold, linked together, chunkloaded, taxed, and have their type changed.",
+		"Chunks can be set to many different Chunk Types, which influences who can interact with them.",
+		"",
+		"§r§6NORMAL - §9Accessible by citizens of the municipality",
+		"§6PUBLIC - §9Accessible by anyone on the server",
+		"§6PRIVATE - §9Accessible by the owner and whitelisted people",
+		"§6DISTRICT -§9 Accessible by the district manager, municipality government, and the state government",
+		"§6MUNICIPALITY - §9Accessible by the municipality government and the state government",
+		"§6STATEOWNED - §9Accessible by the state government",
+		"§6STATEPUBLIC - §9Accessible by any member of the state§r"
+	],
+	dependencies: [
+		"967928d3"
+	],
+	optional: true,
+	min_width: 400,
+	tasks: [{
+		uid: "45d2125f",
+		type: "checkmark"
+	}]
+}

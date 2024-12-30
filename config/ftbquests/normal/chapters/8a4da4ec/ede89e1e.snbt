@@ -15,7 +15,7 @@
 		"§a§lTo begin, craft a template into an Iron Age Research Scroll."
 	],
 	dependencies: [
-		"a851fe7a"
+		"c892eccc"
 	],
 	size: 1.5d,
 	min_width: 300,

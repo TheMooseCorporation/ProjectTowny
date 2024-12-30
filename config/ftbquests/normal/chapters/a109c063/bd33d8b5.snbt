@@ -2,8 +2,8 @@
 	title: "Mining",
 	icon: "minecraft:iron_pickaxe",
 	disable_toast: true,
-	x: -1.0d,
-	y: -2.0d,
+	x: -2.0d,
+	y: 0.5d,
 	description: "§oDig the diggy hole",
 	text: [
 		"This modpack, being a rather large one, is going to require a lot of ore. Luckily for you, we've got just the place for you to look for it. You can still strip mine for shinies, of course (what kind of idiot would take that away?), but there's a better way to do it.",

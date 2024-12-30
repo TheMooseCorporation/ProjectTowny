@@ -1,0 +1,38 @@
+{
+	title: "Districts Advanced",
+	icon: "minecraft:redstone",
+	disable_toast: true,
+	x: -6.5d,
+	y: 2.5d,
+	description: "Advanced District Functions",
+	text: [
+		"Districts can be bought, sold, taxed, and have the type changed.",
+		"Districts have attributes that determine what you can and can not do in them:",
+		"",
+		"§6HOUSING",
+		"COMMERCE",
+		"INDUSTRY",
+		"CULTIVATION",
+		"EXPLOITATION§r",
+		"",
+		"Districts can be set to many different Districts Types:",
+		"§6WILDERNESS - §9No attributes",
+		"§6AGRICULTURAL - §9CULTIVATION",
+		"§6MINERAL - §9INDUSTRY, EXPLOITATION",
+		"§6VILLAGE - §9HOUSING, CULTIVATION",
+		"§6RESIDENTAL - §9HOUSING, COMMERCE",
+		"§6COMMERCIAL - §9COMMERCE, CULTIVATION",
+		"§6INDUSTRIAL - §9INDUSTRY",
+		"§6WASTELAND - §9EXPLOITATION",
+		"§6MUNICIPIAL - §9HOUSING COMMERCE§r"
+	],
+	dependencies: [
+		"6b20841d"
+	],
+	optional: true,
+	min_width: 400,
+	tasks: [{
+		uid: "180ab5d7",
+		type: "checkmark"
+	}]
+}

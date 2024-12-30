@@ -1,0 +1,30 @@
+{
+	title: "Mayoral Duties",
+	x: -1.5d,
+	y: 2.25d,
+	description: "§oBureaucracy, my favorite part of modded Minecraft!",
+	text: [
+		"Now that you're ready to become mayor let's begin!",
+		"",
+		"To unlock the Mayoral Duties Questline run the command /diplomacy mayor, to give yourself the \"mayor\" gamestage.",
+		"",
+		"§4Note: You must be the mayor of a municipality to be able to run the command, if that wasn't obvious."
+	],
+	dependencies: [
+		"a48da5a5"
+	],
+	size: 1.5d,
+	optional: true,
+	tasks: [{
+		uid: "ffd0ec61",
+		type: "gamestage",
+		title: "Become Mayor",
+		icon: "contenttweaker:mayor_token",
+		stage: "mayor"
+	}],
+	rewards: [{
+		uid: "b806bea1",
+		type: "item",
+		item: "fsmm:atm"
+	}]
+}

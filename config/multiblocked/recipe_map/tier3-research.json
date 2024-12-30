@@ -13,7 +13,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:16,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:16}"
               ]
             }
           },
@@ -22,7 +22,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:256}"
               ]
             }
           },
@@ -31,7 +31,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:rocketry_points\",Count:16}"
               ]
             }
           },
@@ -40,7 +40,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:propellant_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:satellite_points\",Count:32}"
               ]
             }
           },
@@ -49,7 +49,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:space_exploration_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:space_exploration_tech_template\",Count:1}"
               ]
             }
           }
@@ -62,7 +62,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:space_exploration_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:space_exploration_tech\",Count:1}"
               ]
             }
           }
@@ -79,7 +79,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:2,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:thousand_bill\",Count:2}"
               ]
             }
           },
@@ -88,7 +88,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:256}"
               ]
             }
           },
@@ -97,7 +97,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:rocketry_points\",Count:32}"
               ]
             }
           },
@@ -106,7 +106,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"contenttweaker:propellant_points\",Count:64,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:satellite_points\",Count:64}"
               ]
             }
           },
@@ -115,7 +115,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:exotic_materials_points\",Count:16}"
               ]
             }
           },
@@ -124,7 +124,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:space_stations_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:space_stations_tech_template\",Count:1}"
               ]
             }
           }
@@ -137,7 +137,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:space_stations_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:space_stations_tech\",Count:1}"
               ]
             }
           }
@@ -154,7 +154,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:8}"
               ]
             }
           },
@@ -163,7 +163,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:64,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_points\",Count:64}"
               ]
             }
           },
@@ -172,7 +172,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:military_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:military_points\",Count:128}"
               ]
             }
           },
@@ -181,7 +181,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:128}"
               ]
             }
           },
@@ -190,7 +190,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:basic_missiles_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:basic_missiles_tech_template\",Count:1}"
               ]
             }
           }
@@ -203,7 +203,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:basic_missiles_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:basic_missiles_tech\",Count:1}"
               ]
             }
           }
@@ -220,7 +220,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"mekanism:ingot\",Count:4,Damage:1s}"
+                "{Damage:1s,id:\"mekanism:ingot\",Count:4}"
               ]
             }
           }
@@ -233,7 +233,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:exotic_materials_points\",Count:1}"
               ]
             }
           }
@@ -250,7 +250,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"libvulpes:productgem\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"libvulpes:productgem\",Count:1}"
               ]
             }
           }
@@ -263,7 +263,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:exotic_materials_points\",Count:1}"
               ]
             }
           }
@@ -291,7 +291,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:16}"
               ]
             }
           }
@@ -308,7 +308,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:2,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:thousand_bill\",Count:2}"
               ]
             }
           },
@@ -317,7 +317,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:military_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:military_points\",Count:512}"
               ]
             }
           },
@@ -326,7 +326,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:propellant_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:satellite_points\",Count:32}"
               ]
             }
           },
@@ -335,7 +335,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_points\",Count:128}"
               ]
             }
           },
@@ -344,7 +344,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:rocketry_points\",Count:32}"
               ]
             }
           },
@@ -353,7 +353,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:manhattan_project_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:manhattan_project_tech_template\",Count:1}"
               ]
             }
           }
@@ -366,7 +366,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:manhattan_project_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:manhattan_project_tech\",Count:1}"
               ]
             }
           }
@@ -383,7 +383,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"tconstruct:ingots\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"tconstruct:ingots\",Count:1}"
               ]
             }
           }
@@ -396,7 +396,7 @@
             "content": {
               "amount": 12,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:12,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:exotic_materials_points\",Count:12}"
               ]
             }
           }
@@ -413,7 +413,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"tconstruct:ingots\",Count:1,Damage:1s}"
+                "{Damage:1s,id:\"tconstruct:ingots\",Count:1}"
               ]
             }
           }
@@ -426,7 +426,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:exotic_materials_points\",Count:16}"
               ]
             }
           }
@@ -443,7 +443,7 @@
             "content": {
               "amount": 5,
               "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:5,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:thousand_bill\",Count:5}"
               ]
             }
           },
@@ -452,7 +452,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:256}"
               ]
             }
           },
@@ -461,7 +461,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:64,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:exotic_materials_points\",Count:64}"
               ]
             }
           },
@@ -470,7 +470,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_points\",Count:256}"
               ]
             }
           },
@@ -479,7 +479,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_points\",Count:128}"
               ]
             }
           },
@@ -488,7 +488,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:advanced_compact_machinery_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:advanced_compact_machinery_tech_template\",Count:1}"
               ]
             }
           }
@@ -501,7 +501,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:advanced_compact_machinery_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:advanced_compact_machinery_tech\",Count:1}"
               ]
             }
           }
@@ -518,7 +518,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:4,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:thousand_bill\",Count:4}"
               ]
             }
           },
@@ -527,7 +527,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:256}"
               ]
             }
           },
@@ -536,7 +536,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:rocketry_points\",Count:32}"
               ]
             }
           },
@@ -545,7 +545,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_points\",Count:128}"
               ]
             }
           },
@@ -554,7 +554,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:exotic_materials_points\",Count:128}"
               ]
             }
           },
@@ -563,7 +563,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:warp_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:warp_tech_template\",Count:1}"
               ]
             }
           }
@@ -576,7 +576,46 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:warp_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:warp_tech\",Count:1}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "satellite-points1",
+      "duration": 300,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{Damage:0s,id:\"contenttweaker:compiled_data\",Count:1}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{Damage:0s,id:\"contenttweaker:satellite_points\",Count:4}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{Damage:0s,id:\"advancedrocketry:dataunit\",Count:2}"
               ]
             }
           }
@@ -593,7 +632,7 @@
             "content": {
               "amount": 12,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:12,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:12}"
               ]
             }
           },
@@ -602,7 +641,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_points\",Count:128}"
               ]
             }
           },
@@ -611,7 +650,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:military_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:military_points\",Count:256}"
               ]
             }
           },
@@ -620,7 +659,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:propellant_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:satellite_points\",Count:16}"
               ]
             }
           },
@@ -629,7 +668,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:intercontinental_ballistics_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:intercontinental_ballistics_tech_template\",Count:1}"
               ]
             }
           }
@@ -642,7 +681,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:intercontinental_ballistics_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:intercontinental_ballistics_tech\",Count:1}"
               ]
             }
           }
@@ -659,7 +698,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"advancedrocketry:fueltank\",Count:2,Damage:0s}"
+                "{Damage:0s,id:\"advancedrocketry:fueltank\",Count:2}"
               ]
             }
           }
@@ -672,7 +711,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:rocketry_points\",Count:1}"
               ]
             }
           }
@@ -689,7 +728,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"advancedrocketry:rocketmotor\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"advancedrocketry:rocketmotor\",Count:1}"
               ]
             }
           }
@@ -702,7 +741,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:2,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:rocketry_points\",Count:2}"
               ]
             }
           }
@@ -719,7 +758,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"advancedrocketry:fuelingstation\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"advancedrocketry:fuelingstation\",Count:1}"
               ]
             }
           }
@@ -732,7 +771,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:4,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:rocketry_points\",Count:4}"
               ]
             }
           }
@@ -749,7 +788,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"advancedrocketry:guidancecomputer\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"advancedrocketry:guidancecomputer\",Count:1}"
               ]
             }
           }
@@ -762,7 +801,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:8,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:rocketry_points\",Count:8}"
               ]
             }
           }
@@ -779,7 +818,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:3,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:thousand_bill\",Count:3}"
               ]
             }
           },
@@ -788,7 +827,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:256}"
               ]
             }
           },
@@ -797,7 +836,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:64,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:rocketry_points\",Count:64}"
               ]
             }
           },
@@ -806,7 +845,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:propellant_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:satellite_points\",Count:128}"
               ]
             }
           },
@@ -815,7 +854,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:exotic_materials_points\",Count:32}"
               ]
             }
           },
@@ -824,7 +863,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:asteroid_mining_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:asteroid_mining_tech_template\",Count:1}"
               ]
             }
           }
@@ -837,7 +876,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:asteroid_mining_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:asteroid_mining_tech\",Count:1}"
               ]
             }
           }
@@ -854,7 +893,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:2,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:thousand_bill\",Count:2}"
               ]
             }
           },
@@ -863,7 +902,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:128}"
               ]
             }
           },
@@ -872,7 +911,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanical_points\",Count:128}"
               ]
             }
           },
@@ -881,7 +920,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_points\",Count:128}"
               ]
             }
           },
@@ -890,7 +929,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_points\",Count:128}"
               ]
             }
           },
@@ -899,7 +938,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:military_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:military_points\",Count:128}"
               ]
             }
           },
@@ -908,7 +947,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:128}"
               ]
             }
           },
@@ -917,7 +956,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:basic_rocketry_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:basic_rocketry_tech_template\",Count:1}"
               ]
             }
           }
@@ -930,7 +969,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:basic_rocketry_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:basic_rocketry_tech\",Count:1}"
               ]
             }
           }
@@ -947,7 +986,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:8}"
               ]
             }
           },
@@ -956,7 +995,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:military_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:military_points\",Count:256}"
               ]
             }
           },
@@ -965,7 +1004,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:128}"
               ]
             }
           },
@@ -974,7 +1013,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:modern_military_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:modern_military_tech_template\",Count:1}"
               ]
             }
           }
@@ -987,7 +1026,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:modern_military_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:modern_military_tech\",Count:1}"
               ]
             }
           }
@@ -1004,7 +1043,7 @@
             "content": {
               "amount": 15,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:15,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:15}"
               ]
             }
           },
@@ -1013,7 +1052,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_points\",Count:256}"
               ]
             }
           },
@@ -1022,7 +1061,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:exotic_materials_points\",Count:32}"
               ]
             }
           },
@@ -1031,7 +1070,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:256}"
               ]
             }
           },
@@ -1040,7 +1079,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_points\",Count:256}"
               ]
             }
           },
@@ -1049,7 +1088,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:fusion_reactors_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fusion_reactors_tech_template\",Count:1}"
               ]
             }
           }
@@ -1062,7 +1101,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:fusion_reactors_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fusion_reactors_tech\",Count:1}"
               ]
             }
           }
@@ -1079,13 +1118,13 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"nuclearcraft:curium\",Count:1,Damage:0s}",
-                "{id:\"nuclearcraft:curium\",Count:1,Damage:4s}",
-                "{id:\"nuclearcraft:curium\",Count:1,Damage:8s}",
-                "{id:\"nuclearcraft:curium\",Count:1,Damage:12s}",
-                "{id:\"nuclearcraft:americium\",Count:1,Damage:0s}",
-                "{id:\"nuclearcraft:americium\",Count:1,Damage:4s}",
-                "{id:\"nuclearcraft:americium\",Count:1,Damage:8s}"
+                "{Damage:0s,id:\"nuclearcraft:curium\",Count:1}",
+                "{Damage:4s,id:\"nuclearcraft:curium\",Count:1}",
+                "{Damage:8s,id:\"nuclearcraft:curium\",Count:1}",
+                "{Damage:12s,id:\"nuclearcraft:curium\",Count:1}",
+                "{Damage:0s,id:\"nuclearcraft:americium\",Count:1}",
+                "{Damage:4s,id:\"nuclearcraft:americium\",Count:1}",
+                "{Damage:8s,id:\"nuclearcraft:americium\",Count:1}"
               ]
             }
           }
@@ -1098,7 +1137,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:8,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_points\",Count:8}"
               ]
             }
           }
@@ -1115,10 +1154,10 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"nuclearcraft:californium\",Count:1,Damage:0s}",
-                "{id:\"nuclearcraft:californium\",Count:1,Damage:4s}",
-                "{id:\"nuclearcraft:californium\",Count:1,Damage:8s}",
-                "{id:\"nuclearcraft:californium\",Count:1,Damage:12s}"
+                "{Damage:0s,id:\"nuclearcraft:californium\",Count:1}",
+                "{Damage:4s,id:\"nuclearcraft:californium\",Count:1}",
+                "{Damage:8s,id:\"nuclearcraft:californium\",Count:1}",
+                "{Damage:12s,id:\"nuclearcraft:californium\",Count:1}"
               ]
             }
           }
@@ -1131,7 +1170,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_points\",Count:16}"
               ]
             }
           }
@@ -1148,7 +1187,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:2,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:thousand_bill\",Count:2}"
               ]
             }
           },
@@ -1157,7 +1196,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_points\",Count:128}"
               ]
             }
           },
@@ -1166,7 +1205,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:128}"
               ]
             }
           },
@@ -1175,7 +1214,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanical_points\",Count:128}"
               ]
             }
           },
@@ -1184,7 +1223,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_points\",Count:128}"
               ]
             }
           },
@@ -1193,7 +1232,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:fission_reactors_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fission_reactors_tech_template\",Count:1}"
               ]
             }
           }
@@ -1206,7 +1245,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:fission_reactors_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fission_reactors_tech\",Count:1}"
               ]
             }
           }
@@ -1223,12 +1262,12 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"nuclearcraft:neptunium\",Count:1,Damage:0s}",
-                "{id:\"nuclearcraft:neptunium\",Count:1,Damage:4s}",
-                "{id:\"nuclearcraft:plutonium\",Count:1,Damage:0s}",
-                "{id:\"nuclearcraft:plutonium\",Count:1,Damage:4s}",
-                "{id:\"nuclearcraft:plutonium\",Count:1,Damage:8s}",
-                "{id:\"nuclearcraft:plutonium\",Count:1,Damage:12s}"
+                "{Damage:0s,id:\"nuclearcraft:neptunium\",Count:1}",
+                "{Damage:4s,id:\"nuclearcraft:neptunium\",Count:1}",
+                "{Damage:0s,id:\"nuclearcraft:plutonium\",Count:1}",
+                "{Damage:4s,id:\"nuclearcraft:plutonium\",Count:1}",
+                "{Damage:8s,id:\"nuclearcraft:plutonium\",Count:1}",
+                "{Damage:12s,id:\"nuclearcraft:plutonium\",Count:1}"
               ]
             }
           }
@@ -1241,7 +1280,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:4,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_points\",Count:4}"
               ]
             }
           }
@@ -1258,7 +1297,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:3,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:thousand_bill\",Count:3}"
               ]
             }
           },
@@ -1267,7 +1306,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:256}"
               ]
             }
           },
@@ -1276,7 +1315,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:exotic_materials_points\",Count:32}"
               ]
             }
           },
@@ -1285,7 +1324,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_points\",Count:256}"
               ]
             }
           },
@@ -1294,7 +1333,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:compact_machinery_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:compact_machinery_tech_template\",Count:1}"
               ]
             }
           }
@@ -1307,32 +1346,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:compact_machinery_tech\",Count:1,Damage:0s}"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "uid": "propellant-points1",
-      "duration": 300,
-      "inputs": {
-        "fluid": [
-          {
-            "chance": 1.0,
-            "content": "{FluidName:\"rocketfuel\",Amount:1000}"
-          }
-        ]
-      },
-      "outputs": {
-        "item": [
-          {
-            "chance": 1.0,
-            "content": {
-              "amount": 1,
-              "matches": [
-                "{id:\"contenttweaker:propellant_points\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:compact_machinery_tech\",Count:1}"
               ]
             }
           }
@@ -1349,7 +1363,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"modcurrency:coin\",Count:4,Damage:4s}"
+                "{Damage:4s,id:\"modcurrency:coin\",Count:4}"
               ]
             }
           },
@@ -1358,7 +1372,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:basic_materials_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:basic_materials_points\",Count:512}"
               ]
             }
           },
@@ -1367,7 +1381,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:blacksmith_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:blacksmith_points\",Count:512}"
               ]
             }
           },
@@ -1376,7 +1390,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:agriculture_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:agriculture_points\",Count:512}"
               ]
             }
           },
@@ -1385,7 +1399,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:advanced_materials_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:advanced_materials_points\",Count:512}"
               ]
             }
           },
@@ -1394,7 +1408,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:engineering_points\",Count:512}"
               ]
             }
           },
@@ -1403,7 +1417,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:military_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:military_points\",Count:512}"
               ]
             }
           },
@@ -1412,7 +1426,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:electricity_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electricity_points\",Count:512}"
               ]
             }
           },
@@ -1421,7 +1435,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fluid_points\",Count:512}"
               ]
             }
           },
@@ -1430,7 +1444,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:512}"
               ]
             }
           },
@@ -1439,7 +1453,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanical_points\",Count:512}"
               ]
             }
           },
@@ -1448,7 +1462,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:512}"
               ]
             }
           },
@@ -1457,7 +1471,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_points\",Count:512}"
               ]
             }
           },
@@ -1466,7 +1480,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_points\",Count:512}"
               ]
             }
           },
@@ -1475,7 +1489,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:rocketry_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:rocketry_points\",Count:512}"
               ]
             }
           },
@@ -1484,7 +1498,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:propellant_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:satellite_points\",Count:512}"
               ]
             }
           },
@@ -1493,7 +1507,7 @@
             "content": {
               "amount": 512,
               "matches": [
-                "{id:\"contenttweaker:exotic_materials_points\",Count:512,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:exotic_materials_points\",Count:512}"
               ]
             }
           },
@@ -1502,7 +1516,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:future_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:future_tech_template\",Count:1}"
               ]
             }
           }
@@ -1515,7 +1529,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:future_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:future_tech\",Count:1}"
               ]
             }
           }
@@ -1529,7 +1543,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"butylated_hydroxytoluene\",Amount:100}"
+            "content": "{Amount:100,FluidName:\"butylated_hydroxytoluene\"}"
           }
         ]
       },
@@ -1540,7 +1554,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:8,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_points\",Count:8}"
               ]
             }
           }

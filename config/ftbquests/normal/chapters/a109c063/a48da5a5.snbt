@@ -1,7 +1,7 @@
 {
 	title: "Project Towny",
 	x: 0.0d,
-	y: 0.0d,
+	y: 0.75d,
 	description: "§oEvery grand civilization starts with a checkbox.",
 	text: [
 		"Welcome to Project Towny! This is a cooperative and competitive tech-based modpack engineered towards playing in towns and nations, engaging in diplomacy (and sometimes war!) as you progress through the ages. Many things in this pack have been designed to be done as a town, so gather some friends or make some new ones!",

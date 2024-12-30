@@ -1,0 +1,28 @@
+{
+	title: "Citizenship",
+	icon: "minecraft:book",
+	x: 0.0d,
+	y: -1.5d,
+	description: "§oBureaucracy, the worst part of modded Minecraft.",
+	text: [
+		"If you're here this means that you are not the mayor of a town and are instead a citizen of a town. ",
+		"While the mayor is doing all the work managing the town you can still help better the town by providing services that benefit the town!",
+		"",
+		"Create factories to produce goods to improve your town's production and wealth, build up town infrustructure like roads and utilities to aid other players in their goals, create a mining company to provide your town with large quantities of resources, become a town builder and build up your town to make it look the best is possibly can, or just sit around and watch everything grow around you. ",
+		"As a citizen you can play however you want to play!",
+		"",
+		"It's up to the mayor on how they handle research but if you don't like how they're handling it, you can stage an uprising against the mayor and bring the town to the ground!",
+		"",
+		"Or just simply leave the town for another one if that's more your style..."
+	],
+	dependencies: [
+		"a48da5a5"
+	],
+	size: 1.5d,
+	optional: true,
+	min_width: 400,
+	tasks: [{
+		uid: "5ee74dbd",
+		type: "checkmark"
+	}]
+}

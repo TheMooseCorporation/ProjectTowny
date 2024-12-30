@@ -7,7 +7,7 @@ import mods.orestages.OreStages;
 // Ore Stage changing
 // Nuclear Ores, unlocked with Nuclear Engineering, or Atomic Theory
 OreStages.addReplacement("uranium_tech", <geolosys:ore:9>); // Hides Uranium
-OreStages.addReplacement("uranium_tech", <geolosys:ore_sample:9>); // Hides Uranium Sample
+OreStages.addReplacement("uranium_tech", <geolosys:ore_sample:9>, <minecraft:tallgrass:1>); // Hides Uranium Sample
 OreStages.addReplacement("uranium_tech", <nuclearcraft:ore:3>); // Hides Thorium
 
 /* Biome Ideas:
@@ -305,7 +305,7 @@ ores.addOre(
     3,  
     0.5 as float, 
     onlyEarth,
-    ["minecraft:ice_mountains", "minecraft:extreme_hills_with_trees", "minecraft:mutated_extreme_hills", "minecraft:mutated_extreme_hills_with_trees", "minecraft:extreme_hills", "minecraft:smaller_extreme_hills", "biomesoplenty:alps", "biomesoplenty:alps_foothills", "biomesoplenty:crag", "biomesoplenty:meadow", "biomesoplenty:overgrown_cliffs"],
+    ["minecraft:ice_mountains", "minecraft:extreme_hills_with_trees", "minecraft:mutated_extreme_hills", "minecraft:mutated_extreme_hills_with_trees", "minecraft:extreme_hills", "minecraft:smaller_extreme_hills", "biomesoplenty:alps", "biomesoplenty:alps_foothills", "biomesoplenty:crag", "biomesoplenty:overgrown_cliffs"],
     true
 );
 

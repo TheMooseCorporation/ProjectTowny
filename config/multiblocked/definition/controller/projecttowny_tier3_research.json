@@ -208,7 +208,7 @@
       "L": {
         "blocks": [
           {
-            "id": "multiblocked:energy_output"
+            "id": "multiblocked:item_output"
           }
         ],
         "type": "blocks"

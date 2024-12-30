@@ -1,0 +1,21 @@
+{
+	title: "States Advanced",
+	icon: "minecraft:redstone",
+	disable_toast: true,
+	x: -6.5d,
+	y: 5.5d,
+	description: "Advanced State Functions",
+	text: [
+		"States can be bought, sold, have municipalities, take taxes from municipalities, and have a capital.",
+		"",
+		"[WIP]"
+	],
+	dependencies: [
+		"262421d7"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b14f89a5",
+		type: "checkmark"
+	}]
+}

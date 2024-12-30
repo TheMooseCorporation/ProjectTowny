@@ -18,6 +18,7 @@ val stageMods as string[] = [
 val stageItems as IItemStack[] = [
     <advancedrocketry:concrete>,
     <advancedrocketry:dataunit>,
+    <contenttweaker:compiled_data>,
     <advancedrocketry:launchpad>,
     <advancedrocketry:structuretower>,
     <advancedrocketry:rocketbuilder>,
@@ -343,3 +344,5 @@ for item in stageItems {
 // New recipe for mass detector that doesn't require dilithium, might be a good idea to change this later
 recipes.remove(<advancedrocketry:satelliteprimaryfunction:2>);
 recipes.addShaped(<advancedrocketry:satelliteprimaryfunction:2>, [[null, null, null],[<advancedrocketry:satelliteprimaryfunction>, <scannable:scanner>, <advancedrocketry:satelliteprimaryfunction>], [<advancedrocketry:wafer>, <advancedrocketry:ic>, <advancedrocketry:wafer>]]);
+
+recipes.addShapeless(<contenttweaker:compiled_data>, [<advancedrocketry:dataunit>.withTag({maxData: 1000, DataType: 4, Data: 1000, locked: 0 as byte}).onlyWithTag({maxData: 1000, DataType: 4, Data: 1000, locked: 0 as byte}),<advancedrocketry:dataunit>.withTag({maxData: 1000, DataType: 1, Data: 1000, locked: 0 as byte}).onlyWithTag({maxData: 1000, DataType: 1, Data: 1000, locked: 0 as byte}),<advancedrocketry:dataunit>.withTag({maxData: 1000, DataType: 6, Data: 1000, locked: 0 as byte}).onlyWithTag({maxData: 1000, DataType: 6, Data: 1000, locked: 0 as byte})]);

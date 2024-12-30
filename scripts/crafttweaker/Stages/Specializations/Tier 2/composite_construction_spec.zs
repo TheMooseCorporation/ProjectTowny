@@ -43,7 +43,7 @@ RecipeBuilder.get("engineer")
     [<ore:ingotSteel>, <ore:stickWood>, <ore:ingotSteel>],
     [<ore:ingotSteel>, null, <ore:ingotSteel>]])
   .addTool(<ore:artisansHammer>, 10)
-  .addOutput(<immersiverailroading:item_rail_part>.withTag({gauge: 1.435}) * 16)
+  .addOutput(<immersiverailroading:item_rail_part>.withTag({gauge: 1.435}) * 12)
   .addRequirement(GameStages.allOf([stage]))
   .create();
 

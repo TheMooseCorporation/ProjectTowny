@@ -1,0 +1,38 @@
+{
+	title: "Researchers",
+	icon: "contenttweaker:researcher_token",
+	disable_toast: true,
+	x: -1.5d,
+	y: 4.5d,
+	description: "§o\"Peer Reviewed\"",
+	text: [
+		"Managing the research of a town all on your own is hard work.",
+		"Luckily for you Moose Co has created our very own research syncing system to make your life just a little easier!",
+		"",
+		"§lOur research system works as follows:§r",
+		"",
+		"Mayors appoint town researchers with §2/research add <player>§r",
+		"",
+		"When a researcher unlocks a new technology that technology will be added to the municipality research pool, which will be synced to all online citizens of the municipality. Players not online when the tech is added will automatically be synced when they next join the server.",
+		"",
+		"As a fail safe, you can do §2/research sync§r to manually resync your research to the municipality's research.",
+		"",
+		"The questbook tech tree will automatically update when a new technology is collected from the town's research pool, allowing other researchers to move forward in the tree.",
+		"",
+		"You can remove a researcher from the town with §2/research remove <player>§r, however this player will still have access to the tech tree, just without the ability to add technology to the town's research pool.",
+		"Only appoint a researcher if you're sure you want them to be one for the lifespan of your town.",
+		"",
+		"Lists all currently appointed town researchers.",
+		"§2/research list"
+	],
+	dependencies: [
+		"3dba3f21"
+	],
+	hide: true,
+	optional: true,
+	min_width: 400,
+	tasks: [{
+		uid: "b2eefde6",
+		type: "checkmark"
+	}]
+}

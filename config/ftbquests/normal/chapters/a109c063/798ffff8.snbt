@@ -1,0 +1,22 @@
+{
+	title: "Diplomacy",
+	icon: "minecraft:stick",
+	x: -3.5d,
+	y: 1.0d,
+	description: "§oDiplomacy 101",
+	text: [
+		"As of now the diplomacy system is fairly basic, but it will be updated as time goes on. But here is the basics of the current system:",
+		"",
+		"Prints out all Municipalities whose mayors are online.",
+		"§2/diplomacy online§r"
+	],
+	dependencies: [
+		"3dba3f21"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "a28b9b0e",
+		type: "checkmark"
+	}]
+}

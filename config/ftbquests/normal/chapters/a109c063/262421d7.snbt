@@ -1,0 +1,30 @@
+{
+	title: "States",
+	icon: "minecraft:iron_block",
+	disable_toast: true,
+	x: -5.0d,
+	y: 5.5d,
+	description: "Level 4 Claiming",
+	text: [
+		"States are made up of Municipalities and are the highest layer of claiming.",
+		"",
+		"All municipalities commands use the /st prefix, use §2/st§r to see any commands not listed.",
+		"",
+		"Creates a new State,",
+		"§l§4§lMake sure you're standing in the municipality that you wish to be the capital!!",
+		"§2/st create <name>§r",
+		"",
+		"Gets information about the State you are in, this menu can be used to change properties of the State. ",
+		"You can also invite additional municipalities to your state from this menu.",
+		"§2/st info§r"
+	],
+	dependencies: [
+		"84296ec0"
+	],
+	optional: true,
+	min_width: 400,
+	tasks: [{
+		uid: "0743e172",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Research and Development",
+	icon: "contenttweaker:iron_tech",
+	x: 1.5d,
+	y: 2.25d,
+	description: "§oWe can't stay in the Iron Age forever.",
+	text: [
+		"At the beginning of the pack you don't have many mods available to you. Researching all of these things will take time and money. ",
+		"",
+		"Once your municipality researches a new technology, it will automatically be distributed to all citizens of the municipality.",
+		"As a fall back command §2/research sync§r will attempt to resync your technology with the municipality's.",
+		"",
+		"If you would like to become a researcher for your town reach out to the mayor for the position. As a researcher you gain access to the tech tree, and have the ability to advance the technology of the town alongside the mayor and other researchers.",
+		"",
+		"Work together to develop research in the direction your mayor thinks is most valuable!"
+	],
+	dependencies: [
+		"a48da5a5"
+	],
+	size: 1.5d,
+	optional: true,
+	min_width: 400,
+	tasks: [{
+		uid: "fef4cb7b",
+		type: "gamestage",
+		title: "Become a Researcher",
+		stage: "researcher"
+	}]
+}

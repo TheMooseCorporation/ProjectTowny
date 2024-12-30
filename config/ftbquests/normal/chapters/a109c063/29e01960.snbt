@@ -1,0 +1,27 @@
+{
+	title: "Municipalities Advanced",
+	icon: "minecraft:redstone",
+	disable_toast: true,
+	x: -6.5d,
+	y: 4.5d,
+	description: "Advanced Municipality Functions",
+	text: [
+		"Municipalities can be bought, sold, have citizens, tax those citizens, tax its chunks, and be the capital of a state.",
+		"",
+		"Municipalities can appoint councils to manage aspects and properties of the municipality.",
+		"",
+		"As of writing this I don't remember how they work.",
+		"They're only important in very specific scenarios, so don't worry about them, and I'll update this later!",
+		"- Moose",
+		"",
+		"[WIP]"
+	],
+	dependencies: [
+		"8a5b11c1"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2f8c6f80",
+		type: "checkmark"
+	}]
+}

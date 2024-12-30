@@ -1,0 +1,24 @@
+{
+	title: "Money",
+	icon: "minecraft:gold_ingot",
+	disable_toast: true,
+	x: 2.0d,
+	y: 0.5d,
+	description: "§oWelcome to the Gold Standard!",
+	text: [
+		"Project Towny uses the Gold Standard to back the in game currency.",
+		"",
+		"To earn money, mine gold, process it into ingots, and bring them to spawn, where they can be exhanged for money.",
+		"",
+		"Be careful on the journey to spawn; the amount of gold you're carrying is displayed above your head!",
+		"Once you've made it to spawn and exhanged your money you are safe, the money is in the banks hands and can be accessed via ATMs at any time."
+	],
+	dependencies: [
+		"a48da5a5"
+	],
+	min_width: 300,
+	tasks: [{
+		uid: "086f86f3",
+		type: "checkmark"
+	}]
+}

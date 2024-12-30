@@ -1,0 +1,29 @@
+{
+	title: "Research 101",
+	icon: "contenttweaker:iron_tech_template",
+	disable_toast: true,
+	x: 1.5d,
+	y: 4.5d,
+	description: "§oCongrats on becoming a researcher!",
+	text: [
+		"Research in Project Towny is broken up into 3 tiers of research, with each tier requiring a special multiblock to process research in.",
+		"These research multiblocks generate different types of research points by performing experiments on the items inserted. Research points are then combined in the research multiblocks to create completed research.",
+		"New research points are unlocked and old ones become obsolete as you progress through the tech tree.",
+		"",
+		"To begin researching a technology, craft the research template of the technology you'd like to research. Using JEI you can see what points are required to complete the research.",
+		"",
+		"Combine the template with any required points in the research multiblock associated with the tier of research to generate completed research.",
+		"",
+		"Then submit completed research to the tech tree found in the questbook to send it to your municipality."
+	],
+	dependencies: [
+		"c892eccc"
+	],
+	hide: true,
+	optional: true,
+	min_width: 400,
+	tasks: [{
+		uid: "624c066b",
+		type: "checkmark"
+	}]
+}

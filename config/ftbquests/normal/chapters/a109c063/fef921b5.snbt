@@ -1,0 +1,38 @@
+{
+	title: "Joining Municipalities",
+	icon: "biomesoplenty:flower_1 1 5",
+	disable_toast: true,
+	x: 0.0d,
+	y: -3.5d,
+	description: "§oMan, this is harder than it needs to be.",
+	text: [
+		"There are two ways to join a muncipality.",
+		"",
+		"§9§lVia Command:§r",
+		"Stand inside the borders of the municipality you would like to join and run §2/mun join§r. This method only works if the municipality is open to join.",
+		"If you'd like to keep your municipality private, use the mail method or open your municipality to join, and then close it after the person has joined.",
+		"",
+		"§9§lVia Mail:§r",
+		"Setup a mailbox by placing a sign anywhere with the following text:",
+		"",
+		"§6[st-mailbox]         [st-mailbox] ",
+		"player                player",
+		"<player-name>      Moose1002§r",
+		"",
+		"This sign will now act as your mailbox. A number at the bottom of the sign represents how much mail you have, and assuming you have mail, you can right click on the sign to open the GUI.",
+		"",
+		"To read mail, hold it and your hand and use:",
+		"§2/st-mail read"
+	],
+	dependencies: [
+		"2ce91032"
+	],
+	hide: true,
+	optional: true,
+	min_width: 400,
+	tasks: [{
+		uid: "9359f1b0",
+		type: "checkmark",
+		title: "Mail"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Stuck?",
+	icon: "minecraft:barrier",
+	x: -6.5d,
+	y: -2.5d,
+	description: "§oWell this is awkard...",
+	text: [
+		"THIS QUEST WILL KILL YOU",
+		"",
+		"Only use this quest if you are in a claim you cannot escape.",
+		"",
+		"You will lose your items, you have been warned."
+	],
+	can_repeat: true,
+	optional: true,
+	tasks: [{
+		uid: "d077f6c5",
+		type: "checkmark",
+		title: "End It"
+	}],
+	rewards: [{
+		uid: "8b94e4b6",
+		type: "command",
+		icon: "minecraft:skull",
+		command: "/kill @p"
+	}]
+}

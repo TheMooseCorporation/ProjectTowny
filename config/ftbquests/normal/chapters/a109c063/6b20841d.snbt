@@ -1,0 +1,30 @@
+{
+	title: "Districts",
+	icon: "minecraft:stone",
+	disable_toast: true,
+	x: -5.0d,
+	y: 2.5d,
+	description: "Level 2 Claiming",
+	text: [
+		"Districts are a collection of Chunks.",
+		"",
+		"All districts commands use the /dis prefix, use §2/dis§r to see any commands not listed.",
+		"",
+		"Creates a new district. The amount of districts depends on how many chunks are in your municipality. ",
+		"32 chunks claimed unlocks a new district slot.",
+		"§2/dis create§r",
+		"",
+		"Gets information about the district you are in, this menu can be used to change properties of the district",
+		"§2/dis info"
+	],
+	dependencies: [
+		"84296ec0"
+	],
+	dependency_requirement: "one_completed",
+	optional: true,
+	min_width: 400,
+	tasks: [{
+		uid: "8c85af24",
+		type: "checkmark"
+	}]
+}

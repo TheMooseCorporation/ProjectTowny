@@ -25,7 +25,7 @@ val researchPointItems as string[] = [
     "chemical_points",
     "nuclear_points",
     "rocketry_points",
-    "propellant_points",
+    "satellite_points",
     "exotic_materials_points"
 ];
 
@@ -192,3 +192,7 @@ for specialization in tier2Specs {
     researchBuilder.register();
     templateBuilder.register();
 }
+
+var compiledData = VanillaFactory.createItem("compiled_data");
+compiledData.maxStackSize = 1;
+compiledData.register();

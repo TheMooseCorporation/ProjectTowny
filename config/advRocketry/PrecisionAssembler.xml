@@ -423,6 +423,16 @@
 			<itemStack>opencomputers:component;1;17</itemStack>
 		</output>
 	</Recipe>
+		<Recipe timeRequired="500" power ="60">
+		<input>
+			<itemStack>minecraft:redstone</itemStack>
+			<itemStack>contenttweaker:dram</itemStack>
+			<oreDict>circuitBasic;1</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:dataunit</itemStack>
+		</output>
+	</Recipe>
 	<!-- Defaults -->
 	<Recipe timeRequired="1000" power ="1">
 		<input>
@@ -445,16 +455,6 @@
 		</input>
 		<output>
 			<itemStack>advancedrocketry:itemupgrade;1;4</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="500" power ="60">
-		<input>
-			<itemStack>minecraft:redstone</itemStack>
-			<itemStack>minecraft:emerald</itemStack>
-			<itemStack>advancedrocketry:ic</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:dataunit</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="900" power ="100">

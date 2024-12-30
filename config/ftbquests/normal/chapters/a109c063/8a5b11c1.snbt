@@ -1,0 +1,40 @@
+{
+	title: "Municipalities",
+	icon: "minecraft:planks",
+	disable_toast: true,
+	x: -5.0d,
+	y: 4.5d,
+	description: "Level 3 Claiming",
+	text: [
+		"Municipalities are made up of Districts.",
+		"",
+		"Municipalities are what you're going to be using the most, and depending on the size, determines how many chunks and districts your town can claim.",
+		"",
+		"All municipalities commands use the /mun prefix, use §2/mun§r to see any commands not listed.",
+		"",
+		"Create a new municipality. ",
+		"Costs $400",
+		"§2/mun create <name>§r",
+		"",
+		"Gets information about the municipality you are standing in, this menu can be used to change properties of the municipality.",
+		"§2/mun info§r",
+		"",
+		"Invites the specified player to your current municipality.",
+		"§2/mun invite <player>§r",
+		"",
+		"Joins the municipality you're standing in if it's open to join.",
+		"§2/mun join§r",
+		"",
+		"Leaves your current municipality.",
+		"§2/mun leave"
+	],
+	dependencies: [
+		"84296ec0"
+	],
+	optional: true,
+	min_width: 400,
+	tasks: [{
+		uid: "8a34953b",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "WAR",
+	icon: "openmodularturrets:ammo_meta 1 4",
+	x: -3.5d,
+	y: -0.5d,
+	description: "§oWhy can't we be friends?",
+	text: [
+		"Attacking other players in the unclaimed wilderness is entirely allowed- even in someone else's town! However, using any method of violating claim protection, be it lavacasting, vehicle glitches, or any other sort of bug or exploit to modify blocks in chunks or access otherwise inaccessable areas isn't allowed.",
+		"",
+		"However, if a conflict comes to a head and wilderness skirmishes aren't enough, you can petition an admin or moderator to declare war on another town. There are any number of reasons for it, be it revenge for attacks, conflict over resources, or simply friendly competition.",
+		"If it's approved, then at a later time when both towns are online, the War gamestage will be given to the mayors of both sides, containing various tools and items like explosives that were previously disabled due to violating claim protection. However, they're only to be used on the town you're at war with.",
+		"",
+		"Wars can end after a period of time or when one side surrenders, at an admin's discretion. On the official server, town leaders can petition for a war through the discord in the-war-room. On your own servers, just use:",
+		"/gamestage add (playername) at_war",
+		"/gamestage remove (playername) at_war",
+		"",
+		"§a(War is still in a very unfinished state, this is just a patch-up solution for the research update. It'll be ironed out in v0.8.)"
+	],
+	dependencies: [
+		"798ffff8"
+	],
+	optional: true,
+	min_width: 400,
+	tasks: [{
+		uid: "f5604764",
+		type: "checkmark"
+	}]
+}
