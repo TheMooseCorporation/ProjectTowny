@@ -36,7 +36,6 @@
 	rewards: [{
 		uid: "71dfe050",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "electrical_distribution_tech_spec"
 	}]
 }

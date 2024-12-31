@@ -47,7 +47,6 @@
 	rewards: [{
 		uid: "031b3e1e",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "intercontinental_ballistics_tech"
 	}]
 }

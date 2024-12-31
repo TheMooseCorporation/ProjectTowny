@@ -39,7 +39,6 @@
 	rewards: [{
 		uid: "8b6cbc1e",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "nuclear_engineering_spec"
 	}]
 }

@@ -40,7 +40,6 @@
 	rewards: [{
 		uid: "36153492",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "composite_construction_spec"
 	}]
 }

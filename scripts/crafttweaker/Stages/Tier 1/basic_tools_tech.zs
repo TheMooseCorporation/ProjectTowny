@@ -172,7 +172,7 @@ TinkerStages.addGeneralPartBuildingStage(stage);
 TinkerStages.addToolTypeStage("disabled", "tconstruct:hammer");
 TinkerStages.addToolTypeStage("disabled", "tconstruct:shuriken");
 TinkerStages.addModifierStage("disabled", "luck");
-TinkerStages.addModifierStage("disabled", "sharp");
+TinkerStages.addModifierStage("disabled", "sharpness");
 
 // TODO Move to proper tech files
 recipes.remove(<tconstruct:materials:13>);

@@ -34,7 +34,6 @@
 	rewards: [{
 		uid: "a54dfda9",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "chemical_synthesis_tech"
 	}]
 }

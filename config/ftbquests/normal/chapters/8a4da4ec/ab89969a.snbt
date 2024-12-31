@@ -34,7 +34,6 @@
 	rewards: [{
 		uid: "195e33dc",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "sailing_tech"
 	}]
 }

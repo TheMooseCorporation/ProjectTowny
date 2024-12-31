@@ -36,7 +36,6 @@
 	rewards: [{
 		uid: "e1c3a9e4",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "atomic_theory_tech"
 	}]
 }

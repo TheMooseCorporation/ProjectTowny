@@ -35,7 +35,6 @@
 	rewards: [{
 		uid: "9a4f8984",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "mining_tech_spec"
 	}]
 }

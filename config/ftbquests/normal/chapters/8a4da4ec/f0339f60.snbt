@@ -38,7 +38,6 @@
 	rewards: [{
 		uid: "db8babc6",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "forestry_spec"
 	}]
 }

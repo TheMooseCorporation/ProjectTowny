@@ -35,7 +35,6 @@
 	rewards: [{
 		uid: "eab915bc",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "agriculture_tech_spec"
 	}]
 }

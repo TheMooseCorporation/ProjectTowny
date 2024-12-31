@@ -10,7 +10,10 @@
 		"24ca3041"
 	],
 	tasks: [{
-		uid: "dc319551",
-		type: "checkmark"
+		uid: "1e99c1af",
+		type: "item",
+		items: [{
+			item: "minecraft:barrier"
+		}]
 	}]
 }

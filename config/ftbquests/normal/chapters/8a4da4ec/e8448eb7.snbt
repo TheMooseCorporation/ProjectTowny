@@ -39,7 +39,6 @@
 	rewards: [{
 		uid: "92fa54e0",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "space_stations_tech"
 	}]
 }

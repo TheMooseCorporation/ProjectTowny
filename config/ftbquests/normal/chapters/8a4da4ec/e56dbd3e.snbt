@@ -34,7 +34,6 @@
 	rewards: [{
 		uid: "2e1e1de0",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "solar_tech"
 	}]
 }

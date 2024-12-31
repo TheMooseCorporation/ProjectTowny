@@ -34,7 +34,6 @@
 	rewards: [{
 		uid: "eb1191eb",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "pollution_management_tech"
 	}]
 }

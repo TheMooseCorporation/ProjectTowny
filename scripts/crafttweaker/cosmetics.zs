@@ -10,7 +10,7 @@ import mods.ItemStages;
 # Include this in Project Towny Tweaks instead
 
 # Array of developer UUID's
-val developerArray = ["1cbcbfd5-0abc-41b6-a04f-d78a4ea32505", "525e43b1-5901-47fa-a779-6dcdc69c3f47", "abdf8c5e-44c4-4b67-8f12-0628867b3366"] as string[];
+val developerArray = ["1cbcbfd5-0abc-41b6-a04f-d78a4ea32505", "525e43b1-5901-47fa-a779-6dcdc69c3f47", "abdf8c5e-44c4-4b67-8f12-0628867b3366", "2b671d6b-e644-4dff-8daf-7512f6433b08"] as string[];
 val alphaTesterArray = ["a136645b-be77-4531-97ed-7803e5e1ee57", "94028398-3422-4e8d-980e-13cf54d19d5d"] as string[];
 val builderArray = ["5fc881bb-a314-45e4-84f6-262756746bd6", "f569ad78-faef-4c17-8b07-e8ad0ff79a71", "a136645b-be77-4531-97ed-7803e5e1ee57"] as string[];
 val bugFinderArray = ["f569ad78-faef-4c17-8b07-e8ad0ff79a71", "467a4aaf-5343-41f7-8f1f-abf25ea37863", "83e6fe9d-e39b-4d0a-872f-2495f6e650d6", "33f71b20-0388-453a-9897-160e2f81c887", "98feea67-d965-4233-b106-fd482ad87b2f", "fabae620-3112-4338-a017-a49df032e5d7", "56bd41d0-06ef-4ed7-ab48-926ce45651f9"] as string[];

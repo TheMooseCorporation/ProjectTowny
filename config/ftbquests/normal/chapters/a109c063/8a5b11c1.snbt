@@ -13,7 +13,7 @@
 		"All municipalities commands use the /mun prefix, use §2/mun§r to see any commands not listed.",
 		"",
 		"Create a new municipality. ",
-		"Costs $400",
+		"Costs $250",
 		"§2/mun create <name>§r",
 		"",
 		"Gets information about the municipality you are standing in, this menu can be used to change properties of the municipality.",

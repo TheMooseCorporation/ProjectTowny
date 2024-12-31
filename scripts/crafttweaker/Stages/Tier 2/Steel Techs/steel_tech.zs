@@ -106,6 +106,7 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:metal:9>,
     <immersiveengineering:metal:10>,
     <immersiveengineering:metal:11>,
+    <immersiveengineering:metal_decoration0:4>,
     <immersiveengineering:metal_decoration2:7>,
     <immersiveengineering:metal_decoration2:8>,
     <immersiveengineering:metal_decoration1_slab:1>,

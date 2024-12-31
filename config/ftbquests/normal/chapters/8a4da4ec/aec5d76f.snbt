@@ -33,7 +33,6 @@
 	rewards: [{
 		uid: "00d620b4",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "Spec_2"
 	}]
 }

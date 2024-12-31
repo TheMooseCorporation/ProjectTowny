@@ -37,7 +37,6 @@
 	rewards: [{
 		uid: "453884d4",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "fusion_reactors_tech"
 	}]
 }

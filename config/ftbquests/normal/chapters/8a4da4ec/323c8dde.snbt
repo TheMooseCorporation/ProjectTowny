@@ -42,7 +42,6 @@
 	rewards: [{
 		uid: "c443cc56",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "steam_energy_tech"
 	}]
 }

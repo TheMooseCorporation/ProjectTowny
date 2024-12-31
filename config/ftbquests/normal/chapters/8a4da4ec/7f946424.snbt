@@ -35,7 +35,6 @@
 	rewards: [{
 		uid: "ee1dabe0",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "electrical_engineering_tech_spec"
 	}]
 }

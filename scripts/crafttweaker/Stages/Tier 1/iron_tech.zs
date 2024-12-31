@@ -13,8 +13,7 @@ val stage = "iron_tech";
 
 val stageItems as IItemStack[] = [
     <projecttowny:civicsbench>,
-    <projecttowny:war_table>,
-    <fsmm:atm>
+    <projecttowny:war_table>
 ];
 
 for item in stageItems {
@@ -23,7 +22,7 @@ for item in stageItems {
 }
 
 // Money mod ATM and Bills
-recipes.addShaped(<fsmm:atm>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],[<ore:ingotIron>, <modcurrency:banknote:3>, <ore:ingotIron>], [<ore:blockIron>, <ore:blockRedstone>, <ore:blockIron>]]);
+recipes.addShaped(<fsmm:atm>, [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],[<ore:ingotIron>, <ore:blockGlass>, <ore:ingotIron>], [<ore:blockIron>, <ore:blockRedstone>, <ore:blockIron>]]);
 recipes.addShapeless(<contenttweaker:thousand_bill>, [<contenttweaker:fivehundred_bill>,<contenttweaker:fivehundred_bill>]);
 recipes.addShapeless(<modcurrency:banknote:5> * 10, [<contenttweaker:thousand_bill>]);
 recipes.addShapeless(<contenttweaker:fivehundred_bill> * 2, [<contenttweaker:thousand_bill>]);

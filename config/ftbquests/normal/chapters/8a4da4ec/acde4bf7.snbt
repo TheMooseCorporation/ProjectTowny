@@ -38,7 +38,6 @@
 	rewards: [{
 		uid: "303b5d45",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "agriculture_spec"
 	}]
 }

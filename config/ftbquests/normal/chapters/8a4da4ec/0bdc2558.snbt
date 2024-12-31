@@ -35,7 +35,6 @@
 	rewards: [{
 		uid: "fd27b7a8",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "modern_military_tech"
 	}]
 }

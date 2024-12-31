@@ -38,7 +38,6 @@
 	rewards: [{
 		uid: "55d4c0d4",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "space_exploration_tech"
 	}]
 }

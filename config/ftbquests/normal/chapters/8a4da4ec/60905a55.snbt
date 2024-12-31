@@ -38,7 +38,6 @@
 	rewards: [{
 		uid: "a435a4f1",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "compact_machinery_tech"
 	}]
 }

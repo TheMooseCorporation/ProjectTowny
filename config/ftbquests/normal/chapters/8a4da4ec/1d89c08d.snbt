@@ -42,7 +42,6 @@
 	rewards: [{
 		uid: "ec8d002f",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "industrial_manufacturing_spec"
 	}]
 }

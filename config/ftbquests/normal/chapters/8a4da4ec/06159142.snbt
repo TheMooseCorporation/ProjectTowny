@@ -36,7 +36,6 @@
 	rewards: [{
 		uid: "cf90ebf5",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "chemical_engineering_tech_spec"
 	}]
 }

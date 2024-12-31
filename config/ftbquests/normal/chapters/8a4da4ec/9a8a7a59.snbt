@@ -42,7 +42,7 @@
 	rewards: [{
 		uid: "abf7a70d",
 		type: "gamestage",
-		auto: "no_toast",
+		auto: "disabled",
 		stage: "scientific_theory_tech"
 	}]
 }

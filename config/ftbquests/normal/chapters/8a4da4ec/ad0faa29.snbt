@@ -45,7 +45,6 @@
 	rewards: [{
 		uid: "da92da23",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "electrical_engineering_spec"
 	}]
 }

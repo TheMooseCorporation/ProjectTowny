@@ -51,7 +51,6 @@
 	rewards: [{
 		uid: "a8395e99",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "manhattan_project_tech"
 	}]
 }

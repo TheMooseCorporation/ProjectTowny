@@ -35,7 +35,6 @@
 	rewards: [{
 		uid: "c7964e4c",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "arc_smelting_tech"
 	}]
 }

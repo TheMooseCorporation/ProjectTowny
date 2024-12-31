@@ -36,7 +36,6 @@
 	rewards: [{
 		uid: "8c43994b",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "replaceable_parts_tech"
 	}]
 }

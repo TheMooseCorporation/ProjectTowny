@@ -32,7 +32,6 @@
 	rewards: [{
 		uid: "aef8f64f",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "cooking_tech"
 	}]
 }

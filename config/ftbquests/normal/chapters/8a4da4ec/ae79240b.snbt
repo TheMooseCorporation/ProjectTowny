@@ -34,7 +34,6 @@
 	rewards: [{
 		uid: "e3fa4e47",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "computer_tech"
 	}]
 }

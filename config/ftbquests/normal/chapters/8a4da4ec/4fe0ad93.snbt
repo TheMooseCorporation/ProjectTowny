@@ -40,7 +40,6 @@
 	rewards: [{
 		uid: "c99e5ea6",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "composite_construction_tech_spec"
 	}]
 }

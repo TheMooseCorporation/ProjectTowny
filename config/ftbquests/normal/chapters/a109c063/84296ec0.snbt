@@ -18,10 +18,10 @@
 		"§a§lCost: $100 to create a district.§r",
 		"",
 		"Municipalities (Towns): Municipalities are made up of districts. Municipalities are the most important type of land claiming in Project Towny. ",
-		"§a§lCosts $400 to found Municipality.§r",
+		"§a§lCosts $250 to found Municipality.§r",
 		"",
 		"States (Nations): States are made up of Municipalities.",
-		"§a§lCosts: $x to create a State§r"
+		"§a§lCosts: $2000 to create a State§r"
 	],
 	dependencies: [
 		"3dba3f21"

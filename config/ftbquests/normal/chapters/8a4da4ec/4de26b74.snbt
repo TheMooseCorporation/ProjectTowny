@@ -47,7 +47,6 @@
 	rewards: [{
 		uid: "f1586ba4",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "basic_missiles_tech"
 	}]
 }

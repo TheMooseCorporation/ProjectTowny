@@ -34,7 +34,6 @@
 	rewards: [{
 		uid: "ea762feb",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "advanced_military_tech"
 	}]
 }

@@ -34,7 +34,6 @@
 	rewards: [{
 		uid: "e2e7bafd",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "cartography_tech"
 	}]
 }

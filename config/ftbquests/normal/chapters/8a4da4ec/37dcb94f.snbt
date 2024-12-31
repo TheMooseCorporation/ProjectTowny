@@ -36,7 +36,6 @@
 	rewards: [{
 		uid: "02feee2d",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "fission_reactors_tech"
 	}]
 }

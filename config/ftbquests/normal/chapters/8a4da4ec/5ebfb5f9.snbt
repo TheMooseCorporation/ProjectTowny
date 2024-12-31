@@ -46,7 +46,6 @@
 	rewards: [{
 		uid: "83b50ecb",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "future_tech"
 	}]
 }

@@ -38,7 +38,6 @@
 	rewards: [{
 		uid: "60e3133e",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "iron_tech"
 	}]
 }

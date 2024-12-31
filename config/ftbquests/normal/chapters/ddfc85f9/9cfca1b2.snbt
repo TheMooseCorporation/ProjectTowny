@@ -5,8 +5,10 @@
 		"06e8b05f"
 	],
 	tasks: [{
-		uid: "46d640fa",
-		type: "checkmark",
-		title: "Industrial Dependent"
+		uid: "53480cb5",
+		type: "item",
+		items: [{
+			item: "minecraft:barrier"
+		}]
 	}]
 }

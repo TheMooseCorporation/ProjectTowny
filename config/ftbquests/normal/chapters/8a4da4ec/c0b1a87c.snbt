@@ -38,7 +38,6 @@
 	rewards: [{
 		uid: "8224d578",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "asteroid_mining_tech"
 	}]
 }

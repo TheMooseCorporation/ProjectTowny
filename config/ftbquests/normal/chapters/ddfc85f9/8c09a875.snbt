@@ -3,7 +3,10 @@
 	x: 6.0d,
 	y: -4.5d,
 	tasks: [{
-		uid: "1155c5ab",
-		type: "checkmark"
+		uid: "c6f94a2d",
+		type: "item",
+		items: [{
+			item: "minecraft:barrier"
+		}]
 	}]
 }

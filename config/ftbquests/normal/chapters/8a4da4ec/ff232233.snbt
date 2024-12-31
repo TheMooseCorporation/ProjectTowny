@@ -35,7 +35,6 @@
 	rewards: [{
 		uid: "290dd8c1",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "fluidynamics_tech"
 	}]
 }

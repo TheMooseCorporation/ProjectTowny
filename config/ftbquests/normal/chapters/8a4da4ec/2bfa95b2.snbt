@@ -41,7 +41,6 @@
 	rewards: [{
 		uid: "a33f6561",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "biodiesel_tech"
 	}]
 }

@@ -39,7 +39,6 @@
 	rewards: [{
 		uid: "9e43fae7",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "railroading_tech"
 	}]
 }

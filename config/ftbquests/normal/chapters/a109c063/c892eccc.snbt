@@ -20,10 +20,19 @@
 	size: 1.5d,
 	optional: true,
 	min_width: 400,
+	or_tasks: true,
 	tasks: [{
 		uid: "fef4cb7b",
 		type: "gamestage",
 		title: "Become a Researcher",
+		icon: "contenttweaker:researcher_token",
 		stage: "researcher"
+	},
+	{
+		uid: "9e8f48fa",
+		type: "gamestage",
+		title: "Or Become Mayor",
+		icon: "contenttweaker:mayor_token",
+		stage: "mayor"
 	}]
 }

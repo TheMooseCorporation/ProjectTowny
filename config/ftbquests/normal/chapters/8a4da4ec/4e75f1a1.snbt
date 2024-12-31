@@ -32,7 +32,6 @@
 	rewards: [{
 		uid: "cd7f2167",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "architecture_tech"
 	}]
 }

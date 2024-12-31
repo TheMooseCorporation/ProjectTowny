@@ -37,7 +37,6 @@
 	rewards: [{
 		uid: "72a156fa",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "heavy_machinery_tech"
 	}]
 }

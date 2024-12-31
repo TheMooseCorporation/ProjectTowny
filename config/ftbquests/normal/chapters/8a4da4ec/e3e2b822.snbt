@@ -39,7 +39,6 @@
 	rewards: [{
 		uid: "be273d7b",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "mechanical_engineering_spec"
 	}]
 }

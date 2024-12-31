@@ -35,7 +35,6 @@
 	rewards: [{
 		uid: "a8272a32",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "thermodynamics_tech"
 	}]
 }

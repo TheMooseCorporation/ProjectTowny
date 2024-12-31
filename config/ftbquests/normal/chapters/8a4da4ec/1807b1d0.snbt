@@ -38,7 +38,6 @@
 	rewards: [{
 		uid: "2679f66c",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "warp_tech"
 	}]
 }

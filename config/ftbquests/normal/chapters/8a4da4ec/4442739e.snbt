@@ -36,7 +36,6 @@
 	rewards: [{
 		uid: "d6f550b0",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "mechanics_tech"
 	}]
 }

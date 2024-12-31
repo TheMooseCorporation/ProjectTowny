@@ -43,7 +43,6 @@
 	rewards: [{
 		uid: "67ac9387",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "oil_processing_tech"
 	}]
 }

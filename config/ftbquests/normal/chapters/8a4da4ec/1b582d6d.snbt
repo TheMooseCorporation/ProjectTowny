@@ -43,7 +43,6 @@
 	rewards: [{
 		uid: "fa3706d5",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "industrial_manufacturing_tech_spec"
 	}]
 }

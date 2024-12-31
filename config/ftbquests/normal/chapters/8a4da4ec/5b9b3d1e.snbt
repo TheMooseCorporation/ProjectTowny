@@ -33,7 +33,6 @@
 	rewards: [{
 		uid: "58c29781",
 		type: "gamestage",
-		auto: "no_toast",
 		stage: "forestry_tech_spec"
 	}]
 }
