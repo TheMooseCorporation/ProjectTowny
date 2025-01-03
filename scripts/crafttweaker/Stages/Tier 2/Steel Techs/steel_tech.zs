@@ -411,6 +411,8 @@ BottlingMachine.addRecipe(<thermalfoundation:material:1027>, <ore:dustIron>, <li
 // Crusher
 Crusher.addRecipe(<minecraft:clay_ball> * 4, <ore:hardened_clay>, 128);
 Crusher.addRecipe(<thermalfoundation:material:769>, <minecraft:coal:1>, 128);
+Crusher.addRecipe(<immersiveengineering:metal:11> * 2, <geolosys:cluster:5>, 128);
+Crusher.addRecipe(<immersiveengineering:metal:10> * 2, <geolosys:cluster:6>, 128);
 // Melting Crucible [Energy is calculated as (RF/t) * (time)]
 MeltingCrucible.addRecipe(<liquid:molten_silicon> * 20, <minecraft:sand>, 30720, 120); // Molten Silicon [256 RF/t]
 MeltingCrucible.addRecipe(<liquid:ender> * 250, <minecraft:ender_pearl>, 102400, 400); // Liquid Ender [256 RF/t]

@@ -42,7 +42,7 @@
     ],
     "pattern": [
       [
-        "@AAG",
+        "@AA ",
         " BB ",
         "    "
       ],
@@ -57,7 +57,7 @@
         " EE "
       ],
       [
-        " CC ",
+        " HG ",
         " EE ",
         "    "
       ]
@@ -130,6 +130,14 @@
         ],
         "type": "states"
       },
+      "LQ": {
+        "blocks": [
+          {
+            "id": "multiblocked:fluid_input"
+          }
+        ],
+        "type": "blocks"
+      },
       "F": {
         "states": [
           {
@@ -143,8 +151,12 @@
         "type": "any"
       },
       "FE": {
-        "capability": "forge_energy",
-        "type": "capability"
+        "blocks": [
+          {
+            "id": "multiblocked:energy_input"
+          }
+        ],
+        "type": "blocks"
       }
     },
     "symbolMap": {
@@ -173,8 +185,10 @@
         "F"
       ],
       "G": [
-        "any",
         "FE"
+      ],
+      "H": [
+        "LQ"
       ]
     }
   }

@@ -13,7 +13,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:4,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:4}"
               ]
             }
           },
@@ -22,7 +22,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:advanced_materials_points\",Count:4,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:advanced_materials_points\",Count:4}"
               ]
             }
           },
@@ -31,7 +31,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:8,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:engineering_points\",Count:8}"
               ]
             }
           },
@@ -40,7 +40,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:electricity_points\",Count:4,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electricity_points\",Count:4}"
               ]
             }
           },
@@ -49,7 +49,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:thermodynamics_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:thermodynamics_tech_template\",Count:1}"
               ]
             }
           }
@@ -62,7 +62,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:thermodynamics_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:thermodynamics_tech\",Count:1}"
               ]
             }
           }
@@ -79,7 +79,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:4,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:4}"
               ]
             }
           },
@@ -88,7 +88,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanical_points\",Count:128}"
               ]
             }
           },
@@ -97,7 +97,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:128}"
               ]
             }
           },
@@ -106,7 +106,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:aeromobiles_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:aeromobiles_tech_template\",Count:1}"
               ]
             }
           }
@@ -119,7 +119,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:aeromobiles_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:aeromobiles_tech\",Count:1}"
               ]
             }
           }
@@ -136,7 +136,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:8}"
               ]
             }
           },
@@ -145,7 +145,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanical_points\",Count:256}"
               ]
             }
           },
@@ -154,7 +154,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:256}"
               ]
             }
           },
@@ -163,7 +163,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:mechanical_engineering_tech_spec_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanical_engineering_tech_spec_template\",Count:1}"
               ]
             }
           }
@@ -176,7 +176,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:mechanical_engineering_tech_spec\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanical_engineering_tech_spec\",Count:1}"
               ]
             }
           }
@@ -193,7 +193,7 @@
             "content": {
               "amount": 6,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:6,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:6}"
               ]
             }
           },
@@ -202,7 +202,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:engineering_points\",Count:16}"
               ]
             }
           },
@@ -211,7 +211,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fluid_points\",Count:32}"
               ]
             }
           },
@@ -220,7 +220,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:biodiesel_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:biodiesel_tech_template\",Count:1}"
               ]
             }
           }
@@ -233,7 +233,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:biodiesel_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:biodiesel_tech\",Count:1}"
               ]
             }
           }
@@ -250,7 +250,7 @@
             "content": {
               "amount": 6,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:6,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:6}"
               ]
             }
           },
@@ -259,7 +259,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:256}"
               ]
             }
           },
@@ -268,7 +268,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_points\",Count:32}"
               ]
             }
           },
@@ -277,7 +277,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:solar_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:solar_tech_template\",Count:1}"
               ]
             }
           }
@@ -290,7 +290,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:solar_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:solar_tech\",Count:1}"
               ]
             }
           }
@@ -307,7 +307,7 @@
             "content": {
               "amount": 7,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:7,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:7}"
               ]
             }
           },
@@ -316,7 +316,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electricity_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electricity_points\",Count:256}"
               ]
             }
           },
@@ -325,7 +325,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:32}"
               ]
             }
           },
@@ -334,7 +334,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:basic_circuitry_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:basic_circuitry_tech_template\",Count:1}"
               ]
             }
           }
@@ -347,7 +347,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:basic_circuitry_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:basic_circuitry_tech\",Count:1}"
               ]
             }
           }
@@ -364,7 +364,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:32}"
               ]
             }
           },
@@ -373,7 +373,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanical_points\",Count:32}"
               ]
             }
           },
@@ -382,8 +382,8 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:32,Damage:0s}",
-                "{id:\"contenttweaker:nuclear_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_points\",Count:32}",
+                "{Damage:0s,id:\"contenttweaker:nuclear_points\",Count:32}"
               ]
             }
           },
@@ -392,7 +392,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:scientific_theory_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:scientific_theory_tech_template\",Count:1}"
               ]
             }
           }
@@ -405,7 +405,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:scientific_theory_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:scientific_theory_tech\",Count:1}"
               ]
             }
           }
@@ -419,7 +419,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"lava\",Amount:4000}"
+            "content": "{Amount:4000,FluidName:\"lava\"}"
           }
         ]
       },
@@ -430,7 +430,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fluid_points\",Count:1}"
               ]
             }
           }
@@ -458,7 +458,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:1}"
               ]
             }
           }
@@ -486,7 +486,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:4,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:4}"
               ]
             }
           }
@@ -503,7 +503,7 @@
             "content": {
               "amount": 7,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:7,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:7}"
               ]
             }
           },
@@ -512,7 +512,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:64,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:engineering_points\",Count:64}"
               ]
             }
           },
@@ -521,7 +521,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:32}"
               ]
             }
           },
@@ -530,7 +530,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:replaceable_parts_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:replaceable_parts_tech_template\",Count:1}"
               ]
             }
           }
@@ -543,7 +543,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:replaceable_parts_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:replaceable_parts_tech\",Count:1}"
               ]
             }
           }
@@ -557,7 +557,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"ethanol\",Amount:1000}"
+            "content": "{Amount:1000,FluidName:\"ethanol\"}"
           }
         ]
       },
@@ -568,7 +568,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:4,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fluid_points\",Count:4}"
               ]
             }
           }
@@ -582,7 +582,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"chlorine\",Amount:1000}"
+            "content": "{Amount:1000,FluidName:\"chlorine\"}"
           }
         ]
       },
@@ -593,7 +593,7 @@
             "content": {
               "amount": 12,
               "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:12,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fluid_points\",Count:12}"
               ]
             }
           }
@@ -607,7 +607,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"creosote\",Amount:2000}"
+            "content": "{Amount:2000,FluidName:\"creosote\"}"
           }
         ]
       },
@@ -618,7 +618,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fluid_points\",Count:1}"
               ]
             }
           }
@@ -635,7 +635,7 @@
             "content": {
               "amount": 6,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:6,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:6}"
               ]
             }
           },
@@ -644,7 +644,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:engineering_points\",Count:16}"
               ]
             }
           },
@@ -653,7 +653,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:electricity_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electricity_points\",Count:32}"
               ]
             }
           },
@@ -662,7 +662,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:arc_smelting_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:arc_smelting_tech_template\",Count:1}"
               ]
             }
           }
@@ -675,7 +675,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:arc_smelting_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:arc_smelting_tech\",Count:1}"
               ]
             }
           }
@@ -689,7 +689,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"plantoil\",Amount:1000}"
+            "content": "{Amount:1000,FluidName:\"plantoil\"}"
           }
         ]
       },
@@ -700,7 +700,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:3,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fluid_points\",Count:3}"
               ]
             }
           }
@@ -717,7 +717,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:8}"
               ]
             }
           },
@@ -726,7 +726,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:64,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:64}"
               ]
             }
           },
@@ -735,7 +735,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:64,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanical_points\",Count:64}"
               ]
             }
           },
@@ -744,7 +744,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:atomic_theory_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:atomic_theory_tech_template\",Count:1}"
               ]
             }
           }
@@ -757,7 +757,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:atomic_theory_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:atomic_theory_tech\",Count:1}"
               ]
             }
           }
@@ -774,7 +774,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:8}"
               ]
             }
           },
@@ -783,7 +783,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fluid_points\",Count:256}"
               ]
             }
           },
@@ -792,7 +792,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_points\",Count:256}"
               ]
             }
           },
@@ -801,7 +801,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:chemical_engineering_tech_spec_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_engineering_tech_spec_template\",Count:1}"
               ]
             }
           }
@@ -814,7 +814,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:chemical_engineering_tech_spec\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_engineering_tech_spec\",Count:1}"
               ]
             }
           }
@@ -828,7 +828,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"refined_kerosene\",Amount:1000}"
+            "content": "{Amount:1000,FluidName:\"refined_kerosene\"}"
           }
         ]
       },
@@ -839,7 +839,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:4,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:4}"
               ]
             }
           }
@@ -856,7 +856,7 @@
             "content": {
               "amount": 6,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:6,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:6}"
               ]
             }
           },
@@ -865,7 +865,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:military_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:military_points\",Count:32}"
               ]
             }
           },
@@ -874,7 +874,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:16}"
               ]
             }
           },
@@ -883,7 +883,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:advanced_military_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:advanced_military_tech_template\",Count:1}"
               ]
             }
           }
@@ -896,7 +896,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:advanced_military_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:advanced_military_tech\",Count:1}"
               ]
             }
           }
@@ -905,15 +905,7 @@
     },
     {
       "uid": "electricity-points1",
-      "duration": 300,
-      "inputs": {
-        "forge_energy": [
-          {
-            "chance": 1.0,
-            "content": 196000
-          }
-        ]
-      },
+      "duration": 400,
       "outputs": {
         "item": [
           {
@@ -921,9 +913,17 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:electricity_points\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electricity_points\",Count:1}"
               ]
             }
+          }
+        ]
+      },
+      "tickInputs": {
+        "forge_energy": [
+          {
+            "chance": 1.0,
+            "content": 4096
           }
         ]
       }
@@ -935,7 +935,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"butane\",Amount:1000}"
+            "content": "{Amount:1000,FluidName:\"butane\"}"
           }
         ]
       },
@@ -946,7 +946,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:2,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:2}"
               ]
             }
           }
@@ -960,7 +960,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"jet_fuel\",Amount:1000}"
+            "content": "{Amount:1000,FluidName:\"jet_fuel\"}"
           }
         ]
       },
@@ -971,7 +971,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:4,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:4}"
               ]
             }
           }
@@ -988,7 +988,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:thousand_bill\",Count:1}"
               ]
             }
           },
@@ -997,7 +997,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:advanced_materials_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:advanced_materials_points\",Count:16}"
               ]
             }
           },
@@ -1006,7 +1006,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electricity_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electricity_points\",Count:256}"
               ]
             }
           },
@@ -1015,7 +1015,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:electrical_distribution_tech_spec_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electrical_distribution_tech_spec_template\",Count:1}"
               ]
             }
           }
@@ -1028,7 +1028,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:electrical_distribution_tech_spec\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electrical_distribution_tech_spec\",Count:1}"
               ]
             }
           }
@@ -1056,7 +1056,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanical_points\",Count:1}"
               ]
             }
           }
@@ -1073,7 +1073,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"immersiveengineering:material\",Count:1,Damage:9s}"
+                "{Damage:9s,id:\"immersiveengineering:material\",Count:1}"
               ]
             }
           }
@@ -1086,7 +1086,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanical_points\",Count:1}"
               ]
             }
           }
@@ -1103,7 +1103,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:4,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:4}"
               ]
             }
           },
@@ -1112,7 +1112,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:128}"
               ]
             }
           },
@@ -1121,7 +1121,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanical_points\",Count:32}"
               ]
             }
           },
@@ -1130,7 +1130,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:computer_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:computer_tech_template\",Count:1}"
               ]
             }
           }
@@ -1143,7 +1143,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:computer_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:computer_tech\",Count:1}"
               ]
             }
           }
@@ -1160,7 +1160,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:4,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:4}"
               ]
             }
           },
@@ -1169,7 +1169,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanical_points\",Count:128}"
               ]
             }
           },
@@ -1178,7 +1178,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:128}"
               ]
             }
           },
@@ -1187,7 +1187,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:mechanics_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanics_tech_template\",Count:1}"
               ]
             }
           }
@@ -1200,7 +1200,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:mechanics_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanics_tech\",Count:1}"
               ]
             }
           }
@@ -1217,7 +1217,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:thousand_bill\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:thousand_bill\",Count:1}"
               ]
             }
           },
@@ -1226,7 +1226,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:advanced_materials_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:advanced_materials_points\",Count:32}"
               ]
             }
           },
@@ -1235,7 +1235,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:engineering_points\",Count:32}"
               ]
             }
           },
@@ -1244,7 +1244,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fluid_points\",Count:32}"
               ]
             }
           },
@@ -1253,7 +1253,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:oil_processing_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:oil_processing_tech_template\",Count:1}"
               ]
             }
           }
@@ -1266,7 +1266,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:oil_processing_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:oil_processing_tech\",Count:1}"
               ]
             }
           }
@@ -1283,7 +1283,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:4,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:4}"
               ]
             }
           },
@@ -1292,7 +1292,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:advanced_materials_points\",Count:4,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:advanced_materials_points\",Count:4}"
               ]
             }
           },
@@ -1301,7 +1301,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:4,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:engineering_points\",Count:4}"
               ]
             }
           },
@@ -1310,7 +1310,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"contenttweaker:electricity_points\",Count:2,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electricity_points\",Count:2}"
               ]
             }
           },
@@ -1319,7 +1319,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:fluidynamics_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fluidynamics_tech_template\",Count:1}"
               ]
             }
           }
@@ -1332,7 +1332,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:fluidynamics_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fluidynamics_tech\",Count:1}"
               ]
             }
           }
@@ -1349,7 +1349,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:fivehundred_bill\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fivehundred_bill\",Count:1}"
               ]
             }
           },
@@ -1358,7 +1358,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fluid_points\",Count:128}"
               ]
             }
           },
@@ -1367,7 +1367,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:64,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:64}"
               ]
             }
           },
@@ -1376,7 +1376,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanical_points\",Count:32}"
               ]
             }
           },
@@ -1385,7 +1385,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:chemical_synthesis_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_synthesis_tech_template\",Count:1}"
               ]
             }
           }
@@ -1398,7 +1398,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:chemical_synthesis_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_synthesis_tech\",Count:1}"
               ]
             }
           }
@@ -1415,7 +1415,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:fivehundred_bill\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fivehundred_bill\",Count:1}"
               ]
             }
           },
@@ -1424,7 +1424,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:256}"
               ]
             }
           },
@@ -1433,7 +1433,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electricity_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electricity_points\",Count:256}"
               ]
             }
           },
@@ -1442,7 +1442,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:electrical_engineering_tech_spec_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electrical_engineering_tech_spec_template\",Count:1}"
               ]
             }
           }
@@ -1455,7 +1455,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:electrical_engineering_tech_spec\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electrical_engineering_tech_spec\",Count:1}"
               ]
             }
           }
@@ -1472,7 +1472,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:3,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:3}"
               ]
             }
           },
@@ -1481,7 +1481,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:engineering_points\",Count:16}"
               ]
             }
           },
@@ -1490,7 +1490,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"contenttweaker:electricity_points\",Count:8,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electricity_points\",Count:8}"
               ]
             }
           },
@@ -1499,7 +1499,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:steam_energy_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:steam_energy_tech_template\",Count:1}"
               ]
             }
           }
@@ -1512,7 +1512,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:steam_energy_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:steam_energy_tech\",Count:1}"
               ]
             }
           }
@@ -1529,7 +1529,7 @@
             "content": {
               "amount": 6,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:6,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:6}"
               ]
             }
           },
@@ -1538,7 +1538,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:advanced_materials_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:advanced_materials_points\",Count:16}"
               ]
             }
           },
@@ -1547,7 +1547,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:8,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:engineering_points\",Count:8}"
               ]
             }
           },
@@ -1556,7 +1556,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:composite_construction_tech_spec_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:composite_construction_tech_spec_template\",Count:1}"
               ]
             }
           }
@@ -1569,7 +1569,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:composite_construction_tech_spec\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:composite_construction_tech_spec\",Count:1}"
               ]
             }
           }
@@ -1586,7 +1586,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:4,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:4}"
               ]
             }
           },
@@ -1595,7 +1595,7 @@
             "content": {
               "amount": 128,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:128,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:128}"
               ]
             }
           },
@@ -1604,7 +1604,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:wireless_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:wireless_tech_template\",Count:1}"
               ]
             }
           }
@@ -1617,7 +1617,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:wireless_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:wireless_tech\",Count:1}"
               ]
             }
           }
@@ -1634,9 +1634,9 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"nuclearcraft:uranium\",Count:1,Damage:0s}",
-                "{id:\"nuclearcraft:uranium\",Count:1,Damage:4s}",
-                "{id:\"nuclearcraft:thorium\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"nuclearcraft:uranium\",Count:1}",
+                "{Damage:4s,id:\"nuclearcraft:uranium\",Count:1}",
+                "{Damage:0s,id:\"nuclearcraft:thorium\",Count:1}"
               ]
             }
           }
@@ -1649,7 +1649,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:2,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_points\",Count:2}"
               ]
             }
           }
@@ -1666,7 +1666,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:8}"
               ]
             }
           },
@@ -1675,7 +1675,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:advanced_materials_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:advanced_materials_points\",Count:16}"
               ]
             }
           },
@@ -1684,7 +1684,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:engineering_points\",Count:16}"
               ]
             }
           },
@@ -1693,7 +1693,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:electricity_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electricity_points\",Count:16}"
               ]
             }
           },
@@ -1702,7 +1702,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:heavy_machinery_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:heavy_machinery_tech_template\",Count:1}"
               ]
             }
           }
@@ -1715,7 +1715,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:heavy_machinery_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:heavy_machinery_tech\",Count:1}"
               ]
             }
           }
@@ -1732,7 +1732,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:4,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:4}"
               ]
             }
           },
@@ -1741,7 +1741,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:8,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:engineering_points\",Count:8}"
               ]
             }
           },
@@ -1750,7 +1750,7 @@
             "content": {
               "amount": 16,
               "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:16,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fluid_points\",Count:16}"
               ]
             }
           },
@@ -1759,7 +1759,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:logistics_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:logistics_tech_template\",Count:1}"
               ]
             }
           }
@@ -1772,7 +1772,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:logistics_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:logistics_tech\",Count:1}"
               ]
             }
           }
@@ -1786,7 +1786,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"sodium_chlorate\",Amount:200}"
+            "content": "{Amount:200,FluidName:\"sodium_chlorate\"}"
           }
         ]
       },
@@ -1797,7 +1797,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_points\",Count:1}"
               ]
             }
           }
@@ -1814,8 +1814,8 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"nuclearcraft:uranium\",Count:1,Damage:8s}",
-                "{id:\"nuclearcraft:thorium\",Count:1,Damage:4s}"
+                "{Damage:8s,id:\"nuclearcraft:uranium\",Count:1}",
+                "{Damage:4s,id:\"nuclearcraft:thorium\",Count:1}"
               ]
             }
           }
@@ -1828,7 +1828,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_points\",Count:1}"
               ]
             }
           }
@@ -1845,7 +1845,7 @@
             "content": {
               "amount": 15,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:15,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:15}"
               ]
             }
           },
@@ -1854,7 +1854,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_points\",Count:256}"
               ]
             }
           },
@@ -1863,7 +1863,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"contenttweaker:nuclear_points\",Count:64,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_points\",Count:64}"
               ]
             }
           },
@@ -1872,7 +1872,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:nuclear_engineering_tech_spec_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_engineering_tech_spec_template\",Count:1}"
               ]
             }
           }
@@ -1885,7 +1885,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:nuclear_engineering_tech_spec\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:nuclear_engineering_tech_spec\",Count:1}"
               ]
             }
           }
@@ -1902,7 +1902,7 @@
             "content": {
               "amount": 12,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:12,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:12}"
               ]
             }
           },
@@ -1911,7 +1911,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:32,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:engineering_points\",Count:32}"
               ]
             }
           },
@@ -1920,7 +1920,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:64,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:64}"
               ]
             }
           },
@@ -1929,7 +1929,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:industrial_manufacturing_tech_spec_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:industrial_manufacturing_tech_spec_template\",Count:1}"
               ]
             }
           }
@@ -1942,7 +1942,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:industrial_manufacturing_tech_spec\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:industrial_manufacturing_tech_spec\",Count:1}"
               ]
             }
           }
@@ -1959,7 +1959,7 @@
             "content": {
               "amount": 3,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:3,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:3}"
               ]
             }
           },
@@ -1968,7 +1968,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"contenttweaker:advanced_materials_points\",Count:8,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:advanced_materials_points\",Count:8}"
               ]
             }
           },
@@ -1977,7 +1977,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"contenttweaker:engineering_points\",Count:8,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:engineering_points\",Count:8}"
               ]
             }
           },
@@ -1986,7 +1986,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"contenttweaker:fluid_points\",Count:8,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:fluid_points\",Count:8}"
               ]
             }
           },
@@ -1995,7 +1995,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:pollution_management_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:pollution_management_tech_template\",Count:1}"
               ]
             }
           }
@@ -2008,7 +2008,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:pollution_management_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:pollution_management_tech\",Count:1}"
               ]
             }
           }
@@ -2025,7 +2025,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"modcurrency:banknote\",Count:8,Damage:5s}"
+                "{Damage:5s,id:\"modcurrency:banknote\",Count:8}"
               ]
             }
           },
@@ -2034,7 +2034,7 @@
             "content": {
               "amount": 256,
               "matches": [
-                "{id:\"contenttweaker:electronic_points\",Count:256,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:256}"
               ]
             }
           },
@@ -2043,7 +2043,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"contenttweaker:mechanical_points\",Count:64,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:mechanical_points\",Count:64}"
               ]
             }
           },
@@ -2052,7 +2052,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:server_storage_tech_template\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:server_storage_tech_template\",Count:1}"
               ]
             }
           }
@@ -2065,7 +2065,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:server_storage_tech\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:server_storage_tech\",Count:1}"
               ]
             }
           }
@@ -2079,7 +2079,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"gasoline\",Amount:1000}"
+            "content": "{Amount:1000,FluidName:\"gasoline\"}"
           }
         ]
       },
@@ -2090,7 +2090,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:2,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:2}"
               ]
             }
           }
@@ -2104,7 +2104,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"oil\",Amount:16000}"
+            "content": "{Amount:16000,FluidName:\"oil\"}"
           }
         ]
       },
@@ -2115,7 +2115,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"contenttweaker:petroleum_points\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:petroleum_points\",Count:1}"
               ]
             }
           }
@@ -2129,7 +2129,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"sulfuric_acid\",Amount:200}"
+            "content": "{Amount:200,FluidName:\"sulfuric_acid\"}"
           }
         ]
       },
@@ -2140,7 +2140,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"contenttweaker:chemical_points\",Count:2,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:chemical_points\",Count:2}"
               ]
             }
           }

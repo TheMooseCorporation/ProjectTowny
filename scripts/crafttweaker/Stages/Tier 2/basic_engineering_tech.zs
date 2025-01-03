@@ -129,3 +129,7 @@ recipes.addShaped(<minecraft:piston>, [[<ore:plankWood>, <ore:plankWood>, <ore:p
 // Better with Mods recipe tweaks
 recipes.remove(<betterwithmods:hibachi>);
 recipes.addShaped(<betterwithmods:hibachi>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<ore:materialStoneTool>, <betterwithmods:material:27>, <ore:materialStoneTool>], [<ore:materialStoneTool>, <minecraft:redstone>, <ore:materialStoneTool>]]);
+
+// This recipe is broken for some reason, this should fix it
+recipes.remove(<betterwithmods:bellows>);
+recipes.addShaped(<betterwithmods:bellows>, [[null, null, null],[<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>], [<betterwithmods:material:9>, <ore:gearWood>, <betterwithmods:material:9>]]);

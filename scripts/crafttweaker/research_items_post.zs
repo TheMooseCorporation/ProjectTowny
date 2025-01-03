@@ -18,7 +18,7 @@ val templateItemstacksT1 = {
     <contenttweaker:cooking_tech_template> : [<minecraft:paper>, <ore:listAllfruit>, <ore:listAllveggie>, <ore:listAllgrain>],
     <contenttweaker:electricity_tech_template> : [<minecraft:paper>, <ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
     <contenttweaker:iron_tech_template> : [<minecraft:paper>, <ore:logWood>, <ore:logWood>, <ore:logWood>, <ore:logWood>, <minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
-    <contenttweaker:kitchen_tech_template> : [<minecraft:paper>, <harvestcraft:potitem>, <harvestcraft:skilletitem>, <harvestcraft:cuttingboarditem>],
+    <contenttweaker:kitchen_tech_template> : [<minecraft:paper>, <harvestcraft:potitem>.noReturn(), <harvestcraft:skilletitem>.noReturn(), <harvestcraft:cuttingboarditem>.noReturn()],
     <contenttweaker:railroading_tech_template> : [<minecraft:paper>, <minecraft:furnace_minecart>, <minecraft:rail>, <minecraft:rail>],
     <contenttweaker:sailing_tech_template> : [<minecraft:paper>, <minecraft:boat>, <minecraft:wooden_shovel>, <minecraft:wooden_shovel>],
     <contenttweaker:steel_tech_template>  : [<minecraft:paper>, <minecraft:coal>, <minecraft:iron_ingot>, <minecraft:lava_bucket>]

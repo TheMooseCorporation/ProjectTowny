@@ -12,7 +12,8 @@ import mods.immersiveengineering.Blueprint;
 val stage = "electricity_tech";
 
 val stageMods as string[] = [
-    "immersiveposts"
+    "immersiveposts",
+    "multiblocked"
 ];
 
 val stageItems as IItemStack[] = [
