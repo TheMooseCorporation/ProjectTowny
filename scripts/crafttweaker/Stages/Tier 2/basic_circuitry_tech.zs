@@ -86,7 +86,7 @@ recipes.remove(<enderio:item_basic_capacitor>);
 recipes.addShapeless(<opencomputers:material:2>, [<ore:plateCopper>,<immersiveengineering:stone_decoration:8>]);
 
 // Tier 3 Engineering Workbench
-recipes.addShaped(<artisanworktables:workshop:6>, [[<ore:circuitBasic>, <ore:blockCopper>, <ore:circuitBasic>],[<immersivetech:metal_barrel:2>, <artisanworktables:workstation:6>, <immersivetech:metal_barrel:2>], [<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>]]);
+recipes.addShaped(<artisanworktables:workshop:6>, [[<contenttweaker:tier0_circuit>, <ore:blockCopper>, <contenttweaker:tier0_circuit>],[<immersivetech:metal_barrel:2>, <artisanworktables:workstation:6>, <immersivetech:metal_barrel:2>], [<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>]]);
 
 // Crystallizer Multiblock Controller
 recipes.addShaped(<projecttowny:crystallizer>, [[<immersiveengineering:metal_decoration0:4>, <immersiveengineering:metal_decoration0:4>, <immersiveengineering:metal_decoration0:4>],[<immersiveengineering:metal_decoration0:5>, <minecraft:dispenser>, <immersiveengineering:metal_decoration0:5>], [<ore:blockSteel>, <ore:blockSteel>, <ore:blockSteel>]]);
@@ -153,8 +153,8 @@ ItemStages.addItemStage(stage, <enderio:item_power_conduit:2>);
 //Recipes for Multiblocked Inputs/Outputs
 recipes.addShaped(<multiblocked:energy_output>, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <immersiveengineering:metal_device0:1>, <ore:ingotSteel>], [<ore:chest>, <minecraft:hopper>, <ore:chest>]]);
 recipes.addShaped(<multiblocked:energy_input>, [[null, <minecraft:hopper>, null],[<ore:ingotSteel>, <immersiveengineering:metal_device0:1>, <ore:ingotSteel>], [<ore:chest>, <ore:ingotSteel>, <ore:chest>]]);
-recipes.addShaped(<multiblocked:fluid_output>, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <immersiveengineering:metal_device0:4>, <ore:ingotSteel>], [<ore:chest>, <minecraft:hopper>, <ore:chest>]]);
-recipes.addShaped(<multiblocked:fluid_input>, [[null, <minecraft:hopper>, null],[<ore:ingotSteel>, <immersiveengineering:metal_device0:4>, <ore:ingotSteel>], [<ore:chest>, <ore:ingotSteel>, <ore:chest>]]);
+recipes.addShaped(<multiblocked:fluid_output>, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <minecraft:bucket>, <ore:ingotSteel>], [<ore:chest>, <minecraft:hopper>, <ore:chest>]]);
+recipes.addShaped(<multiblocked:fluid_input>, [[null, <minecraft:hopper>, null],[<ore:ingotSteel>, <minecraft:bucket>, <ore:ingotSteel>], [<ore:chest>, <ore:ingotSteel>, <ore:chest>]]);
 recipes.addShaped(<multiblocked:item_output>, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <immersiveengineering:conveyor>, <ore:ingotSteel>], [<ore:chest>, <minecraft:hopper>, <ore:chest>]]);
 recipes.addShaped(<multiblocked:item_input>, [[null, <minecraft:hopper>, null],[<ore:ingotSteel>, <immersiveengineering:conveyor>, <ore:ingotSteel>], [<ore:chest>, <ore:ingotSteel>, <ore:chest>]]);
 

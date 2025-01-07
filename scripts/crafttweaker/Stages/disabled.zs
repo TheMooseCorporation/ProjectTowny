@@ -581,11 +581,13 @@ val stageItems as IItemStack[] = [
     <tconstruct:slimesling:2>,
     <tconstruct:slimesling:3>,
     <tconstruct:slimesling:4>,
+    <tconstruct:slimesling:5>,
     <tconstruct:slime_boots>,
     <tconstruct:slime_boots:1>,
     <tconstruct:slime_boots:2>,
     <tconstruct:slime_boots:3>,
     <tconstruct:slime_boots:4>,
+    <tconstruct:slime_boots:5>,
     // Vanilla
     // This will be an experiment of how this goes. Fights where the fighters have crazy enchants on their armor to the point they're unkillable are really boring.
     <minecraft:enchanting_table>,

@@ -130,6 +130,10 @@ recipes.addShaped(<minecraft:piston>, [[<ore:plankWood>, <ore:plankWood>, <ore:p
 recipes.remove(<betterwithmods:hibachi>);
 recipes.addShaped(<betterwithmods:hibachi>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<ore:materialStoneTool>, <betterwithmods:material:27>, <ore:materialStoneTool>], [<ore:materialStoneTool>, <minecraft:redstone>, <ore:materialStoneTool>]]);
 
-// This recipe is broken for some reason, this should fix it
+// BWM recipes using siding break when disabling siding
 recipes.remove(<betterwithmods:bellows>);
+recipes.remove(<betterwithmods:material:10>);
+recipes.remove(<betterwithmods:single_machine:3>);
 recipes.addShaped(<betterwithmods:bellows>, [[null, null, null],[<ore:hideTanned>, <ore:hideTanned>, <ore:hideTanned>], [<betterwithmods:material:9>, <ore:gearWood>, <betterwithmods:material:9>]]);
+recipes.addShaped(<betterwithmods:material:10>, [[<minecraft:stick>, <minecraft:stick>, <minecraft:stick>],[<minecraft:stick>, <betterwithmods:material:12>, <minecraft:stick>], [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]]);
+recipes.addShaped(<betterwithmods:single_machine:3>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],[<ore:brickStone>, <minecraft:clock>, <ore:brickStone>], [<ore:brickStone>, <ore:gearWood>, <ore:brickStone>]]);

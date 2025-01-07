@@ -905,7 +905,7 @@
     },
     {
       "uid": "electricity-points1",
-      "duration": 400,
+      "duration": 300,
       "outputs": {
         "item": [
           {
@@ -923,7 +923,7 @@
         "forge_energy": [
           {
             "chance": 1.0,
-            "content": 4096
+            "content": 640
           }
         ]
       }

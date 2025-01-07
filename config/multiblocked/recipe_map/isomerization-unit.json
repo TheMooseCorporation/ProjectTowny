@@ -10,7 +10,7 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"butane\",Amount:100}"
+            "content": "{Amount:100,FluidName:\"butane\"}"
           }
         ]
       },
@@ -18,11 +18,11 @@
         "fluid": [
           {
             "chance": 1.0,
-            "content": "{FluidName:\"isobutane\",Amount:85}"
+            "content": "{Amount:85,FluidName:\"isobutylene\"}"
           },
           {
             "chance": 1.0,
-            "content": "{FluidName:\"hydrogen\",Amount:15}"
+            "content": "{Amount:15,FluidName:\"hydrogen\"}"
           }
         ]
       },

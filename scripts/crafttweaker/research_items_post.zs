@@ -40,7 +40,7 @@ val templateItemstacksT2 = {
     <contenttweaker:oil_processing_tech_template> : [<minecraft:book>, <immersiveengineering:metal_device0:5>, <immersiveengineering:metal_device1:6>, <immersiveengineering:drillhead>],
     <contenttweaker:pollution_management_tech_template> : [<minecraft:book>, <adchimneys:iron_block:1>, <adchimneys:iron_block:1>, <adchimneys:iron_block:1>, <adchimneys:iron_block:1>, <adchimneys:iron_block:2>],
     <contenttweaker:replaceable_parts_tech_template> : [<minecraft:book>, <immersiveengineering:material:9>, <immersiveengineering:material:9>, <immersiveengineering:material:9>, <immersiveengineering:material:9>],
-    <contenttweaker:scientific_theory_tech_template> : [<minecraft:book>, <minecraft:paper>, <ore:oc:floppy>],
+    <contenttweaker:scientific_theory_tech_template> : [<minecraft:book>, <minecraft:paper>, <ore:artisansLens>],
     <contenttweaker:server_storage_tech_template> : [<minecraft:book>, <ore:oc:floppy>, <minecraft:chest>],
     <contenttweaker:solar_tech_template> : [<minecraft:book>, <advancedrocketry:wafer>, <advancedrocketry:wafer>, <advancedrocketry:wafer>, <ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>],
     <contenttweaker:steam_energy_tech_template> : [<minecraft:book>, <immersiveengineering:metal_device1:1>, <immersiveengineering:metal_device1:1>, <minecraft:water_bucket>],

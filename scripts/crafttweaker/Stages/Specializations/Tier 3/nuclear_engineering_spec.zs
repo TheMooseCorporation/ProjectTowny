@@ -78,4 +78,4 @@ ItemStages.addItemStage(spec_tech_stage, <contenttweaker:refined_yellow_cake>);
 recipes.addShapeless(<contenttweaker:refined_yellow_cake>, [<contenttweaker:yellow_cake>,<minecraft:clay_ball>]);
 Mixer.addRecipe(<liquid:salt_water> * 250, <liquid:water> * 250, [<ore:dustSalt>], 256);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:sodium_chlorate> * 50, <liquid:hydrogen> * 150, null, null, <liquid:salt_water> * 200, 512000, 250);
-isotope_separator.addRecipe([<contenttweaker:yellow_cake>, <nuclearcraft:uranium:8>, <nuclearcraft:uranium:6>]);
+isotope_separator.addRecipe([<contenttweaker:refined_yellow_cake>, <nuclearcraft:uranium:8>, <nuclearcraft:uranium:6>]);

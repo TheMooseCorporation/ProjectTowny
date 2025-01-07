@@ -6,6 +6,8 @@ import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.BlastFurnace;
 import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.DieselHandler;
+import mods.immersivetechnology.GasTurbine;
+import mods.immersivetechnology.Boiler;
 
 /**
     Industiral Manufacturing Specilization:
@@ -60,14 +62,16 @@ for item in spec_tech_stageItems {
 
 // Spec Item Staging
 ItemStages.addItemStage("electricity_tech", <immersiveengineering:metal_device1>);
-ItemStages.addItemStage("heavy_machinery_tech", <contenttweaker:treated_iron>);
+ItemStages.addItemStage(spec_tech_stage, <contenttweaker:treated_iron>);
 ItemStages.addItemStage("heavy_machinery_tech", <contenttweaker:limestone_dust>);
-ItemStages.addItemStage("heavy_machinery_tech", <contenttweaker:limeslag_compound>);
+ItemStages.addItemStage(spec_tech_stage, <contenttweaker:limeslag_compound>);
 ItemStages.addItemStage("replaceable_parts_tech", <projecttowny:air_intake>);
 ItemStages.addItemStage("replaceable_parts_tech", <projecttowny:fuel_aerator>);
 
 // This value might need to be tweaked around a bit
 DieselHandler.addFuel(<liquid:aerated_diesel>, 500);
+GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:aerated_diesel> * 55, 10);
+Boiler.addFuel(<liquid:aerated_diesel> * 3, 1, 10);
 
 // Fuel Aeration Multiblock Controllers
 recipes.addShaped(<projecttowny:fuel_aerator>, [[<ore:blockSheetmetalCopper>, <ore:blockSheetmetalCopper>, <ore:blockSheetmetalCopper>],[<ore:blockSheetmetalCopper>, <immersiveengineering:metal_device0:5>, <ore:blockSheetmetalCopper>], [<immersiveengineering:material:9>, <ore:blockSheetmetalCopper>, <immersiveengineering:material:9>]]);

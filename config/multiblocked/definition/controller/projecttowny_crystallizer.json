@@ -137,8 +137,8 @@
       "D": {
         "states": [
           {
-            "id": "minecraft:stone_slab",
-            "meta": 7
+            "id": "immersiveengineering:sheetmetal",
+            "meta": 8
           }
         ],
         "type": "states"
@@ -188,32 +188,11 @@
         ],
         "type": "states"
       },
-      "J": {
-        "states": [
-          {
-            "id": "minecraft:quartz_stairs",
-            "meta": 2
-          }
-        ],
-        "type": "states"
-      },
-      "air": {
-        "type": "air"
-      },
       "K": {
         "states": [
           {
             "id": "multiblocked:item_input",
             "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "L": {
-        "states": [
-          {
-            "id": "minecraft:quartz_stairs",
-            "meta": 3
           }
         ],
         "type": "states"
@@ -257,16 +236,13 @@
         "I"
       ],
       "J": [
-        "J"
+        "D"
       ],
       "K": [
         "K"
       ],
       "L": [
-        "L"
-      ],
-      "-": [
-        "air"
+        "D"
       ]
     }
   }

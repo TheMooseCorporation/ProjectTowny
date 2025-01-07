@@ -171,3 +171,5 @@ for oreDictEntry in woodStackLimited {
     }
 
 }
+
+<contenttweaker:treated_iron>.maxStackSize = 32;

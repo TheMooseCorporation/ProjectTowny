@@ -53,7 +53,8 @@ val stageItems as IItemStack[] = [
     <techguns:itemshared>,
     <techguns:itemshared:37>,
     <techguns:itemshared:42>,
-    <techguns:itemshared:60>
+    <techguns:itemshared:60>,
+    <artisanworktables:worktable:3>
 ];
 
 val nonStagedItems as IItemStack[] = [
@@ -147,11 +148,13 @@ val nonStagedItems as IItemStack[] = [
     <tconstruct:slimesling:2>,
     <tconstruct:slimesling:3>,
     <tconstruct:slimesling:4>,
+    <tconstruct:slimesling:5>,
     <tconstruct:slime_boots>,
     <tconstruct:slime_boots:1>,
     <tconstruct:slime_boots:2>,
     <tconstruct:slime_boots:3>,
-    <tconstruct:slime_boots:4>
+    <tconstruct:slime_boots:4>,
+    <tconstruct:slime_boots:5>
 ];
 
 
@@ -168,11 +171,6 @@ for item in stageItems {
 //These were all in the legacy file and looked too important to not have merged over
 TinkerStages.addGeneralCraftingStage(stage);
 TinkerStages.addGeneralPartBuildingStage(stage);
-
-TinkerStages.addToolTypeStage("disabled", "tconstruct:hammer");
-TinkerStages.addToolTypeStage("disabled", "tconstruct:shuriken");
-TinkerStages.addModifierStage("disabled", "luck");
-TinkerStages.addModifierStage("disabled", "sharpness");
 
 // TODO Move to proper tech files
 recipes.remove(<tconstruct:materials:13>);
