@@ -576,7 +576,7 @@ customization {
   orientation = bottom-centered
   restartbackgroundanimations = true
   delayappearanceseconds = 4.0
-  buttonaction = joinserver;towny.themoosecorporation.com:25511%btnaction_splitter_fm%
+  buttonaction = joinserver;play.projecttowny.com%btnaction_splitter_fm%
   backgroundhovered = resources\menuV3\ptdserver2.png
   label = 
   loopbackgroundanimations = true
