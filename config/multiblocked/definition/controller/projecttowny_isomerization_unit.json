@@ -41,33 +41,33 @@
     "pattern": [
       [
         "AB BA",
-        "ACDCA",
+        "ACCCA",
         "ACACA",
-        "EFGFH"
+        "ACCCA"
       ],
       [
         "IIJKK",
         "KLLLK",
         "KKKKK",
-        "ECGCH"
+        "CCCCC"
       ],
       [
         "IILKK",
         "@LLKM",
         "KKNKK",
-        "EC CH"
+        "CC CC"
       ],
       [
         "IIJKK",
         "KLLLK",
         "KKKKK",
-        "ECGCH"
+        "CCCCC"
       ],
       [
         "AB BA",
-        "ACOCA",
+        "ACCCA",
         "ACACA",
-        "EPGPP"
+        "ACCCA"
       ]
     ],
     "aisleRepetitions": [
@@ -124,51 +124,6 @@
         ],
         "type": "states"
       },
-      "D": {
-        "states": [
-          {
-            "id": "immersiveengineering:steel_scaffolding_stairs0",
-            "meta": 4
-          }
-        ],
-        "type": "states"
-      },
-      "E": {
-        "states": [
-          {
-            "id": "immersiveengineering:steel_scaffolding_stairs0",
-            "meta": 2
-          }
-        ],
-        "type": "states"
-      },
-      "F": {
-        "states": [
-          {
-            "id": "immersiveengineering:steel_scaffolding_stairs0",
-            "meta": 0
-          }
-        ],
-        "type": "states"
-      },
-      "G": {
-        "states": [
-          {
-            "id": "immersiveengineering:metal_decoration1_slab",
-            "meta": 2
-          }
-        ],
-        "type": "states"
-      },
-      "H": {
-        "states": [
-          {
-            "id": "immersiveengineering:steel_scaffolding_stairs0",
-            "meta": 3
-          }
-        ],
-        "type": "states"
-      },
       "I": {
         "states": [
           {
@@ -186,9 +141,6 @@
           }
         ],
         "type": "states"
-      },
-      "air": {
-        "type": "air"
       },
       "K": {
         "states": [
@@ -228,24 +180,6 @@
           }
         ],
         "type": "states"
-      },
-      "O": {
-        "states": [
-          {
-            "id": "immersiveengineering:steel_scaffolding_stairs0",
-            "meta": 5
-          }
-        ],
-        "type": "states"
-      },
-      "P": {
-        "states": [
-          {
-            "id": "immersiveengineering:steel_scaffolding_stairs0",
-            "meta": 1
-          }
-        ],
-        "type": "states"
       }
     },
     "symbolMap": {
@@ -264,21 +198,6 @@
       "C": [
         "C"
       ],
-      "D": [
-        "D"
-      ],
-      "E": [
-        "E"
-      ],
-      "F": [
-        "F"
-      ],
-      "G": [
-        "G"
-      ],
-      "H": [
-        "H"
-      ],
       "I": [
         "I"
       ],
@@ -294,17 +213,8 @@
       "M": [
         "M"
       ],
-      "-": [
-        "air"
-      ],
       "N": [
         "N"
-      ],
-      "O": [
-        "O"
-      ],
-      "P": [
-        "P"
       ]
     }
   }

@@ -37,6 +37,7 @@ val stageItems as IItemStack[] = [
     <techguns:itemshared:9>,
     <techguns:itemshared:33>,
     <techguns:itemshared:38>,
+    <techguns:itemshared:39>,
     <techguns:t1_combat_helmet>,
     <techguns:t1_combat_chestplate>,
     <techguns:t1_combat_leggings>,

@@ -64,7 +64,7 @@
         " H   H ",
         "EHMMMHE",
         " NNDNN ",
-        "  NNN  "
+        "  ---  "
       ],
       [
         "OGKPKG ",
@@ -73,7 +73,7 @@
         " H D S ",
         "EHMCMHE",
         " Q D R ",
-        "  EEE  "
+        "  ---  "
       ],
       [
         " GKKKL ",
@@ -82,7 +82,7 @@
         " H   H ",
         "EHMMMHE",
         " NNDNN ",
-        "  NNN  "
+        "  ---  "
       ],
       [
         "AGGGGGA",
@@ -231,6 +231,9 @@
         ],
         "type": "states"
       },
+      "air": {
+        "type": "air"
+      },
       "K": {
         "states": [
           {
@@ -291,24 +294,6 @@
         "type": "states",
         "io": "null"
       },
-      "Q": {
-        "states": [
-          {
-            "id": "immersiveengineering:steel_scaffolding_stairs1",
-            "meta": 2
-          }
-        ],
-        "type": "states"
-      },
-      "R": {
-        "states": [
-          {
-            "id": "immersiveengineering:steel_scaffolding_stairs1",
-            "meta": 3
-          }
-        ],
-        "type": "states"
-      },
       "S": {
         "states": [
           {
@@ -363,6 +348,9 @@
       "L": [
         "L"
       ],
+      "-": [
+        "air"
+      ],
       "M": [
         "M"
       ],
@@ -375,12 +363,8 @@
       "P": [
         "P"
       ],
-      "Q": [
-        "Q"
-      ],
-      "R": [
-        "R"
-      ],
+      "Q": [],
+      "R": [],
       "S": [
         "S"
       ]

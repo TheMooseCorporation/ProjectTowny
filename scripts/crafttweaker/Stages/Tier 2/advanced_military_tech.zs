@@ -148,7 +148,6 @@ val stageItems as IItemStack[] = [
     <techguns:itemshared:112>,
     <techguns:itemshared:113>,
     <techguns:itemshared:115>,
-    <techguns:itemshared:39>,
     <techguns:itemshared:119>,
     <techguns:itemshared:106>,
     <techguns:itemshared:94>,
