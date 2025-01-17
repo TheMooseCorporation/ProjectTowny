@@ -42,7 +42,7 @@ RecipeBuilder.get("engineer")
 RecipeBuilder.get("engineer")
   .setShapeless([<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>])
   .addTool(<ore:artisansHammer>, 5)
-  .addOutput(<immersiverailroading:item_plate>.withTag({gauge: 1.435, plate: 1}) * 2)
+  .addOutput(<immersiverailroading:item_plate>.withTag({gauge: 1.435, plate: 1}) * 4)
   .addRequirement(GameStages.allOf([stage]))
   .create();
 
@@ -50,7 +50,7 @@ RecipeBuilder.get("engineer")
 RecipeBuilder.get("engineer")
   .setShapeless([<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>])
   .addTool(<ore:artisansHammer>, 10)
-  .addOutput(<immersiverailroading:item_plate>.withTag({gauge: 1.435, plate: 2}) * 2)
+  .addOutput(<immersiverailroading:item_plate>.withTag({gauge: 1.435, plate: 2}) * 4)
   .addRequirement(GameStages.allOf([stage]))
   .create();
 

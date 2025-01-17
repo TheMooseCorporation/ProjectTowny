@@ -152,9 +152,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 256,
+              "amount": 64,
               "matches": [
-                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:256}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:64}"
               ]
             }
           },
@@ -257,9 +257,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 256,
+              "amount": 64,
               "matches": [
-                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:256}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:64}"
               ]
             }
           },
@@ -1110,9 +1110,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 128,
+              "amount": 32,
               "matches": [
-                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:128}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:32}"
               ]
             }
           },
@@ -1422,9 +1422,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 256,
+              "amount": 128,
               "matches": [
-                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:256}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:128}"
               ]
             }
           },
@@ -1593,9 +1593,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 128,
+              "amount": 32,
               "matches": [
-                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:128}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:32}"
               ]
             }
           },
@@ -2032,9 +2032,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 256,
+              "amount": 64,
               "matches": [
-                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:256}"
+                "{Damage:0s,id:\"contenttweaker:electronic_points\",Count:64}"
               ]
             }
           },

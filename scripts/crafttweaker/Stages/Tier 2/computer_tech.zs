@@ -201,3 +201,5 @@ recipes.remove(<opencomputers:component:6>);
 recipes.remove(<opencomputers:component:2>);
 recipes.remove(<opencomputers:component:1>);
 recipes.remove(<opencomputers:component>);
+recipes.remove(<opencomputers:material:12>);
+recipes.addShaped(<opencomputers:material:12>, [[<minecraft:iron_nugget>, <minecraft:iron_nugget>, <minecraft:iron_nugget>],[<minecraft:iron_nugget>, null, <minecraft:iron_nugget>], [<minecraft:iron_nugget>, <minecraft:iron_nugget>, <minecraft:iron_nugget>]]);

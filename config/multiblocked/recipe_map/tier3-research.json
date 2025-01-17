@@ -613,9 +613,9 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 2,
+              "amount": 3,
               "matches": [
-                "{Damage:0s,id:\"advancedrocketry:dataunit\",Count:2}"
+                "{Damage:0s,id:\"advancedrocketry:dataunit\",Count:3}"
               ]
             }
           }

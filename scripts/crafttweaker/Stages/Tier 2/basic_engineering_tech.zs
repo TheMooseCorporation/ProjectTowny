@@ -129,6 +129,8 @@ recipes.addShaped(<minecraft:piston>, [[<ore:plankWood>, <ore:plankWood>, <ore:p
 // Better with Mods recipe tweaks
 recipes.remove(<betterwithmods:hibachi>);
 recipes.addShaped(<betterwithmods:hibachi>, [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],[<ore:materialStoneTool>, <betterwithmods:material:27>, <ore:materialStoneTool>], [<ore:materialStoneTool>, <minecraft:redstone>, <ore:materialStoneTool>]]);
+recipes.remove(<betterwithmods:material:9>);
+recipes.addShaped(<betterwithmods:material:9>, [[null, <minecraft:leather>, null],[<minecraft:leather>, null, <minecraft:leather>], [null, <minecraft:leather>, null]]);
 
 // BWM recipes using siding break when disabling siding
 recipes.remove(<betterwithmods:bellows>);

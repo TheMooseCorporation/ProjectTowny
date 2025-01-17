@@ -13,7 +13,7 @@
             "content": {
               "amount": 64,
               "matches": [
-                "{id:\"opencomputers:material\",Count:64,Damage:6s}"
+                "{Damage:6s,id:\"opencomputers:material\",Count:64}"
               ]
             }
           },
@@ -22,7 +22,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"opencomputers:material\",Count:4,Damage:7s}"
+                "{Damage:7s,id:\"opencomputers:material\",Count:4}"
               ]
             }
           },
@@ -31,7 +31,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"minecraft:redstone\",Count:4,Damage:0s}"
+                "{Damage:0s,id:\"minecraft:redstone\",Count:4}"
               ]
             }
           },
@@ -51,7 +51,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"contenttweaker:dram\",Count:4,Damage:0s}"
+                "{Damage:0s,id:\"contenttweaker:dram\",Count:4}"
               ]
             }
           }
@@ -76,7 +76,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"opencomputers:material\",Count:32,Damage:6s}"
+                "{Damage:6s,id:\"opencomputers:material\",Count:32}"
               ]
             }
           },
@@ -85,7 +85,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"minecraft:clock\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"minecraft:clock\",Count:1}"
               ]
             }
           },
@@ -94,7 +94,7 @@
             "content": {
               "amount": 12,
               "matches": [
-                "{id:\"minecraft:redstone\",Count:12,Damage:0s}"
+                "{Damage:0s,id:\"minecraft:redstone\",Count:12}"
               ]
             }
           },
@@ -114,7 +114,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"opencomputers:material\",Count:1,Damage:11s}"
+                "{Damage:11s,id:\"opencomputers:material\",Count:1}"
               ]
             }
           }
@@ -139,7 +139,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"opencomputers:material\",Count:32,Damage:6s}"
+                "{Damage:6s,id:\"opencomputers:material\",Count:32}"
               ]
             }
           },
@@ -148,7 +148,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"opencomputers:material\",Count:4,Damage:7s}"
+                "{Damage:7s,id:\"opencomputers:material\",Count:4}"
               ]
             }
           },
@@ -157,7 +157,7 @@
             "content": {
               "amount": 12,
               "matches": [
-                "{id:\"minecraft:redstone\",Count:12,Damage:0s}"
+                "{Damage:0s,id:\"minecraft:redstone\",Count:12}"
               ]
             }
           },
@@ -177,7 +177,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"opencomputers:material\",Count:1,Damage:10s}"
+                "{Damage:10s,id:\"opencomputers:material\",Count:1}"
               ]
             }
           }
@@ -202,7 +202,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"opencomputers:material\",Count:32,Damage:6s}"
+                "{Damage:6s,id:\"opencomputers:material\",Count:32}"
               ]
             }
           },
@@ -211,7 +211,7 @@
             "content": {
               "amount": 6,
               "matches": [
-                "{id:\"opencomputers:material\",Count:6,Damage:29s}"
+                "{Damage:29s,id:\"opencomputers:material\",Count:6}"
               ]
             }
           },
@@ -220,7 +220,7 @@
             "content": {
               "amount": 12,
               "matches": [
-                "{id:\"minecraft:redstone\",Count:12,Damage:0s}"
+                "{Damage:0s,id:\"minecraft:redstone\",Count:12}"
               ]
             }
           }
@@ -233,7 +233,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"opencomputers:material\",Count:4,Damage:9s}"
+                "{Damage:9s,id:\"opencomputers:material\",Count:4}"
               ]
             }
           }
@@ -258,7 +258,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"opencomputers:material\",Count:32,Damage:6s}"
+                "{Damage:6s,id:\"opencomputers:material\",Count:32}"
               ]
             }
           },
@@ -274,7 +274,7 @@
             "content": {
               "amount": 12,
               "matches": [
-                "{id:\"minecraft:redstone\",Count:12,Damage:0s}"
+                "{Damage:0s,id:\"minecraft:redstone\",Count:12}"
               ]
             }
           }
@@ -287,7 +287,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"opencomputers:material\",Count:8,Damage:8s}"
+                "{Damage:8s,id:\"opencomputers:material\",Count:8}"
               ]
             }
           }
@@ -304,7 +304,7 @@
     },
     {
       "uid": "transistor",
-      "duration": 300,
+      "duration": 100,
       "inputs": {
         "item": [
           {
@@ -312,7 +312,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"advancedrocketry:wafer\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"advancedrocketry:wafer\",Count:1}"
               ]
             }
           },
@@ -335,7 +335,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"minecraft:redstone\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"minecraft:redstone\",Count:1}"
               ]
             }
           }
@@ -348,7 +348,7 @@
             "content": {
               "amount": 4,
               "matches": [
-                "{id:\"opencomputers:material\",Count:4,Damage:6s}"
+                "{Damage:6s,id:\"opencomputers:material\",Count:4}"
               ]
             }
           }
@@ -373,7 +373,7 @@
             "content": {
               "amount": 32,
               "matches": [
-                "{id:\"opencomputers:material\",Count:32,Damage:6s}"
+                "{Damage:6s,id:\"opencomputers:material\",Count:32}"
               ]
             }
           },
@@ -389,7 +389,7 @@
             "content": {
               "amount": 6,
               "matches": [
-                "{id:\"minecraft:redstone\",Count:6,Damage:0s}"
+                "{Damage:0s,id:\"minecraft:redstone\",Count:6}"
               ]
             }
           }
@@ -402,7 +402,7 @@
             "content": {
               "amount": 8,
               "matches": [
-                "{id:\"opencomputers:material\",Count:8,Damage:7s}"
+                "{Damage:7s,id:\"opencomputers:material\",Count:8}"
               ]
             }
           }
@@ -425,8 +425,8 @@
           {
             "chance": 1.0,
             "content": {
-              "amount": 1,
-              "ore": "ingotAluminum"
+              "amount": 4,
+              "ore": "nuggetAluminum"
             }
           },
           {
@@ -434,16 +434,16 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"minecraft:iron_nugget\",Count:2,Damage:0s}"
+                "{Damage:0s,id:\"minecraft:iron_nugget\",Count:2}"
               ]
             }
           },
           {
             "chance": 1.0,
             "content": {
-              "amount": 4,
+              "amount": 2,
               "matches": [
-                "{id:\"minecraft:paper\",Count:4,Damage:0s}"
+                "{Damage:0s,id:\"minecraft:paper\",Count:2}"
               ]
             }
           }
@@ -456,7 +456,7 @@
             "content": {
               "amount": 2,
               "matches": [
-                "{id:\"enderio:item_basic_capacitor\",Count:2,Damage:0s}"
+                "{Damage:0s,id:\"enderio:item_basic_capacitor\",Count:2}"
               ]
             }
           }

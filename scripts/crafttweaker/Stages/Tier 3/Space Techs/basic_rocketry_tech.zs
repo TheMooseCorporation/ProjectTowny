@@ -50,6 +50,8 @@ val stageItems as IItemStack[] = [
     <advancedrocketry:servicemonitor>,
     <advancedrocketry:invhatch>,
     <advancedrocketry:servicestation>,
+    <advancedrocketry:guidancecomputer>,
+    <advancedrocketry:planetidchip>,
     // Large Commerical Planes
     <mts:ivairlinerpack.707-320c>,
     <mts:ivairlinerpack.707-320c_airfrance>,

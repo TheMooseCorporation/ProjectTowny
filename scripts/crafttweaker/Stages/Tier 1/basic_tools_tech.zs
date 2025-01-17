@@ -168,6 +168,9 @@ for item in stageItems {
     ItemStages.addItemStage(stage, item);
 }
 
+recipes.remove(<locks:key_ring>);
+recipes.addShaped(<locks:key_ring>, [[null, <minecraft:gold_nugget>, null],[<minecraft:gold_nugget>, null, <minecraft:gold_nugget>], [null, <minecraft:gold_nugget>, null]]);
+
 //These were all in the legacy file and looked too important to not have merged over
 TinkerStages.addGeneralCraftingStage(stage);
 TinkerStages.addGeneralPartBuildingStage(stage);

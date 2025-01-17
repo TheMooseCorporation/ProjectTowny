@@ -17,9 +17,7 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-    <advancedrocketry:guidancecomputer>,
     <advancedrocketry:seat>,
-    <advancedrocketry:planetidchip>,
     <advancedrocketry:spacehelmet>,
     <advancedrocketry:spacechestplate>,
     <advancedrocketry:spaceleggings>,

@@ -58,6 +58,7 @@ val stageItems as IItemStack[] = [
 
 val nonStagedItems as IItemStack[] = [
     <libvulpes:ore0:8>,
+    <libvulpes:productnugget:9>,
     <libvulpes:coalgenerator>
 ];
 

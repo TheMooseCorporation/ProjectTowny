@@ -47,8 +47,7 @@ val stageItems as IItemStack[] = [
     <icbmclassic:launcherscreen:2>,
     <icbmclassic:launcherframe:1>,
     <icbmclassic:launcherframe:2>,
-    <icbmclassic:launcherbase:2>,
-    <icbmclassic:emptower>
+    <icbmclassic:launcherbase:2>
 ];
 
 for mod in stageMods {

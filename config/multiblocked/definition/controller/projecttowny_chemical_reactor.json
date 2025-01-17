@@ -67,7 +67,7 @@
         "  ---  "
       ],
       [
-        "OGKPKG ",
+        "OGKPKT ",
         "@H D H ",
         " I D I ",
         " H D S ",
@@ -194,6 +194,14 @@
           }
         ],
         "type": "states"
+      },
+      "IO": {
+        "blocks": [
+          {
+            "id": "multiblocked:item_output"
+          }
+        ],
+        "type": "blocks"
       },
       "G": {
         "states": [
@@ -367,6 +375,9 @@
       "R": [],
       "S": [
         "S"
+      ],
+      "T": [
+        "IO"
       ]
     }
   }
