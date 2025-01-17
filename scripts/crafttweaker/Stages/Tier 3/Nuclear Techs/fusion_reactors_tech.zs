@@ -79,7 +79,6 @@ val stageItems as IItemStack[] = [
     <nuclearcraft:supercooler_idle>,
     <nuclearcraft:electrolyser_idle>,
     <nuclearcraft:irradiator_idle>,
-    <nuclearcraft:chemical_reactor_idle>,
     <nuclearcraft:dissolver_idle>
 ];
 

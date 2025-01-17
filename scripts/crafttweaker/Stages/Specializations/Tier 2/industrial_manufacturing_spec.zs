@@ -4,6 +4,7 @@ import crafttweaker.item.IItemStack;
 import mods.immersiveengineering.BottlingMachine;
 import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.BlastFurnace;
+import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.DieselHandler;
 import mods.immersivetechnology.GasTurbine;
@@ -41,6 +42,7 @@ Crusher.addRecipe(<contenttweaker:limestone_dust> * 2, <ore:stoneLimestone>, 256
 Mixer.addRecipe(<liquid:slag_slurry> * 250, <liquid:water> * 250, [<contenttweaker:limeslag_compound>], 1024);
 BottlingMachine.addRecipe(<contenttweaker:treated_iron>, <minecraft:iron_ingot>, <liquid:slag_slurry> * 250);
 BlastFurnace.addRecipe(<immersiveengineering:metal:8> * 2, <contenttweaker:treated_iron>, 900);
+ArcFurnace.addRecipe(<immersiveengineering:metal:8> * 2, <contenttweaker:treated_iron>, <minecraft:sand>, 400, 512, [<ore:dustCoke>]);
 
 // Spec Tech
 

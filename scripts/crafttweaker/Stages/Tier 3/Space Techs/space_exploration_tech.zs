@@ -41,7 +41,11 @@ val stageItems as IItemStack[] = [
     <advancedrocketry:itemupgrade:3>,
     <advancedrocketry:itemupgrade:4>,
     <advancedrocketry:sealdetector>,
-    <advancedrocketry:iquartzcrucible>
+    <advancedrocketry:iquartzcrucible>,
+    <mekanism:basicblock>,
+    <mekanism:ingot:1>,
+    <mekanism:dust:2>,
+    <mekanism:nugget:1>
 ];
 
 for mod in stageMods {

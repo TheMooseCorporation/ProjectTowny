@@ -440,7 +440,7 @@
 			<itemStack>advancedrocketry:ic;1;2</itemStack>
 			<itemStack>advancedrocketry:misc</itemStack>
 			<itemStack>advancedrocketry:lens</itemStack>
-			<itemStack>libvulpes:productplate;1;5</itemStack>
+			<oreDict>plateTin;1</oreDict>
 		</input>
 		<output>
 			<itemStack>advancedrocketry:atmanalyser</itemStack>

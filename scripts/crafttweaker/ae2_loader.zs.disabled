@@ -1,7 +1,8 @@
-#priority 100
+#priority 250
+import crafttweaker.item.IItemStack;
 import mods.recipestages.Recipes;
 
-static gameStages as string[] = [
+val gameStages as string[] = [
     // Tier 1 Techs:
     "advanced_tools_tech",
     "architecture_tech",
@@ -81,4 +82,5 @@ static gameStages as string[] = [
     "nuclear_engineering_tech_spec"
 ];
 
+mods.recipestages.Recipes.setPrintContainers(true);
 mods.recipestages.Recipes.setPackageStage("appeng", gameStages);
