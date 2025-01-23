@@ -24,7 +24,7 @@
             "content": {
               "amount": 1,
               "matches": [
-                "{id:\"libvulpes:productgem\",Count:1,Damage:0s}"
+                "{Damage:0s,id:\"libvulpes:productgem\",Count:1}"
               ]
             }
           }
@@ -40,9 +40,9 @@
       },
       "conditions": [
         {
-          "type": "dimension",
+          "type": "biome",
           "condition": {
-            "dim": "space"
+            "biome": "advancedrocketry:space"
           }
         }
       ]

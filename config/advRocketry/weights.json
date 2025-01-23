@@ -1,9 +1,13 @@
 {
   "individual": {
+    "minecraft:concrete": 0.1,
+    "advancedrocketry:oxygenscrubber": 0.1,
     "advancedrocketry:dataunit": 0.1,
     "advancedrocketry:fueltank": 0.2,
     "advancedrocketry:satellitepowersource": 0.1,
+    "minecraft:iron_block": 0.1,
     "fluid.rocketFuel": 0.001,
+    "advancedrocketry:seat": 0.1,
     "advancedrocketry:guidancecomputer": 1.8,
     "advancedrocketry:rocketmotor": 2.0,
     "advancedrocketry:loader": 5.0
