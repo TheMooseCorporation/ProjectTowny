@@ -25,7 +25,6 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-    <contenttweaker:mechanical_parts_mold>,
     // Davincis Vessels, this may be an odd place to put the steam engine, this may be subject to moving
     <davincisvessels:engine>,
     <immersiveengineering:storage:6>,
@@ -400,9 +399,9 @@ ArcFurnace.addRecipe(<nuclearcraft:alloy:12> * 8, <ore:ingotZirconium> * 7, <imm
 // Blast Furnace
 BlastFurnace.addRecipe(<techguns:itemshared:84>, <minecraft:obsidian>, 2000, <immersiveengineering:material:7>);
 // Blueprints
-Blueprint.addRecipe("molds", <contenttweaker:mechanical_parts_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
 Blueprint.addRecipe("molds", <contenttweaker:inscriber_press_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
 Blueprint.addRecipe("molds", <contenttweaker:casing_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
+Blueprint.addRecipe("molds", <contenttweaker:mold_pistol_casing>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
 Blueprint.removeRecipe(<immersiveengineering:material:8>);
 Blueprint.removeRecipe(<immersiveengineering:material:9>);
 // Bottling Machine
@@ -425,12 +424,10 @@ MetalPress.addRecipe(<techguns:itemshared:53>, <techguns:itemshared:64>, <immers
 MetalPress.addRecipe(<techguns:itemshared:45>, <ore:plateSteel>, <thermalfoundation:material:355>, 2400); // Steam Plate
 MetalPress.addRecipe(<libvulpes:productplate:7>, <ore:ingotTitanium>, <immersiveengineering:mold>, 2400); // Titanium Plate
 
-MetalPress.addRecipe(<techguns:itemshared:57>, <ore:plateIron>, <contenttweaker:mechanical_parts_mold>, 2400); // Mechanical Parts
-MetalPress.addRecipe(<techguns:itemshared:58>, <ore:plateObsidianSteel>, <contenttweaker:mechanical_parts_mold>, 2400); // Mechanical Parts
-MetalPress.addRecipe(<techguns:itemshared:59>, <ore:plateCarbon>, <contenttweaker:mechanical_parts_mold>, 2400); // Mechanical Parts
-
 MetalPress.addRecipe(<contenttweaker:mechanical_casing>, <ore:plateIron> * 4, <contenttweaker:casing_mold>, 2400); // Iron Casing
 MetalPress.addRecipe(<contenttweaker:mechanical_casing_steel>, <ore:plateSteel> * 4, <contenttweaker:casing_mold>, 2400); // Steel Casing
+
+MetalPress.addRecipe(<contenttweaker:empty_pistol_casing> * 4, <ore:ingotCopper>, <contenttweaker:mold_pistol_casing>, 2400); // Pistol Round Casings
 
 // AE2 Inscriber Recipes
 MetalPress.addRecipe(<appliedenergistics2:material:13>, <appliedenergistics2:material:10>, <contenttweaker:inscriber_press_mold>, 2400); // Inscriber Calculation
