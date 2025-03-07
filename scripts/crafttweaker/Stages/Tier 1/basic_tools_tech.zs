@@ -9,6 +9,7 @@ import mods.TinkerStages;
 
 // Stage Name
 val stage = "basic_tools_tech";
+val name = "Basic Tools";
 
 val stageMods as string[] = [
     "toolbelt"
@@ -80,7 +81,6 @@ val nonStagedItems as IItemStack[] = [
     <adchimneys:seared_brick_triangle>,
     <adchimneys:seared_brick_triangle:1>,
     <adchimneys:seared_brick_triangle:2>,
-    <tconstruct:materials>,
     <tconstruct:seared>,
     <tconstruct:seared:1>,
     <tconstruct:seared:2>,
@@ -116,28 +116,6 @@ val nonStagedItems as IItemStack[] = [
     <tconstruct:seared_stairs_road>,
     <tconstruct:seared_stairs_tile>,
     <tconstruct:seared_stairs_creeper>,
-    <tconstruct:seared_slab:2>,
-    <tconstruct:seared_slab:3>,
-    <tconstruct:seared_slab:4>,
-    <tconstruct:seared_slab:5>,
-    <tconstruct:seared_slab:5>,
-    <tconstruct:seared_slab:6>,
-    <tconstruct:seared_slab:7>,
-    <tconstruct:seared_slab2>,
-    <tconstruct:seared_slab2:1>,
-    <tconstruct:seared_slab2:2>,
-    <tconstruct:seared_slab2:3>,
-    <tconstruct:seared_stairs_stone>,
-    <tconstruct:seared_stairs_cobble>,
-    <tconstruct:seared_stairs_paver>,
-    <tconstruct:seared_stairs_brick>,
-    <tconstruct:seared_stairs_brick_cracked>,
-    <tconstruct:seared_stairs_brick_fancy>,
-    <tconstruct:seared_stairs_brick_square>,
-    <tconstruct:seared_stairs_brick_triangle>,
-    <tconstruct:seared_stairs_brick_small>,
-    <tconstruct:seared_stairs_road>,
-    <tconstruct:seared_stairs_tile>,
     <tconstruct:toolforge>,
     <tconstruct:throwball:1>,
     <tconstruct:materials:14>,
@@ -154,18 +132,27 @@ val nonStagedItems as IItemStack[] = [
     <tconstruct:slime_boots:2>,
     <tconstruct:slime_boots:3>,
     <tconstruct:slime_boots:4>,
-    <tconstruct:slime_boots:5>
+    <tconstruct:slime_boots:5>,
+    <tconstruct:smeltery_controller>,
+    <tconstruct:casting>,
+    <tconstruct:casting:1>,
+    <tconstruct:channel>,
+    <tconstruct:tinker_tank_controller>
 ];
 
 
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
 recipes.remove(<locks:key_ring>);
@@ -197,6 +184,7 @@ for item in loadedMods["tconstruct"].items {
     if (!found) {
         Recipes.setRecipeStage(stage, item);
         ItemStages.addItemStage(stage, item);
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
     }
     found = false;
 }

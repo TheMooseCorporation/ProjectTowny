@@ -3,11 +3,12 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 /**
-    Contains all the necessary items to make your very own home kitchen
+    Unlocks modifers
 */
 
 // Stage Name
 val stage = "blacksmithing_tech";
+val name = "Blacksmithing";
 
 val stageMods as string[] = [
 
@@ -20,11 +21,15 @@ val stageItems as IItemStack[] = [
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
 mods.TinkerStages.addGeneralModifierStage(stage);

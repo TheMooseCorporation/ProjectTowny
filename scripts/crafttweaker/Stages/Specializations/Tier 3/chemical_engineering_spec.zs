@@ -5,7 +5,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.artisanintegrations.requirement.GameStages;
 
 /**
-    Chemical Engineering Specilization:
+    Chemical Engineering Specialization:
     For towns focused on chemistry
 */
 
@@ -28,6 +28,7 @@ for mod in stageMods {
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
+    item.addTooltip(format.green("Chemical Engineering Specialization"));
 }
 
 RecipeBuilder.get("engineer")
@@ -44,7 +45,7 @@ RecipeBuilder.get("engineer")
 // Spec Tech
 
 /**
-    Chemical Engineering Specilization Tech:
+    Chemical Engineering Specialization Tech:
     I have no idea what to put here?
 */
 
@@ -60,8 +61,11 @@ for item in spec_tech_stageItems {
 
 // Spec Item Staging
 ItemStages.addItemStage("chemical_synthesis_tech", <projecttowny:compact_chemical_reactor>);
+<projecttowny:compact_chemical_reactor>.addTooltip(format.blue("Required Tech: ") + format.gold("Chemical Synthesis"));
 ItemStages.addItemStage("fluidynamics_tech", <enderio:item_liquid_conduit:1>);
+<enderio:item_liquid_conduit:1>.addTooltip(format.blue("Required Tech: ") + format.gold("Fluid Dynamics"));
 ItemStages.addItemStage("fluidynamics_tech", <enderio:item_liquid_conduit:2>);
+<enderio:item_liquid_conduit:2>.addTooltip(format.blue("Required Tech: ") + format.gold("Fluid Dynamics"));
 
 // Pyrotheum and Petrotheum Dust
 recipes.remove(<thermalfoundation:material:1024>);

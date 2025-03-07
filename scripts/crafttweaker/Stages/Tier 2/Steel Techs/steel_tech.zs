@@ -19,6 +19,7 @@ import mods.immersiveengineering.BottlingMachine;
 
 // Stage Name
 val stage = "steel_tech";
+val name = "Steel";
 
 val stageMods as string[] = [
 
@@ -101,10 +102,6 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:material:9>,
     <immersiveengineering:material:17>,
     <immersiveengineering:material:23>,
-    <immersiveengineering:metal:8>,
-    <immersiveengineering:metal:9>,
-    <immersiveengineering:metal:10>,
-    <immersiveengineering:metal:11>,
     <immersiveengineering:metal_decoration0:4>,
     <immersiveengineering:metal_decoration2:7>,
     <immersiveengineering:metal_decoration2:8>,
@@ -137,7 +134,9 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:steel_armor_chest>,
     <immersiveengineering:steel_armor_head>,
     <immersivepetroleum:schematic>,
-    <immersiveposts:postbase>,
+    <immersiveengineering:metal:8>,
+    <immersiveengineering:metal:9>,
+    <immersiveengineering:metal:10>,
     <immersiveengineering:metal:19>,
     <immersiveengineering:metal:12>,
     <immersiveengineering:metal:11>,
@@ -164,42 +163,8 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:hoe_steel>,
     <immersiveengineering:sword_steel>,
     <immersiveengineering:toolbox>,
-    <immersiveengineering:blueprint>,
-    <immersiveengineering:earmuffs>,
-    <immersiveengineering:shield>,
-    <immersiveengineering:maintenance_kit>,
-    <immersiveengineering:steel_armor_feet>,
-    <immersiveengineering:steel_armor_legs>,
-    <immersiveengineering:steel_armor_chest>,
-    <immersiveengineering:steel_armor_head>,
-    <immersivepetroleum:schematic>,
-    <immersiveengineering:metal:19>,
-    <immersiveengineering:metal:12>,
-    <immersiveengineering:metal:11>,
-    <immersiveengineering:metal:18>,
-    <immersiveengineering:metal:13>,
-    <immersiveengineering:metal:16>,
-    <immersiveengineering:metal:17>,
-    <immersiveengineering:metal:28>,
-    <immersiveengineering:metal:30>,
-    <immersiveengineering:metal:31>,
-    <immersiveengineering:metal:32>,
-    <immersiveengineering:metal:33>,
-    <immersiveengineering:metal:34>,
-    <immersiveengineering:metal:37>,
-    <immersiveengineering:metal:38>,
-    <immersiveengineering:metal:39>,
-    <immersiveengineering:metal:40>,
-    <immersiveengineering:tool>,
-    <immersiveengineering:tool:1>,
-    <immersiveengineering:tool:3>,
-    <immersiveengineering:pickaxe_steel>,
-    <immersiveengineering:shovel_steel>,
-    <immersiveengineering:axe_steel>,
-    <immersiveengineering:hoe_steel>,
-    <immersiveengineering:sword_steel>,
-    <immersiveengineering:toolbox>,
-    <immersiveengineering:blueprint>,
+    <immersiveengineering:blueprint>.withTag({blueprint: "components"}),
+    
     <mekanism:basicblock:5>,
     <mekanism:ingot:4>,
     <mekanism:nugget:4>,
@@ -370,11 +335,15 @@ val stageItems as IItemStack[] = [
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
 // Custom recipes for Immersive Engineering Multiblocks. This doesn't mean these recipes or multiblocks are unlocked in this stage, this is just where we're putting them.

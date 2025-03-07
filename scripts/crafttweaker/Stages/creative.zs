@@ -9,6 +9,7 @@ import crafttweaker.item.IItemStack;
 
 // Stage Name
 val stage = "creative";
+val name = "Creative";
 
 val stageMods as string[] = [
     "torchmaster"
@@ -21,9 +22,13 @@ val stageItems as IItemStack[] = [
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.lightPurple(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.lightPurple(name));
 }

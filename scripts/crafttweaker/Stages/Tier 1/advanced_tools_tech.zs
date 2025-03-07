@@ -10,6 +10,7 @@ import mods.multiblockstages.IEMultiBlockStages;
 
 // Stage Name
 val stage = "advanced_tools_tech";
+val name = "Advanced Tools";
 
 val stageMods as string[] = [
 
@@ -34,7 +35,6 @@ val stageItems as IItemStack[] = [
     <tconstruct:seared_furnace_controller>,
     <tconstruct:seared_slab>,
     <tconstruct:seared_slab:1>,
-    <tconstruct:materials>,
     <adchimneys:seared_brick>,
     <adchimneys:seared_brick:1>,
     <adchimneys:seared_brick:2>,
@@ -47,7 +47,6 @@ val stageItems as IItemStack[] = [
     <adchimneys:seared_brick_triangle>,
     <adchimneys:seared_brick_triangle:1>,
     <adchimneys:seared_brick_triangle:2>,
-    <tconstruct:materials>,
     <tconstruct:seared>,
     <tconstruct:seared:1>,
     <tconstruct:seared:2>,
@@ -83,40 +82,21 @@ val stageItems as IItemStack[] = [
     <tconstruct:seared_stairs_road>,
     <tconstruct:seared_stairs_tile>,
     <tconstruct:seared_stairs_creeper>,
-    <tconstruct:seared_slab:2>,
-    <tconstruct:seared_slab:3>,
-    <tconstruct:seared_slab:4>,
-    <tconstruct:seared_slab:5>,
-    <tconstruct:seared_slab:5>,
-    <tconstruct:seared_slab:6>,
-    <tconstruct:seared_slab:7>,
-    <tconstruct:seared_slab2>,
-    <tconstruct:seared_slab2:1>,
-    <tconstruct:seared_slab2:2>,
-    <tconstruct:seared_slab2:3>,
-    <tconstruct:seared_stairs_stone>,
-    <tconstruct:seared_stairs_cobble>,
-    <tconstruct:seared_stairs_paver>,
-    <tconstruct:seared_stairs_brick>,
-    <tconstruct:seared_stairs_brick_cracked>,
-    <tconstruct:seared_stairs_brick_fancy>,
-    <tconstruct:seared_stairs_brick_square>,
-    <tconstruct:seared_stairs_brick_triangle>,
-    <tconstruct:seared_stairs_brick_small>,
-    <tconstruct:seared_stairs_road>,
-    <tconstruct:seared_stairs_tile>,
-    <tconstruct:seared_stairs_creeper>,
     <immersiveengineering:stone_decoration:10>
 ];
 
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
 IEMultiBlockStages.addStage(stage, "IE:AlloySmelter", "Requires " + stage);

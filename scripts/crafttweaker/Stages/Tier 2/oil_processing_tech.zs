@@ -8,9 +8,10 @@ import mods.multiblockstages.IEMultiBlockStages;
 
 // Stage Name
 val stage = "oil_processing_tech";
+val name = "Oil Processing";
 
 val stageMods as string[] = [
-    "immersivepetroleum"
+    
 ];
 
 val stageItems as IItemStack[] = [
@@ -21,13 +22,36 @@ val stageItems as IItemStack[] = [
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
+val nonStagedItems as IItemStack[] = [
+    <immersivepetroleum:schematic>
+];
+
+var found = false;
+for item in loadedMods["immersivepetroleum"].items {
+    for nonStagedItem in nonStagedItems {
+        if (item.matches(nonStagedItem)) {
+            found = true;
+            break;
+        }
+    }
+    if (!found) {
+        Recipes.setRecipeStage(stage, item);
+        ItemStages.addItemStage(stage, item);
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
+    found = false;
+}
 
 //Locks Multiblocks
 IEMultiBlockStages.addStage(stage, "IP:DistillationTower", "Requires " + stage);

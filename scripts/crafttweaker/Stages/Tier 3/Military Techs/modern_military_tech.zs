@@ -10,6 +10,7 @@ import crafttweaker.item.IItemCondition;
 
 // Stage Name
 val stage = "modern_military_tech";
+val name = "Modern Military";
 
 val stageMods as string[] = [
     "openmodularturrets"
@@ -153,11 +154,15 @@ val vehicles as IItemStack[] = [
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
 // Techguns weapon staging

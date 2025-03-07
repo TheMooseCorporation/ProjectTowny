@@ -9,6 +9,7 @@ import crafttweaker.item.IItemStack;
 
 // Stage Name
 val stage = "sailing_tech";
+val name = "Sailing";
 
 val stageMods as string[] = [
 
@@ -30,11 +31,15 @@ val stageItems as IItemStack[] = [
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
 // Remove the default balloon recipe so we can use our custom one

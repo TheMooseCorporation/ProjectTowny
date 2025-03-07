@@ -5,7 +5,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.artisanintegrations.requirement.GameStages;
 
 /**
-    Composite Construction Specilization:
+    Composite Construction Specialization:
     For towns specilizing in building buildings or infrustructure. Cheaper rails, better roads, better chests
 */
 // Stage Name
@@ -34,6 +34,8 @@ for mod in stageMods {
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
+    item.addTooltip(format.green("Composite Construction Specialization"));
+    item.addTooltip(format.blue("Required Tech: ") + format.gold("Steel"));
 }
 
 // Cheaper Rail Recipe
@@ -72,7 +74,7 @@ RecipeBuilder.get("mason")
 // Spec Tech
 
 /**
-    Composite Construction Specilization Tech:
+    Composite Construction Specialization Tech:
     Unlocks the better crafting of popular building blocks
 */
 
@@ -84,6 +86,8 @@ val spec_tech_stageItems as IItemStack[] = [
 
 for item in spec_tech_stageItems {
     Recipes.setRecipeStage(spec_tech_stage, item);
+    item.addTooltip(format.green("Composite Construction Specialization Tech"));
+    item.addTooltip(format.blue("Required Tech: ") + format.gold("Steel"));
 }
 
 // Spec Item Staging

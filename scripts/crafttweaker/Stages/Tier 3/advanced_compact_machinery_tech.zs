@@ -8,6 +8,7 @@ import crafttweaker.item.IItemStack;
 
 // Stage Name
 val stage = "advanced_compact_machinery_tech";
+val name = "Advanced Compact Machinery";
 
 val stageItems as IItemStack[] = [
     <mekanism:reinforcedalloy>,
@@ -80,4 +81,5 @@ val stageItems as IItemStack[] = [
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }

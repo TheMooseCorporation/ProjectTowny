@@ -11,6 +11,7 @@ import crafttweaker.liquid.ILiquidStack;
 
 // Stage Name
 val stage = "warp_tech";
+val name = "Warp Tech";
 
 val stageMods as string[] = [
     "portality",
@@ -65,11 +66,15 @@ val stageItems as IItemStack[] = [
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
 val nonStagedItems as IItemStack[] = [

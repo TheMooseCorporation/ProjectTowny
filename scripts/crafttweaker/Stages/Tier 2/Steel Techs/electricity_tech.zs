@@ -10,6 +10,7 @@ import mods.immersiveengineering.Blueprint;
 
 // Stage Name
 val stage = "electricity_tech";
+val name = "Electricity";
 
 val stageMods as string[] = [
     "immersiveposts",
@@ -57,7 +58,7 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:mold:2>,
     <immersiveengineering:mold:3>,
     <immersiveengineering:mold:4>,
-    <immersiveengineering:conveyor>,
+    //<immersiveengineering:conveyor>,
     <immersiveengineering:material:10>,
     <immersiveengineering:material:11>,
     <immersiveengineering:material:12>,
@@ -103,6 +104,7 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:droppercovered"}),
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:verticalcovered"}),
     <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:extractcovered"}),
+    <immersiveengineering:blueprint>.withTag({blueprint: "molds"}),
     <immersivetech:connectors>,
     <artisanworktables:worktable:6>,
     <artisanworktables:workstation:6>,
@@ -139,11 +141,15 @@ val stageItems as IItemStack[] = [
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
 // Recipe changes from Immersive Engineering circuit to Primitve Circuit

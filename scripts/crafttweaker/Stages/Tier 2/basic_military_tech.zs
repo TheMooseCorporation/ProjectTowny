@@ -9,6 +9,7 @@ import crafttweaker.item.IItemStack;
 
 // Stage Name
 val stage = "basic_military_tech";
+val name = "Basic Military";
 
 val stageMods as string[] = [
     
@@ -30,6 +31,8 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:material:14>,
     <immersiveengineering:material:15>,
     <immersiveengineering:material:16>,
+    <immersiveengineering:blueprint>.withTag({blueprint: "bullet"}),
+    <immersiveengineering:blueprint>.withTag({blueprint: "Ammunition"}),
     // Techguns related items
     <techguns:itemshared:1>,
     <techguns:itemshared:2>,
@@ -89,9 +92,13 @@ for recipe in techGunRecipes{
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }

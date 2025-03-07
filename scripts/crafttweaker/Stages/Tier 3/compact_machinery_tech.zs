@@ -8,6 +8,7 @@ import crafttweaker.item.IItemStack;
 
 // Stage Name
 val stage = "compact_machinery_tech";
+val name = "Compact Machinery";
 
 val stageItems as IItemStack[] = [
     <mekanism:machineblock2:11>.withTag({tier: 0}),
@@ -211,6 +212,7 @@ val stageItems as IItemStack[] = [
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
 recipes.remove(<mekanism:basicblock:8>);

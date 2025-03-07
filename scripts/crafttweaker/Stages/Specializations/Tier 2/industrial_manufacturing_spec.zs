@@ -11,7 +11,7 @@ import mods.immersivetechnology.GasTurbine;
 import mods.immersivetechnology.Boiler;
 
 /**
-    Industiral Manufacturing Specilization:
+    Industiral Manufacturing Specialization:
     For towns focused on producing bulk materials. Unlocks faster blast furnaces/better steel manufacturing methods
 */
 
@@ -32,6 +32,8 @@ for mod in stageMods {
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
+    item.addTooltip(format.green("Industrial Manufacturing Specialization"));
+    item.addTooltip(format.blue("Required Tech: ") + format.gold("Electricity"));
 }
 
 
@@ -47,7 +49,7 @@ ArcFurnace.addRecipe(<immersiveengineering:metal:8> * 2, <contenttweaker:treated
 // Spec Tech
 
 /**
-    Industiral Manufacturing Specilization Tech:
+    Industiral Manufacturing Specialization Tech:
     Unlocks the more efficient fuel recipe
 */
 
@@ -60,13 +62,18 @@ val spec_tech_stageItems as IItemStack[] = [
 
 for item in spec_tech_stageItems {
     Recipes.setRecipeStage(spec_tech_stage, item);
+    item.addTooltip(format.green("Industrial Manufacturing Specialization Tech"));
+    item.addTooltip(format.blue("Required Tech: ") + format.gold("Replaceable Parts"));
 }
 
 // Spec Item Staging
 ItemStages.addItemStage("electricity_tech", <immersiveengineering:metal_device1>);
 ItemStages.addItemStage(spec_tech_stage, <contenttweaker:treated_iron>);
+<contenttweaker:treated_iron>.addTooltip(format.blue("Required Tech: ") + format.gold("Specialization Exclusive"));
 ItemStages.addItemStage("heavy_machinery_tech", <contenttweaker:limestone_dust>);
+<contenttweaker:limestone_dust>.addTooltip(format.blue("Required Tech: ") + format.gold("Heavy Machinery"));
 ItemStages.addItemStage(spec_tech_stage, <contenttweaker:limeslag_compound>);
+<contenttweaker:limeslag_compound>.addTooltip(format.blue("Required Tech: ") + format.gold("Specialization Exclusive"));
 ItemStages.addItemStage("replaceable_parts_tech", <projecttowny:air_intake>);
 ItemStages.addItemStage("replaceable_parts_tech", <projecttowny:fuel_aerator>);
 

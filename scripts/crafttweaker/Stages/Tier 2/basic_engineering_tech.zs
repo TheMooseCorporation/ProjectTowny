@@ -11,6 +11,7 @@ import mods.betterwithmods.Mill;
 
 // Stage Name
 val stage = "basic_engineering_tech";
+val name = "Basic Engineering";
 
 val stageMods as string[] = [
     "projectred-core",
@@ -115,11 +116,15 @@ val stageItems as IItemStack[] = [
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
 // I'm moving the piston to this tech to better fit into the mechanic parts progression. This might be a terrible idea? - Moose

@@ -284,6 +284,7 @@ val stageItems as IItemStack[] = [
     // Immersive Engineering
     <immersiveengineering:metal_device1:10>, // IE turrents, maybe reimplement?
     <immersiveengineering:metal_device1:11>,
+    <immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}),
     // Immersive Tech
     <immersivetech:wooden_crate>,
     // Industiral Wires

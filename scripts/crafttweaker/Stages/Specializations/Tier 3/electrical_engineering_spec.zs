@@ -6,7 +6,7 @@ import mods.artisanintegrations.requirement.GameStages;
 import mods.immersiveengineering.AlloySmelter;
 
 /**
-    Electrical Engineering Specilization:
+    Electrical Engineering Specialization:
     For towns focused on electricity
 */
 
@@ -18,7 +18,20 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-
+  <mekanism:energycube>.withTag({tier: 0}),
+  <mekanism:energycube>.withTag({tier: 1}),
+  <mekanism:energycube>.withTag({tier: 2}),
+  <mekanism:energycube>.withTag({tier: 3}),
+  <mekanism:basicblock2:1>,
+  <mekanism:basicblock2:2>,
+  <mekanism:basicblock2:3>.withTag({tier: 1}),
+  <mekanism:basicblock2:3>.withTag({tier: 3}),
+  <mekanism:basicblock2:3>.withTag({tier: 2}),
+  <mekanism:basicblock2:3>.withTag({tier: 0}),
+  <mekanism:basicblock2:4>.withTag({tier: 0}),
+  <mekanism:basicblock2:4>.withTag({tier: 3}),
+  <mekanism:basicblock2:4>.withTag({tier: 1}),
+  <mekanism:basicblock2:4>.withTag({tier: 2})
 ];
 
 for mod in stageMods {
@@ -27,6 +40,8 @@ for mod in stageMods {
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
+    item.addTooltip(format.green("Electrical Engineering Specialization"));
+    item.addTooltip(format.blue("Required Tech: ") + format.gold("Basic Circuitry"));
 }
 
 // Mekanism Batteries
@@ -234,7 +249,7 @@ RecipeBuilder.get("engineer")
 // Spec Tech
 
 /**
-    Electrical Engineering Specilization Tech:
+    Electrical Engineering Specialization Tech:
     Unlocks the thermoelectric generator
 */
 
@@ -264,6 +279,7 @@ RecipeBuilder.get("engineer")
 
 // Spec Item Staging
 ItemStages.addItemStage("electricity_tech", <immersiveengineering:metal_device1:3>);
+<immersiveengineering:metal_device1:3>.addTooltip(format.blue("Required Tech: ") + format.gold("Electricity"));
 ItemStages.addItemStage("basic_circuitry_tech", <mekanism:energycube>.withTag({tier: 0}));
 ItemStages.addItemStage("basic_circuitry_tech", <mekanism:energycube>.withTag({tier: 0, mekData: {energyStored: 2000000.0}}));
 ItemStages.addItemStage("basic_circuitry_tech", <mekanism:energycube>.withTag({tier: 1}));

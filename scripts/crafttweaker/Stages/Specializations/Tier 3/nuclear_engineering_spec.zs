@@ -8,7 +8,7 @@ import mods.immersivetechnology.ElectrolyticCrucibleBattery;
 import mods.nuclearcraft.isotope_separator;
 
 /**
-    Nuclear Engineering Specilization:
+    Nuclear Engineering Specialization:
     For towns focused on nuclearcraft
 */
 
@@ -35,6 +35,7 @@ for mod in stageMods {
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
+    item.addTooltip(format.green("Nuclear Engineering Specialization"));
 }
 
 // Nuclear Furnace
@@ -51,7 +52,7 @@ RecipeBuilder.get("engineer")
 // Spec Tech
 
 /**
-    Nuclear Engineering Specilization Tech:
+    Nuclear Engineering Specialization Tech:
     Unlocks 
 */
 
@@ -63,16 +64,24 @@ val spec_tech_stageItems as IItemStack[] = [
 
 for item in spec_tech_stageItems {
     Recipes.setRecipeStage(spec_tech_stage, item);
+    item.addTooltip(format.green("Nuclear Engineering Specialization Tech"));
 }
 
 // Spec Item Staging
 ItemStages.addItemStage("basic_circuitry_tech", <nuclearcraft:nuclear_furnace_idle>);
+<nuclearcraft:nuclear_furnace_idle>.addTooltip(format.blue("Required Tech: ") + format.gold("Basic Circuitry"));
 ItemStages.addItemStage("atomic_theory_tech", <nuclearcraft:rtg_uranium>);
+<nuclearcraft:rtg_uranium>.addTooltip(format.blue("Required Tech: ") + format.gold("Atmoic Theory"));
 ItemStages.addItemStage("atomic_theory_tech", <nuclearcraft:rtg_plutonium>);
+<nuclearcraft:rtg_plutonium>.addTooltip(format.blue("Required Tech: ") + format.gold("Atmoic Theory"));
 ItemStages.addItemStage("atomic_theory_tech", <nuclearcraft:rtg_americium>);
+<nuclearcraft:rtg_americium>.addTooltip(format.blue("Required Tech: ") + format.gold("Atmoic Theory"));
 ItemStages.addItemStage("atomic_theory_tech", <nuclearcraft:rtg_californium>);
+<nuclearcraft:rtg_californium>.addTooltip(format.blue("Required Tech: ") + format.gold("Atmoic Theory"));
 ItemStages.addItemStage(spec_tech_stage, <contenttweaker:yellow_cake>);
+<contenttweaker:yellow_cake>.addTooltip(format.blue("Required Tech: ") + format.gold("Specialization Exclusive"));
 ItemStages.addItemStage(spec_tech_stage, <contenttweaker:refined_yellow_cake>);
+<contenttweaker:refined_yellow_cake>.addTooltip(format.blue("Required Tech: ") + format.gold("Specialization Exclusive"));
 
 // 2x Uranium Isotope Recipe
 recipes.addShapeless(<contenttweaker:refined_yellow_cake>, [<contenttweaker:yellow_cake>,<minecraft:clay_ball>]);

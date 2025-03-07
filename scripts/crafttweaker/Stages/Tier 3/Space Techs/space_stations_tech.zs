@@ -9,6 +9,7 @@ import crafttweaker.item.IItemStack;
 
 // Stage Name
 val stage = "space_stations_tech";
+val name = "Space Stations";
 
 val stageMods as string[] = [
 
@@ -75,11 +76,15 @@ val stageItems as IItemStack[] = [
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
 // I don't remember why these were removed, but I'm putting them here just in case they're important (darn undocumented code *shakes fist*)

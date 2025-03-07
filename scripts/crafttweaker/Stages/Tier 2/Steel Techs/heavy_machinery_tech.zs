@@ -10,6 +10,7 @@ import mods.multiblockstages.IEMultiBlockStages;
 
 // Stage Name
 val stage = "heavy_machinery_tech";
+val name = "Heavy Machinery";
 
 val stageMods as string[] = [
     
@@ -30,11 +31,15 @@ val stageItems as IItemStack[] = [
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
 IEMultiBlockStages.addStage(stage, "IE:Crusher", "Requires " + stage);

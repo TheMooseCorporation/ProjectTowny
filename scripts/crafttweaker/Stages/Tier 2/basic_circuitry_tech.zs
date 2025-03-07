@@ -11,6 +11,7 @@ import mods.artisanintegrations.requirement.GameStages;
 
 // Stage Name
 val stage = "basic_circuitry_tech";
+val name = "Basic Circuitry";
 
 val stageMods as string[] = [
     
@@ -65,11 +66,15 @@ val nonStagedItems as IItemStack[] = [
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
 // Removes default recipes for components we use for our circuit system

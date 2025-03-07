@@ -5,7 +5,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.artisanintegrations.requirement.GameStages;
 
 /**
-    Electrical Distribution Specilization:
+    Electrical Distribution Specialization:
     For towns focused on producing electricity
 */
 
@@ -30,16 +30,22 @@ val stageItems as IItemStack[] = [
 
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.green("Electrical Distribution Specialization"));
+        item.addTooltip(format.blue("Required Tech: ") + format.gold("Electricity"));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
+    item.addTooltip(format.green("Electrical Distribution Specialization"));
+    item.addTooltip(format.blue("Required Tech: ") + format.gold("Electricity"));
 }
 
 // Spec Tech
 
 /**
-    Electrical Distribution Specilization Tech:
+    Electrical Distribution Specialization Tech:
     Unlocks the unbreakable graphite rod
 */
 
@@ -51,6 +57,8 @@ val spec_tech_stageItems as IItemStack[] = [
 
 for item in spec_tech_stageItems {
     Recipes.setRecipeStage(spec_tech_stage, item);
+    item.addTooltip(format.green("Electrical Distribution Specialization Tech"));
+    item.addTooltip(format.blue("Required Tech: ") + format.gold("Electricity"));
 }
 
 // Spec Item Staging

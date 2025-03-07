@@ -11,6 +11,7 @@ import mods.jmapstages.JMapStages;
 
 // Stage Name
 val stage = "space_exploration_tech";
+val name = "Space Exploration";
 
 val stageMods as string[] = [
     
@@ -51,11 +52,15 @@ val stageItems as IItemStack[] = [
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
 // Davincis Vessels Harder Balloon Recipe, this isn't that great of a recipe we should change this based on player feedback

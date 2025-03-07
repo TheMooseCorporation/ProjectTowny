@@ -9,6 +9,7 @@ import crafttweaker.item.IItemStack;
 
 // Stage Name
 val stage = "arc_smelting_tech";
+val name = "Arc Smelting";
 
 val stageMods as string[] = [
 
@@ -16,16 +17,21 @@ val stageMods as string[] = [
 
 val stageItems as IItemStack[] = [
     <immersiveengineering:graphite_electrode>,
+    <immersiveengineering:blueprint>.withTag({blueprint: "electrode"})
 ];
 
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);
     ItemStages.stageModItems(stage, mod);
+    for item in loadedMods[mod].items {
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
+    }
 }
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
 }
 
 IEMultiBlockStages.addStage(stage, "IE:ArcFurnace", "Requires " + stage);

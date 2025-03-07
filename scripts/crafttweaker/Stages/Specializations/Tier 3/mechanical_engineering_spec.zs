@@ -5,7 +5,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.artisanintegrations.requirement.GameStages;
 
 /**
-    Mechanical Engineering Specilization:
+    Mechanical Engineering Specialization:
     For towns focused on mechanics
 */
 
@@ -29,12 +29,14 @@ for mod in stageMods {
 
 for item in stageItems {
   Recipes.setRecipeStage(stage, item);
+  item.addTooltip(format.green("Mechanical Engineering Specialization"));
+  item.addTooltip(format.blue("Required Tech: ") + format.gold("Replaceable Parts"));
 }
 
 // Spec Tech
 
 /**
-  Mechanical Engineering Specilization Tech:
+  Mechanical Engineering Specialization Tech:
   Unlocks cobblestone generators and infinite pollution filters
 */
 
@@ -49,6 +51,8 @@ val spec_tech_stageItems as IItemStack[] = [
 
 for item in spec_tech_stageItems {
   Recipes.setRecipeStage(spec_tech_stage, item);
+  item.addTooltip(format.green("Mechanical Engineering Specialization Tech"));
+  item.addTooltip(format.blue("Required Tech: ") + format.gold("Replaceable Parts"));
 }
 
 // Spec Item Staging

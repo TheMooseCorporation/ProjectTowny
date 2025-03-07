@@ -7,7 +7,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 import mods.artisanintegrations.requirement.GameStages;
 
 /**
-    Forestry Specilization:
+    Forestry Specialization:
     For towns specilizing in chopping trees and building. Allows for chopping entire trees at once, plus better carpentry recipes.
 */
 // Stage Name
@@ -27,6 +27,8 @@ for mod in stageMods {
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
+    item.addTooltip(format.green("Forestry Specialization"));
+    item.addTooltip(format.blue("Required Tech: ") + format.gold("Basic Tools"));
 }
 
 TinkerStages.addToolTypeStage(stage, "tconstruct:lumberaxe");
@@ -38,7 +40,7 @@ Recipes.setRecipeStage(stage, "techguns:handcannon");
 
 
 /**
-    Forestry Specilization Tech:
+    Forestry Specialization Tech:
     Unlocks the saw for more efficient lumber processing
 */
 
@@ -50,6 +52,8 @@ val spec_tech_stageItems as IItemStack[] = [
 
 for item in spec_tech_stageItems {
     Recipes.setRecipeStage(spec_tech_stage, item);
+    item.addTooltip(format.green("Forestry Specialization Tech"));
+    item.addTooltip(format.blue("Required Tech: ") + format.gold("Basic Tools"));
 }
 
 // Spec Item Staging

@@ -3,7 +3,7 @@ import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 
 /**
-    Mining Specilization:
+    Mining Specialization:
     For towns focused on mining. Unlocks explosive devices made for mining.
     Rock and Stone!
 */
@@ -26,6 +26,8 @@ for mod in stageMods {
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
+    item.addTooltip(format.green("Mining Specialization"));
+    item.addTooltip(format.blue("Required Tech: ") + format.gold("Basic Tools"));
 }
 
 recipes.remove(<immersiveengineering:wooden_device0:4>);
@@ -35,7 +37,7 @@ recipes.addShaped(<immersiveengineering:wooden_device0:4> * 5, [[null, <ore:stri
 
 
 /**
-    Mining Specilization Tech:
+    Mining Specialization Tech:
     Unlocks special tinkers modifiers
 */
 
@@ -49,6 +51,8 @@ val spec_tech_stageItems as IItemStack[] = [
 
 for item in spec_tech_stageItems {
     Recipes.setRecipeStage(spec_tech_stage, item);
+    item.addTooltip(format.green("Mining Specialization Tech"));
+    item.addTooltip(format.blue("Required Tech: ") + format.gold("Blacksmithing"));
 }
 
 // Spec Item Staging

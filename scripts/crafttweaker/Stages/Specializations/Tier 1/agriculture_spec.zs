@@ -4,7 +4,7 @@ import crafttweaker.item.IItemStack;
 import mods.betterwithmods.Mill;
 
 /**
-    Agriculture Specilization:
+    Agriculture Specialization:
     For towns specilizing in farming. Allows the ignoring of seasons, plus buying seeds from the market.
 */
 
@@ -30,13 +30,15 @@ for mod in stageMods {
 
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
+    item.addTooltip(format.green("Agriculture Specialization"));
+    item.addTooltip(format.blue("Required Tech: ") + format.gold("Basic Tools"));
 }
 
 // Spec Tech
 
 
 /**
-    Agriculture Specilization Tech:
+    Agriculture Specialization Tech:
     Unlocks the millstone for more efficient crop processing. 
 */
 
@@ -48,6 +50,8 @@ val spec_tech_stageItems as IItemStack[] = [
 
 for item in spec_tech_stageItems {
     Recipes.setRecipeStage(spec_tech_stage, item);
+    item.addTooltip(format.green("Agriculture Specialization Tech"));
+    item.addTooltip(format.blue("Required Tech: ") + format.gold("Basic Tools"));
 }
 
 // Spec Item Staging
