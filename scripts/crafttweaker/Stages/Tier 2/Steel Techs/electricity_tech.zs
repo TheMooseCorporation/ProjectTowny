@@ -14,6 +14,7 @@ val name = "Electricity";
 
 val stageMods as string[] = [
     "immersiveposts",
+    "networksmanager",
     "multiblocked"
 ];
 

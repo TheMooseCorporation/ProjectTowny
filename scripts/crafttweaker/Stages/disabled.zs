@@ -616,17 +616,40 @@ mods.DimensionStages.addDimensionStage(stage, 1);
 mods.tconstruct.Melting.removeEntityMelting(<entity:minecraft:villager_golem>);
 mods.tconstruct.Melting.removeEntityMelting(<entity:minecraft:villager>);
 
-// Immersive Railroading, ugly trains, we hate ugly trains
-    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rClass B-B-70/70-4HM829 Boxcab Frame"}}));
-    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rGE B40-8w Frame"}}));
-    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rSkookum 2-4-4-2 Front Frame"}}));
-    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rSkookum 2-4-4-2 Frame"}}));
-    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rSkookum Tender Frame"}}));
-    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rE6 Atlantic Frame"}}));
-    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rE6 Atlantic Tender Frame"}}));
-    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rDSP&P Mogul Frame"}}));
-    ItemStages.addItemStage("disabled", <immersiverailroading:item_rolling_stock_component>.withTag({display: {Name: "§rD&RGW K36 Frame"}}));
-
 // Disabled Immersive Engineering multiblocks
 IEMultiBlockStages.addStage(stage, "IE:Excavator", "Requires " + stage);
 IEMultiBlockStages.addStage(stage, "IE:BucketWheel", "Requires " + stage);
+
+// MWC has so many items that I frankly don't care about it so I'm gonna use this to disable all the items I don't care about
+val nonStagedItems as IItemStack[] = [
+    // Guns
+    // Bullets
+    <mwc:bullet4440>,
+    <mwc:bullet9x19mm>,
+    <mwc:bullet45acp>,
+    <mwc:bullet792x57>,
+    <mwc:bullet3006springfield>,
+    <mwc:bullet792x33kurz>,
+    <mwc:bullet556x45>,
+    <mwc:bullet762x39>
+    // Magazines
+    // Armor
+    // Explosives
+    // Misc
+];
+
+var found = false;
+for item in loadedMods["mwc"].items {
+    for nonStagedItem in nonStagedItems {
+        if (item.matches(nonStagedItem)) {
+            found = true;
+            break;
+        }
+    }
+    if (!found) {
+        Recipes.setRecipeStage(stage, item);
+        ItemStages.addItemStage(stage, item);
+        item.addTooltip(format.red("Item has been disabled and cannot be obtained."));
+    }
+    found = false;
+}

@@ -14,7 +14,6 @@ val name = "Computers";
 val stageMods as string[] = [
     "opensecurity",
     "computronics",
-    "networksmanager",
     "jecalculation"
 ];
 
