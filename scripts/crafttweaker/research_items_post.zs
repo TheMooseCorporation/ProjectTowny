@@ -1,4 +1,3 @@
-import mods.ItemStages;
 import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;

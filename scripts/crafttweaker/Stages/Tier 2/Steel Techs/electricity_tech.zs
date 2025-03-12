@@ -113,6 +113,9 @@ val stageItems as IItemStack[] = [
     <contenttweaker:casing_mold>,
     <contenttweaker:mechanical_casing>,
     <contenttweaker:mechanical_casing_steel>,
+    <contenttweaker:bolt>,
+    <contenttweaker:bolt_box1>,
+    <contenttweaker:bolt_box2>,
     // Industrial Wires (We can't do the IC2 wires because they cause issues, but we don't need them anyway)
     <industrialwires:jacobs_ladder>,
     <industrialwires:jacobs_ladder:1>,
@@ -184,3 +187,6 @@ recipes.addShaped(<immersiveengineering:metal_device1:2>, [[null, null, null],[<
 
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],[<ore:ingotSteel>, <ore:gearStone>, <ore:ingotSteel>], [<ore:gearStone>, <ore:ingotSteel>, <ore:gearStone>]]);
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 16, [[null, null, null],[<ore:leather>, <ore:leather>, <ore:leather>], [<ore:gearIron>, <ore:ingotSteel>, <ore:gearIron>]]);
+
+recipes.addShapeless(<contenttweaker:bolt_box1>, [<contenttweaker:bolt>,<contenttweaker:bolt>,<contenttweaker:bolt>,<contenttweaker:bolt>]);
+recipes.addShapeless(<contenttweaker:bolt_box2>, [<contenttweaker:bolt_box1>,<contenttweaker:bolt_box1>,<contenttweaker:bolt_box1>,<contenttweaker:bolt_box1>]);

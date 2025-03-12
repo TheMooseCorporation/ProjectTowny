@@ -1,2 +1,5 @@
 item.immersiveengineering.bullet.empty_casing.name=Empty Rifle Casing
+item.immersiveengineering.mold.bullet_casing.name=Metal Press Mold: Rifle Casing
 item.immersiveengineering.material.circuit_board.name=Basic Circuit
+item.immersiveengineering.material.gunpart_barrel.name=Steel Barrel
+item.immersiveengineering.material.gunpart_hammer.name=Firearm Hammer

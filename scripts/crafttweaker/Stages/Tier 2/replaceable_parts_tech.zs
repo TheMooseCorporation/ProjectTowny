@@ -47,14 +47,14 @@ for item in stageItems {
 
 // Mechanics System
 RecipeBuilder.get("engineer")
-  .setShapeless([<contenttweaker:mechanical_casing>, <ore:gearIron>])
+  .setShapeless([<contenttweaker:mechanical_casing>, <ore:gearIron>, <contenttweaker:bolt_box1>])
   .addTool(<ore:artisansDriver>, 10)
   .addOutput(<immersiveengineering:material:8> * 4)
   .addRequirement(GameStages.allOf([stage]))
   .create();
 
 RecipeBuilder.get("engineer")
-  .setShapeless([<contenttweaker:mechanical_casing_steel>, <ore:gearSteel>])
+  .setShapeless([<contenttweaker:mechanical_casing_steel>, <ore:gearSteel>, <contenttweaker:bolt_box1>])
   .addTool(<ore:artisansDriver>, 10)
   .addOutput(<immersiveengineering:material:9> * 4)
   .addRequirement(GameStages.allOf([stage]))
@@ -63,6 +63,8 @@ RecipeBuilder.get("engineer")
 // Mechanics System Recipe Changes
 recipes.remove(<immersiveengineering:material:8>);
 recipes.addShaped(<immersiveengineering:material:8>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],[<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<immersiveengineering:material:8>, [[<contenttweaker:bolt>, <ore:plateIron>, <contenttweaker:bolt>],[<ore:plateIron>, <ore:ingotCopper>, <ore:plateIron>], [<contenttweaker:bolt>, <ore:plateIron>, <contenttweaker:bolt>]]);
 
 recipes.remove(<immersiveengineering:material:9>);
 recipes.addShaped(<immersiveengineering:material:9>, [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],[<ore:plateSteel>, <ore:ingotCopper>, <ore:plateSteel>], [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>]]);
+recipes.addShaped(<immersiveengineering:material:9>, [[<contenttweaker:bolt>, <ore:plateSteel>, <contenttweaker:bolt>],[<ore:plateSteel>, <ore:ingotCopper>, <ore:plateSteel>], [<contenttweaker:bolt>, <ore:plateSteel>, <contenttweaker:bolt>]]);

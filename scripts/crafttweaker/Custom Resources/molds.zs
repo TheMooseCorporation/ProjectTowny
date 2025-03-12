@@ -13,3 +13,7 @@ casings.register();
 var bullet_mold = VanillaFactory.createItem("mold_pistol_casing");
 bullet_mold.maxStackSize = 1;
 bullet_mold.register();
+
+var bolt_mold = VanillaFactory.createItem("mold_bolt");
+bolt_mold.maxStackSize = 1;
+bolt_mold.register();

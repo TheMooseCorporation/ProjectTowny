@@ -371,6 +371,7 @@ BlastFurnace.addRecipe(<techguns:itemshared:84>, <minecraft:obsidian>, 2000, <im
 Blueprint.addRecipe("molds", <contenttweaker:inscriber_press_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
 Blueprint.addRecipe("molds", <contenttweaker:casing_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
 Blueprint.addRecipe("molds", <contenttweaker:mold_pistol_casing>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
+Blueprint.addRecipe("molds", <contenttweaker:mold_bolt>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
 Blueprint.removeRecipe(<immersiveengineering:material:8>);
 Blueprint.removeRecipe(<immersiveengineering:material:9>);
 // Bottling Machine
@@ -393,6 +394,7 @@ MetalPress.addRecipe(<techguns:itemshared:53>, <techguns:itemshared:64>, <immers
 MetalPress.addRecipe(<techguns:itemshared:45>, <ore:plateSteel>, <thermalfoundation:material:355>, 2400); // Steam Plate
 MetalPress.addRecipe(<libvulpes:productplate:7>, <ore:ingotTitanium>, <immersiveengineering:mold>, 2400); // Titanium Plate
 
+MetalPress.addRecipe(<contenttweaker:bolt> * 2, <ore:stickIron>, <contenttweaker:mold_bolt>, 2400); // Bolt
 MetalPress.addRecipe(<contenttweaker:mechanical_casing>, <ore:plateIron> * 4, <contenttweaker:casing_mold>, 2400); // Iron Casing
 MetalPress.addRecipe(<contenttweaker:mechanical_casing_steel>, <ore:plateSteel> * 4, <contenttweaker:casing_mold>, 2400); // Steel Casing
 

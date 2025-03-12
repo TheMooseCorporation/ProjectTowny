@@ -34,6 +34,8 @@ val stageItems as IItemStack[] = [
     <advancedrocketry:pressuretank:2>,
     <advancedrocketry:jetpack>,
     <advancedrocketry:itemupgrade>,
+    <libvulpes:productdust>,
+    <libvulpes:productgem>,
     <projecttowny:dilithium_chamber>,
     // Thermal Foundation stuff, subject to moving, maybe subject to removal
     <thermalfoundation:glass_alloy>,

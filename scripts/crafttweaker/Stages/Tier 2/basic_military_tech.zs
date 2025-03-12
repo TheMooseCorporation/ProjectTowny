@@ -60,8 +60,11 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:bullet:2>.withTag({bullet: "dragonsbreath"}),
     <immersiveengineering:bullet:2>.withTag({bullet: "potion"}),
     <immersiveengineering:bullet:2>.withTag({bullet: "flare"}),
-    <immersiveengineering:bullet:2>.withTag({bullet: "casull"})
-
+    <immersiveengineering:bullet:2>.withTag({bullet: "casull"}),
+    // MWC Implementation
+    <mwc:m1873>,
+    <contenttweaker:gun_stock1>,
+    <contenttweaker:rifle_parts>
 ];
 
 val techGuns as IItemStack[] = [

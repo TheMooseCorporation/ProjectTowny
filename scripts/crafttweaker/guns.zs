@@ -4,8 +4,21 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.immersiveengineering.Blueprint;
 
+# Guns
+recipes.addShaped(<mwc:m1873>, [[<minecraft:iron_nugget>, null, null],[<immersiveengineering:material:14>, <contenttweaker:rifle_parts>, <contenttweaker:gun_stock1>], [null, null, null]]);
+
 # Immersive Engineering Component Blueprints
 Blueprint.addRecipe("Gun Components", <mwc:ak47>, [<ore:logWood>, <minecraft:dirt>]);
+
+# Components
+
+# Parts
+recipes.addShaped(<contenttweaker:rifle_parts>, [[<ore:plateSteel>, <contenttweaker:bolt_box1>, <ore:plateSteel>],[<immersiveengineering:material:8>, <immersiveengineering:material:8>, <immersiveengineering:material:16>], [<ore:plateSteel>, <contenttweaker:bolt_box1>, <ore:plateSteel>]]);
+
+# Stocks
+recipes.addShaped(<contenttweaker:gun_stock1>, [[<ore:plankWood>, <ore:plankWood>, <ore:ingotSteel>],[null, <ore:plankWood>, <ore:ingotSteel>], [null, null, <ore:plankWood>]]);
+
+# Barrels
 
 # Bullets
 Blueprint.addRecipe("Ammunition", <mwc:bullet4440>, [<contenttweaker:projectile_44>, <minecraft:gunpowder>, <contenttweaker:empty_pistol_casing>]);

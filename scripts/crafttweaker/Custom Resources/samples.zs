@@ -35,7 +35,7 @@ rutileSample.setDropHandler(function(drops, world, position, state, fortune) {
 
 rutileSample.fullBlock = false;
 rutileSample.blockHardness = 0.2;
-rutileSample.passable = true;
+rutileSample.passable = false;
 rutileSample.toolLevel = 0;
 rutileSample.blockSoundType = <soundtype:ground>;
 rutileSample.axisAlignedBB = sampleBounds;

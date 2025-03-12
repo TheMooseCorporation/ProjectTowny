@@ -561,7 +561,7 @@
 	</Recipe>
 	<Recipe timeRequired="100" power ="1">
 		<input>
-			<itemStack>libvulpes:productrod;1;1</itemStack>
+			<oreDict>stickIron;1</oreDict>
 			<itemStack>advancedrocketry:lens;3</itemStack>
 			<itemStack>minecraft:glass;3</itemStack>
 		</input>

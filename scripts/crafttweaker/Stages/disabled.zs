@@ -45,6 +45,8 @@ val stageItems as IItemStack[] = [
     <advancedrocketry:satelliteprimaryfunction:6>,
     <advancedrocketry:weathercontroller>,
     <libvulpes:coalgenerator>,
+    <libvulpes:productrod:1>,
+    <libvulpes:ore0>,
     // AE2
     <appliedenergistics2:network_tool>,
     <appliedenergistics2:material:6>,
@@ -623,6 +625,7 @@ IEMultiBlockStages.addStage(stage, "IE:BucketWheel", "Requires " + stage);
 // MWC has so many items that I frankly don't care about it so I'm gonna use this to disable all the items I don't care about
 val nonStagedItems as IItemStack[] = [
     // Guns
+    <mwc:m1873>,
     // Bullets
     <mwc:bullet4440>,
     <mwc:bullet9x19mm>,
