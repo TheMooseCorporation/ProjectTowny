@@ -90,6 +90,7 @@ val nonStagedItems as IItemStack[] = [
     <enderio:item_power_conduit:2>,
     <enderio:item_redstone_conduit>,
     <enderio:item_me_conduit>,
+    <enderio:item_alloy_ingot:6>,
     <enderio:item_material:22>,
     <enderio:item_material:4>,
     <enderio:item_basic_capacitor>
@@ -106,6 +107,7 @@ for item in loadedMods["enderio"].items {
     if (!found) {
         Recipes.setRecipeStage(stage, item);
         ItemStages.addItemStage(stage, item);
+        item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
     }
     found = false;
 }

@@ -63,8 +63,22 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:bullet:2>.withTag({bullet: "casull"}),
     // MWC Implementation
     <mwc:m1873>,
+    <mwc:m1897>,
+    <mwc:python>,
+    <mwc:springfield>,
+    <mwc:m1_garand>,
+    <contenttweaker:projectile_357>,
+    <contenttweaker:projectile_44>,
+    <contenttweaker:projectile_30>,
+    <mwc:bullet4440>,
+    <mwc:bullet357>,
+    <mwc:bullet3006springfield>,
+    <mwc:shotgun12gauge>,
     <contenttweaker:gun_stock1>,
-    <contenttweaker:rifle_parts>
+    <contenttweaker:gun_barrel2>,
+    <contenttweaker:rifle_parts>,
+    <contenttweaker:shotgun_parts>,
+    <contenttweaker:pistol_parts>
 ];
 
 val techGuns as IItemStack[] = [

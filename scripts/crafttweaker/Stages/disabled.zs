@@ -626,19 +626,27 @@ IEMultiBlockStages.addStage(stage, "IE:BucketWheel", "Requires " + stage);
 val nonStagedItems as IItemStack[] = [
     // Guns
     <mwc:m1873>,
+    <mwc:m1897>,
+    <mwc:python>,
+    <mwc:springfield>,
+    <mwc:m1_garand>,
     // Bullets
     <mwc:bullet4440>,
     <mwc:bullet9x19mm>,
+    <mwc:bullet357>,
     <mwc:bullet45acp>,
     <mwc:bullet792x57>,
     <mwc:bullet3006springfield>,
     <mwc:bullet792x33kurz>,
     <mwc:bullet556x45>,
-    <mwc:bullet762x39>
+    <mwc:bullet762x39>,
+    <mwc:shotgun12gauge>,
     // Magazines
     // Armor
     // Explosives
     // Misc
+    <mwc:gunmetal_ingot>,
+    <mwc:gunmetal_plate>
 ];
 
 var found = false;

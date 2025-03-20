@@ -39,6 +39,8 @@ var projectile0 = VanillaFactory.createItem("projectile_44");
 projectile0.register();
 var projectile1 = VanillaFactory.createItem("projectile_9");
 projectile1.register();
+var projectile7 = VanillaFactory.createItem("projectile_357");
+projectile7.register();
 var projectile2 = VanillaFactory.createItem("projectile_45");
 projectile2.register();
 var projectile3 = VanillaFactory.createItem("projectile_30");

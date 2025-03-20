@@ -190,6 +190,7 @@ item.contenttweaker.projectile_30.name=.30 Projectile
 item.contenttweaker.projectile_556.name=5.56mm Projectile
 item.contenttweaker.projectile_762.name=7.62mm Projectile
 item.contenttweaker.projectile_792.name=7.92mm Projectile
+item.contenttweaker.projectile_357.name=.357 Projectile
 item.contenttweaker.rifle_parts.name=Rifle Parts
 item.contenttweaker.shotgun_parts.name=Shotgun Parts
 item.contenttweaker.smg_parts.name=SMG Parts

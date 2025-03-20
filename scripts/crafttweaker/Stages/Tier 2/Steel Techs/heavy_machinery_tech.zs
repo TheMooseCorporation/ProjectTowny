@@ -25,7 +25,8 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:toolupgrade:1>,
     <immersiveengineering:toolupgrade>,
     <immersiveengineering:toolupgrade:2>,
-    <artisanworktables:workshop:6>
+    <artisanworktables:workshop:6>,
+    <enderio:item_alloy_ingot:6>
 ];
 
 for mod in stageMods {
