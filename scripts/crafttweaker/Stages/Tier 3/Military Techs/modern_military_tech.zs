@@ -17,41 +17,7 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-    <techguns:itemshared:17>,
-    <techguns:itemshared:18>,
-    <techguns:itemshared:19>,
-    <techguns:itemshared:20>,
-    <techguns:itemshared:114>,
-    <techguns:itemshared:116>
-];
 
-val techGuns as IItemStack[] = [
-    <techguns:m4_infiltrator>,
-    <techguns:grenadelauncher>,
-    <techguns:minigun>,
-    <techguns:mac10>,
-    <techguns:aug>,
-    <techguns:as50>,
-    <techguns:vector>,
-    <techguns:scar>,
-    <techguns:miningdrill>,
-    <techguns:lmg>,
-    <techguns:nightvisiongoggles>
-];
-
-val techGunRecipes as string[] = [
-    "techguns:m4_infiltrator_alt",
-    "techguns:grenadelauncher",
-    "techguns:minigun_alt",
-    "techguns:mac10_alt",
-    "techguns:aug_alt",
-    "techguns:as50_alt",
-    "techguns:vector_alt",
-    "techguns:scar_alt",
-    "techguns:miningdrill_alt",
-    "techguns:lmg_alt",
-    "techguns:nightvisiongoggles_alt"
-    
 ];
 
 val vehicles as IItemStack[] = [
@@ -163,17 +129,6 @@ for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
     item.addTooltip(format.blue("Required Tech: ") + format.gold(name));
-}
-
-// Techguns weapon staging
-
-for item in techGuns {
-    Recipes.setRecipeStage(stage, item);
-    ItemStages.addItemStage(stage, item);
-}
-
-for recipe in techGunRecipes{
-    Recipes.setRecipeStage(stage, recipe);
 }
 
 // Military Vehicles

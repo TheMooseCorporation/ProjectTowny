@@ -51,10 +51,6 @@ val stageItems as IItemStack[] = [
     <betterwithmods:shaft>,
     <betterwithmods:material:22>,
     <tconstruct:soil>,
-    <techguns:itemshared>,
-    <techguns:itemshared:37>,
-    <techguns:itemshared:42>,
-    <techguns:itemshared:60>,
     <artisanworktables:worktable:3>
 ];
 

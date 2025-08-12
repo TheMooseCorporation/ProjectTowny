@@ -33,20 +33,6 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:material:16>,
     <immersiveengineering:blueprint>.withTag({blueprint: "bullet"}),
     <immersiveengineering:blueprint>.withTag({blueprint: "Ammunition"}),
-    // Techguns related items
-    <techguns:itemshared:1>,
-    <techguns:itemshared:2>,
-    <techguns:itemshared:3>,
-    <techguns:itemshared:9>,
-    <techguns:itemshared:33>,
-    <techguns:itemshared:38>,
-    <techguns:itemshared:39>,
-    <techguns:t1_combat_helmet>,
-    <techguns:t1_combat_chestplate>,
-    <techguns:t1_combat_leggings>,
-    <techguns:t1_combat_boots>,
-    <techguns:itemshared:57>,
-    <techguns:stielgranate>,
     // Basic ICBM weapons
     <icbmclassic:spikes>,
     <icbmclassic:spikes:1>,
@@ -80,31 +66,6 @@ val stageItems as IItemStack[] = [
     <contenttweaker:shotgun_parts>,
     <contenttweaker:pistol_parts>
 ];
-
-val techGuns as IItemStack[] = [
-    <techguns:sawedoff>,
-    <techguns:revolver>,
-    <techguns:goldenrevolver>,
-    <techguns:thompson>,
-    <techguns:boltaction>
-];
-
-val techGunRecipes as string[] = [
-    "techguns:sawedoff",
-    "techguns:revolver",
-    "techguns:thompson_alt",
-    "techguns:boltaction"
-];
-
-for item in techGuns{
-    Recipes.setRecipeStage(stage, item);
-    ItemStages.addItemStage(stage, item);
-}
-
-for recipe in techGunRecipes{
-    Recipes.setRecipeStage(stage, recipe);
-}
-
 
 for mod in stageMods {
     Recipes.setRecipeStageByMod(stage, mod);

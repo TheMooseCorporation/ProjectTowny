@@ -1,5 +1,5 @@
 {
-  "_schemaVersion": 6,
+  "_schemaVersion": 7,
   "_lastMCVersionId": 340,
   "generalSettings": {
     "detectATLauncherInstance": false,
@@ -47,12 +47,7 @@
           "smallImageText": "{general.mods} mods installed",
           "startTimestamp": "{data.general.time}",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "the_nether": {
@@ -70,12 +65,7 @@
           "smallImageText": "{general.mods} mods installed",
           "startTimestamp": "{data.general.time}",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "the_end": {
@@ -93,12 +83,7 @@
           "smallImageText": "{general.mods} mods installed",
           "startTimestamp": "{data.general.time}",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       }
     }
@@ -124,12 +109,7 @@
           "smallImageText": "{general.mods} mods installed",
           "startTimestamp": "{data.general.time}",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       },
       "play.projecttowny.com": {
@@ -148,12 +128,7 @@
           "smallImageText": "{general.mods} mods installed",
           "startTimestamp": "{data.general.time}",
           "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Example Text",
-              "url": "https://google.com"
-            }
-          }
+          "buttons": {}
         }
       }
     },
@@ -177,12 +152,7 @@
         "smallImageText": "{general.mods} mods installed",
         "startTimestamp": "{data.general.time}",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     },
     "loadingData": {
@@ -201,12 +171,7 @@
         "smallImageText": "{general.mods} mods installed",
         "startTimestamp": "{data.general.time}",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     },
     "lanData": {
@@ -228,12 +193,7 @@
         "smallImageText": "{general.mods} mods installed",
         "startTimestamp": "{data.general.time}",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     },
     "realmData": {
@@ -252,12 +212,7 @@
         "smallImageText": "{server.motd.raw}",
         "startTimestamp": "{data.general.time}",
         "endTimestamp": "",
-        "buttons": {
-          "default": {
-            "label": "Example Text",
-            "url": "https://google.com"
-          }
-        }
+        "buttons": {}
       }
     }
   },
@@ -288,12 +243,7 @@
             "smallImageText": "{general.mods} mods installed",
             "startTimestamp": "{data.general.time}",
             "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
+            "buttons": {}
           }
         },
         "default": {
@@ -314,12 +264,7 @@
             "smallImageText": "{general.mods} mods installed",
             "startTimestamp": "{data.general.time}",
             "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
+            "buttons": {}
           }
         },
         "GuiScreenWorking": {
@@ -337,12 +282,7 @@
             "smallImageText": "{general.mods} mods installed",
             "startTimestamp": "{data.general.time}",
             "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
+            "buttons": {}
           }
         },
         "GuiMultiplayer": {
@@ -360,12 +300,7 @@
             "smallImageText": "{general.mods} mods installed",
             "startTimestamp": "{data.general.time}",
             "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
+            "buttons": {}
           }
         }
       }
@@ -391,8 +326,7 @@
     "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
     "allowDuplicatePackets": false,
     "maxConnectionAttempts": 10,
-    "enableClassGraph": false,
-    "useClassLoader": true
+    "enableClassGraph": false
   },
   "accessibilitySettings": {
     "languageId": "en_us",
@@ -416,19 +350,12 @@
       "smallImageText": "{general.mods} mods installed",
       "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
-      "buttons": {
-        "default": {
-          "label": "Example Text",
-          "url": "https://google.com"
-        }
-      }
+      "buttons": {}
     },
     "dynamicIcons": {
-      "default": "https://via.placeholder.com/256.png",
       "Moose1002": "https://mc-heads.net/avatar/1cbcbfd50abc41b6a04fd78a4ea32505"
     },
     "dynamicVariables": {
-      "default": "Example Text",
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Players",

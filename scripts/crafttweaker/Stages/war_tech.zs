@@ -17,8 +17,7 @@ val stageMods as string[] = [
 ];
 
 val stageItems as IItemStack[] = [
-    <techguns:explosive_charge>,
-    <techguns:explosive_charge:1>
+
 ];
 
 for mod in stageMods {

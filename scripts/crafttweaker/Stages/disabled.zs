@@ -1,5 +1,6 @@
 import mods.ItemStages;
 import mods.recipestages.Recipes;
+import mods.jei.JEI;
 import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IItemCondition;
@@ -457,102 +458,6 @@ val stageItems as IItemStack[] = [
     <solarflux:photovoltaic_cell_6>,
     // Storage Drawers
     <storagedrawers:tape>, // Lets players carry mass items in drawers
-    // Techguns armor that gives a mood speed buff
-    <techguns:t1_scout_helmet>,
-    <techguns:t1_scout_chestplate>,
-    <techguns:t1_scout_leggings>,
-    <techguns:t1_scout_boots>,
-    <techguns:t1_miner_chestplate>,
-    <techguns:t1_miner_leggings>,
-    <techguns:t1_miner_boots>,
-    <techguns:t2_combat_helmet>,
-    <techguns:t2_combat_chestplate>,
-    <techguns:t2_combat_leggings>,
-    <techguns:t2_combat_boots>,
-    <techguns:t2_riot_helmet>,
-    <techguns:t2_riot_chestplate>,
-    <techguns:t2_riot_leggings>,
-    <techguns:t2_riot_boots>,
-    <techguns:t2_commando_helmet>,
-    <techguns:t2_commando_chestplate>,
-    <techguns:t2_commando_leggings>,
-    <techguns:t2_commando_boots>,
-    <techguns:t3_combat_helmet>,
-    <techguns:t3_combat_chestplate>,
-    <techguns:t3_combat_leggings>,
-    <techguns:t3_combat_boots>,
-    // Misc Techguns items and machines that we don't use
-    <techguns:basicmachine:3>,
-    <techguns:itemshared:65>,
-    <techguns:itemshared:99>,
-    <techguns:itemshared:100>,
-    <techguns:itemshared:101>,
-    <techguns:basicore>,
-    <techguns:basicore:1>,
-    <techguns:basicore:2>,
-    <techguns:basicore:3>,
-    <techguns:basicore:4>,
-    <techguns:multiblockmachine:3>,
-    <techguns:multiblockmachine:4>,
-    <techguns:multiblockmachine:5>,
-    <techguns:itemshared:77>,
-    <techguns:itemshared:104>,
-    <techguns:itemshared:105>,
-    <techguns:itemshared:125>,
-    <techguns:itemshared:126>,
-    <techguns:multiblockmachine>,
-    <techguns:multiblockmachine:1>,
-    <techguns:multiblockmachine:2>,
-    <techguns:itemshared:61>,
-    <techguns:itemshared:40>,
-    <techguns:itemshared:40>,
-    <techguns:itemshared:36>,
-    <techguns:itemshared:153>,
-    <techguns:itemshared:154>,
-    <techguns:itemshared:155>,
-    <techguns:itemshared:120>,
-    <techguns:itemshared:102>,
-    <techguns:simplemachine:11>,
-    <techguns:basicmachine:1>,
-    <techguns:orecluster:6>,
-    <techguns:orecluster:7>,
-    <techguns:orecluster:8>,
-    <techguns:oredrill>,
-    <techguns:oredrill:1>,
-    <techguns:oredrill:2>,
-    <techguns:oredrill:3>,
-    <techguns:oredrill:4>,
-    <techguns:sand_hard>,
-    <techguns:slimy>,
-    <techguns:slimyladder:3>,
-    <techguns:orecluster>,
-    <techguns:orecluster:1>,
-    <techguns:orecluster:2>,
-    <techguns:orecluster:3>,
-    <techguns:orecluster:4>,
-    <techguns:orecluster:5>,
-    <techguns:tg_spawner>,
-    <techguns:tg_spawner:1>,
-    <techguns:nethermetal:4>,
-    <techguns:bioblob>,
-    <techguns:itemshared:66>,
-    <techguns:glider>,
-    <techguns:itemshared:90>,
-    <techguns:itemshared:91>,
-    <techguns:itemshared:134>,
-    <techguns:itemshared:135>,
-    <techguns:itemshared:136>,
-    <techguns:itemshared:137>,
-    <techguns:itemshared:138>,
-    <techguns:itemshared:139>,
-    <techguns:itemshared:140>,
-    <techguns:itemshared:141>,
-    <techguns:itemshared:142>,
-    <techguns:itemshared:62>,
-    <techguns:itemshared:67>,
-    <techguns:itemshared:69>,
-    <techguns:itemshared:78>,
-    <techguns:itemshared:44>,
     // Tinkers
     <tconstruct:throwball:1>,
     <tconstruct:slimesling>,
@@ -605,6 +510,8 @@ val disabledAlloys as ILiquidStack[] = [
 for item in stageItems {
     Recipes.setRecipeStage(stage, item);
     ItemStages.addItemStage(stage, item);
+    JEI.hide(item);
+    item.addTooltip(format.red("Item has been disabled and cannot be obtained."));
 }
 
 for alloy in disabledAlloys {
@@ -660,6 +567,7 @@ for item in loadedMods["mwc"].items {
     if (!found) {
         Recipes.setRecipeStage(stage, item);
         ItemStages.addItemStage(stage, item);
+        JEI.hide(item);
         item.addTooltip(format.red("Item has been disabled and cannot be obtained."));
     }
     found = false;

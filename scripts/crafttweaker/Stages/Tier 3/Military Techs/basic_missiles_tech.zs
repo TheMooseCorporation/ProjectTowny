@@ -70,6 +70,7 @@ for item in stageItems {
 }
 
 recipes.remove(<icbmclassic:missile:24>);
-recipes.addShaped(<icbmclassic:missile:24>, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <minecraft:redstone_block>, <ore:ingotSteel>], [<ore:ingotSteel>, <techguns:itemshared:58>, <ore:ingotSteel>]]);
+// TODO: Readd ICBM stuff with newer version
+//recipes.addShaped(<icbmclassic:missile:24>, [[null, <ore:ingotSteel>, null],[<ore:ingotSteel>, <minecraft:redstone_block>, <ore:ingotSteel>], [<ore:ingotSteel>, <techguns:itemshared:58>, <ore:ingotSteel>]]);
 
 

@@ -24,7 +24,7 @@ val templateItemstacksT1 = {
 } as IIngredient[][IItemStack];
 
 val templateItemstacksT2 = {
-    <contenttweaker:advanced_military_tech_template> : [<minecraft:book>, <techguns:itemshared:1>, <techguns:itemshared:1>, <techguns:itemshared:1>, <techguns:itemshared:1>, <techguns:itemshared:1>, <techguns:itemshared:1>, <techguns:itemshared:1>, <techguns:itemshared:1>],
+    <contenttweaker:advanced_military_tech_template> : [<minecraft:book>, <mwc:bullet4440>, <mwc:bullet4440>, <mwc:bullet4440>, <mwc:bullet4440>, <mwc:bullet4440>, <mwc:bullet4440>, <mwc:bullet4440>, <mwc:bullet4440>],
     <contenttweaker:aeromobiles_tech_template> : [<minecraft:book>, <minecraft:furnace_minecart>, <immersiveengineering:material:5>, <immersiveengineering:material:5>],
     <contenttweaker:arc_smelting_tech_template> : [<minecraft:book>, <immersiveengineering:stone_decoration:1>, <immersiveengineering:stone_decoration:1>, <immersiveengineering:stone_decoration:1>, <immersiveengineering:material:2>],
     <contenttweaker:atomic_theory_tech_template> : [<minecraft:book>, <betterboilers:controller>, <betterboilers:boiler_valve>, <betterboilers:boiler>, <betterboilers:boiler>, <ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>],
@@ -58,7 +58,7 @@ val templateItemstacksT3 = {
     <contenttweaker:future_tech_template> : [<ore:oc:floppy>, <mekanism:atomicalloy>, <mekanism:atomicalloy>, <mekanism:atomicalloy>, <mekanism:atomicalloy>, <ore:ingotManyullyn>],
     <contenttweaker:intercontinental_ballistics_tech_template> : [<ore:oc:floppy>, <icbmclassic:launcherbase>, <icbmclassic:launcherscreen>, <icbmclassic:missile>],
     <contenttweaker:manhattan_project_tech_template> : [<ore:oc:floppy>, <icbmclassic:radarstation>, <icbmclassic:emptower>],
-    <contenttweaker:modern_military_tech_template> : [<ore:oc:floppy>, <icbmclassic:missile>, <techguns:itemshared:35>],
+    <contenttweaker:modern_military_tech_template> : [<ore:oc:floppy>, <icbmclassic:missile>, <contenttweaker:rifle_parts>, <contenttweaker:shotgun_parts>, <contenttweaker:smg_parts>, <contenttweaker:pistol_parts>],
     <contenttweaker:space_exploration_tech_template> : [<ore:oc:floppy>, <minecraft:minecart>, <advancedrocketry:fueltank>, <advancedrocketry:fueltank>, <advancedrocketry:rocketmotor>],
     <contenttweaker:space_stations_tech_template> : [<ore:oc:floppy>, <ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>, <ore:ingotOsmium>, <engineersdecor:panzerglass_block>, <engineersdecor:panzerglass_block>, <engineersdecor:panzerglass_block>],
     <contenttweaker:warp_tech_template> : [<ore:oc:floppy>, <minecraft:ender_pearl>, <libvulpes:productgem>, <libvulpes:productgem>, <ore:ingotCobalt>, <ore:ingotCobalt>]

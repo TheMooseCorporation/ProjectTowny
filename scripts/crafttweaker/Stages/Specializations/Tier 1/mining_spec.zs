@@ -17,7 +17,6 @@ val stageMods as string[] = [
 
 val stageItems as IItemStack[] = [
     <immersiveengineering:wooden_device0:4>,
-    <techguns:t1_miner_helmet>
 ];
 
 for mod in stageMods {
@@ -57,7 +56,6 @@ for item in spec_tech_stageItems {
 
 // Spec Item Staging
 ItemStages.addItemStage("basic_tools_tech", <immersiveengineering:wooden_device0:4>);
-ItemStages.addItemStage("basic_tools_tech", <techguns:t1_miner_helmet>);
 ItemStages.addItemStage("blacksmithing_tech", <tconstruct:materials:14>);
 ItemStages.addItemStage("blacksmithing_tech", <tconstruct:materials:15>);
 ItemStages.addItemStage("blacksmithing_tech", <tconstruct:materials:16>);

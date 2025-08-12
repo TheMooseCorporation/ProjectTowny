@@ -164,13 +164,10 @@ val stageItems as IItemStack[] = [
     <immersiveengineering:sword_steel>,
     <immersiveengineering:toolbox>,
     <immersiveengineering:blueprint>.withTag({blueprint: "components"}),
-    
     <mekanism:basicblock:5>,
     <mekanism:ingot:4>,
     <mekanism:nugget:4>,
     <mekanism:otherdust:1>,
-    <techguns:itemshared:84>,
-    <techguns:itemshared:85>,
     <immersiveengineering:sheetmetal:5>,
     <immersiveengineering:sheetmetal:6>,
     <immersiveengineering:sheetmetal_slab:5>,
@@ -228,7 +225,6 @@ val stageItems as IItemStack[] = [
     <engineersdoors:trapdoor_concrete>,
     <engineersdoors:trapdoor_steel>,
     <engineersdoors:trapdoor_treated>,
-    <engineersdoors:door_concrete>,
     <engineersdecor:treated_wood_side_table>,
     <engineersdecor:halfslab_concrete>,
     <engineersdecor:halfslab_gas_concrete>,
@@ -323,13 +319,6 @@ val stageItems as IItemStack[] = [
     <locks:steel_lock_pick>,
     <locks:gold_lock_pick>,
     <locks:diamond_lock_pick>, // Move to later stage
-    // Early game techguns
-    <techguns:steam_helmet>,
-    <techguns:steam_chestplate>,
-    <techguns:steam_leggings>,
-    <techguns:steam_boots>,
-    <techguns:itemshared:45>,
-    <patchouli:guide_book>.withTag({"patchouli:book": "techguns:techguns_manual"})
 ];  
 
 for mod in stageMods {
@@ -366,7 +355,6 @@ ArcFurnace.addRecipe(<nuclearcraft:alloy:8> * 4, <ore:ingotTin> * 3, <immersivee
 ArcFurnace.addRecipe(<nuclearcraft:alloy:1> * 2, <ore:ingotFerroboron>, <immersiveengineering:material:7>, 200, 512, [<ore:dustLithium>], "Alloying"); // Tough Alloy
 ArcFurnace.addRecipe(<nuclearcraft:alloy:12> * 8, <ore:ingotZirconium> * 7, <immersiveengineering:material:7>, 200, 512, [<ore:dustTin>], "Alloying"); // Zircalogy Alloy (Another with no use)
 // Blast Furnace
-BlastFurnace.addRecipe(<techguns:itemshared:84>, <minecraft:obsidian>, 2000, <immersiveengineering:material:7>);
 // Blueprints
 Blueprint.addRecipe("molds", <contenttweaker:inscriber_press_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
 Blueprint.addRecipe("molds", <contenttweaker:casing_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
@@ -390,8 +378,6 @@ MeltingCrucible.addRecipe(<liquid:coal> * 100, <minecraft:coal>, 30720, 120); //
 
 // Metal Press
 MetalPress.addRecipe(<nuclearcraft:part:6>, <minecraft:reeds>, <immersiveengineering:mold>, 2400, 2); // Bioplastic
-MetalPress.addRecipe(<techguns:itemshared:53>, <techguns:itemshared:64>, <immersiveengineering:mold>, 2400); // Carbon Plate
-MetalPress.addRecipe(<techguns:itemshared:45>, <ore:plateSteel>, <thermalfoundation:material:355>, 2400); // Steam Plate
 MetalPress.addRecipe(<libvulpes:productplate:7>, <ore:ingotTitanium>, <immersiveengineering:mold>, 2400); // Titanium Plate
 
 MetalPress.addRecipe(<contenttweaker:bolt> * 2, <ore:stickIron>, <contenttweaker:mold_bolt>, 2400); // Bolt
